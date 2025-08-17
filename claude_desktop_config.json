@@ -1,7 +1,10 @@
 {
   "mcpServers": {
     "Notion": {
-      "url": "https://mcp.notion.com/mcp"
+      "url": "https://mcp.notion.com/mcp",
+      "env": {
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer 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 \", \"Notion-Version\": \"2022-06-28\" }"
+      }
     }
   }
 }
