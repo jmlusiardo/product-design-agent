@@ -43,11 +43,6 @@ tasks:
     triggers: ["journey map", "customer journey", "event storming", "mapa de viaje"]
     task_guide: 
       - "journey_mapping.md"
-
-  - task_id: "job_mapping"
-    triggers: ["job map", "jobs to be done map", "JTBD map"]
-    task_guide: 
-      - "job_mapping.md"
       
 
 ## USER RESEARCH
