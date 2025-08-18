@@ -50,13 +50,9 @@ tasks:
 tasks:
   - task_id: "usability_testing"
     triggers: ["usability test", "test plan", "user testing", "pruebas de usabilidad"]
-    notion_pages:
-      - page_id: "f20f667b-d320-4877-9aaa-31eb7e4a19f5"
-        title: "Usability Testing"
-      - page_id: "ccebf569-986f-439e-aa70-129af92f7234"
-        title: "Usability Surveys"
-      - page_id: "0cff1e7f-eaba-4a2f-af8b-4f2e764421a2"
-        title: "How to choose the right idea Kano Model"
+    task_guides: 
+      - "usability_testing.md"
+      - "journey_mapping.md"
 
   - task_id: "measure_ux"
     triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]
