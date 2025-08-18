@@ -6,7 +6,7 @@ tasks:
   - task_id: "onboarding_design_leads"
     triggers: ["onboarding design lead", "new design lead", "design lead first days", "design leadership onboarding"]
     notion_pages:
-      - page_id: "2202958ed78a80e489b7e6370888cdbd"
+      - page_id: "2202958e-d78a-80e4-89b7-e6370888cdbd"
         title: "From senior designer to design lead your first 90 days"
       - page_id: "aba322e0-a890-47d1-8310-e682da6f3a76"
         title: "Assessing your organization type"
