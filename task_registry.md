@@ -6,7 +6,7 @@ tasks:
   - task_id: "onboarding_design_leads"
     triggers: ["onboarding design lead", "new design lead", "design lead first days", "design leadership onboarding"]
     task_guide: 
-      - "onboarding-design-leads.md"
+      - "onboarding_design_leads.md"
 
   - task_id: "onboarding_designers"
     triggers: ["onboarding designer", "new designer", "designer first days", "designer onboarding"]
@@ -22,7 +22,7 @@ tasks:
   - task_id: "kickoff_meeting"
     triggers: ["kickoff meeting", "project kickoff", "reunión de inicio", "kick off"]
     task_guide: 
-      - "kickoff_meetings.md"
+      - "kickoff_meeting.md"
 
   - task_id: "project_type_strategy"
     triggers: ["project type", "design strategy", "UX strategy", "tipo de proyecto", "estrategia de diseño"]
