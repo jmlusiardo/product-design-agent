@@ -26,11 +26,8 @@ tasks:
 
   - task_id: "project_type_strategy"
     triggers: ["project type", "design strategy", "UX strategy", "tipo de proyecto", "estrategia de diseño"]
-    notion_pages:
-      - page_id: "6f32e241-b986-432b-bd45-60e652ae3db5"
-        title: "Setting the UX Strategy"
-      - page_id: "400de2e2-3542-4ea3-b968-d0bd71b5cc02"
-        title: "Defining the project type"
+    task_guide: 
+      - "project_type_strategy.md"
 
 ## DISCOVERY
 
