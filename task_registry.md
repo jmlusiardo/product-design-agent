@@ -41,17 +41,14 @@ tasks:
 
   - task_id: "journey_mapping"
     triggers: ["journey map", "customer journey", "event storming", "mapa de viaje"]
-    notion_pages:
-      - page_id: "495aec05-f760-440a-9868-5781f2a448fc"
-        title: "Customer Journey Map"
-      - page_id: "18d2958e-d78a-8059-bddc-d1963c285a35"
-        title: "Event storming"
+    task_guide: 
+      - "journey_mapping.md"
 
   - task_id: "job_mapping"
     triggers: ["job map", "jobs to be done map", "JTBD map"]
-    notion_pages:
-      - page_id: "fe8891c1-ca89-4d9a-b35d-8ab433a9085d"
-        title: "Jobs to be done"
+    task_guide: 
+      - "job_mapping.md"
+      
 
 ## USER RESEARCH
 
