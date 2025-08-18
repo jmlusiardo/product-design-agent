@@ -29,8 +29,11 @@ tasks:
 ## DISCOVERY
 
 tasks:
-  - task_id: "user_stories_artifacts"
+  - task_id: "writing-statements"
     triggers: ["user stories", "job stories", "hypotheses", "how might we", "key insight", "historias de usuario"]
+    task_guide: 
+      - "writing-statements.md"
+
     notion_pages:
       - page_id: "68f4363b-5caa-4d6c-ba71-6c21c5cfec99"
         title: "Service Design"
