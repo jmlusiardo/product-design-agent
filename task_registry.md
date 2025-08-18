@@ -49,10 +49,10 @@ tasks:
 
 tasks:
   - task_id: "usability_testing"
-    triggers: ["usability test", "test plan", "user testing", "pruebas de usabilidad"]
+    triggers: ["usability test", "test plan", "user testing", "prueba de usabilidad","evaluacion de usabilidad"]
     task_guides: 
       - "usability_testing.md"
-      - "journey_mapping.md"
+      - "reporting_test_results.md"
 
   - task_id: "measure_ux"
     triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]

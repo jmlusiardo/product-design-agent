@@ -1,6 +1,6 @@
 # Creating and Running Usability Tests
 
-> **Executive Summary** — This guide explains how to design and run remote usability tests for digital products. It covers planning, recruiting, task design, facilitation, and the use of pre- and post-test questionnaires. Reporting of test results is handled separately in **reporting_test_results.md**.
+> **Executive Summary** — This guide explains how to design and run remote usability tests for digital products. It covers planning, recruiting, task design, facilitation, and the use of pre- and post-test questionnaires. Reporting of test results is handled separately in `reporting_test_results.md`.
 
 ## Overview
 - **Purpose:** Identify usability issues, validate design decisions, and gather user feedback through remote usability testing.
@@ -72,7 +72,7 @@
 - **Task Script Examples:** Scenario-driven tasks (e.g., “Find out if there is a SkyTeam lounge in San Francisco”).
 
 ## Aftermath / Follow-Ups
-- Analyze data and extract insights (see task_guide: "reporting_test_results.md").
+- Analyze data and extract insights (see task_guide: `reporting_test_results.md`).
 - Debrief stakeholders with quick findings before full report.
 - Archive test scripts, recordings, and participant notes for future reference.
 - Plan recurring usability testing sessions to maintain continuous feedback.
@@ -97,6 +97,7 @@
   - Usability Test Plan: [Google Sheets Example](https://docs.google.com/spreadsheets/d/1i5KRwu0DGUFuWxnwk654cOyMOjDeRkB6kfrgaVs3exw/edit?usp=drivesdk)
   - Pre-Test Questionnaire (SkyTeam PDF)
   - Post-Test Questionnaire (SkyTeam PDF)
+- Related guide: `reporting_test_results.md` (for reporting usability test results). 
 
 ## References
 - Usability testing: https://www.notion.so/f20f667bd32048779aaa31eb7e4a19f5
