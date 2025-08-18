@@ -5,11 +5,8 @@
 tasks:
   - task_id: "onboarding_design_leads"
     triggers: ["onboarding design lead", "new design lead", "design lead first days", "design leadership onboarding"]
-    notion_pages:
-      - page_id: "2202958e-d78a-80e4-89b7-e6370888cdbd"
-        title: "From senior designer to design lead your first 90 days"
-      - page_id: "aba322e0-a890-47d1-8310-e682da6f3a76"
-        title: "Assessing your organization type"
+    task_guide: 
+      - "onboarding-design-leads-assist.md"
 
   - task_id: "onboarding_designers"
     triggers: ["onboarding designer", "new designer", "designer first days", "designer onboarding"]
@@ -24,9 +21,8 @@ tasks:
 tasks:
   - task_id: "kickoff_meeting"
     triggers: ["kickoff meeting", "project kickoff", "reunión de inicio", "kick off"]
-    notion_pages:
-      - page_id: "257925bc-111d-4c0b-bb2a-394ac67f9174"
-        title: "Kickoff Meeting"
+    task_guide: 
+      - "kickoff_meetings.md"
 
   - task_id: "project_type_strategy"
     triggers: ["project type", "design strategy", "UX strategy", "tipo de proyecto", "estrategia de diseño"]
