@@ -34,17 +34,10 @@ tasks:
     task_guide: 
       - "writing_statements.md"
 
-    notion_pages:
-      - page_id: "68f4363b-5caa-4d6c-ba71-6c21c5cfec99"
-        title: "Service Design"
-      - page_id: "6400a4db-fea5-4c94-9a76-5c3e2d1fe1bc"
-        title: "User Stories"
-
   - task_id: "user_personas"
     triggers: ["user persona", "personas", "user profiles", "perfiles de usuario"]
-    notion_pages:
-      - page_id: "ac96f0ba-d91a-4a6b-b3e0-4f2dd339c0da"
-        title: "User Personas"
+    task_guide: 
+      - "user_personas.md"
 
   - task_id: "journey_mapping"
     triggers: ["journey map", "customer journey", "event storming", "mapa de viaje"]
