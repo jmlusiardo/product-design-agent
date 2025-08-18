@@ -10,11 +10,8 @@ tasks:
 
   - task_id: "onboarding_designers"
     triggers: ["onboarding designer", "new designer", "designer first days", "designer onboarding"]
-    notion_pages:
-      - page_id: "18e2958e-d78a-806f-8e8f-cb8eef78be06"
-        title: "First 90 Days Plan For Designers"
-      - page_id: "aba322e0-a890-47d1-8310-e682da6f3a76"
-        title: "Assessing your organization type"
+    task_guide: 
+      - "onboarding_designers.md"
 
 ## PROJECT FRAMING
 
