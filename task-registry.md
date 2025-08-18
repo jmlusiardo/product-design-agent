@@ -6,7 +6,7 @@ tasks:
   - task_id: "onboarding_design_leads"
     triggers: ["onboarding design lead", "new design lead", "design lead first days", "design leadership onboarding"]
     task_guide: 
-      - "onboarding-design-leads-assist.md"
+      - "onboarding-design-leads.md"
 
   - task_id: "onboarding_designers"
     triggers: ["onboarding designer", "new designer", "designer first days", "designer onboarding"]

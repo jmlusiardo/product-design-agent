@@ -1,4 +1,4 @@
-# Assisting Design Leads on Onboarding Design Leads
+# Assisting Onboarding Design Leads
 
 > **Executive Summary** — This guide equips heads of design and senior leaders to onboard new **Design Leads**. It translates two source documents into a 90‑day plan with clear checklists, rhythms, deliverables, and culture practices. Emphasis: align design with business goals, build cross‑functional coalitions, institute research/validation habits, and nurture team growth—while funding and empowering UX at the right level.
 
