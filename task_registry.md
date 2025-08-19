@@ -73,6 +73,6 @@ tasks:
      - "design_pitch.md"
 
 - task_id: "prioritization"
-    triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value"]
+    triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value, "kano", "right idea","right initative","right project"]
     task_guide: 
      - "prioritization.md"
