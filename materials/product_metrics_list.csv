@@ -1,0 +1,15 @@
+﻿Nombre (Abreviación),Nombre de métrica completo,Significado,Utilidad,Categoría
+MAU,Monthly Active Users,Número de usuarios que han interactuado con el producto en los últimos 30 días,Identificar el engagement mensual,Engagement
+DAU,Daily Active Users,Número de usuarios únicos activos en un día,"Medir la eficiencia diaria del producto y identificar ""super-usuarios""",Engagement
+HAU,Hourly Active Users,Número de usuarios activos durante una hora en un día concreto,Acompañar a DAU para un análisis más detallado,Engagement
+Stickiness,-,Ratio calculado dividiendo el DAU por el MAU,Entender cuántos días al mes los usuarios utilizan el producto/servicio,Retención
+LTV,Lifetime Value,Los ingresos proyectados de un cliente durante la vida útil de su relación con el negocio,Entender el valor monetario de un cliente a lo largo del tiempo,Monetización
+CAC,Cost of Acquisition,Cuánto invierte una empresa en adquirir nuevos usuarios o clientes,Evaluar la eficiencia de las estrategias de adquisición y cómo los costes relacionados impactan en la rentabilidad,Adquisición
+Cohort Retention,Retención de cohortes,Estudia cómo es la retención de diferentes conjuntos de usuarios,Identificar comportamientos que impactan en las métricas de negocio,Retención
+Churn Rate,Tasa de abandono,Porcentaje de usuarios que dejaron de usar un producto o servicio durante un periodo de tiempo determinado,Entender en qué parte del ciclo de vida los usuarios dejan de utilizar el producto,Retención
+Acquisition (A),Adquisición,Obtener visitantes en la página web y lograr que realicen alguna acción,Observar canales de conversión,Adquisición
+Activation (A),Activación,Realizar acciones necesarias para que los usuarios utilicen la aplicación,Evaluar onboarding,Activación
+Retention (R),Retención,Usuarios que regresan a usar la aplicación en un periodo relevante,Medir tasa de retención mediante porcentajes o ratios,Retención
+Referral (R),Referencia,Usuarios actuales refieren a otros,Observar NPS,Referencia
+Revenue (R),Retorno,Retorno monetario o facturación,Observar métricas de retorno,Monetización
+NPS Score,Net Promoter Score,Measures overall customer loyalty towards your brand,"Determine which users promote, are neutral or detract your product.",Retención

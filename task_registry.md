@@ -71,11 +71,10 @@ tasks:
 
 - task_id: "kpi_metrics"
     triggers: ["KPI tree", "business objectives", "design metrics", "product metrics", "métricas"]
-    notion_pages:
-      - page_id: "18e2958e-d78a-80a0-bbfe-e9ddbb933ba2"
-        title: "KPI Tree"
-      - page_id: "1e62958e-d78a-8071-8fb5-cb9759909811"
-        title: "Product Metrics Reference"
+    task_guide: 
+     - "design_kpis.md"
+    materials:
+     - "product_metrics_list.csv"
 
 - task_id: "pitch_creation"
     triggers: ["create pitch", "pitch deck", "presentation pitch"]
