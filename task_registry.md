@@ -76,3 +76,11 @@ tasks:
     triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value, "kano", "right idea","right initative","right project"]
     task_guide: 
      - "prioritization.md"
+
+## LEADERSHIP
+
+tasks:
+  - task_id: "team_management"
+    triggers: ["managing teams", "UX team management", "design team leadership", "liderazgo de equipos","manage product design team"]
+    task_guide: 
+     - "team_management.md"
