@@ -71,3 +71,8 @@ tasks:
     triggers: ["create pitch", "pitch deck", "presentation pitch"]
     task_guide: 
      - "design_pitch.md"
+
+- task_id: "prioritization"
+    triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value"]
+    task_guide: 
+     - "prioritization.md"
