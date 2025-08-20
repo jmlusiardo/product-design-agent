@@ -108,3 +108,8 @@ tasks:
     triggers: ["executive summary", "status updates", "comunicación de actualizaciones", "resumen para ejecutivos"]
     task_guide:_ 
      - "executive_summary.md"
+
+- task_id: "executive_presentation"
+    triggers: ["presentar a ejecutivos", "presentacion a ejecutivos", "executive presentation", "executive showoff", "executive rundown", "present to upper-level management"]
+    task_guide:_ 
+     - "executive_presentation.md"
