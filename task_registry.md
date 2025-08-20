@@ -84,3 +84,11 @@ tasks:
     triggers: ["managing teams", "UX team management", "design team leadership", "liderazgo de equipos","manage product design team"]
     task_guide: 
      - "team_management.md"
+
+## COLLABORATION
+
+tasks:
+  - task_id: "conflict_resolution"
+    triggers: ["conflict resolution", "resolve conflicts", "disagreements", "resolución de conflictos", "argumenting", "argument", "argumentation", "argumentacion de decisiones"]
+    task_guide: 
+     - "difficult_conversations.md"
