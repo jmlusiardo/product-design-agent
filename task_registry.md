@@ -91,6 +91,11 @@ tasks:
     task_guide: 
      - "boost_ux_culture.md"
 
+  - task_id: "hiring_designers"
+    triggers: ["hiring designers", "recruit designers", "build design team", "contratar diseñadores"]
+    task_guide: 
+     - "hiring_designers.md"
+
 ## COLLABORATION
 
 tasks:
