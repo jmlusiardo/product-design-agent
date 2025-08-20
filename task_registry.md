@@ -113,3 +113,8 @@ tasks:
     triggers: ["presentar a ejecutivos", "presentacion a ejecutivos", "executive presentation", "executive showoff", "executive rundown", "present to upper-level management"]
     task_guide:_ 
      - "executive_presentation.md"
+
+  - task_id: "design_critique"
+    triggers: ["design critique", "design review", "critique session", "crítica de diseño"]
+    task_guide:_ 
+     - "design_critique.md"
