@@ -98,3 +98,8 @@ tasks:
     triggers: ["stakeholder management", "managing stakeholders", "BA collaboration", "manejo de stakeholders"]
     task_guide: 
      - "stakeholder_management.md"
+
+  - task_id: "meeting_facilitation"
+    triggers: ["meeting facilitation", "better meetings", "moderate meetings", "reuniones"]
+    task_guide:_ 
+     - "meeting_facilitation.md"
