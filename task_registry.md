@@ -104,3 +104,7 @@ tasks:
     task_guide:_ 
      - "meeting_facilitation.md"
 
+  - task_id: "executive_summary"
+    triggers: ["executive summary", "status updates", "comunicación de actualizaciones", "resumen para ejecutivos"]
+    task_guide:_ 
+     - "executive_summary.md"
