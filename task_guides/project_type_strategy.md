@@ -149,5 +149,3 @@ Common project situations and their implications:
   - https://www.uxmatters.com/mt/archives/2009/03/evangelizing-ux-across-an-entire-organization.php  
   - https://www.nngroup.com/articles/evangelizing-usability/  
   - http://boxesandarrows.com/pioneering-a-user-experience-ux-process/  
-
----

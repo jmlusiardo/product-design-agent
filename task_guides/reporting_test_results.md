@@ -1,21 +1,3 @@
----
-doc_id: "usability-test-reporting"
-title: "Guide to Reporting Usability Testing Results"
-version: "1.1"
-language: "en"
-tags: ["guide","rag","usability","ux","reporting"]
-sources:
-  - name: "usability_testing.md"
-    type: "markdown"
-  - name: "Advice-for-Writing-Usability-Test-Reports.pdf"
-    type: "pdf"
-  - name: "SkyTeam-Usability-Test-Report.pdf"
-    type: "pdf"
-  - name: "dc72a202-e429-4e70-88b3-167976c26dd9_Usability_Testing.pdf"
-    type: "pdf"
-generated_at: "2025-08-19"
----
-
 # Guide to Reporting Usability Testing Results
 
 > **Executive Summary** — A focused playbook for turning usability test data into concise, visual, and actionable reports. It covers what to include, how to structure findings, which visuals to use, and how to deliver results quickly and diplomatically. For *planning and running tests*, see `usability_testing.md`.

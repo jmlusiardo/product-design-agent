@@ -55,24 +55,25 @@ tasks:
 
 ## STRATEGY
 
-- task_id: "event_storming_workshop"
+tasks:  
+  - task_id: "event_storming_workshop"
     triggers: ["event storming workshop", "workshop event storming", "taller event storming"]
     task_guide: 
      - "journey_mapping.md"
 
-- task_id: "kpi_metrics"
+  - task_id: "kpi_metrics"
     triggers: ["KPI tree", "business objectives", "design metrics", "product metrics", "métricas"]
     task_guide: 
      - "design_kpis.md"
     materials:
      - "product_metrics_list.csv"
 
-- task_id: "design_pitch"
+  - task_id: "design_pitch"
     triggers: ["create pitch", "pitch deck", "presentation pitch"]
     task_guide: 
      - "design_pitch.md"
 
-- task_id: "prioritization"
+  - task_id: "prioritization"
     triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value, "kano", "right idea","right initative","right project"]
     task_guide: 
      - "prioritization.md"
@@ -92,3 +93,8 @@ tasks:
     triggers: ["conflict resolution", "resolve conflicts", "disagreements", "resolución de conflictos", "argumenting", "argument", "argumentation", "argumentacion de decisiones"]
     task_guide: 
      - "difficult_conversations.md"
+
+  - task_id: "stakeholder_management"
+    triggers: ["stakeholder management", "managing stakeholders", "BA collaboration", "manejo de stakeholders"]
+    task_guide: 
+     - "stakeholder_management.md"
