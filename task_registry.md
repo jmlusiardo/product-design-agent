@@ -86,6 +86,11 @@ tasks:
     task_guide: 
      - "team_management.md"
 
+  - task_id: "boost_ux_culture"
+    triggers: ["UX culture", "UX maturity", "boost UX", "cultura UX", "impulsar UX","evangelizar ux","evangelize design","evangelize ux"]
+    task_guide: 
+     - "boost_ux_culture.md"
+
 ## COLLABORATION
 
 tasks:
@@ -104,15 +109,15 @@ tasks:
     task_guide:_ 
      - "meeting_facilitation.md"
 
+  - task_id: "executive_presentation"
+    triggers: ["presentar a ejecutivos", "presentacion a ejecutivos", "executive presentation", "executive showoff", "executive rundown", "present to upper-level management"]
+    task_guide:_ 
+     - "executive_presentation.md"
+
   - task_id: "executive_summary"
     triggers: ["executive summary", "status updates", "comunicación de actualizaciones", "resumen para ejecutivos"]
     task_guide:_ 
      - "executive_summary.md"
-
-- task_id: "executive_presentation"
-    triggers: ["presentar a ejecutivos", "presentacion a ejecutivos", "executive presentation", "executive showoff", "executive rundown", "present to upper-level management"]
-    task_guide:_ 
-     - "executive_presentation.md"
 
   - task_id: "design_critique"
     triggers: ["design critique", "design review", "critique session", "crítica de diseño"]
