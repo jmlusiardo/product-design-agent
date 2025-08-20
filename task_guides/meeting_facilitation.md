@@ -1,147 +1,137 @@
-# Stakeholder Alignment Playbook: Async-First & Flipped Meetings That Drive Decisions
+# Facilitator’s Playbook: Flipped & Async-First Meetings
 
-> **Executive Summary** — Use this guide to align stakeholders with fewer, better meetings. Apply an async-first mindset, a **flipped meeting** model (prep and documentation before/after; collaboration during), and a concrete checklist for each stage. You’ll reduce meeting load, raise decision quality, and make participation equitable across roles and time zones.
+> **Executive Summary** — A practical, step-by-step playbook for **facilitating** fewer, better meetings. Use an **async-first** approach and the **flipped meeting** model: push context and updates to pre-reads; use live time for higher-order collaboration; document outcomes and actions. Includes checklists, time-boxed run sheets, and reusable templates.
 
 ## Overview & Objectives
-- **Purpose:** Resolve stakeholder misalignment by combining async collaboration with focused synchronous sessions.
-- **Scope:** Day-to-day project forums (updates, decisions, planning), leadership comms (all-hands, town halls), team rituals (standups, check-ins), 1:1s.
-- **Audience:** Project leads, product managers, operations, and stakeholders who influence scope, timelines, and decisions.
-- **Outcomes:**  
-  - Fewer information-only meetings; more documented decisions.  
-  - Meetings ≤ 8 people (ideally ≤ 5) with prepared participants.  
-  - Clear owners, deadlines, and post-meeting summaries accessible to all.
-
-## Framing: When to Meet vs. Go Async
-- **Meet (synchronous)** when you need: higher-order collaboration (problem-solving, analysis, evaluation, creation), trust-building, or rapid convergence on a decision.
-- **Go async** for: status sharing, broad information broadcasts, AMA/Q&A, pre-reads, design reviews people can comment on, decision records, and follow-ups.
-- **Anti-patterns to avoid:** treating meetings as the default; scheduling people who won’t actively participate; using meetings to replace documentation.
-- **Async-first realities:** expect slower response times; emphasize documentation, clear responsibilities, decentralized decision-making, clear priorities, manageable workloads, and **fewer, better meetings**.
+- **Purpose:** Help facilitators run effective meetings that prioritize meaningful interaction, decisions, and documentation.
+- **Principles (from sources):**
+  - Reserve meetings for **higher-level collaboration & connection**; move “information sharing” async.
+  - **Fewer meetings** first; then improve the ones you keep.
+  - **Prepared participants** via threads/docs/videos before the session.
+  - **No obligation** to attend if active participation isn’t needed.
+  - **Limit size:** fewer than **8** attendees; **5 or fewer** is even better.
+  - **Always document outcomes** for those not present.
+- **Success Criteria:** Clear purpose, focused agenda, visible roles, parked off-topics, explicit decisions, owners, and deadlines; post a concise summary within 24 hours.
 
 ## Meeting Purposes (Pick One)
-- Problem-solving & brainstorming  
-- Strategic thinking & planning  
-- Decisions & alignment  
-- Planning & traction  
+- Problem-solving & brainstorming
+- Strategic thinking & planning
+- Decisions & alignment
+- Planning & traction
 - 1:1 relationships  
-> **Rule:** Never mix two purposes in one session.
+**Rule:** Don’t mix purposes in one session.
 
-## Preparation (Stakeholder-Focused)
-- **Design the forum (async first):**
-  - Start a thread/doc with context, goals, constraints, prior decisions, and open questions.
-  - Attach artifacts (briefs, Loom/Pitch videos) so people arrive informed.
-  - Cap invitees to those needed for the decision; others can follow async.
-- **Pre-align 1:1:** Brief key stakeholders individually to surface risks and expected contributions. Aim for **no surprises** in the live session.
-- **Checklist (before you invite):**
-  - - [ ] Clear agenda tied to a single purpose
-  - - [ ] Desired outcome stated (decision, options ranked, risks listed)
-  - - [ ] Pre-read posted (thread/doc/video) with comment window
-  - - [ ] Only necessary participants invited
-  - - [ ] Individual 1:1s done to prepare decisions & participants
+## Preparation (Facilitator Checklists)
+### A) Before You Invite
+- - [ ] Write a **clear agenda** tied to a single purpose
+- - [ ] State the **desired outcome** (decision/options/risks)
+- - [ ] Prepare a **pre-read** (thread/doc/video) for context
+- - [ ] **Invite only** those you **need**
+- - [ ] Pre-align with key people **1:1** to surface risks & contributions  
+  *Goal: no surprises in the meeting.*
 
-## Main Flow / Process (Time-boxed)
-### 1) Before You Start (T-10 min)
-- Review who accepted; arrive early to set up.
-- Materials ready (visuals, boards, doc links). Off-topic “parking lot” in place.
+### B) Async Pre-work (Flip the Meeting)
+- - [ ] Post context in a **thread/doc/whiteboard** with links & prior decisions
+- - [ ] Ask participants to **comment async** on questions & options
+- - [ ] Capture clarifications up front; cancel the meeting if alignment is reached
+- - [ ] Confirm **roles** (facilitator, decision-maker, contributors, note-taker)
 
-### 2) Opening (0–5 min)
-- Start on time; no phones/laptops unless presenting.
-- Restate **purpose & agenda**; confirm each person’s role/contribution.
-- Use a brief “hook” (story, metric, user clip) to focus attention.
+### C) Day-Of Setup
+- - [ ] Confirm attendees; **arrive early** to set up tech/materials
+- - [ ] Prepare **visuals** (boards, slides, stickies)
+- - [ ] Create a visible **Parking Lot** for off-topic items
+- - [ ] Decide how you’ll **score the meeting (1–10)** at the end
 
-### 3) Core Work (15–45+ min, depending on scope)
-- Stick to the agenda; steer toward the stated outcome.
-- Use visuals/whiteboards/templates; keep people in roles and constructive.
-- Politely park off-topic items into the parking lot for async follow-up.
-- Not everyone must speak; everyone must feel heard.
+## Facilitation Run Sheet (Time-Boxed)
+### 1) Opening (0–5 min)
+- Start **on time**; ask for **no phones/laptops** unless presenting
+- Reaffirm **purpose & agenda**; name roles/contributions
+- Use a brief **hook** (story/metric/user clip) to focus attention
 
-### 4) Close & Commit (5–10 min)
-- Review agenda and align on outcomes/decisions.
-- Agree next steps; confirm owners & deadlines.
-- Quick pulse: ask attendees to **score the meeting 1–10**.
+### 2) Core Work (15–45+ min)
+- **Stick to the agenda**; steer toward the outcome
+- Use **visuals/whiteboards**; keep people in their roles and constructive
+- **Politely park** off-topic items into the Parking Lot
+- Participation norm: **Not everyone must speak; everyone must feel heard**
 
-### 5) After the Meeting (within 24 hours)
-- Post the **shortest possible summary** in the original thread/doc:
+### 3) Decision & Commit (5–10 min)
+- Recap options & rationale; confirm **decision/owner/deadline**
+- Identify dependencies/risks to track async
+
+### 4) Close (3–5 min)
+- Review agenda → **what we decided**
+- **Next steps**: who does what by when
+- Quick **pulse**: ask attendees to **score 1–10**
+- Thank participants and **end on time**
+
+## After the Meeting (24-Hour Window)
+- Post the **shortest possible summary** in the same thread/doc:
   - Who attended
   - What was decided (and why)
   - Who does what, by when
-- Attach recording/notes; resolve parked items; follow up 1:1 as needed.
-
-## Async Alternatives (Replace Common “Info” Meetings)
-- **Company all-hands → Company-wide threads:** Share updates as written posts; discussion occurs in comments; remains linkable and discoverable.
-- **Town halls → Async Q&A:** Collect questions over a week; leaders answer via recorded video + written replies in the thread.
-- **Standups & status updates → Weekly snippets:** Each person posts priorities, progress, and blockers in a recurring thread template.
+- Attach **recording/notes**; resolve Parking Lot items
+- Follow up **1:1** if needed; link the thread in related workspaces
 
 ## Templates / Canvases
-### A. Async Decision Brief (pre-read)
-- **Context:** background, links, constraints  
-- **Problem / Goal:** one sentence  
-- **Options considered:** pros/cons, data links  
-- **Proposed decision:** owner + target date  
-- **Open questions for the group:** list
-- **Stakeholders:** who’s required vs. FYI
+### 1) Flipped Agenda (copy/paste)
+- Purpose (pick one): …
+- Desired outcome: …
+- Pre-work (required reads/videos/comments): …
+- Participants (≤8) & roles: …
+- Run of show:
+    - Opening (5): purpose, roles, hook
+	- Discussion Blocks (n×10–15): topic → options → notes
+	- Decision & Commit (10): owner, deadline, risks
+	- Close (5): recap, actions, pulse 1–10
+- Parking Lot: [item → owner → async follow-up]
 
-### B. Flipped Meeting Agenda
-- **Purpose (pick one):** …  
-- **Desired outcome:** …  
-- **Pre-work:** required reads/videos/comments  
-- **Participants (≤8):** role per person  
-- **Run of show (time-boxed):** opening → discussion blocks → decision → close  
-- **Parking lot:** running list (owner → async follow-up)
+### 2) Async Decision Brief (pre-read)
+- Context & links:
+- Problem/Goal (1 line):
+- Options considered (pros/cons, data):
+- Proposed decision (owner, target date):
+- Open questions for the group:
+- Stakeholders (required vs FYI):
 
-### C. Outcome & Action Log (posted after)
-- **Decision:** … (date, rationale, links)  
-- **Actions:** who / what / by when  
-- **Risks/assumptions:** …  
-- **References:** link back to the async thread
+### 3) Outcome & Action Log (post)
+- Top priorities this month:
+- Last week did:
+- This week focus:
+- Learning & growth:
+- Well-being (R/Y/G):
 
-### D. Weekly Snippets (status without a meeting)
-- **Top priorities this month:** …  
-- **Last week did:** …  
-- **This week focus:** …  
-- **Learning & growth check-in:** …  
-- **Well-being (R/Y/G):** …
-
-### E. Meeting Effectiveness Pulse
-- **Prompt:** “On a scale of 1–10, how effective was this meeting for you?”  
-- **Follow-ups:** “What made it effective?” “What would make it a 10 next time?”
-
-## Stakeholder-Specific Playbook
-- **Map roles up front:** Identify contributors vs. approvers vs. informed (keep lists small; others follow async).
-- **Prepare leaders with narrative:** Open meetings by framing the story (why now, stakes, desired outcome).
-- **Balance voice & velocity:** Invite dissent early; time-box; converge to decision with clear owner.
-- **Document to scale alignment:** Decisions and rationale live where others can read later; link back in future threads.
-- **Guardrails to prevent drift:**  
-  - Meetings never the default; async thread first.  
-  - No obligation to attend if active participation isn’t needed.  
-  - Large forums consolidated into narrow windows; truly optional social time protected elsewhere.
+### 5) Meeting Effectiveness Pulse
+- On a scale of 1–10, how effective was this meeting for you?
+- What made it effective?
+- What would make it a 10 next time?
 
 ## Best Practices & Pitfalls
 - **Do**
-  - Reserve sync time for meaningful interaction; treat meetings as the exception.
-  - Limit attendance; five or fewer is even better.
-  - Arrive prepared; require pre-reads and comments ahead of time.
-  - Use visual artifacts; maintain a parking lot.
-  - Score meetings; iterate based on feedback.
+  - Treat meetings as the **exception**; default to threads/docs/videos
+  - Keep **attendance small**; empower optional attendance for non-contributors
+  - Require **preparation**; cancel if context isn’t reviewed
+  - Use a **Parking Lot**; document decisions & actions in the same place as the pre-read
 - **Avoid**
-  - “Update meetings” that simply convey information.
-  - Mixing purposes or unclear outcomes.
-  - Inviting spectators who can read the summary later.
-  - Replacing meetings with chaotic chat; move important topics into threads/docs with clear owners.
+  - **“Update” meetings** (send an email/thread instead)
+  - Mixing multiple purposes in one session
+  - Inviting spectators who can **read the summary later**
+  - Replacing meetings with chaotic chat—use structured, linkable threads/docs
 
-## Tools & Resources (mentioned in sources)
-- **Async context & threads:** Twist (threads, snippets)  
+## Tools & Resources (as mentioned in sources)
+- **Threads/context:** Twist  
 - **Docs:** Almanac  
-- **Video context & answers:** Loom; Pitch presentation recordings  
-- **Meeting recordings & notes:** tl;dv
+- **Video context & answers:** Loom; Pitch (presentation recordings)  
+- **Recording & annotation:** tl;dv  
+- **Visual collaboration:** whiteboards/stickies (any tool your team uses)
 
-## Quick FAQ
-- **How many people can attend?** Keep it **< 8**; **≤ 5** is better for candid, meaningful participation.  
-- **What if people skip the pre-read?** Start async earlier; block the agenda to review roles and outcomes; reschedule if critical context isn’t read.  
-- **We canceled meetings and chaos moved to chat—now what?** Replace, don’t just remove: move work into structured threads/docs; make large chat channels announcement-only; set norms for response times.  
-- **How do we keep culture without frequent meetings?** Protect optional social calls and manager 1:1s; shift status rituals to snippets to free time for genuine connection.
+## FAQ / Quick Answers
+- **How many people should I invite?** Keep it **< 8**; **≤ 5** is better for candid participation.  
+- **What if pre-reads aren’t done?** Hold participants accountable; reschedule or shorten scope rather than run an uninformed session.  
+- **How do we replace recurring “info” meetings?** Use company-wide threads, async Q&As, and weekly snippets; keep social connection in optional check-ins.  
+- **Isn’t fewer meetings always better?** Reducing meetings is a **means**, not the goal. Aim for a balance that preserves deep work **and** effective collaboration.
 
 ## References
-- Better meetings (Notion): https://www.notion.so/jmlusiardo/18e2958ed78a8094b9cbf95b65274787
 - The flipped meeting model: https://async.twist.com/flipped-meeting-model/
 - You can't just cancel 76,500 hours of meetings: https://async.twist.com/async-isnt-just-a-lack-of-meetings/
 - Jasper Polak: Meeting checklist thread: https://twitter.com/polak_jasper/status/1621864657228021761
+- Better meetings: https://www.notion.so/jmlusiardo/18e2958ed78a8094b9cbf95b65274787
