@@ -53,9 +53,20 @@ tasks:
       - "usability_testing.md"
       - "reporting_test_results.md"
 
+ - task_id: "measure_ux"
+    triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]
+    notion_pages:
+      - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
+        title: "HEART Framework"
+
 ## STRATEGY
 
 tasks:  
+  - task_id: "mvp_definition"
+    triggers: ["mvp", "minimum viable product", "minimum usable experience", "mue",","mve","experiencia minima usable", "experiencia minima viable", "experiencia minima deseable", "MLP", "minimum lovable product", "prototype", "poc", "proof of concept", "prueba de concepto", "choose what to build", "choosing what to build", "elegir que construir", "eligiendo que producto construir"]
+    task_guide: 
+     - "mvp_definition.md"
+  
   - task_id: "event_storming_workshop"
     triggers: ["event storming workshop", "workshop event storming", "taller event storming"]
     task_guide: 
