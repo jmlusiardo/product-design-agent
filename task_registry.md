@@ -47,6 +47,11 @@ tasks:
 ## USER RESEARCH
 
 tasks:
+  - task_id: "evaluation_type"
+    triggers: ["evaluation definition", "define evaluation", "define evaluation type", "evaluation type", "evaluation plan", "research evaluation", "choose evaluation method", "method selection", "formative evaluation", "summative evaluation", "investigative evaluation", "lab vs field", "comparators", "benchmarking", "sampling plan", "tasks and activities", "measures and analysis", "contingency table", "repeated measures anova", "definición de evaluación", "definir evaluación", "definir tipo de evaluación", "plan de evaluación", "evaluación formativa", "evaluación sumativa", "evaluación investigativa", "selección de método de evaluación", "qué evaluación necesitamos", "tipo de evaluación"]
+    task_guide: 
+     - "evaluation_type.md"
+  
   - task_id: "usability_testing"
     triggers: ["usability test", "test plan", "user testing", "prueba de usabilidad","evaluacion de usabilidad"]
     task_guides: 
@@ -146,6 +151,11 @@ tasks:
     task_guide:_ 
      - "meeting_facilitation.md"
 
+  - task_id: "design_critique"
+    triggers: ["design critique", "design review", "critique session", "crítica de diseño"]
+    task_guide:_ 
+     - "design_critique.md"
+
   - task_id: "executive_presentation"
     triggers: ["presentar a ejecutivos", "presentacion a ejecutivos", "executive presentation", "executive showoff", "executive rundown", "present to upper-level management"]
     task_guide:_ 
@@ -156,7 +166,3 @@ tasks:
     task_guide:_ 
      - "executive_summary.md"
 
-  - task_id: "design_critique"
-    triggers: ["design critique", "design review", "critique session", "crítica de diseño"]
-    task_guide:_ 
-     - "design_critique.md"
