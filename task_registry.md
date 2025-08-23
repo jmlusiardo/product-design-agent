@@ -77,6 +77,16 @@ tasks:
     task_guide: 
      - "journey_mapping.md"
 
+  - task_id: "project_planning"
+    triggers: ["project planning", "project plan", "planificación de proyecto"]
+    task_guide: 
+     - "project_planning.md"
+
+  - task_id: "prioritization"
+    triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value, "kano", "right idea","right initative","right project"]
+    task_guide: 
+     - "prioritization.md"
+
   - task_id: "kpi_metrics"
     triggers: ["KPI tree", "business objectives", "design metrics", "product metrics", "métricas"]
     task_guide: 
@@ -84,15 +94,15 @@ tasks:
     materials:
      - "product_metrics_list.csv"
 
+  - task_id: "value_proposition"
+    triggers: ["value proposition", "value proposition canvas", "propuesta de valor"]
+    task_guide: 
+     - "value_proposition.md"
+
   - task_id: "design_pitch"
     triggers: ["create pitch", "pitch deck", "presentation pitch"]
     task_guide: 
      - "design_pitch.md"
-
-  - task_id: "prioritization"
-    triggers: ["prioritization", "prioritize", "priorización", "effort impact", "effort value, "kano", "right idea","right initative","right project"]
-    task_guide: 
-     - "prioritization.md"
 
 ## LEADERSHIP
 
