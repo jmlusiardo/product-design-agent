@@ -66,6 +66,11 @@ tasks:
     triggers: ["mvp", "minimum viable product", "minimum usable experience", "mue",","mve","experiencia minima usable", "experiencia minima viable", "experiencia minima deseable", "MLP", "minimum lovable product", "prototype", "poc", "proof of concept", "prueba de concepto", "choose what to build", "choosing what to build", "elegir que construir", "eligiendo que producto construir"]
     task_guide: 
      - "mvp_definition.md"
+
+  - task_id: "brainstorming"
+    triggers: ["brainstorming", "ideation", "lluvia de ideas", "brainstorm", "product design workshop", "ideation workshop", "lluvia de ideas", "six thinking hats", "decision log", "crazy 8s", "crazy eights"]
+    task_guide: 
+     - "brainstorming.md"
   
   - task_id: "event_storming_workshop"
     triggers: ["event storming workshop", "workshop event storming", "taller event storming"]
