@@ -120,6 +120,11 @@ tasks:
     triggers: ["create pitch", "pitch deck", "presentation pitch"]
     task_guide: 
      - "design_pitch.md"
+  - task_id: "agile_lean_ux_frameworks"
+    triggers: [ "agile ux", "lean ux", "agile user experience", "lean user experience", "ux in agile", "ux in lean", "integrating ux in agile", "ux en agile", "ux en lean", "frameworks de ux", "agile vs lean ux", "user research in agile", "discovery sprint", "design studios agile", "mvp in lean ux", "build measure learn", "prototyping in agile", "ux backlog", "ux retrospectives", "ux debt", "minimum usable product", "mue", "mup", "mvp vs mue", "ux scorecard"]
+  task_guide:
+    - "agile_lean_ux_frameworks.md"
+
 
 ## LEADERSHIP
 
@@ -176,116 +181,6 @@ tasks:
 ## GENERAL PRODUCT DESIGN KNOWLEDGE
 
  - task_id: "cognitive_biases"
-  triggers: [
-    "bias","cognitive bias","cognitive biases","sesgo cognitivo","sesgos cognitivos",
-
-    "anchoring","anchoring bias","sesgo de anclaje",
-    "availability heuristic","availability bias","heurística de disponibilidad","sesgo de disponibilidad",
-    "representativeness heuristic","heurística de representatividad",
-    "affect heuristic","heurística del afecto",
-    "confirmation bias","sesgo de confirmación",
-    "belief bias","sesgo de creencia",
-    "selection bias","sesgo de selección",
-    "sampling bias","sesgo de muestreo",
-    "survivorship bias","sesgo de supervivencia",
-    "base rate neglect","base rate fallacy","negligencia de la tasa base","falacia de la tasa base",
-    "conjunction fallacy","falacia de la conjunción",
-    "gambler's fallacy","falacia del jugador",
-    "hot hand fallacy","falacia de la mano caliente",
-    "law of small numbers","ley de los números pequeños",
-    "regression to the mean","regresión a la media",
-
-    "hindsight bias","sesgo retrospectivo","sesgo a posteriori",
-    "outcome bias","sesgo del resultado",
-    "overconfidence effect","exceso de confianza","efecto de exceso de confianza",
-    "optimism bias","sesgo de optimismo",
-    "pessimism bias","sesgo de pesimismo",
-    "planning fallacy","falacia de planificación",
-    "present bias","sesgo del presente",
-    "hyperbolic discounting","descuento hiperbólico",
-    "projection bias","sesgo de proyección",
-    "empathy gap","brecha de empatía",
-
-    "loss aversion","aversión a la pérdida",
-    "endowment effect","efecto dotación",
-    "status quo bias","sesgo del statu quo",
-    "sunk cost fallacy","falacia del costo hundido","escalation of commitment","escalada de compromiso",
-    "default effect","efecto por defecto","default bias","sesgo del predeterminado",
-    "framing effect","efecto marco","efecto de encuadre",
-    "decoy effect","attraction effect","efecto señuelo","dominancia asimétrica","asimetría de dominancia",
-    "compromise effect","efecto compromiso",
-    "scarcity effect","heuristic of scarcity","efecto de escasez",
-    "ambiguity effect","aversión a la ambigüedad","efecto de ambigüedad",
-    "zero-risk bias","sesgo de riesgo cero",
-    "risk compensation","efecto Peltzman","compensación de riesgo",
-
-    "halo effect","efecto halo",
-    "horn effect","efecto diablo",
-    "contrast effect","efecto contraste",
-    "mere exposure effect","efecto de mera exposición",
-    "priming","preactivación","priming cognitivo",
-    "salience bias","sesgo de saliencia","saliency bias",
-    "attention bias","sesgo de atención",
-    "peak-end rule","regla del pico-final",
-    "serial position effect","efecto de posición serial",
-    "primacy effect","efecto de primacía",
-    "recency effect","efecto de recencia",
-    "isolation effect","von Restorff effect","efecto von Restorff","efecto de aislamiento",
-
-    "social proof","prueba social",
-    "bandwagon effect","efecto arrastre","efecto carro ganador",
-    "authority bias","sesgo de autoridad",
-    "groupthink","pensamiento de grupo",
-    "in-group bias","sesgo de endogrupo",
-    "out-group homogeneity bias","sesgo de homogeneidad del exogrupo",
-    "false consensus effect","efecto de falso consenso",
-    "third person effect","efecto de tercera persona",
-    "spotlight effect","efecto foco",
-
-    "fundamental attribution error","error fundamental de atribución",
-    "actor observer bias","sesgo actor-observador",
-    "self-serving bias","sesgo de autoservicio","sesgo de autoatribución",
-    "just world hypothesis","creencia en un mundo justo","hipótesis del mundo justo",
-    "false uniqueness effect","efecto de falsa singularidad",
-    "naive realism","realismo ingenuo",
-    "illusion of transparency","ilusión de transparencia",
-    "illusion of control","ilusión de control",
-    "illusory correlation","correlación ilusoria",
-    "clustering illusion","ilusión de agrupación",
-    "apophenia","apofenía",
-    "pareidolia","pareidolia",
-    "illusion of validity","ilusión de validez",
-    "availability cascade","cascada de disponibilidad",
-    "backfire effect","efecto boomerang",
-    "continued influence effect","efecto de influencia continuada",
-
-    "ikea effect","efecto IKEA",
-    "not invented here","síndrome de no inventado aquí",
-    "seminiferous reflex","semmelweis reflex","reflejo de Semmelweis",
-    "reactance","reactancia psicológica",
-    "ostrich effect","efecto avestruz",
-    "negativity bias","sesgo de negatividad",
-    "pollyanna principle","principio de Pollyanna",
-    "curse of knowledge","maldición del conocimiento",
-    "information bias","sesgo de información",
-    "paradox of choice","choice overload","paradoja de la elección","sobrecarga de elección",
-    "unit bias","sesgo de unidad",
-    "normalcy bias","sesgo de normalidad",
-    "frequency illusion","baader meinhof phenomenon","ilusión de frecuencia","fenómeno Baader-Meinhof",
-    "goal gradient effect","efecto gradiente de meta",
-    "zeigarnik effect","efecto Zeigarnik",
-    "barnum effect","forer effect","efecto Barnum","efecto Forer",
-    "identifiable victim effect","efecto de víctima identificable",
-    "scope neglect","scope insensitivity","insensibilidad al alcance",
-    "choice supportive bias","sesgo de apoyo a la elección",
-    "consistency bias","sesgo de consistencia",
-    "rosy retrospection","retrospección rosada",
-    "misinformation effect","efecto de desinformación",
-    "dunning kruger effect","dunning–kruger","efecto Dunning-Kruger",
-    "better than average effect","illusory superiority","efecto mejor que la media","superioridad ilusoria",
-    "money illusion","ilusión monetaria",
-    "zero sum bias","sesgo de suma cero",
-    "pro innovation bias","sesgo proinnovación"
-  ]
+  triggers: ["bias", "cognitive bias", "cognitive biases", "sesgo cognitivo", "sesgos cognitivos", "anchoring", "anchoring bias", "sesgo de anclaje", "availability heuristic", "availability bias", "heurística de disponibilidad", "sesgo de disponibilidad", "representativeness heuristic", "heurística de representatividad", "affect heuristic", "heurística del afecto", "confirmation bias", "sesgo de confirmación", "belief bias", "sesgo de creencia", "selection bias", "sesgo de selección", "sampling bias", "sesgo de muestreo", "survivorship bias", "sesgo de supervivencia", "base rate neglect", "base rate fallacy", "negligencia de la tasa base", "falacia de la tasa base", "conjunction fallacy", "falacia de la conjunción", "gambler's fallacy", "falacia del jugador", "hot hand fallacy", "falacia de la mano caliente", "law of small numbers", "ley de los números pequeños", "regression to the mean", "regresión a la media", "hindsight bias", "sesgo retrospectivo", "sesgo a posteriori", "outcome bias", "sesgo del resultado", "overconfidence effect", "exceso de confianza", "efecto de exceso de confianza", "optimism bias", "sesgo de optimismo", "pessimism bias", "sesgo de pesimismo", "planning fallacy", "falacia de planificación", "present bias", "sesgo del presente", "hyperbolic discounting", "descuento hiperbólico", "projection bias", "sesgo de proyección", "empathy gap", "brecha de empatía", "loss aversion", "aversión a la pérdida", "endowment effect", "efecto dotación", "status quo bias", "sesgo del statu quo", "sunk cost fallacy", "falacia del costo hundido", "escalation of commitment", "escalada de compromiso", "default effect", "efecto por defecto", "default bias", "sesgo del predeterminado", "framing effect", "efecto marco", "efecto de encuadre", "decoy effect", "attraction effect", "efecto señuelo", "dominancia asimétrica", "asimetría de dominancia", "compromise effect", "efecto compromiso", "scarcity effect", "heuristic of scarcity", "efecto de escasez", "ambiguity effect", "aversión a la ambigüedad", "efecto de ambigüedad", "zero-risk bias", "sesgo de riesgo cero", "risk compensation", "efecto Peltzman", "compensación de riesgo", "halo effect", "efecto halo", "horn effect", "efecto diablo"]
   materials: 
      - "cognitive_biases.md"
