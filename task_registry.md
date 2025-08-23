@@ -94,8 +94,13 @@ tasks:
     materials:
      - "product_metrics_list.csv"
 
+  - task_id: "business_model"
+    triggers: ["business model canvas", "BMC", "modelo de negocio"]
+    task_guide: 
+     - "business_model.md"
+
   - task_id: "value_proposition"
-    triggers: ["value proposition", "value proposition canvas", "propuesta de valor"]
+    triggers: ["value proposition", "value proposition canvas", "propuesta de valor","market fit","fit de mercado"]
     task_guide: 
      - "value_proposition.md"
 
