@@ -21,6 +21,11 @@ tasks:
     task_guide: 
       - "kickoff_meeting.md"
 
+  - task_id: "initiative_canvas"
+    triggers: ["initiative canvas", "product initiative canvas", "canvas iniciativa", "product canvas", "initiative planning", "strategic canvas", "product strategy canvas"]
+    task_guide: 
+      - "initiative_canvas.md"
+
   - task_id: "project_type_strategy"
     triggers: ["project type", "design strategy", "UX strategy", "tipo de proyecto", "estrategia de diseño"]
     task_guide: 
