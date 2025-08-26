@@ -62,6 +62,7 @@ tasks:
     task_guides: 
       - "usability_testing.md"
       - "reporting_test_results.md"
+      - "data_information_knowledge.md"
 
  - task_id: "measure_ux"
     triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]
@@ -75,6 +76,7 @@ tasks:
   ]
   task_guide:
     - "heuristic_evaluation.md"
+    - "data_information_knowledge.md"
 
 ## STRATEGY
 
