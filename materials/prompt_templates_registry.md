@@ -1,4 +1,4 @@
-# Prompt Registry
+# Prompt Templates Registry
 
 ## RESEARCH PROMPTS
 

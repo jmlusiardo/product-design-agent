@@ -125,6 +125,13 @@ tasks:
   task_guide:
     - "agile_lean_ux_frameworks.md"
 
+## VISUAL
+  - task_id: "writing_ai_image_prompts"
+    triggers: ["ai image prompts","generar imagen","generate image","crear imagen","create image","prompt de imagen","crea una imagen","create an image","make an image","make image","hacer imagen"]
+  task_guide:
+    - "writing_ai_image_prompts.md"
+  materials:
+    - "prompt_templates_registry.md"
 
 ## LEADERSHIP
 
