@@ -75,10 +75,11 @@ tasks:
       - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
         title: "HEART Framework"
 
-  - task_id: "heuristic_evaluation"
+  - task_id: "ux_audit"
     triggers: [
       "heuristic evaluation", "heuristics review", "expert review", "expert ux review", "usability audit", "ux audit", "nng", "nielsen heuristics", "jakob nielsen", "10 heuristics", "usability heuristics", "evaluación heurística", "evaluacion heuristica", "revisión experta", "revision experta", "auditoría de usabilidad", "auditoria de usabilidad", "heurísticas de nielsen", "heuristicas de nielsen", "inspección de usabilidad", "inspeccion de usabilidad", "taller de evaluación heurística", "taller evaluacion heuristica", "heuristic workshop"]
     task_guide:
+      - "ux-audit-expert-review.md"
       - "heuristic_evaluation.md"
       - "data_information_knowledge.md"
 
