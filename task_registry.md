@@ -73,10 +73,10 @@ tasks:
   - task_id: "heuristic_evaluation"
     triggers: [
       "heuristic evaluation", "heuristics review", "expert review", "expert ux review", "usability audit", "ux audit", "nng", "nielsen heuristics", "jakob nielsen", "10 heuristics", "usability heuristics", "evaluación heurística", "evaluacion heuristica", "revisión experta", "revision experta", "auditoría de usabilidad", "auditoria de usabilidad", "heurísticas de nielsen", "heuristicas de nielsen", "inspección de usabilidad", "inspeccion de usabilidad", "taller de evaluación heurística", "taller evaluacion heuristica", "heuristic workshop"
-  ]
-  task_guide:
-    - "heuristic_evaluation.md"
-    - "data_information_knowledge.md"
+    ]
+    task_guide:
+      - "heuristic_evaluation.md"
+      - "data_information_knowledge.md"
 
 ## STRATEGY
 
@@ -129,16 +129,18 @@ tasks:
      - "design_pitch.md"
   - task_id: "agile_lean_ux_frameworks"
     triggers: [ "agile ux", "lean ux", "agile user experience", "lean user experience", "ux in agile", "ux in lean", "integrating ux in agile", "ux en agile", "ux en lean", "frameworks de ux", "agile vs lean ux", "user research in agile", "discovery sprint", "design studios agile", "mvp in lean ux", "build measure learn", "prototyping in agile", "ux backlog", "ux retrospectives", "ux debt", "minimum usable product", "mue", "mup", "mvp vs mue", "ux scorecard"]
-  task_guide:
-    - "agile_lean_ux_frameworks.md"
+    task_guide:
+      - "agile_lean_ux_frameworks.md"
 
 ## VISUAL
+
+tasks:
   - task_id: "writing_ai_image_prompts"
     triggers: ["ai image prompts","generar imagen","generate image","crear imagen","create image","prompt de imagen","crea una imagen","create an image","make an image","make image","hacer imagen"]
-  task_guide:
-    - "writing_ai_image_prompts.md"
-  materials:
-    - "prompt_templates_registry.md"
+    task_guide:
+      - "writing_ai_image_prompts.md"
+    materials:
+      - "prompt_templates_registry.md"
 
 ## LEADERSHIP
 
@@ -192,8 +194,21 @@ tasks:
     task_guide:_ 
      - "executive_summary.md"
 
+## PROMPTS AND VIBE CODING
+
+  - task_id: "prompt_minification"
+    triggers: ["prompt minification", "minify prompts", "compress prompts", "optimize prompts", "shorten prompts", "prompt optimization", "reduce prompt length", "prompt compression", "minimal prompts", "concise prompts", "prompt engineering optimization", "minificar prompts", "optimizar prompts", "comprimir prompts", "prompts cortos", "prompts mínimos"]
+    task_guide: 
+      - "prompt_minification.md"
+
+  - task_id: "snowball_vibe_coding"
+    triggers: ["snowball vibe coding", "vibe coding", "ai prototyping", "python ai prototype", "ai prototype for ux", "llm assisted coding", "rapid ai prototyping", "ux designers coding", "ai driven prototypes", "functional ai  mockups", "code with llm", "python for designers", "ai product prototyping", "snowball methodology", "customer validation with code", "working ai demos"]
+    task_guide: 
+      - "snowball_vibe_coding.md"
+
 ## GENERAL PRODUCT DESIGN KNOWLEDGE
 
+tasks:
  - task_id: "cognitive_biases"
   triggers: ["bias", "cognitive bias", "cognitive biases", "sesgo cognitivo", "sesgos cognitivos", "anchoring", "anchoring bias", "sesgo de anclaje", "availability heuristic", "availability bias", "heurística de disponibilidad", "sesgo de disponibilidad", "representativeness heuristic", "heurística de representatividad", "affect heuristic", "heurística del afecto", "confirmation bias", "sesgo de confirmación", "belief bias", "sesgo de creencia", "selection bias", "sesgo de selección", "sampling bias", "sesgo de muestreo", "survivorship bias", "sesgo de supervivencia", "base rate neglect", "base rate fallacy", "negligencia de la tasa base", "falacia de la tasa base", "conjunction fallacy", "falacia de la conjunción", "gambler's fallacy", "falacia del jugador", "hot hand fallacy", "falacia de la mano caliente", "law of small numbers", "ley de los números pequeños", "regression to the mean", "regresión a la media", "hindsight bias", "sesgo retrospectivo", "sesgo a posteriori", "outcome bias", "sesgo del resultado", "overconfidence effect", "exceso de confianza", "efecto de exceso de confianza", "optimism bias", "sesgo de optimismo", "pessimism bias", "sesgo de pesimismo", "planning fallacy", "falacia de planificación", "present bias", "sesgo del presente", "hyperbolic discounting", "descuento hiperbólico", "projection bias", "sesgo de proyección", "empathy gap", "brecha de empatía", "loss aversion", "aversión a la pérdida", "endowment effect", "efecto dotación", "status quo bias", "sesgo del statu quo", "sunk cost fallacy", "falacia del costo hundido", "escalation of commitment", "escalada de compromiso", "default effect", "efecto por defecto", "default bias", "sesgo del predeterminado", "framing effect", "efecto marco", "efecto de encuadre", "decoy effect", "attraction effect", "efecto señuelo", "dominancia asimétrica", "asimetría de dominancia", "compromise effect", "efecto compromiso", "scarcity effect", "heuristic of scarcity", "efecto de escasez", "ambiguity effect", "aversión a la ambigüedad", "efecto de ambigüedad", "zero-risk bias", "sesgo de riesgo cero", "risk compensation", "efecto Peltzman", "compensación de riesgo", "halo effect", "efecto halo", "horn effect", "efecto diablo"]
   materials: 
@@ -209,7 +224,3 @@ tasks:
     task_guide:_ 
      - "economics_for_designers.md"
 
-  - task_id: "snowball_vibe_coding"
- triggers: ["snowball vibe coding", "vibe coding", "ai prototyping", "python ai prototype", "ai prototype for ux", "llm assisted coding", "rapid ai prototyping", "ux designers coding", "ai driven prototypes", "functional ai mockups", "code with llm", "python for designers", "ai product prototyping", "snowball methodology", "customer validation with code", "working ai demos"]
- task_guide: 
-   - "snowball_vibe_coding.md"
