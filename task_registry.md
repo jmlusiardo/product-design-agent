@@ -52,6 +52,11 @@ tasks:
 ## USER RESEARCH
 
 tasks:
+  - task_id: "ux_research_without_users"
+   triggers: ["ux research without users", "research without user access", "proxy research", "indirect user research", "no access to users", "can't talk to users", "limited user access", "alternative research methods", "research constraints", "user access blocked", "stakeholder research", "secondary research methods", "forum research", "review analysis", "analytics research", "customer facing teams", "support team insights", "sales team feedback", "investigación sin usuarios", "investigación indirecta", "métodos de investigación alternativos", "sin acceso a usuarios", "equipos de cara al cliente", "análisis de reseñas", "investigación de foros", "datos analíticos para ux"]
+   task_guide:
+     - "ux_research_without_users.md"
+
   - task_id: "evaluation_type"
     triggers: ["evaluation definition", "define evaluation", "define evaluation type", "evaluation type", "evaluation plan", "research evaluation", "choose evaluation method", "method selection", "formative evaluation", "summative evaluation", "investigative evaluation", "lab vs field", "comparators", "benchmarking", "sampling plan", "tasks and activities", "measures and analysis", "contingency table", "repeated measures anova", "definición de evaluación", "definir evaluación", "definir tipo de evaluación", "plan de evaluación", "evaluación formativa", "evaluación sumativa", "evaluación investigativa", "selección de método de evaluación", "qué evaluación necesitamos", "tipo de evaluación"]
     task_guide: 
@@ -72,8 +77,7 @@ tasks:
 
   - task_id: "heuristic_evaluation"
     triggers: [
-      "heuristic evaluation", "heuristics review", "expert review", "expert ux review", "usability audit", "ux audit", "nng", "nielsen heuristics", "jakob nielsen", "10 heuristics", "usability heuristics", "evaluación heurística", "evaluacion heuristica", "revisión experta", "revision experta", "auditoría de usabilidad", "auditoria de usabilidad", "heurísticas de nielsen", "heuristicas de nielsen", "inspección de usabilidad", "inspeccion de usabilidad", "taller de evaluación heurística", "taller evaluacion heuristica", "heuristic workshop"
-    ]
+      "heuristic evaluation", "heuristics review", "expert review", "expert ux review", "usability audit", "ux audit", "nng", "nielsen heuristics", "jakob nielsen", "10 heuristics", "usability heuristics", "evaluación heurística", "evaluacion heuristica", "revisión experta", "revision experta", "auditoría de usabilidad", "auditoria de usabilidad", "heurísticas de nielsen", "heuristicas de nielsen", "inspección de usabilidad", "inspeccion de usabilidad", "taller de evaluación heurística", "taller evaluacion heuristica", "heuristic workshop"]
     task_guide:
       - "heuristic_evaluation.md"
       - "data_information_knowledge.md"
