@@ -206,10 +206,19 @@ tasks:
     task_guide: 
       - "prompt_minification.md"
 
+  - task_id: "writing_prompts"
+    triggers: ["prompt engineering", "write prompts", "create prompts", "prompt creation", "chatgpt prompts", "ai prompts", "better prompts", "effective prompts", "prompt writing", "prompt best practices", "prompt optimization", "prompt formula", "6 step prompts", "prompt structure", "prompt guidelines", "how to prompt", "prompting techniques", "prompt methods", "prompt framework", "ingeniería de prompts", "escribir prompts", "crear prompts", "prompts efectivos", "mejores prompts", "fórmula de prompts", "estructura de prompts", "técnicas de prompts", "ai communication", "llm prompts", "claude prompts", "gpt prompts", "prompt design, "prompt strategy", "conversational ai", "ai instructions"]
+    task_guide:
+      - "writing_prompts.md"
+    materials:
+      - "prompt_templates_registry.md"
+
   - task_id: "snowball_vibe_coding"
     triggers: ["snowball vibe coding", "vibe coding", "ai prototyping", "python ai prototype", "ai prototype for ux", "llm assisted coding", "rapid ai prototyping", "ux designers coding", "ai driven prototypes", "functional ai  mockups", "code with llm", "python for designers", "ai product prototyping", "snowball methodology", "customer validation with code", "working ai demos"]
     task_guide: 
       - "snowball_vibe_coding.md"
+
+ 
 
 ## GENERAL PRODUCT DESIGN KNOWLEDGE
 
