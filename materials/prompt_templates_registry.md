@@ -329,6 +329,51 @@
  usefulness: Provides detailed writing feedback and improvement suggestions for students.
  tags: ["writing tutor", "education", "writing improvement", "feedback", "composition", "rhetoric"]
 
+ - prompt_id: deep_dive_explainer
+ prompt: "Break down [complex topic] like I'm 12, then gradually increase complexity over 5 levels until I reach expert understanding."
+ usefulness: Builds layered understanding from novice to expert with clear, staged explanations.
+ tags: ["learning", "progressive explanation", "self-study", "aprendizaje"]
+
+ - prompt_id: mistake_prevention_system
+ prompt: "List the 10 most common mistakes beginners make with [skill/topic]. For each, give me a simple check to avoid it."
+ usefulness: Surfaces high-impact pitfalls and adds quick guardrails to prevent them.
+ tags: ["learning", "error prevention", "skill building", "prevención de errores"]
+
+- prompt_id: analogy_machine
+ prompt: "Explain [difficult concept] using 3 different analogies from [sports/cooking/movies]. Make it impossible to forget."
+ usefulness: Anchors abstract ideas to familiar domains to boost comprehension and recall.
+ tags: ["learning", "analogy", "explanation", "analogías"]
+
+- prompt_id: practice_problem_generator
+ prompt: "Give me 5 progressively harder practice problems for [topic]. Include hints and detailed solutions."
+ usefulness: Provides scaffolded practice with worked solutions to consolidate skills.
+ tags: ["learning", "practice", "problem solving", "ejercicios"]
+
+- prompt_id: real_world_connector
+ prompt: "Show me 7 ways [concept I'm learning] applies to everyday situations. Use specific examples I can relate to."
+ usefulness: Connects theory to practical, personal contexts to improve transfer.
+ tags: ["learning", "real-world examples", "contextualization", "ejemplos"]
+
+- prompt_id: knowledge_gap_hunter
+ prompt: "Quiz me on [subject] with 10 questions. Based on my answers, identify exactly what I need to study next."
+ usefulness: Diagnoses weak areas and outputs targeted next-study topics.
+ tags: ["learning", "diagnostic quiz", "assessment", "diagnóstico"]
+
+- prompt_id: simplification_master
+ prompt: "Take this complex explanation [paste text] and rewrite it so a 10-year-old could understand it perfectly."
+ usefulness: Transforms dense text into plain, accessible language without losing meaning.
+ tags: ["learning", "simplify", "ELI5", "simplificar"]
+
+- prompt_id: memory_palace_builder
+ prompt: "Help me create a vivid story connecting these [facts/formulas/vocab words] so I never forget them."
+ usefulness: Converts lists into memorable narratives using mnemonic imagery.
+ tags: ["learning", "mnemonics", "memory", "palacio de la memoria"]
+
+- prompt_id: progress_accelerator
+ prompt: "I know [current knowledge]. Design 3 challenging projects that will push me to the next level in [skill/subject]."
+ usefulness: Drives advancement via project-based practice with stretch goals.
+ tags: ["learning", "project-based", "advanced practice", "proyectos"]
+
 ---
 
 ## PROJECT MANAGEMENT PROMPTS

@@ -553,6 +553,18 @@ Loading placeholder layouts
   - [Component Gallery: Loading States](https://component.gallery/components/skeleton/)
   - [UI Guidelines: Content Placeholders](https://www.uiguideline.com/components/skeleton/anatomy)
 
+### Other references for more componentes
+
+#### Design systems
+1. Wise Design System: https://www.wise.design/
+2. Uber Base Design System: https://base.uber.com/
+3. Adobe Spectrum design system: https://spectrum.adobe.com/
+
+#### Gall
+1. The components gallery: https://component.gallery/components/
+2. UI Guideline components: https://www.uiguideline.com/components
+3. 
+
 ---
 
 ## Maintenance & Updates
