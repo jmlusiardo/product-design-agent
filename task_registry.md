@@ -61,17 +61,42 @@ tasks:
     triggers: ["evaluation definition", "define evaluation", "define evaluation type", "evaluation type", "evaluation plan", "research evaluation", "choose evaluation method", "method selection", "formative evaluation", "summative evaluation", "investigative evaluation", "lab vs field", "comparators", "benchmarking", "sampling plan", "tasks and activities", "measures and analysis", "contingency table", "repeated measures anova", "definición de evaluación", "definir evaluación", "definir tipo de evaluación", "plan de evaluación", "evaluación formativa", "evaluación sumativa", "evaluación investigativa", "selección de método de evaluación", "qué evaluación necesitamos", "tipo de evaluación"]
     task_guide: 
      - "evaluation_type.md"
+
+- task_id: "usability_test_recruiting"
+  triggers: ["recruit users", "user recruitment", "recruit participants", "recruiting for usability test", "participant recruitment", "user recruiting", "find test participants", "reclutar usuarios", "reclutamiento de usuarios", "encontrar participantes", "recruiting participants", "usability test participants", "user testing recruitment", "participant sourcing", "test user recruitment", "research participants", "recruiting for research", "user research recruiting", "finding users for testing", "participant screening", "user screening"]
+  task_guide: 
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+  materials:
+    - "cognitive_biases.md"
   
-  - task_id: "usability_testing"
-    triggers: ["usability test", "test plan", "user testing", "prueba de usabilidad","evaluacion de usabilidad"]
-    task_guides: 
-      - "usability_testing.md"
-      - "test_plan.md"
-      - "reporting_test_results.md"
-      - "data_information_knowledge.md"
-    materials:
-      - "cognitive_biases.md"
-      - "product_metrics_list.csv"
+- task_id: "usability_test_planning"
+  triggers: ["test plan", "usability test plan", "create test plan", "planning usability test", "usability testing planning", "test planning", "user testing plan", "plan de prueba", "planificar prueba de usabilidad", "planificación de test", "diseñar test de usabilidad", "test design", "usability study plan", "user research plan", "testing strategy", "test preparation", "preparar prueba de usabilidad"]
+  task_guide: 
+    - "test_plan.md"
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+  materials:
+    - "cognitive_biases.md"
+    - "product_metrics_list.csv"
+
+- task_id: "usability_test_moderation"
+  triggers: ["moderate usability test", "facilitate usability test", "run usability test", "conducting usability test", "usability test facilitation", "test moderation", "user testing moderation", "moderar prueba de usabilidad", "facilitar test", "conducir prueba", "ejecutar test de usabilidad", "test facilitation", "usability session", "user testing session", "running user tests", "test execution", "usability testing execution", "moderating sessions", "facilitating sessions"]
+  task_guide: 
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+  materials:
+    - "cognitive_biases.md"
+
+- task_id: "usability_test_reporting"
+  triggers: ["usability test results", "report usability test", "usability testing report", "test results reporting", "user testing results", "analyze usability test", "usability findings", "test analysis", "reportar resultados", "análisis de prueba", "resultados de test", "informe de usabilidad", "usability insights", "test insights", "user testing insights", "testing outcomes", "usability data analysis", "test findings", "research findings", "usability research results"]
+  task_guide: 
+    - "reporting_test_results.md"
+    - "data_information_knowledge.md"
+    - "usability_testing.md"
+  materials:
+    - "cognitive_biases.md"
+    - "product_metrics_list.csv"
 
  - task_id: "measure_ux"
     triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]
@@ -241,4 +266,3 @@ tasks:
     triggers: ["economics", "economy", "economic fundamentals", "fundamentos económicos", "value creation", "creación de valor", "incentives", "incentivos", "opportunity cost", "costo de oportunidad", "time value of money", "valor temporal del dinero", "law of supply and demand", "ley de oferta y demanda", "zero marginal cost", "costo marginal cero", "network effects", "efectos de red", "economies of scale", "economías de escala", "diseconomies of scale", "deseconomías de escala", "economies of scope", "economías de alcance", "veblen goods", "bienes veblen", "invisible hand", "mano invisible", "behavioral economics", "economía conductual", "choice architecture", "arquitectura de elección", "nudge", "empujón", "default", "defaults", "status quo bias", "sesgo del statu quo", "default effect", "efecto por defecto", "anchoring", "anchoring bias", "sesgo de anclaje", "friction costs", "costes de fricción", "friction", "fricción", "good friction", "fricción positiva", "social proof", "prueba social", "ostrich effect", "efecto avestruz", "two systems of thinking", "system 1", "system 2", "dos sistemas de pensamiento", "fast thinking", "pensamiento rápido", "slow thinking", "pensamiento lento", "create model", "modelo CREATE", "cue", "señal", "reaction", "reacción", "evaluation", "evaluación", "ability", "habilidad", "timing", "tiempo", "experience", "experiencia", "loss aversion", "aversión a la pérdida", "progress incentives", "incentivos de progreso", "reward design", "diseño de recompensas", "scarcity effect", "efecto de escasez", "scarcity heuristic", "heurística de escasez", "framing effect", "efecto de encuadre", "efecto marco", "decoy effect", "efecto señuelo", "attraction effect", "efecto de atracción", "compromise effect", "efecto compromiso"]
     task_guide:_ 
      - "economics_for_designers.md"
-
