@@ -65,6 +65,7 @@ tasks:
 - task_id: "usability_test_recruiting"
   triggers: ["recruit users", "user recruitment", "recruit participants", "recruiting for usability test", "participant recruitment", "user recruiting", "find test participants", "reclutar usuarios", "reclutamiento de usuarios", "encontrar participantes", "recruiting participants", "usability test participants", "user testing recruitment", "participant sourcing", "test user recruitment", "research participants", "recruiting for research", "user research recruiting", "finding users for testing", "participant screening", "user screening"]
   task_guide: 
+    - "recruiting_users.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
   materials:
@@ -74,6 +75,7 @@ tasks:
   triggers: ["test plan", "usability test plan", "create test plan", "planning usability test", "usability testing planning", "test planning", "user testing plan", "plan de prueba", "planificar prueba de usabilidad", "planificación de test", "diseñar test de usabilidad", "test design", "usability study plan", "user research plan", "testing strategy", "test preparation", "preparar prueba de usabilidad"]
   task_guide: 
     - "test_plan.md"
+    - "recruiting_users.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
   materials:

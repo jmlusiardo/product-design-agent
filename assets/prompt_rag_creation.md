@@ -1,4 +1,4 @@
-"I want to create a guide for {TASK}. Attaching to this message all reference documentation, listed below:
+I want to create a guide for {TASK}. Attaching to this message all reference documentation, listed below:
 {ADD LIST OF REFERENCES}
 
 ## Process 
@@ -11,4 +11,4 @@ First, you must learn all the content and requirements. Then, plan out the most 
 5. Think harder, and make your best job possible.
 6. format: Markdown inside multiple code blocks. All content must be returned inside a code block. If content characters exceed maximum code block characters, return content splitted multiple code blocks. Ensure the format you're using always can be rendered inside a code block.  
 7. You must be objective with the information you use. Avoid making up stuff. 
-8. Cross-reference any other task guide in "task_registry.md" in my github.
+8. Cross-reference any other task guide in "task_registry.md" in my github. Refer to a task guide which contains the information instead of detailing it in the guide. 
