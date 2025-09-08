@@ -1,5 +1,5 @@
-"I want to create a guide for recruiting users. Attaching to this message all reference documentation, listed below:
-1. 
+"I want to create a guide for {TASK}. Attaching to this message all reference documentation, listed below:
+{ADD LIST OF REFERENCES}
 
 ## Process 
 First, you must learn all the content and requirements. Then, plan out the most comprehensible guide guide possible, then execute the plan and return the guide. 
