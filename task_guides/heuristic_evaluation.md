@@ -112,3 +112,4 @@
 - Heuristic Evaluation Template (Google Sheets): https://docs.google.com/spreadsheets/d/1xrMN-c_ZEeQLTTrB1EjDX5ZYum1Pow0Z0ZGUPm3bl5c/edit?usp=sharing
 - Heuristic Evaluation Workbook (NN/g, PDF): https://media.nngroup.com/media/articles/attachments/Heuristic_Evaluation_Workbook_1_Fillable.pdf
 - Nielsen Norman Group — 10 Usability Heuristics for User Interface Design: https://www.nngroup.com/articles/ten-usability-heuristics/
+- 16 reglas heurísticas de Tognazzini y cómo aplicarlas: https://www.uifrommars.com/16-reglas-heuristicas-de-tognazzini-y-como-aplicarlas/ 
