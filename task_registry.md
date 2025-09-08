@@ -166,6 +166,15 @@ tasks:
     task_guide:
       - "agile_lean_ux_frameworks.md"
 
+
+## DESIGN SYSTEMS
+
+tasks:
+  - task_id: "component_documentation"
+    triggers: ["component documentation", "document components", "design system documentation", "component guidelines", "component specs", "component guide", "UI component docs", "design component documentation", "component library documentation", "documentar componentes", "documentación de componentes", "guías de componentes", "especificaciones de componentes", "sistema de diseño documentación", "librería de componentes", "component writing", "component content", "component standards", "component template", "wise design components", "storybook documentation", "figma component specs", "component usage guidelines", "component anatomy", "component variants", "component states", "component accessibility", "component implementation", "component best practices", "atomic design documentation", "design tokens documentation", "ui kit documentation", "pattern library documentation", "style guide components"]
+    task_guide: 
+      - "component_documentation.md"
+
 ## VISUAL
 
 tasks:
