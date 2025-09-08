@@ -85,6 +85,7 @@ tasks:
 - task_id: "usability_test_moderation"
   triggers: ["moderate usability test", "facilitate usability test", "run usability test", "conducting usability test", "usability test facilitation", "test moderation", "user testing moderation", "moderar prueba de usabilidad", "facilitar test", "conducir prueba", "ejecutar test de usabilidad", "test facilitation", "usability session", "user testing session", "running user tests", "test execution", "usability testing execution", "moderating sessions", "facilitating sessions"]
   task_guide: 
+    - "moderating_usability_test.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
   materials:
