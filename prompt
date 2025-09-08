@@ -1,0 +1,17 @@
+"I want to create a guide for creating usability testing test plans. Attaching to this message all reference documentation, listed below:
+1. "usability testing.pdf": This is your main reference. Avoid including information of other topics than the one for the guide, I want to make this guide specific on this matter. I'll create other guides later on for the following steps (analyzing test data, facilitating tests, creating test reports).
+2. I've included 5 ".xlsx" files which are examples of test plans I run.  
+3. I've also include some reference pre-test and post-test questionnaires. 
+
+## Process 
+First, you must learn all the content and requirements. Then, plan out the most comprehensible guide guide possible, then execute the plan and return the guide. 
+
+## Requirements 
+2. Feel free to suggest a better title for this guide, which encompasses all the topics mentioned previously.
+3. You MUST first learn all content shared attached prior to generate the file
+4. Must be comprehensive
+5. Think harder, and make your best job possible.
+6. format: Markdown inside single or multiple code blocks. All content must be returned inside a code block. If content characters exceed maximum code block characters, return content in multiple code blocks. 
+7. You must be objective with the information you use. Avoid making up stuff. 
+8. I want that, whenever the system is creating usability test, it does it via first collecting all the required information to file the test, clarifying if needed in it's subsequent replies, or return structured format I should be able to easily copy/paste. 
+9.Use the attached test examples (specially the one most up-to-date is the one named "PIA Merchant Tools") to create a comprensible usability test plan template the system can use while executing the task to generate a consistent plan with the ones attached."

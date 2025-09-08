@@ -66,8 +66,12 @@ tasks:
     triggers: ["usability test", "test plan", "user testing", "prueba de usabilidad","evaluacion de usabilidad"]
     task_guides: 
       - "usability_testing.md"
+      - "test_plan.md"
       - "reporting_test_results.md"
       - "data_information_knowledge.md"
+    materials:
+      - "cognitive_biases.md"
+      - "product_metrics_list.csv"
 
  - task_id: "measure_ux"
     triggers: ["measure UX", "user experience metrics", "HEART framework", "medir experiencia"]
