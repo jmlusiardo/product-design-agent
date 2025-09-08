@@ -290,50 +290,268 @@ Design System Documentation/
 
 ## Component-Specific References
 
-### Text Input
+### Form Controls & Input
+
+#### Text Input
+Single-line text entry with validation patterns
 - Focus on label guidelines (3 words max, noun-based)
 - Emphasize placeholder alternatives (description over placeholder)
 - Include error state messaging guidelines
-- **Reference:** Wise Design Text Input
+- **References:**
+  - [UI Guidelines: Anatomy & Best Practices](https://www.uiguideline.com/components/text-input/anatomy)
+  - [Component Gallery: Implementation Examples](https://component.gallery/components/text-input/)
+  - [Wise Design: Guidelines & Validation](https://wise.design/components/text-input)
 
-### Button
+#### Textarea
+Multi-line text input component
+- **References:**
+  - [Component Gallery: Form Patterns](https://component.gallery/components/textarea/)
+  - [Base Web: React Implementation](https://baseweb.design/components/textarea/)
+  - [UI Guidelines: Design Anatomy](https://www.uiguideline.com/components/textarea/anatomy)
+
+#### Button
+Action-triggering interactive elements
 - Emphasize accessibility for screen readers
 - Include text wrapping and font size considerations
 - Document mobile-specific height behavior
-- **Reference:** Wise Design Button
+- **References:**
+  - [UI Guidelines: Component Structure](https://www.uiguideline.com/components/button/anatomy)
+  - [Component Gallery: Usage Guidelines](https://component.gallery/components/button/)
+  - [Wise Design: Priority & Types](https://wise.design/components/button)
 
-### Alert
-- Tone of voice adaptation per alert type
-- Message length guidelines (1-2 sentences)
-- Action button text requirements
-- **Reference:** Wise Design Alert
-
-### Checkbox
+#### Checkbox
+Multi-selection input component
 - Multi-selection vs single selection use cases
 - Form integration guidelines
 - Terms and conditions usage patterns
-- **Reference:** Wise Design Checkbox
+- **References:**
+  - [Component Gallery: Form Patterns](https://component.gallery/components/checkbox/)
+  - [UI Guidelines: Selection Guidelines](https://www.uiguideline.com/components/checkbox/anatomy)
+  - [Base Web: React Component](https://baseweb.design/components/checkbox/)
 
-### Table
+#### Radio Button
+Single selection from group options
+- **References:**
+  - [Component Gallery: Selection Interfaces](https://component.gallery/components/radio-button/)
+  - [UI Guidelines: Design Patterns](https://www.uiguideline.com/components/radio/anatomy)
+  - [Wise Design: Exclusive Selection](https://wise.design/components/radio)
+
+#### Select
+Dropdown selection with filtering capabilities
+- **References:**
+  - [Component Gallery: Form Selection](https://component.gallery/components/select/)
+  - [UI Guidelines: Enhanced Dropdown](https://www.uiguideline.com/components/select/anatomy)
+  - [Base Web: Advanced Features](https://baseweb.design/components/select/)
+
+#### Switch
+Toggle control for binary choices
+- **References:**
+  - [UI Guidelines: Toggle Controls](https://www.uiguideline.com/components/switch/anatomy)
+  - [Wise Design: Binary Choices](https://wise.design/components/switch)
+  - [Component Gallery: Control Patterns](https://component.gallery/components/toggle/)
+
+### File Upload
+File upload from device
+- **References:**
+  - [Component Gallery: Upload Interfaces](https://component.gallery/components/file-upload/)
+  - [UI Guidelines: File Transfer](https://www.uiguideline.com/components/file-uploader/anatomy)
+  - [Base Web: File Management](https://baseweb.design/components/file-uploader/)
+
+### Selection & Pickers
+
+#### Date Picker
+Calendar-based date selection
+- **References:**
+  - [UI Guidelines: Calendar Interface](https://www.uiguideline.com/components/date-picker/anatomy)
+  - [Component Gallery: Calendar Examples](https://component.gallery/components/datepicker/)
+  - [Base Web: React Datepicker](https://baseweb.design/components/datepicker/)
+
+#### Combobox
+Input with dropdown filtering
+- **References:**
+  - [Component Gallery: Autocomplete Patterns](https://component.gallery/components/combobox/)
+  - [UI Guidelines: Combined Input](https://www.uiguideline.com/components/combobox/anatomy)
+  - [Base Web: Menu Component](https://baseweb.design/components/menu/)
+
+#### Color Picker
+Color selection interface
+- **References:**
+  - [Component Gallery: Color Selection](https://component.gallery/components/color-picker/)
+  - [UI Guidelines: Palette Interface](https://www.uiguideline.com/components/color-picker/anatomy)
+
+#### Rating
+Star ratings for feedback
+- **References:**
+  - [Component Gallery: Product Ratings](https://component.gallery/components/rating/)
+  - [UI Guidelines: User Opinions](https://www.uiguideline.com/components/rating/anatomy)
+  - [Base Web: React Rating](https://baseweb.design/components/rating/)
+
+#### Slider
+Range value selection
+- **References:**
+  - [Component Gallery: Value Selection](https://component.gallery/components/slider/)
+  - [UI Guidelines: Range Selection](https://www.uiguideline.com/components/slider/anatomy)
+  - [Base Web: Range Component](https://baseweb.design/components/slider/)
+
+### Navigation & Layout
+
+#### Tabs
+Multi-panel content navigation
+- **References:**
+  - [Component Gallery: Panel Navigation](https://component.gallery/components/tabs/)
+  - [UI Guidelines: Content Organization](https://www.uiguideline.com/components/tabs/anatomy)
+  - [Base Web: Motion Support](https://baseweb.design/components/tabs/)
+
+#### Breadcrumbs
+Navigation hierarchy display
+- **References:**
+  - [Component Gallery: Navigation Best Practices](https://component.gallery/components/breadcrumbs/)
+  - [UI Guidelines: Site Hierarchy](https://www.uiguideline.com/components/breadcrumbs/anatomy)
+  - [Base Web: Navigation Component](https://baseweb.design/components/breadcrumbs/)
+
+#### Pagination
+Multi-page content navigation
+- **References:**
+  - [Component Gallery: User Experience](https://component.gallery/components/pagination/)
+  - [UI Guidelines: Content Splitting](https://www.uiguideline.com/components/pagination/anatomy)
+  - [Base Web: Data Navigation](https://baseweb.design/components/pagination/)
+
+#### Segmented Control
+Button group for option switching
+- **References:**
+  - [Component Gallery: Option Switching](https://component.gallery/components/segmented-control/)
+  - [Wise Design: Multi-option Selection](https://wise.design/components/segmented-control)
+
+#### Navigation
+Container for navigation links
+- **References:**
+  - [Component Gallery: Navigation Patterns](https://component.gallery/components/navigation/)
+  - [Base Web: Header Navigation](https://baseweb.design/components/header-navigation/)
+  - [Base Web: Side Navigation](https://baseweb.design/components/side-nav/)
+
+### Accordion
+Collapsible content sections
+- **References:**
+  - [Component Gallery: Expandable Content](https://component.gallery/components/accordion/)
+  - [UI Guidelines: Space-efficient Display](https://www.uiguideline.com/components/accordion/anatomy)
+  - [Base Web: Expandable Sections](https://baseweb.design/components/accordion/)
+
+### Drawer
+Sliding panel from screen edge
+- **References:**
+  - [Component Gallery: Sliding Animations](https://component.gallery/components/drawer/)
+
+### Bottom Sheet
+Mobile overlay for secondary actions
+- **References:**
+  - [Component Gallery: Mobile Patterns](https://component.gallery/components/bottom-sheet/)
+  - [Wise Design: Mobile Secondary Actions](https://wise.design/components/bottom-sheet)
+
+### Data Display
+
+#### Table
+Tabular data with sorting and filtering
 - Mobile responsiveness behavior
 - Cell type specifications (header, leading, text, currency, status)
 - Content length recommendations
-- **Reference:** Wise Design Table
+- **References:**
+  - [Component Gallery: Data Presentation](https://component.gallery/components/table/)
+  - [UI Guidelines: Tabular Information](https://www.uiguideline.com/components/table/anatomy)
+  - [Wise Design: Cell Types](https://wise.design/components/table)
 
-### Bottom Sheet
-- **Reference:** Wise Design Bottom Sheet
+#### Card
+Container for single entity content
+- **References:**
+  - [Component Gallery: Content Containers](https://component.gallery/components/card/)
+  - [UI Guidelines: Related Information](https://www.uiguideline.com/components/card/anatomy)
+  - [Wise Design: Container Guidelines](https://wise.design/components/card)
 
-### Snackbar
-- **Reference:** Wise Design Snackbar
+#### List
+Grouped collections of related items
+- **References:**
+  - [Component Gallery: Content Organization](https://component.gallery/components/list/)
+  - [Base Web: Enhanced Lists](https://baseweb.design/components/list/)
+  - [Wise Design: Multiple List Types](https://wise.design/components/list-item)
 
-### Segmented Control
-- **Reference:** Wise Design Segmented Control
+#### Avatar
+User representation component
+- **References:**
+  - [Component Gallery: User Representation](https://component.gallery/components/avatar/)
+  - [UI Guidelines: Profile Images](https://www.uiguideline.com/components/avatar/anatomy)
+  - [Base Web: Profile Component](https://baseweb.design/components/avatar/)
 
-### Critical Banner
-- **Reference:** Wise Design Critical Banner
+### Feedback & Communication
 
-### Divider
-- **Reference:** Wise Design Divider
+#### Alert
+Prominent notifications for important changes
+- Tone of voice adaptation per alert type
+- Message length guidelines (1-2 sentences)
+- Action button text requirements
+- **References:**
+  - [Component Gallery: Notification Patterns](https://component.gallery/components/alert/)
+  - [UI Guidelines: Important Messages](https://www.uiguideline.com/components/alert/anatomy)
+  - [Wise Design: 4 Alert Types](https://wise.design/components/alert)
+
+#### Modal
+Overlay requiring user interaction
+- **References:**
+  - [Component Gallery: Overlay Patterns](https://component.gallery/components/modal/)
+  - [UI Guidelines: Dialog Overlays](https://www.uiguideline.com/components/modal/anatomy)
+  - [Wise Design: Comprehensive Guidelines](https://wise.design/components/modal)
+
+#### Toast
+Temporary overlay notifications
+- **References:**
+  - [Component Gallery: Temporary Alerts](https://component.gallery/components/toast/)
+  - [UI Guidelines: Immediate Feedback](https://www.uiguideline.com/components/toast/anatomy)
+  - [Base Web: Temporary Messages](https://baseweb.design/components/toast/)
+
+#### Snackbar
+Brief confirmation messages
+- **References:**
+  - [Wise Design: Temporary Messaging](https://wise.design/components/snackbar)
+
+#### Tooltip
+Hover information display
+- **References:**
+  - [Component Gallery: Information Display](https://component.gallery/components/tooltip/)
+  - [UI Guidelines: Contextual Information](https://www.uiguideline.com/components/tooltip/anatomy)
+
+#### Popover
+Click-triggered interactive overlay
+- **References:**
+  - [Component Gallery: Interactive Tooltips](https://component.gallery/components/popover/)
+  - [UI Guidelines: Floating Content](https://www.uiguideline.com/components/popover/anatomy)
+  - [Wise Design: Contextual Overlays](https://wise.design/components/popover)
+
+### Progress & Loading
+
+#### Progress Bar
+Completion status indicator
+- **References:**
+  - [Component Gallery: Progress Visualization](https://component.gallery/components/progress-bar/)
+  - [UI Guidelines: Loading States](https://www.uiguideline.com/components/progress-bar/anatomy)
+  - [Wise Design: Determinate Progress](https://wise.design/components/progress-bar)
+
+#### Spinner
+Loading/processing indicators
+- **References:**
+  - [Component Gallery: Loading Patterns](https://component.gallery/components/spinner/)
+  - [UI Guidelines: Processing States](https://www.uiguideline.com/components/spinner/anatomy)
+  - [Wise Design: Progress Spinner](https://wise.design/components/progress-spinner)
+
+#### Progress Steps
+Multi-step process indicator
+- **References:**
+  - [Component Gallery: Multi-step Progress](https://component.gallery/components/progress-steps/)
+  - [UI Guidelines: Stepper Process](https://www.uiguideline.com/components/stepper/anatomy)
+  - [Base Web: Progress Steps](https://baseweb.design/components/progress-steps/)
+
+#### Skeleton
+Loading placeholder layouts
+- **References:**
+  - [Component Gallery: Loading States](https://component.gallery/components/skeleton/)
+  - [UI Guidelines: Content Placeholders](https://www.uiguideline.com/components/skeleton/anatomy)
 
 ---
 
