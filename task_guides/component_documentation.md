@@ -553,17 +553,29 @@ Loading placeholder layouts
   - [Component Gallery: Loading States](https://component.gallery/components/skeleton/)
   - [UI Guidelines: Content Placeholders](https://www.uiguideline.com/components/skeleton/anatomy)
 
-### Other references for more componentes
+### Other references
 
 #### Design systems
-1. Wise Design System: https://www.wise.design/
-2. Uber Base Design System: https://base.uber.com/
-3. Adobe Spectrum design system: https://spectrum.adobe.com/
+1. Wise: https://www.wise.design/
+2. Uber Base: https://base.uber.com/
+3. Adobe Spectrum: https://spectrum.adobe.com/
+4. IBM Carbon: https://carbondesignsystem.com/
+5. Carrefour Marcel: https://carrefour.design/328eff0d7/p/1784c3-welcome-to-marcel 
+6. Orbit: https://orbit.kiwi/
+7. Shadcn: https://ui.shadcn.com/
+8. Gov.uk: https://design-system.service.gov.uk/
+9. Google Material: https://m3.material.io/
+10. Microsoft Fluent: https://fluent2.microsoft.design/
+11. Amazon Cloudescape: https://cloudscape.design/
+12. Apple HIG: https://developer.apple.com/design/human-interface-guidelines/
+13. Github Premier: https://primer.style/
+14. Atlassian: https://atlassian.design/
+15. Salesforce Lightning: https://www.lightningdesignsystem.com/
 
-#### Gall
-1. The components gallery: https://component.gallery/components/
-2. UI Guideline components: https://www.uiguideline.com/components
-3. 
+#### Design Systems Repositories
+1. The Components Gallery: https://component.gallery/components/
+2. UI Guideline: https://www.uiguideline.com/components
+3. Design Systems Surf: https://designsystems.surf/
 
 ---
 
