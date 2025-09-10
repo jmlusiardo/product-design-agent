@@ -267,6 +267,8 @@ tasks:
     triggers: ["revisar contenido", "review content", "revisa este contenido", "review this content", "auditar contenido", "audit content", "revisar texto", "revisa este texto", "review this text", "review this message", "audit this message", "audita este mensaje"]
     task_guide: 
       - "content_audit.md"
+    materials:
+      - "content_audit_checklist.csv"
 
 ## GENERAL PRODUCT DESIGN KNOWLEDGE
 

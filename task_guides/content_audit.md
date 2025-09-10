@@ -6,7 +6,7 @@ This guide defines a systematic approach to content auditing content using a man
 
 ## Prerequisites
 
-- Access "content_checklist.csv" in github
+- Access "content_audit_checklist.csv" in github ("materials")
 - Content writing best practices documentation
 - Markdown editing capability
 - Basic understanding of content quality metrics
@@ -27,7 +27,7 @@ This guide defines a systematic approach to content auditing content using a man
 ## Setup & Configuration
 
 ### Checklist Integration
-- Load CSV file named "content_checklist.csv" from workspace
+- Load CSV file named "content_audit_checklist.csv" from workspace
 - Parse structure: `{# | Categoria | Punto de verificación | Descripción | Proceso de verificación | Ejemplo correcto[1-5] | Ejemplo incorrecto[1-5]}`
 - Process rows in ascending order by `#` field
 - Apply verification process to each draft element
