@@ -242,6 +242,7 @@ tasks:
 
 ## PROMPTS AND VIBE CODING
 
+tasks:
   - task_id: "prompt_minification"
     triggers: ["prompt minification", "minify prompts", "compress prompts", "optimize prompts", "shorten prompts", "prompt optimization", "reduce prompt length", "prompt compression", "minimal prompts", "concise prompts", "prompt engineering optimization", "minificar prompts", "optimizar prompts", "comprimir prompts", "prompts cortos", "prompts mínimos"]
     task_guide: 
@@ -259,7 +260,13 @@ tasks:
     task_guide: 
       - "snowball_vibe_coding.md"
 
- 
+## CONTENT
+
+tasks:
+- task_id: "content_audit"
+    triggers: ["revisar contenido", "review content", "revisa este contenido", "review this content", "auditar contenido", "audit content", "revisar texto", "revisa este texto", "review this text", "review this message", "audit this message", "audita este mensaje"]
+    task_guide: 
+      - "content_audit.md"
 
 ## GENERAL PRODUCT DESIGN KNOWLEDGE
 
