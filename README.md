@@ -1,8 +1,8 @@
-# Product Design Mentorship & Knowledge System
+# Product Design Assistant
 
 An open-source AI-powered mentorship system that provides expert guidance across product design, user research, UX/UI, strategy, and leadership. Built to accelerate learning through personalized, hands-on mentorship with bilingual support.
 
-## What This System Does
+## Capabilities
 
 This intelligent mentorship system:
 - **Matches queries to expert guidance** using a sophisticated task registry
@@ -11,22 +11,18 @@ This intelligent mentorship system:
 - **Accelerates professional growth** through personalized, adaptive mentorship
 - **Delivers hands-on tools** for real-world design challenges
 
-## System Architecture
+## Setup in Claude
 
-### How It Works
+### What you need
+- Claude account (Pro or Team recommended for optimal performance)
+- Access to Claude Projects feature
 
-1. **Query Processing**: Extracts keywords (Spanish/English) and identifies intent
-2. **Task Matching**: Searches `task_registry.md` for relevant tasks using:
-   - Direct keyword matches
-   - Fuzzy matching for variations
-   - Confidence scoring (HIGH >80%, MEDIUM 50-80%, LOW <50%)
-3. **Resource Assembly**: Accesses task guides and materials
-4. **Response Generation**: Synthesizes information into actionable guidance
-5. **Quality Validation**: Runs comprehensive checklist before delivery
+### Using this repo in your Claude project
+1. In the project in Claude, in **Files**, click on the **+*** button and select **Github*
+2. In the modal, click on the 🔗 button, and paste this repo URL.
+3. Select **task_registry.md** file, and **task_guides** and **materials** folders.
 
-## Getting Started
-
-### For Users
+## How to use it
 
 Simply ask questions related to:
 - **Onboarding**: "How do I onboard new design leads?"
@@ -35,12 +31,9 @@ Simply ask questions related to:
 - **Leadership**: "How do I boost UX culture in my organization?"
 - **Visual Design**: "Create an AI image prompt for..."
 
-**Bilingual Support**: Ask in Spanish or English
-- "Cómo hacer investigación sin usuarios" 
-- "How to recruit users for testing" 
+Note: Currently supports English and Spanish langages.
 
-### Example Queries That Work
-
+Examples:
 - "Create a usability test plan for a mobile app"
 - "Necesito documentar componentes de mi design system"
 - "How do I resolve conflicts between design and engineering?"
@@ -79,7 +72,18 @@ Simply ask questions related to:
 - Stakeholder management
 - Conflict resolution
 
-## How to Collaborate
+## How It Works
+
+1. **Query Processing**: Extracts keywords (Spanish/English) and identifies intent
+2. **Task Matching**: Searches `task_registry.md` for relevant tasks using:
+   - Direct keyword matches
+   - Fuzzy matching for variations
+   - Confidence scoring (HIGH >80%, MEDIUM 50-80%, LOW <50%)
+3. **Resource Assembly**: Accesses task guides and materials
+4. **Response Generation**: Synthesizes information into actionable guidance
+5. **Quality Validation**: Runs comprehensive checklist before delivery
+
+## How you can collaborate with this project
 
 We welcome contributions to improve any aspect of this system! Here's how you can help:
 
