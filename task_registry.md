@@ -72,12 +72,13 @@ tasks:
     - "cognitive_biases.md"
   
 - task_id: "usability_test_planning"
-  triggers: ["test plan", "usability test plan", "create test plan", "planning usability test", "usability testing planning", "test planning", "user testing plan", "plan de prueba", "planificar prueba de usabilidad", "planificación de test", "diseñar test de usabilidad", "test design", "usability study plan", "user research plan", "testing strategy", "test preparation", "preparar prueba de usabilidad"]
+  triggers: ["test plan", "usability test plan", "create test plan", "planning usability test", "usability testing planning", "test planning", "user testing plan", "plan de prueba", "planificar prueba de usabilidad", "planificación de test", "diseñar test de usabilidad", "test design", "usability study plan", "user research plan", "testing strategy", "test preparation", "preparar prueba de usabilidad", "armar test", "set up test", "build test plan"]
   task_guide: 
     - "test_plan.md"
     - "recruiting_users.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
+    - "usability_testing_userbrain.md"
   materials:
     - "cognitive_biases.md"
     - "product_metrics_list.csv"
