@@ -1,0 +1,967 @@
+# ONBOARDING
+onboarding_design_leads:
+  task_id: "onboarding_design_leads"
+  description: >
+    Create comprehensive onboarding program for new design leads covering:
+    1. Team structure and design processes
+    2. Key stakeholder relationships
+    3. Design system and tools overview
+    4. Leadership expectations and metrics
+    5. First 30-60-90 day goals
+  expected_output: >
+    A structured onboarding plan containing:
+    - Week-by-week schedule for first month
+    - Key meetings and stakeholder introductions
+    - Design team processes and workflows
+    - Success metrics and checkpoints
+    - Resource library and documentation links
+    Formatted as markdown with checklists
+  task_guide:
+    - "onboarding_design_leads.md"
+  agent: onboarding_specialist
+
+onboarding_designers:
+  task_id: "onboarding_designers"
+  description: >
+    Develop onboarding experience for new designers including:
+    1. Design tools and system training
+    2. Product area familiarization
+    3. Team collaboration processes
+    4. Design critique and review cycles
+    5. First project assignment
+  expected_output: >
+    A designer onboarding package containing:
+    - Day-by-day schedule for first two weeks
+    - Tool access checklist
+    - Design system tutorial plan
+    - Buddy system assignment
+    - First project brief
+    Formatted as markdown with timelines
+  task_guide:
+    - "onboarding_designers.md"
+  agent: onboarding_specialist
+
+# PROJECT FRAMING
+kickoff_meeting:
+  task_id: "kickoff_meeting"
+  description: >
+    Plan and facilitate project kickoff meeting covering:
+    1. Project goals and success metrics
+    2. Stakeholder roles and responsibilities
+    3. Timeline and milestones
+    4. Communication plan
+    5. Risk assessment and mitigation
+  expected_output: >
+    A kickoff meeting package containing:
+    - Meeting agenda and presentation
+    - RACI matrix
+    - Project charter
+    - Communication plan
+    - Risk register
+    Formatted as markdown with templates
+  task_guide:
+    - "kickoff_meeting.md"
+  agent: project_manager
+
+initiative_canvas:
+  task_id: "initiative_canvas"
+  description: >
+    Create product initiative canvas defining:
+    1. Problem statement and opportunity
+    2. Target users and personas
+    3. Success metrics and KPIs
+    4. Solution hypothesis
+    5. Dependencies and constraints
+  expected_output: >
+    A completed initiative canvas containing:
+    - Problem/opportunity statement
+    - User segment definition
+    - Success criteria and metrics
+    - Solution approach
+    - Risk and dependency map
+    Formatted as visual canvas in markdown
+  task_guide:
+    - "initiative_canvas.md"
+  agent: strategy_analyst
+
+project_type_strategy:
+  task_id: "project_type_strategy"
+  description: >
+    Define UX strategy based on project type:
+    1. Project classification (new/improvement/optimization)
+    2. Design approach selection
+    3. Research methodology
+    4. Deliverable planning
+    5. Resource allocation
+  expected_output: >
+    A project strategy document containing:
+    - Project type classification
+    - Recommended design approach
+    - Research plan
+    - Deliverable timeline
+    - Team structure recommendation
+    Formatted as markdown strategy doc
+  task_guide:
+    - "project_type_strategy.md"
+  agent: strategy_analyst
+
+  # DISCOVERY
+writing_statements:
+  task_id: "writing_statements"
+  description: >
+    Craft effective statements for product discovery:
+    1. User stories following standard format
+    2. Job stories focusing on situations
+    3. Hypotheses for testing
+    4. How Might We questions
+    5. Key insights from research
+  expected_output: >
+    A collection of well-formed statements:
+    - 5-10 user stories
+    - 3-5 job stories
+    - Testable hypotheses with success criteria
+    - HMW questions for ideation
+    - Prioritized insight statements
+    Formatted as markdown with examples
+  task_guide:
+    - "writing_statements.md"
+  agent: discovery_analyst
+
+user_personas:
+  task_id: "user_personas"
+  description: >
+    Develop data-driven user personas including:
+    1. Demographic and psychographic profiles
+    2. Goals and motivations
+    3. Pain points and frustrations
+    4. Technology usage patterns
+    5. Journey touchpoints
+  expected_output: >
+    A persona documentation set containing:
+    - 2-4 detailed persona profiles
+    - Persona comparison matrix
+    - Usage scenarios per persona
+    - Design implications
+    - Validation criteria
+    Formatted as markdown with visuals
+  task_guide:
+    - "user_personas.md"
+  agent: research_analyst
+
+journey_mapping:
+  task_id: "journey_mapping"
+  description: >
+    Map user journey and experience touchpoints:
+    1. Current state journey analysis
+    2. Pain points and opportunities
+    3. Emotional journey mapping
+    4. Touchpoint inventory
+    5. Future state vision
+  expected_output: >
+    A journey mapping package containing:
+    - Visual journey map
+    - Touchpoint analysis
+    - Opportunity matrix
+    - Emotion curve
+    - Action plan
+    Formatted as markdown with diagrams
+  task_guide:
+    - "journey_mapping.md"
+  agent: discovery_analyst
+
+# USER RESEARCH
+ux_research_without_users:
+  task_id: "ux_research_without_users"
+  description: >
+    Conduct UX research without direct user access using:
+    1. Analytics and behavioral data
+    2. Customer support insights
+    3. Sales team feedback
+    4. Forum and review analysis
+    5. Competitive research
+  expected_output: >
+    A proxy research report containing:
+    - Data source inventory
+    - Key findings by source
+    - Synthesized insights
+    - Confidence levels
+    - Validation recommendations
+    Formatted as markdown research report
+  task_guide:
+    - "ux_research_without_users.md"
+  agent: research_analyst
+
+evaluation_type:
+  task_id: "evaluation_type"
+  description: >
+    Define evaluation methodology including:
+    1. Evaluation type selection (formative/summative)
+    2. Method selection (lab/field)
+    3. Comparator definition
+    4. Sampling strategy
+    5. Analysis plan
+  expected_output: >
+    An evaluation plan containing:
+    - Evaluation framework
+    - Method justification
+    - Participant criteria
+    - Data collection plan
+    - Analysis approach
+    Formatted as markdown with tables
+  task_guide:
+    - "evaluation_type.md"
+  agent: research_analyst
+
+usability_test_recruiting:
+  task_id: "usability_test_recruiting"
+  description: >
+    Recruit participants for usability testing:
+    1. Define participant criteria
+    2. Create screening questionnaire
+    3. Develop recruitment strategy
+    4. Schedule sessions
+    5. Manage participant communication
+  expected_output: >
+    A recruitment package containing:
+    - Participant criteria matrix
+    - Screening questionnaire
+    - Recruitment timeline
+    - Communication templates
+    - Participant tracker
+    Formatted as markdown with templates
+  task_guide:
+    - "recruiting_users.md"
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+  materials:
+    - "cognitive_biases.md"
+  agent: research_analyst
+
+usability_test_planning:
+  task_id: "usability_test_planning"
+  description: >
+    Create comprehensive usability test plan:
+    1. Test objectives and hypotheses
+    2. Task scenarios and flows
+    3. Success metrics
+    4. Protocol development
+    5. Logistics planning
+  expected_output: >
+    A test plan document containing:
+    - Research questions
+    - Task scenarios
+    - Moderator guide
+    - Data collection instruments
+    - Testing schedule
+    Formatted as markdown test protocol
+  task_guide:
+    - "test_plan.md"
+    - "recruiting_users.md"
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+    - "usability_testing_userbrain.md"
+  materials:
+    - "cognitive_biases.md"
+    - "product_metrics_list.csv"
+  agent: research_analyst
+
+usability_test_moderation:
+  task_id: "usability_test_moderation"
+  description: >
+    Facilitate effective usability test sessions:
+    1. Session preparation
+    2. Participant rapport building
+    3. Task facilitation techniques
+    4. Probing and follow-up
+    5. Note-taking strategies
+  expected_output: >
+    A moderation toolkit containing:
+    - Pre-session checklist
+    - Introduction script
+    - Probing question bank
+    - Observation template
+    - Debrief guide
+    Formatted as markdown facilitator guide
+  task_guide:
+    - "moderating_usability_test.md"
+    - "usability_testing.md"
+    - "data_information_knowledge.md"
+  materials:
+    - "cognitive_biases.md"
+  agent: research_analyst
+
+usability_test_reporting:
+  task_id: "usability_test_reporting"
+  description: >
+    Analyze and report usability test findings:
+    1. Data synthesis and analysis
+    2. Issue severity rating
+    3. Finding prioritization
+    4. Recommendation development
+    5. Stakeholder communication
+  expected_output: >
+    A research report containing:
+    - Executive summary
+    - Methodology overview
+    - Key findings with severity
+    - Prioritized recommendations
+    - Appendices with raw data
+    Formatted as markdown report
+  task_guide:
+    - "reporting_test_results.md"
+    - "data_information_knowledge.md"
+    - "usability_testing.md"
+  materials:
+    - "cognitive_biases.md"
+    - "product_metrics_list.csv"
+  agent: research_analyst
+
+measure_ux:
+  task_id: "measure_ux"
+  description: >
+    Implement UX measurement framework using:
+    1. HEART framework setup
+    2. Metric definition and tracking
+    3. Baseline establishment
+    4. Goal setting
+    5. Dashboard creation
+  expected_output: >
+    A measurement framework containing:
+    - HEART metrics matrix
+    - KPI definitions
+    - Tracking plan
+    - Dashboard mockup
+    - Reporting cadence
+    Formatted as markdown with tables
+  notion_pages:
+    - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
+      title: "HEART Framework"
+  agent: research_analyst
+
+ux_audit:
+  task_id: "ux_audit"
+  description: >
+    Conduct expert UX review using:
+    1. Nielsen's 10 heuristics
+    2. Interface evaluation
+    3. Issue identification
+    4. Severity assessment
+    5. Improvement recommendations
+  expected_output: >
+    An audit report containing:
+    - Heuristic evaluation matrix
+    - Issue inventory with severity
+    - Screenshots and annotations
+    - Prioritized fix list
+    - Quick wins vs long-term improvements
+    Formatted as markdown audit report
+  task_guide:
+    - "ux-audit-expert-review.md"
+    - "heuristic_evaluation.md"
+    - "data_information_knowledge.md"
+  agent: research_analyst
+
+  # STRATEGY
+mvp_definition:
+  task_id: "mvp_definition"
+  description: >
+    Define MVP scope and features including:
+    1. Core value proposition
+    2. Essential feature set
+    3. Success criteria
+    4. Build vs defer decisions
+    5. Launch strategy
+  expected_output: >
+    An MVP definition document containing:
+    - Value proposition statement
+    - Feature prioritization matrix
+    - MVP scope boundaries
+    - Success metrics
+    - Go-to-market timeline
+    Formatted as markdown product spec
+  task_guide:
+    - "mvp_definition.md"
+  agent: strategy_analyst
+
+brainstorming:
+  task_id: "brainstorming"
+  description: >
+    Facilitate ideation sessions using:
+    1. Workshop planning and setup
+    2. Divergent thinking techniques
+    3. Idea generation methods
+    4. Convergent prioritization
+    5. Action planning
+  expected_output: >
+    A brainstorming package containing:
+    - Workshop agenda
+    - Facilitation guide
+    - Idea capture templates
+    - Prioritization framework
+    - Next steps document
+    Formatted as markdown workshop kit
+  task_guide:
+    - "brainstorming.md"
+  agent: strategy_analyst
+
+event_storming_workshop:
+  task_id: "event_storming_workshop"
+  description: >
+    Run event storming workshop for:
+    1. Domain event discovery
+    2. Process flow mapping
+    3. Command identification
+    4. Aggregate definition
+    5. Bounded context establishment
+  expected_output: >
+    An event storming output containing:
+    - Event timeline
+    - Command-event mapping
+    - Aggregate boundaries
+    - Process flow diagram
+    - Action items
+    Formatted as markdown with diagrams
+  task_guide:
+    - "journey_mapping.md"
+  agent: strategy_analyst
+
+project_planning:
+  task_id: "project_planning"
+  description: >
+    Create comprehensive project plan with:
+    1. Scope definition
+    2. Work breakdown structure
+    3. Timeline and milestones
+    4. Resource allocation
+    5. Risk management
+  expected_output: >
+    A project plan containing:
+    - Project charter
+    - WBS diagram
+    - Gantt chart
+    - Resource plan
+    - Risk register
+    Formatted as markdown project doc
+  task_guide:
+    - "project_planning.md"
+  agent: project_manager
+
+prioritization:
+  task_id: "prioritization"
+  description: >
+    Apply prioritization frameworks including:
+    1. Effort-impact analysis
+    2. Value-effort scoring
+    3. Kano model application
+    4. RICE scoring
+    5. Stakeholder alignment
+  expected_output: >
+    A prioritization report containing:
+    - Scoring matrix
+    - Prioritized backlog
+    - Trade-off analysis
+    - Recommendation rationale
+    - Roadmap impact
+    Formatted as markdown with tables
+  task_guide:
+    - "prioritization.md"
+  agent: strategy_analyst
+
+kpi_metrics:
+  task_id: "kpi_metrics"
+  description: >
+    Define KPI framework including:
+    1. Business objective alignment
+    2. Metric tree development
+    3. Leading/lagging indicators
+    4. Target setting
+    5. Measurement plan
+  expected_output: >
+    A KPI framework containing:
+    - KPI tree diagram
+    - Metric definitions
+    - Calculation methods
+    - Target values
+    - Tracking dashboard spec
+    Formatted as markdown metrics doc
+  task_guide:
+    - "design_kpis.md"
+  materials:
+    - "product_metrics_list.csv"
+  agent: strategy_analyst
+
+business_model:
+  task_id: "business_model"
+  description: >
+    Develop business model canvas covering:
+    1. Customer segments
+    2. Value propositions
+    3. Revenue streams
+    4. Cost structure
+    5. Key partnerships
+  expected_output: >
+    A business model canvas containing:
+    - Completed BMC
+    - Assumption inventory
+    - Validation plan
+    - Financial projections
+    - Risk assessment
+    Formatted as visual canvas
+  task_guide:
+    - "business_model.md"
+  agent: strategy_analyst
+
+value_proposition:
+  task_id: "value_proposition"
+  description: >
+    Create value proposition canvas with:
+    1. Customer jobs analysis
+    2. Pain point mapping
+    3. Gain creators
+    4. Product-market fit assessment
+    5. Messaging framework
+  expected_output: >
+    A value prop package containing:
+    - Completed VPC
+    - Customer job map
+    - Pain-gain matrix
+    - Fit assessment
+    - Messaging guide
+    Formatted as visual canvas
+  task_guide:
+    - "value_proposition.md"
+  agent: strategy_analyst
+
+design_pitch:
+  task_id: "design_pitch"
+  description: >
+    Create compelling design pitch including:
+    1. Problem framing
+    2. Solution narrative
+    3. Visual storytelling
+    4. Impact demonstration
+    5. Call to action
+  expected_output: >
+    A pitch deck containing:
+    - Presentation slides
+    - Speaker notes
+    - Supporting visuals
+    - Data appendix
+    - Q&A preparation
+    Formatted as presentation package
+  task_guide:
+    - "design_pitch.md"
+  agent: strategy_analyst
+
+agile_lean_ux_frameworks:
+  task_id: "agile_lean_ux_frameworks"
+  description: >
+    Integrate UX in agile/lean processes:
+    1. Sprint planning integration
+    2. Discovery sprint setup
+    3. Lean UX canvas
+    4. Build-measure-learn cycles
+    5. UX debt management
+  expected_output: >
+    An integration framework containing:
+    - Process integration map
+    - Sprint ceremony guides
+    - UX backlog template
+    - Measurement framework
+    - Best practices guide
+    Formatted as markdown playbook
+  task_guide:
+    - "agile_lean_ux_frameworks.md"
+  agent: strategy_analyst
+
+# DESIGN SYSTEMS
+component_documentation:
+  task_id: "component_documentation"
+  description: >
+    Document design system components with:
+    1. Component anatomy
+    2. Usage guidelines
+    3. Variant specifications
+    4. Accessibility requirements
+    5. Implementation notes
+  expected_output: >
+    Component documentation containing:
+    - Component spec sheets
+    - Usage examples
+    - Do's and don'ts
+    - Accessibility checklist
+    - Code snippets
+    Formatted as markdown component guide
+  task_guide:
+    - "component_documentation.md"
+  agent: design_system_specialist
+
+  # VISUAL
+writing_ai_image_prompts:
+  task_id: "writing_ai_image_prompts"
+  description: >
+    Craft effective AI image generation prompts:
+    1. Style and aesthetic definition
+    2. Composition specifications
+    3. Technical parameters
+    4. Negative prompts
+    5. Iteration strategies
+  expected_output: >
+    An AI prompt guide containing:
+    - Prompt templates
+    - Style reference library
+    - Parameter guidelines
+    - Example outputs
+    - Troubleshooting tips
+    Formatted as markdown prompt guide
+  task_guide:
+    - "writing_ai_image_prompts.md"
+  materials:
+    - "prompt_templates_registry.md"
+  agent: visual_designer
+
+# LEADERSHIP
+team_management:
+  task_id: "team_management"
+  description: >
+    Manage UX/design teams effectively:
+    1. Team structure optimization
+    2. Performance management
+    3. Growth planning
+    4. Process improvement
+    5. Culture building
+  expected_output: >
+    A management framework containing:
+    - Team charter
+    - RACI matrix
+    - Performance rubrics
+    - Growth paths
+    - Team rituals guide
+    Formatted as markdown management playbook
+  task_guide:
+    - "team_management.md"
+  agent: team_lead
+
+boost_ux_culture:
+  task_id: "boost_ux_culture"
+  description: >
+    Elevate UX maturity and culture:
+    1. Maturity assessment
+    2. Evangelization strategy
+    3. Education programs
+    4. Success stories
+    5. Change management
+  expected_output: >
+    A culture transformation plan containing:
+    - Maturity assessment results
+    - Roadmap to higher maturity
+    - Education curriculum
+    - Communication plan
+    - Success metrics
+    Formatted as markdown strategy doc
+  task_guide:
+    - "boost_ux_culture.md"
+  agent: team_lead
+
+hiring_designers:
+  task_id: "hiring_designers"
+  description: >
+    Build and scale design teams through:
+    1. Role definition
+    2. Sourcing strategy
+    3. Interview process design
+    4. Evaluation criteria
+    5. Onboarding planning
+  expected_output: >
+    A hiring package containing:
+    - Job descriptions
+    - Interview guides
+    - Evaluation rubrics
+    - Portfolio review criteria
+    - Offer templates
+    Formatted as markdown hiring kit
+  task_guide:
+    - "hiring_designers.md"
+    - "creating_design_teams.md"
+  agent: team_lead
+
+# COLLABORATION
+conflict_resolution:
+  task_id: "conflict_resolution"
+  description: >
+    Navigate and resolve conflicts through:
+    1. Situation assessment
+    2. Stakeholder mapping
+    3. Communication strategies
+    4. Negotiation tactics
+    5. Resolution planning
+  expected_output: >
+    A conflict resolution guide containing:
+    - Situation analysis
+    - Communication scripts
+    - Negotiation framework
+    - Action plan
+    - Follow-up checklist
+    Formatted as markdown playbook
+  task_guide:
+    - "difficult_conversations.md"
+  agent: collaboration_facilitator
+
+stakeholder_management:
+  task_id: "stakeholder_management"
+  description: >
+    Manage stakeholder relationships via:
+    1. Stakeholder mapping
+    2. Influence strategies
+    3. Communication planning
+    4. Expectation management
+    5. Collaboration frameworks
+  expected_output: >
+    A stakeholder plan containing:
+    - Stakeholder matrix
+    - Engagement strategies
+    - Communication calendar
+    - RACI chart
+    - Success metrics
+    Formatted as markdown strategy doc
+  task_guide:
+    - "stakeholder_management.md"
+  agent: collaboration_facilitator
+
+meeting_facilitation:
+  task_id: "meeting_facilitation"
+  description: >
+    Run effective meetings through:
+    1. Meeting design
+    2. Facilitation techniques
+    3. Participation strategies
+    4. Decision frameworks
+    5. Follow-up processes
+  expected_output: >
+    A facilitation toolkit containing:
+    - Meeting templates
+    - Facilitation guides
+    - Activity bank
+    - Decision matrices
+    - Action item trackers
+    Formatted as markdown facilitator kit
+  task_guide:
+    - "meeting_facilitation.md"
+  agent: collaboration_facilitator
+
+design_critique:
+  task_id: "design_critique"
+  description: >
+    Conduct productive design critiques:
+    1. Critique structure
+    2. Feedback frameworks
+    3. Discussion facilitation
+    4. Documentation methods
+    5. Action planning
+  expected_output: >
+    A critique framework containing:
+    - Critique agenda template
+    - Feedback guidelines
+    - Discussion prompts
+    - Documentation template
+    - Follow-up process
+    Formatted as markdown critique guide
+  task_guide:
+    - "design_critique.md"
+  agent: collaboration_facilitator
+
+executive_presentation:
+  task_id: "executive_presentation"
+  description: >
+    Present to executive stakeholders:
+    1. Executive communication strategy
+    2. Story structure
+    3. Data visualization
+    4. Risk mitigation
+    5. Decision facilitation
+  expected_output: >
+    An executive package containing:
+    - Presentation deck
+    - Executive summary
+    - Data appendix
+    - Risk assessment
+    - Decision framework
+    Formatted as presentation suite
+  task_guide:
+    - "executive_presentation.md"
+  agent: collaboration_facilitator
+
+executive_summary:
+  task_id: "executive_summary"
+  description: >
+    Create executive status updates:
+    1. Progress highlighting
+    2. Metric reporting
+    3. Risk communication
+    4. Decision requests
+    5. Next steps framing
+  expected_output: >
+    An executive update containing:
+    - One-page summary
+    - KPI dashboard
+    - Risk register
+    - Decision log
+    - Action items
+    Formatted as executive brief
+  task_guide:
+    - "executive_summary.md"
+  agent: collaboration_facilitator
+
+  # PROMPTS AND VIBE CODING
+prompt_minification:
+  task_id: "prompt_minification"
+  description: >
+    Optimize and compress prompts for:
+    1. Token efficiency
+    2. Clarity preservation
+    3. Context optimization
+    4. Performance improvement
+    5. Cost reduction
+  expected_output: >
+    A minification guide containing:
+    - Original vs minified comparisons
+    - Compression techniques
+    - Quality metrics
+    - Best practices
+    - Testing framework
+    Formatted as markdown optimization guide
+  task_guide:
+    - "prompt_minification.md"
+  agent: ai_specialist
+
+writing_prompts:
+  task_id: "writing_prompts"
+  description: >
+    Engineer effective AI prompts using:
+    1. Prompt structure frameworks
+    2. Context optimization
+    3. Instruction clarity
+    4. Output formatting
+    5. Iterative refinement
+  expected_output: >
+    A prompt engineering kit containing:
+    - Prompt templates
+    - Structure guidelines
+    - Testing methodology
+    - Example library
+    - Optimization tips
+    Formatted as markdown prompt guide
+  task_guide:
+    - "writing_prompts.md"
+  materials:
+    - "prompt_templates_registry.md"
+  agent: ai_specialist
+
+snowball_vibe_coding:
+  task_id: "snowball_vibe_coding"
+  description: >
+    Rapid AI-assisted prototyping through:
+    1. LLM-driven code generation
+    2. Iterative development
+    3. Functional prototype creation
+    4. User validation setup
+    5. Demo preparation
+  expected_output: >
+    A vibe coding package containing:
+    - Prototype code
+    - Setup instructions
+    - Testing scenarios
+    - Validation plan
+    - Demo script
+    Formatted as development guide
+  task_guide:
+    - "snowball_vibe_coding.md"
+  agent: ai_specialist
+
+# CONTENT
+content_audit:
+  task_id: "content_audit"
+  description: >
+    Review and audit content for:
+    1. Clarity and readability
+    2. Tone and voice consistency
+    3. Accuracy and completeness
+    4. Accessibility compliance
+    5. SEO optimization
+  expected_output: >
+    A content audit report containing:
+    - Content inventory
+    - Quality assessment
+    - Issue identification
+    - Improvement recommendations
+    - Action plan
+    Formatted as markdown audit report
+  task_guide:
+    - "content_audit.md"
+  materials:
+    - "content_audit_checklist.csv"
+  agent: content_specialist
+
+# GENERAL PRODUCT DESIGN KNOWLEDGE
+cognitive_biases:
+  task_id: "cognitive_biases"
+  description: >
+    Understand and apply knowledge of cognitive biases:
+    1. Bias identification in user behavior
+    2. Design pattern implications
+    3. Testing for bias effects
+    4. Mitigation strategies
+    5. Ethical considerations
+  expected_output: >
+    A cognitive bias guide containing:
+    - Bias catalog relevant to design
+    - Detection methods
+    - Design implications
+    - Mitigation techniques
+    - Case studies
+    Formatted as markdown reference guide
+  materials:
+    - "cognitive_biases.md"
+  agent: design_educator
+
+b2b_design:
+  task_id: "b2b_design"
+  description: >
+    Design for B2B/enterprise contexts considering:
+    1. Complex user hierarchies
+    2. Procurement processes
+    3. Integration requirements
+    4. Security and compliance
+    5. Change management
+  expected_output: >
+    A B2B design guide containing:
+    - Stakeholder mapping
+    - User role matrix
+    - Feature prioritization
+    - Implementation roadmap
+    - Success metrics
+    Formatted as markdown enterprise guide
+  task_guide:
+    - "b2b_design.md"
+  agent: design_educator
+
+economics_for_designers:
+  task_id: "economics_for_designers"
+  description: >
+    Apply economic principles to design:
+    1. Value creation mechanisms
+    2. Incentive design
+    3. Behavioral economics
+    4. Network effects
+    5. Pricing psychology
+  expected_output: >
+    An economics primer containing:
+    - Core concepts explained
+    - Design applications
+    - Case studies
+    - Framework templates
+    - Reading list
+    Formatted as markdown educational guide
+  task_guide:
+    - "economics_for_designers.md"
+  agent: design_educator
