@@ -342,7 +342,6 @@ Remember that prompt engineering is iterative—your first attempt may be too ge
 The investment in learning these techniques pays dividends through more efficient AI interactions, higher-quality outputs, and reduced time spent on revisions. As AI capabilities continue to evolve, strong prompting skills become increasingly valuable for maximizing the potential of these powerful tools.
 
 ## References
-- Best Practices for Prompt Creation (PDF source)
-- 6-Step Prompt Formula (Image sources)
+
 - Prompt Templates Registry (materials/prompt_templates_registry.md)
 - "47. Ingeniería de prompts y ChatGPT" - Big Data e Inteligencia Artificial Podcast

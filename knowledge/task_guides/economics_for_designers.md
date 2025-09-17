@@ -190,7 +190,6 @@ Behavioral economics explains how people actually make decisions—not as ration
 ---
 
 ## #references
-- Notion: [Economic Fundamentals](https://www.notion.so/jmlusiardo/Economic-Fundamentals-8071cf27802b4a958db30a9afd0b6a01)  
 - Anderson, J. [The Economics of Good Design](https://medium.com/design-bootcamp/the-economics-of-good-design-2eea6de51d34)  
 - Bridgeable. [The Top 5 Behavioural Economics Principles for Designers](https://www.bridgeable.com/ideas/the-top-5-behavioural-economics-principles-for-designers/)  
 - Dulenko, V. [Design, Economics and Two Types of Thinking](https://uxplanet.org/design-economics-and-two-types-of-thinking-73cccaaf7a1b)

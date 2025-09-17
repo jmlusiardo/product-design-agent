@@ -112,6 +112,3 @@ Full report to follow; readout scheduled on .
 - Charts: simple bar/line charts for success, errors/confusions, time; per-task Likert visuals for satisfaction.  
 - Assets: annotated screenshots; session clips for pivotal moments.  
 - Cross-reference: task list, questionnaires, and plan in `usability_testing.md` rather than duplicating content here.
-
-## References
-- Usability testing: https://www.notion.so/f20f667bd32048779aaa31eb7e4a19f5

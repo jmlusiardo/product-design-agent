@@ -129,4 +129,3 @@
   - Shopify UX — Just enough context: https://ux.shopify.com/just-enough-context-93eb559ce4ae
   - NN/g — Onboarding New Hires: https://www.nngroup.com/articles/onboarding-new-hires/
   - “It’s OK to Say What’s OK”: https://gds.blog.gov.uk/2016/05/25/its-ok-to-say-whats-ok/
-- Assessing your organization type (outside‑in characteristics): (internal PDF export)

@@ -185,5 +185,5 @@
 - Address relationship concerns proactively
 
 ## References
-- What Can You Do When You Have No Access To Users? by H Locke: https://medium.com/@h_locke/what-can-you-do-when-you-have-no-access-to-users-195c18b4fc1
+
 - 5 ideas for user research when you can't talk to users by Chris Myhill: https://www.pixelfridge.com/latest/5-ideas-for-user-research-when-you-cant-talk-to-users/

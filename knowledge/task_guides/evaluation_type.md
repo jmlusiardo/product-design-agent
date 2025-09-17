@@ -133,15 +133,8 @@
 - **Sampling (statistics)** — Wikipedia.  
   https://en.wikipedia.org/wiki/Sampling_(statistics)
 
-#references
-- What I want to understand? — https://www.notion.so/What-I-want-to-understand-aa264a65647c46ebb35af3a2d65bd22f?pvs=21
-- Which are the initial assumptions / principles / theories? — https://www.notion.so/Which-are-the-initial-assumptions-Which-principles-or-theories-you-want-to-apply-4301790b37c64aef845f1ac48099aaa7?pvs=21
-- Which type of evaluation it will be? — https://www.notion.so/Which-type-of-evaluation-it-will-be-What-I-am-trying-to-find-about-the-rest-is-noise-1446a4803680469388784cd769f75fe9?pvs=21
-- How many individuals or groups will I need? Who to choose? — https://www.notion.so/How-many-individuals-or-groups-I-will-need-for-the-study-Who-am-I-going-to-choose-bb851ad7473c46979c96cc491237c6d9?pvs=21
-- Which prior knowledge or experience do they have? — https://www.notion.so/Which-prior-knowledge-or-experience-they-have-on-that-device-or-in-that-application-or-with-simila-713ab0402bc24f09a283d7aea381f84b?pvs=21
-- Which products or services will they interact with? — https://www.notion.so/Which-are-the-products-or-services-they-will-have-to-interact-with-5cd428a1a798479a896feeaff87534e3?pvs=21
-- Which tasks or activities will they perform? — https://www.notion.so/Which-are-the-tasks-or-activities-they-will-make-c9c8108fa23a49a295ccb837c4cef766?pvs=21
-- To what will I compare the results? — https://www.notion.so/To-what-I-will-be-comparing-the-results-3108ec664542464aa9f6d4d3edb992dd?pvs=21
+## References
+
 - Contingency table — https://en.wikipedia.org/wiki/Contingency_table
 - Repeated-Measures ANOVA calculator — https://www.socscistatistics.com/tests/anovarepeated/default.aspx
 - Sampling (statistics) — https://en.wikipedia.org/wiki/Sampling_(statistics)

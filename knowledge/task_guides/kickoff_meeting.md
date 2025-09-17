@@ -265,9 +265,3 @@ A well-executed kickoff meeting sets the foundation for project success. It ensu
 3. Frame the design challenge properly to drive toward impact
 4. Document everything and follow up promptly
 5. Be willing to identify poor fits early and decline if necessary
-
----
-
-## References
-- Kickoff Meeting Guide: https://www.notion.so/257925bc111d4c0bbb2a394ac67f9174
-- Kickoff Questionnaire Database: https://www.notion.so/39d632d41413457a8ebd0c9ea720b899

@@ -331,7 +331,6 @@
   Yes — if everyone uses the same virtual whiteboard.
 
 ## References  
-- Brainstorm — Design Bridges (Medium): https://medium.com/design-bridges/brainstorm-79e51f20f313  
 - The Six Thinking Hats (Edward de Bono): https://lo.unisa.edu.au/pluginfile.php/916819/mod_book/chapter/100453/The%20Six%20Thinking%20Hats.pdf  
 - How to run a successful product design workshop — Intercom: https://www.intercom.com/blog/running-design-workshops/  
 - Ideation for Everyday Design Challenges — NN/g: https://www.nngroup.com/articles/ux-ideation/  

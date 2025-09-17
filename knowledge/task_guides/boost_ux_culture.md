@@ -188,7 +188,3 @@ Foster UX culture as "holy grail" where innovation thrives, outside-in thinking 
 ## Cross-Guide Linkage (Your Repo)
 
 - **Stakeholder Management** (`stakeholder_management.md`): Use for understanding stakeholder priorities, mapping influence networks, and building strategic relationships; reference during **Phase 1: Foundation Building** and ongoing culture transformation efforts.
-
-## References
-- Creating a great UX Culture: https://www.notion.so/4d2c925e7e724c93975cc465a57f13f4
-- How to Boost UX in a Company With Low UX Maturity: https://www.notion.so/jmlusiardo/18e2958ed78a8028bbe2e634f9541d91

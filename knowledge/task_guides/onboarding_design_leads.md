@@ -176,7 +176,3 @@
   **A:** PMs, Eng Leads, CS/Sales partners, adjacent Design Leads/Senior Designers.
 - **Q:** How often should usability testing occur?
   **A:** Regularly and consistently—make it as reliable as clockwork and integrate with sprint/backlog planning.
-
-## References
-- From senior designer to design lead – your first 90 days: https://www.notion.so/2202958ed78a80e489b7e6370888cdbd
-- Assessing your organization type: https://www.notion.so/aba322e0a89047d18310e682da6f3a76

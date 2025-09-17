@@ -143,9 +143,6 @@ Common project situations and their implications:
 
 ## References
 
-- Setting the UX Strategy: https://www.notion.so/5c5b6bac265747a587013fd61376fa98  
-- Defining the Project Type: https://www.notion.so/400de2e235424ea3b968d0bd71b5cc0
-- UX Evangelization Resources:  
-  - https://www.uxmatters.com/mt/archives/2009/03/evangelizing-ux-across-an-entire-organization.php  
-  - https://www.nngroup.com/articles/evangelizing-usability/  
-  - http://boxesandarrows.com/pioneering-a-user-experience-ux-process/  
+- https://www.uxmatters.com/mt/archives/2009/03/evangelizing-ux-across-an-entire-organization.php  
+- https://www.nngroup.com/articles/evangelizing-usability/  
+- http://boxesandarrows.com/pioneering-a-user-experience-ux-process/  

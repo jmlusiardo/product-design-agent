@@ -128,9 +128,6 @@ This guide provides a structured process for creating effective user personas th
 ---
 
 ## References
-- User Personas: https://www.notion.so/ac96f0bad91a4a6bb3e04f2dd339c0da
-- Persona template (Notion link): https://www.notion.so/signed/...persona-template.pdf  
-- Persona interview template (Notion link): https://www.notion.so/signed/...Persona_Interview_Template.docx  
 - Smashing Magazine: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/  
 - Smashing Magazine: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/  
 - Marvel Blog: https://blog.marvelapp.com/replacing-personas-characters/  

@@ -312,6 +312,5 @@ See `materials/product_metrics_list.csv` for definitions, formulas, and category
 
 ## References
 
-- Design KPIs: https://www.notion.so/jmlusiardo/18e2958ed78a80c8ac70e80c90b1cd49
 - System Usability Scale: https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html
 - WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/

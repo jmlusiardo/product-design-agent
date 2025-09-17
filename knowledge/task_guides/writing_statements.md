@@ -104,7 +104,7 @@ but [restriction/obstacle/friction]."
 ---
 
 ## References
-- Writing statements: https://www.notion.so/e6a1ad1ea6094e31bed217ee3ac3b3de
+
 - How to build a problem statement — EightShapes: https://medium.com/eightshapes-llc/how-to-build-a-problem-statement-d1f21713720b  
 - Problem statement — Wikipedia: https://en.wikipedia.org/wiki/Problem_statement  
 - Stage 2 in the Design Thinking Process — Interaction Design Foundation: https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results  

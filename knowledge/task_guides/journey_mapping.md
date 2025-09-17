@@ -129,7 +129,5 @@
 ---
 
 ## References
-- Customer Journey Maps: https://www.notion.so/495aec05f760440a98685781f2a448fc
-- Event Storming: https://www.notion.so/18d2958ed78a8059bddcd1963c285a35
 - https://www.eventstorming.com/  
 - https://selleo.com/blog/how-to-run-your-first-event-storming-session  

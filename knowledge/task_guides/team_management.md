@@ -274,8 +274,6 @@ Design leaders must answer how UX initiatives contribute to:
 
 ## References
 
-- Managing UX Teams: https://www.notion.so/c95bfaeb2c3646b9aa27656980230f21
-- How design can contribute to profit: https://www.notion.so/jmlusiardo/How-design-can-contribute-to-profit-18e2958ed78a801586d4ed724e5af648
 - The need to think and talk like an executive: https://articles.centercentre.com/the-need-to-think-and-talk-like-an-executive/
 - UX Team Management Leadership: https://uxcel.com/guides/ux-team-management/leadership
 - The guiding principles of high-performing UX teams: https://uxdesign.cc/the-guiding-principles-of-high-performing-ux-teams-517a735280b0

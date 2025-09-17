@@ -98,6 +98,3 @@
   - Pre-Test Questionnaire (SkyTeam PDF)
   - Post-Test Questionnaire (SkyTeam PDF)
 - Related guide: `reporting_test_results.md` (for reporting usability test results). 
-
-## References
-- Usability testing: https://www.notion.so/f20f667bd32048779aaa31eb7e4a19f5

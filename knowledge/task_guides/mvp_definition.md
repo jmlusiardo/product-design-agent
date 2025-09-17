@@ -193,7 +193,6 @@
 ---
 
 ## References
-- Minimum Usable Experience — Notion: https://www.notion.so/jmlusiardo/Minimum-Usable-Experience-8169c8eacae74a1b9fe086e990514ff6
 - MVP, POC, or Prototype — Rohit Verma (Medium): https://rohitverma141.medium.com/mvp-poc-or-prototype-which-one-should-you-choose-for-your-next-product-0997b88e428b
 - El MVP ha muerto, larga vida al MAP — Productea (Medium): https://medium.com/productea/el-mvp-ha-muerto-larga-vida-al-map-596987f37de4
 - Unveiling the Power of MVE — Moatazsamy (Medium): https://medium.com/@moatazsamy122/unveiling-the-power-of-minimum-viable-experience-mve-657b8a153532

@@ -125,7 +125,6 @@
 
 ## References
 - How to present to executives — Irrational Exuberance: https://lethain.com/present-to-executives/
-- How to present to executives: https://www.notion.so/jmlusiardo/18e2958ed78a80e1bbe1fdf901c33f3d
 - The Pyramid Principle (Barbara Minto) — book page: https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516/
 - Nemawashi (Toyota Production System) — explainer: https://blog.toyota.co.uk/nemawashi-toyota-production-system
 - Staying Aligned with Authority (contextual guide mentioned): https://staffeng.com/guides/staying-aligned-with-authority

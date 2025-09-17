@@ -313,10 +313,8 @@ Remember: No framework replaces good judgment, user research, and continuous val
 
 ## References
 
-- Effort vs. Impact matrix: https://www.notion.so/jmlusiardo/Effort-vs-Impact-matrix-18e2958ed78a80be9e1ee2644b01dbe3
 - Impact-Effort Matrix Guide: https://untools.co/impact-effort-matrix/
 - Effort vs. Value curves: https://www.notion.so/jmlusiardo/Effort-vs-Value-curves-18e2958ed78a808f8129e7956078bdbf
-- How to choose the right idea (Kano Model): https://www.notion.so/jmlusiardo/How-to-choose-the-right-idea-Kano-Model-0cff1e7feaba4a2faf8b4f2e764421a2
 - Critical Assessment of the Kano Model, Part 1: https://quantuxblog.com/critical-assessment-of-the-kano-model-part-1
 - Critical Assessment of the Kano Model, Part 2: https://quantuxblog.com/critical-assessment-of-the-kano-model-part-2
 - The Complete Guide to the Kano Model (Zacarias): https://foldingburritos.com/blog/kano-model/

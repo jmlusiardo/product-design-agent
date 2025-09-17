@@ -134,4 +134,3 @@
 - The flipped meeting model: https://async.twist.com/flipped-meeting-model/
 - You can't just cancel 76,500 hours of meetings: https://async.twist.com/async-isnt-just-a-lack-of-meetings/
 - Jasper Polak: Meeting checklist thread: https://twitter.com/polak_jasper/status/1621864657228021761
-- Better meetings: https://www.notion.so/jmlusiardo/18e2958ed78a8094b9cbf95b65274787

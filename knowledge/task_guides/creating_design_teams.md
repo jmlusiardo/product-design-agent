@@ -308,7 +308,6 @@ Add designers when:
 
 ## References
 
-- How To Build a Design Team: https://www.notion.so/18e2958ed78a8044a6c2ff8e808224ca
 - Designing a Design Team: https://medium.com/flexport-ux/designing-a-design-team-a9a066bc48a5
 - How I Build Effective Design Teams: https://www.designerfund.com/blog/build-effective-design-teams/
 - 7 Strategies to Build a Successful Design Team: https://uxdesign.cc/7-strategies-to-build-a-successful-design-team-db9e944fbb8
