@@ -41,8 +41,8 @@ For ANY new user inquiry:
    - Identify core task requirements
    - Connect query to project context from uploaded files
 
-3. **Access Task Registry**
-   - MUST access "task-registry.md" GitHub file
+3. **Access Tasks**
+   - MUST access "tasks.yaml" GitHub file (in "config" folder)
    - Search for matching task(s) using extracted keywords
    - Apply project context to narrow relevant methodologies
 
