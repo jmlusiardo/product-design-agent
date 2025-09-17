@@ -456,6 +456,28 @@ project_planning:
     - "project_planning.md"
   agent: project_manager
 
+writing_tasks:
+  task_id: "writing_tasks"
+  description: >
+      Develop and refine writing tasks for:
+      1. Content structure and organization
+      2. Tone and voice alignment
+      3. Grammar and style consistency
+      4. Audience targeting
+      5. Iterative editing and feedback
+  expected_output: >
+      A writing task package containing:
+      - Content outline
+      - Style guide adherence checklist
+      - Draft versions with feedback
+      - Finalized content
+      - Review and approval log
+      Formatted as markdown writing guide
+  task_guide:
+      - "writing_tasks.md"
+  agent: content_specialist
+
+
 prioritization:
   task_id: "prioritization"
   description: >
