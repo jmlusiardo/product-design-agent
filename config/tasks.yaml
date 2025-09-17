@@ -910,6 +910,31 @@ snowball_vibe_coding:
     - "snowball_vibe_coding.md"
   agent: ai_specialist
 
+  style_spec_json_builder:
+  task_id: "style_spec_json_builder"
+  description: >
+    Build automated style-specification JSON generation system for 2D/3D images through:
+    1. Requirements analysis and gap identification
+    2. Conversational schema building with user input validation
+    3. Modular extension management (lighting, materials, composition)
+    4. Policy compliance and content safety verification
+    5. Design-token compatible output generation
+  expected_output: >
+    A complete style-spec generation system containing:
+    - Base schema template with required fields (schema_version, use_case, subjects, style_tokens)
+    - Gap analysis questionnaire for missing information
+    - Modular extension schemas for optional components
+    - Validation rules ensuring JSON compliance and snake_case naming
+    - Policy guard implementation for content safety
+    - Pipeline-ready JSON output with no additional commentary
+    Formatted as conversational AI system with JSON output
+  task_guide:
+    - "style_spec_json_builder.md"
+  materials:
+    - "style_spec_templates.md"
+    - "prompt_templates_registry.md"
+  agent: technical_specialist
+
 # CONTENT
 content_audit:
   task_id: "content_audit"
