@@ -1,13 +1,13 @@
 # Product Design Assistant
 
-An open-source AI-powered mentorship system that provides expert guidance across product design, user research, UX/UI, strategy, and leadership. Built to accelerate learning through personalized, hands-on mentorship with bilingual support.
+An open-source AI-powered mentorship system that provides expert guidance across product design, user research, UX/UI, strategy, and leadership. Built to accelerate learning through personalized, hands-on mentorship with multilingual support.
 
 ## Capabilities
 
 This intelligent mentorship system:
 - **Matches queries to expert guidance** using a sophisticated task registry
 - **Provides structured, actionable resources** including guides, templates, and checklists
-- **Supports bilingual learning** (Spanish/English) with seamless context switching
+- **Supports multilingual learning** (English, Spanish, and French) with seamless context switching
 - **Accelerates professional growth** through personalized, adaptive mentorship
 - **Delivers hands-on tools** for real-world design challenges
 
@@ -18,7 +18,7 @@ This intelligent mentorship system:
 - Access to Claude Projects feature
 
 ### Using this repo in your Claude project
-1. In the project in Claude, in **Files**, click on the **+*** button and select **Github*
+1. In the project in Claude, in **Files**, click on the **+*** button and select **Github**
 2. In the modal, click on the 🔗 button, and paste this repo URL.
 3. Select **task_registry.md** file, and **task_guides** and **materials** folders.
 
@@ -31,12 +31,12 @@ Simply ask questions related to:
 - **Leadership**: "How do I boost UX culture in my organization?"
 - **Visual Design**: "Create an AI image prompt for..."
 
-Note: Currently supports English and Spanish langages.
+Note: Currently supports English, Spanish, and French languages.
 
 Examples:
 - "Create a usability test plan for a mobile app"
 - "Necesito documentar componentes de mi design system"
-- "How do I resolve conflicts between design and engineering?"
+- "Comment résoudre les conflits entre design et ingénierie ?"
 - "Onboarding checklist for new designers"
 - "Generate journey map for e-commerce checkout"
 
@@ -74,7 +74,7 @@ Examples:
 
 ## How It Works
 
-1. **Query Processing**: Extracts keywords (Spanish/English) and identifies intent
+1. **Query Processing**: Extracts keywords (English, Spanish, French) and identifies intent
 2. **Task Matching**: Searches `task_registry.md` for relevant tasks using:
    - Direct keyword matches
    - Fuzzy matching for variations
