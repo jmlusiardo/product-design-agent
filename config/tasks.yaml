@@ -1,4 +1,14 @@
+# TASK CONFIGURATION
+# Each task is defined with a unique task_id, description, expected_output, and other relevant metadata.
+# Agents are assigned to handle specific tasks based on their expertise.
+# The configuration is structured in YAML format for easy parsing and management.
+# Expected Output: Detailed description of the deliverables for each task.
+# Agent: The designated role or individual responsible for executing the task.
+# Task Guides: Markdown files providing detailed instructions for each task.
+# Materials: Supplementary resources to aid in task completion. 
+
 # ONBOARDING
+
 onboarding_design_leads:
   task_id: "onboarding_design_leads"
   description: >
