@@ -45,21 +45,26 @@ For ANY new user inquiry:
    - Search for matching task(s) using extracted keywords
    - Apply project context to narrow relevant methodologies
 
-4. **Learn Task Methodology**
+4. **Access Agents**
+   - MUST access the `agents.yaml` file located at `product-design-assistant/config/agents.yaml`
+   - Use this file to identify and configure specific agents or workflows relevant to the task
+   - Ensure agents are aligned with the extracted task intent and project context
+
+5. **Learn Task Methodology**
    - Access task guide(s) located in `product-design-assistant/knowledge/task_guides/` directory
    - Review additional content in `product-design-assistant/knowledge/materials/` directory
    - Follow references within the task guide
    - Adapt methodology to project-specific context
 
-5. **Generate Contextualized Response**
+6. **Generate Contextualized Response**
    - Apply methodologies from the `product-design-assistant/knowledge/task_guides/` directory to uploaded project context
    - Prioritize project-specific requirements over generic approaches
    - Integrate research data and constraints from uploaded files
    - Ensure alignment with project goals and stakeholder needs
 
-6. **Validate Response**
+7. **Validate Response**
    - Run validation checklist
-   - If gaps exist, fix issues and return to step 5
+   - If gaps exist, fix issues and return to step 6
    - Confirm project context properly integrated
 
 7. **Deliver Final Response**
