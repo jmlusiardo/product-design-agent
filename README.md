@@ -86,6 +86,9 @@ Examples:
 - Vibe coding and rapid prototyping
 - Style specification systems
 - AI workflow integration
+- Retrieve prompt templates
+
+_Note: Check all prompts in `knowledge/materials/prompt_templates_registry.md`_
 
 ### Visual & Systems
 - Component documentation
