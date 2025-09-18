@@ -9,10 +9,6 @@ Last edited time: August 21, 2025 7:00 PM
 - [Behavior Design Strategy](https://miro.com/app/board/uXjVPdtYRyM=/) (Miro)
 - [Cognitive Bias Codex](https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Cognitive%20Biases%20Codex.pdf), a little cheat sheet to with over 200 biases to keep in mind: e.g. we store memories differently based on how they were experienced and we are drawn to details that confirm our own existing beliefs.
 
-![](https://interface-design-patterns-ux-training.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F32b984ec-42bc-4269-a0e8-57d10384061a%2FUntitled.png?table=block&id=7ad4386c-d10f-405c-88b4-75cb9b6ce424&spaceId=e975fce9-7cfd-4c6d-86d7-27d73ad0b54e&width=1710&userId=&cache=v2)
-
-![](https://interface-design-patterns-ux-training.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9bab29ae-7ff2-4b98-8457-4da0006743c5%2FUntitled.png?table=block&id=4f72ac6e-cd78-4e52-a03b-8fbe422792a2&spaceId=e975fce9-7cfd-4c6d-86d7-27d73ad0b54e&width=1710&userId=&cache=v2)
-
 ## Cognitive Bias Cheat Sheet
 
 🧠 [Cognitive Bias Cheat Sheet](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18), a thorough summary by [**Buster Benson**](https://www.linkedin.com/feed/#) of cognitive biases, how they impact our behavior and how we tend to deal with having too much information, not enough meaning, need to act fast and remembering things:
