@@ -1,15 +1,16 @@
 # Product Design Assistant
 
-An open-source AI-powered mentorship system that provides expert guidance across product design, user research, UX/UI, strategy, and leadership. Built to accelerate learning through personalized, hands-on mentorship with multilingual support.
+An open-source AI-powered mentorship system with specialized agents providing expert guidance across product design, user research, UX/UI, strategy, AI integration, and leadership. Built to accelerate learning through personalized, hands-on mentorship with multilingual support.
 
 ## Capabilities
 
 This intelligent mentorship system:
-- **Matches queries to expert guidance** using a sophisticated task registry
+- **Matches queries to specialized agents** using a sophisticated task registry with 80+ expert tasks
 - **Provides structured, actionable resources** including guides, templates, and checklists
-- **Supports multilingual learning** (English, Spanish, and French) with seamless context switching
+- **Supports multilingual learning** (English, Spanish) with seamless context switching
 - **Accelerates professional growth** through personalized, adaptive mentorship
 - **Delivers hands-on tools** for real-world design challenges
+- **Integrates AI workflows** with specialized AI and prompt engineering guidance
 
 ## Setup in Claude
 
@@ -18,9 +19,9 @@ This intelligent mentorship system:
 - Access to Claude Projects feature
 
 ### Using this repo in your Claude project
-1. In the project in Claude, in **Files**, click on the **+*** button and select **Github**
+1. In the project in Claude, in **Files**, click on the **+** button and select **Github**
 2. In the modal, click on the 🔗 button, and paste this repo URL.
-3. Select **task_registry.md** file, and **task_guides** and **materials** folders.
+3. Select **config** folder (contains tasks.yaml and agents.yaml), **task_guides** and **materials** folders.
 
 ## How to use it
 
@@ -28,17 +29,19 @@ Simply ask questions related to:
 - **Onboarding**: "How do I onboard new design leads?"
 - **Project Framing**: "Help me run a kickoff meeting"
 - **User Research**: "I need to do UX research without user access"
+- **AI Integration**: "Optimize my AI prompts for design work"
 - **Leadership**: "How do I boost UX culture in my organization?"
 - **Visual Design**: "Create an AI image prompt for..."
 
-Note: Currently supports English, Spanish, and French languages.
+Note: Currently supports English and Spanish languages.
 
 Examples:
 - "Create a usability test plan for a mobile app"
 - "Necesito documentar componentes de mi design system"
-- "Comment résoudre les conflits entre design et ingénierie ?"
 - "Onboarding checklist for new designers"
 - "Generate journey map for e-commerce checkout"
+- "Create a vibe coding prototype"
+- "Help me prioritize features using RICE scoring"
 
 ## Current Knowledge Domains
 
@@ -50,20 +53,42 @@ Examples:
 ### Project Framing
 - Kickoff meetings
 - Initiative canvas
-- Project type strategy
+- Project planning and management
+- Requirements gathering
 
 ### Discovery & Research
 - User personas
 - Journey mapping
 - Research without user access
-- Usability testing
-- User recruitment
+- Usability testing and moderation
+- User recruitment and evaluation
+- Writing user statements and problem framing
+
+### Strategy & Planning
+- MVP definition and prioritization
+- Value proposition design
+- Business model development
+- KPI framework design
+- Brainstorming and ideation workshops
+
+### AI & Prompting
+- Prompt engineering and optimization
+- AI image prompt creation
+- Vibe coding and rapid prototyping
+- Style specification systems
+- AI workflow integration
 
 ### Visual & Systems
 - Component documentation
-- AI image prompts
 - Design token systems
 - Prototype creation
+- Visual storytelling and presentations
+
+### Content & Writing
+- Content strategy and audits
+- Writing task management
+- Documentation standards
+- Style guide development
 
 ### Leadership & Collaboration
 - Team management
@@ -71,32 +96,27 @@ Examples:
 - Hiring designers
 - Stakeholder management
 - Conflict resolution
+- Executive presentations and summaries
+- Meeting facilitation and critique
+
+### Education & Culture
+- Cognitive bias training
+- B2B design principles
+- Economics for designers
+- UX culture transformation
+- Design maturity assessment
 
 ## How It Works
 
-1. **Query Processing**: Extracts keywords (English, Spanish, French) and identifies intent
-2. **Task Matching**: Searches `task_registry.md` for relevant tasks using:
+The system operates through specialized agents, each with unique expertise:
+
+1. **Query Processing**: Extracts keywords (English, Spanish) and identifies intent
+2. **Agent Assignment**: Routes queries to specialized agents:
+   - AI Specialist, Strategy Analyst, Research Analyst, Project Manager
+   - Team Lead, Design Educator, Collaboration Facilitator, and more
+3. **Task Matching**: Searches `config/tasks.yaml` for relevant tasks using:
    - Direct keyword matches
    - Fuzzy matching for variations
    - Confidence scoring (HIGH >80%, MEDIUM 50-80%, LOW <50%)
-3. **Resource Assembly**: Accesses task guides and materials
-4. **Response Generation**: Synthesizes information into actionable guidance
-5. **Quality Validation**: Runs comprehensive checklist before delivery
-
-## How you can collaborate with this project
-
-We welcome contributions to improve any aspect of this system! Here's how you can help:
-
-### Ways to Contribute
-
-#### Quick Improvements
-1. **Open an Issue** describing the improvement
-2. **Label appropriately**: `enhancement`, `bug`, `documentation`, `new-feature`
-3. **Provide context**: What's missing? Why is it important?
-
-#### Major Contributions
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b improve-usability-testing`
-3. **Make your changes** following our conventions
-4. **Test thoroughly** across different scenarios
-5. **Submit a Pull Request** with detailed description
+4. **Resource Assembly**: Accesses 80+ task guides and specialized materials
+5. **Response Generation**: Agent-specific expertise provides contextualized, actionable guidance
