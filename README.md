@@ -41,7 +41,6 @@ Examples:
 - "Build a design system component library documentation"
 - "Map the customer journey for our SaaS onboarding"
 - "Prioritize features using RICE scoring methodology"
-- "Plan a competitive analysis for our messaging app"
 - "Design an accessibility audit checklist"
 - "Write content guidelines for our design system"
 - "Create a user research plan without direct user access"
@@ -49,9 +48,8 @@ Examples:
 - "Design KPI metrics for measuring UX success"
 - "Create onboarding materials for new design hires"
 - "Plan stakeholder workshops for feature discovery"
-- "Write effective prompts for AI image generation"
+- "Transform this image into a style JSON prompt"
 - "Create a business model canvas for our new feature"
-- "Give me a prompt to create heart button micro-interactions"
 - "Plan a design sprint for solving payment friction"
 
 ## Current Knowledge Domains
