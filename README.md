@@ -23,6 +23,8 @@ This intelligent mentorship system:
 2. In the modal, click on the 🔗 button, and paste this repo URL.
 3. Select **config** folder (contains tasks.yaml and agents.yaml), **task_guides** and **materials** folders.
 
+_Note: Any files you drop within the project will be treated as project-specific context._
+
 ## How to use it
 
 Simply ask questions related to:
@@ -33,15 +35,24 @@ Simply ask questions related to:
 - **Leadership**: "How do I boost UX culture in my organization?"
 - **Visual Design**: "Create an AI image prompt for..."
 
-Note: Currently supports English and Spanish languages.
-
 Examples:
-- "Create a usability test plan for a mobile app"
-- "Necesito documentar componentes de mi design system"
-- "Onboarding checklist for new designers"
-- "Generate journey map for e-commerce checkout"
-- "Create a vibe coding prototype"
-- "Help me prioritize features using RICE scoring"
+- "Create user personas for a fintech mobile app"
+- "Write usability testing scripts for our dashboard"
+- "Build a design system component library documentation"
+- "Map the customer journey for our SaaS onboarding"
+- "Prioritize features using RICE scoring methodology"
+- "Plan a competitive analysis for our messaging app"
+- "Design an accessibility audit checklist"
+- "Write content guidelines for our design system"
+- "Create a user research plan without direct user access"
+- "Build a design critique framework for our team"
+- "Design KPI metrics for measuring UX success"
+- "Create onboarding materials for new design hires"
+- "Plan stakeholder workshops for feature discovery"
+- "Write effective prompts for AI image generation"
+- "Create a business model canvas for our new feature"
+- "Give me a prompt to create heart button micro-interactions"
+- "Plan a design sprint for solving payment friction"
 
 ## Current Knowledge Domains
 
