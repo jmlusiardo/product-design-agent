@@ -1,4 +1,4 @@
-# Product Design Assistant
+# Product Design Agent
 
 An open-source AI-powered mentorship system with specialized agents providing expert guidance across product design, user research, UX/UI, strategy, AI integration, and leadership. Built to accelerate learning through personalized, hands-on mentorship with multilingual support.
 
