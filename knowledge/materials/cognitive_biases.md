@@ -1,43 +1,25 @@
 # Cognitive Biases
 
-Source URL: https://interface-design-patterns-ux-training.notion.site/3e71d16ff90146a9bba1de2cce6843f6?v=f479694274b340ed98d39816de91dcc6&p=db3a28f77d9142f9826c02c63e000afe&pm=s
-Last edited time: August 21, 2025 7:00 PM
+## Introduction
+As humans:
+1. We don’t see everything and overlook details.
+2. Our search for meaning conjures illusions.
+3. Quick decisions can be seriously flawed.
+4. We notice things that are repeated often.
+5. We are drawn to details that confirm our own beliefs.
+6. We fill in characteristics from stereotypes.
+7. We think we know what others are thinking.
+8. We project our assumptions onto the past and future.
+9. We tend to avoid irreversible decisions.
+10. We edit and reinforce some memories after the fact.
+11. We favor the immediate, relatable thing in front of us.
+12. We reduce events and lists to their key elements.
 
-## Cognitive Biases
+## All Cognitive Biases
 
-- [50 biases with visual examples](https://miro.com/app/board/uXjVP5oxtYw=/) (Miro)
-- [Behavior Design Strategy](https://miro.com/app/board/uXjVPdtYRyM=/) (Miro)
-- [Cognitive Bias Codex](https://www.sog.unc.edu/sites/www.sog.unc.edu/files/course_materials/Cognitive%20Biases%20Codex.pdf), a little cheat sheet to with over 200 biases to keep in mind: e.g. we store memories differently based on how they were experienced and we are drawn to details that confirm our own existing beliefs.
+To access all cognitive biases, please check `/knowledge/materials/cognitive_biases_list.csv`
 
-## Cognitive Bias Cheat Sheet
-
-🧠 [Cognitive Bias Cheat Sheet](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18), a thorough summary by [**Buster Benson**](https://www.linkedin.com/feed/#) of cognitive biases, how they impact our behavior and how we tend to deal with having too much information, not enough meaning, need to act fast and remembering things:
-
-✅ We don’t see everything and overlook details.
-
-✅ Our search for meaning conjures illusions.
-
-✅ Quick decisions can be seriously flawed.
-
-✅ We notice things that are repeated often.
-
-✅ We are drawn to details that confirm our own beliefs.
-
-✅ We fill in characteristics from stereotypes.
-
-✅ We think we know what others are thinking.
-
-✅ We project our assumptions onto the past and future.
-
-✅ We tend to avoid irreversible decisions.
-
-✅ We edit and reinforce some memories after the fact.
-
-✅ We favor the immediate, relatable thing in front of us.
-
-✅ We reduce events and lists to their key elements.
-
-## Useful resources
+## References
 
 - [Behavioural Insights Cookbook](https://www.coglode.com/cookbook), by [**Jerome Ribot**](https://www.linkedin.com/feed/#)
 - [Behavioral Design System in Figma](https://www.coglode.com/figma), by Coglode
