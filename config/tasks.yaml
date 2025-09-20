@@ -243,8 +243,10 @@ usability_test_recruiting:
     - "recruiting_users.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
-  materials:
     - "cognitive_biases.md"
+  materials:
+    - "cognitive_biases_list.csv"
+    
   agent: research_analyst
 
 usability_test_planning:
@@ -270,9 +272,10 @@ usability_test_planning:
     - "usability_testing.md"
     - "data_information_knowledge.md"
     - "usability_testing_userbrain.md"
-  materials:
     - "cognitive_biases.md"
+  materials:
     - "product_metrics_list.csv"
+    - "cognitive_biases_list.csv"
   agent: research_analyst
 
 usability_test_moderation:
@@ -296,8 +299,9 @@ usability_test_moderation:
     - "moderating_usability_test.md"
     - "usability_testing.md"
     - "data_information_knowledge.md"
-  materials:
     - "cognitive_biases.md"
+  materials:
+    - "cognitive_biases_list.csv"
   agent: research_analyst
 
 usability_test_reporting:
@@ -321,9 +325,10 @@ usability_test_reporting:
     - "reporting_test_results.md"
     - "data_information_knowledge.md"
     - "usability_testing.md"
-  materials:
     - "cognitive_biases.md"
+  materials:
     - "product_metrics_list.csv"
+    - "cognitive_biases_list.csv"
   agent: research_analyst
 
 measure_ux:
@@ -977,8 +982,10 @@ cognitive_biases:
     - Mitigation techniques
     - Case studies
     Formatted as markdown reference guide
-  materials:
+  task_guide:
     - "cognitive_biases.md"
+  materials:
+    - "cognitive_biases_list.csv"
   agent: design_educator
 
 b2b_design:
