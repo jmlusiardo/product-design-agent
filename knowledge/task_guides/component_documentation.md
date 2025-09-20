@@ -414,19 +414,19 @@ Container for navigation links
   - [Base Web: Header Navigation](https://baseweb.design/components/header-navigation/)
   - [Base Web: Side Navigation](https://baseweb.design/components/side-nav/)
 
-### Accordion
+#### Accordion
 Collapsible content sections
 - **References:**
   - [Component Gallery: Expandable Content](https://component.gallery/components/accordion/)
   - [UI Guidelines: Space-efficient Display](https://www.uiguideline.com/components/accordion/anatomy)
   - [Base Web: Expandable Sections](https://baseweb.design/components/accordion/)
 
-### Drawer
+#### Drawer
 Sliding panel from screen edge
 - **References:**
   - [Component Gallery: Sliding Animations](https://component.gallery/components/drawer/)
 
-### Bottom Sheet
+#### Bottom Sheet
 Mobile overlay for secondary actions
 - **References:**
   - [Component Gallery: Mobile Patterns](https://component.gallery/components/bottom-sheet/)
@@ -539,6 +539,8 @@ Loading placeholder layouts
   - [UI Guidelines: Content Placeholders](https://www.uiguideline.com/components/skeleton/anatomy)
 
 ### Other references
+
+Search the following references to complement the component documentation or to find additional guidelines not covered in this document.
 
 #### Design systems
 1. Wise: https://www.wise.design/
