@@ -115,6 +115,57 @@ project_type_strategy:
     - "project_type_strategy.md"
   agent: strategy_analyst
 
+product_requirements_document:
+  task_id: "product_requirements_document"
+  description: >
+    Create comprehensive Product Requirements Document covering:
+    1. Executive summary and strategic alignment
+    2. Problem statement and market opportunity
+    3. User requirements and story development
+    4. Functional and technical specifications
+    5. UX and non-functional requirements
+    6. Success metrics and analytics implementation
+    7. Implementation planning and risk assessment
+    8. Stakeholder review and approval process
+  expected_output: >
+    A complete PRD package containing:
+    - Executive summary with vision and resource needs
+    - Detailed problem statement with quantified impact
+    - User personas, journeys, and story backlog
+    - Prioritized feature specifications with acceptance criteria
+    - Technical architecture and API requirements
+    - UX guidelines and accessibility specifications
+    - KPI framework and measurement plan
+    - Implementation timeline with risk mitigation
+    - Quality checklist and stakeholder sign-off
+    Formatted as structured markdown document
+  task_guide:
+    - "product_requirements_document.md"
+  materials:
+    - "prompt_templates_registry.md"
+  agent: requirements_analyst
+
+requirements_gathering:
+  task_id: "requirements_gathering"
+  description: >
+    Systematically gather and synthesize requirements through:
+    1. Stakeholder interview planning and execution
+    2. Business objective and constraint analysis
+    3. User research data synthesis
+    4. Technical requirement validation
+    5. Cross-functional alignment sessions
+  expected_output: >
+    A requirements package containing:
+    - Stakeholder interview summaries
+    - Business requirements matrix
+    - User need prioritization
+    - Technical constraint documentation
+    - Requirements traceability matrix
+    Formatted as markdown requirements report
+  task_guide:
+    - "requirements_gathering.md"
+  agent: requirements_analyst
+
   # DISCOVERY
 writing_statements:
   task_id: "writing_statements"
