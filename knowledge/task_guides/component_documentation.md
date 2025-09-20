@@ -101,8 +101,6 @@ Specific writing guidelines for text content within the component.
 - [specific guideline]
 - [formatting requirement]
 
-```markdown
-
 ### 3. Usage Guidelines
 **Structure:**
 ```markdown
@@ -166,7 +164,6 @@ Vue
 Angular  
 - [Specific implementation notes]  
 
-```markdown
 ### 6. Design Specifications
 **Structure:**
 ```markdown
