@@ -83,7 +83,7 @@ Description of when and how to use this variant.
 
 ### 3. Usage Guidelines
 **Structure:**
-```markdown
+
 ## Usage Guidelines
 
 ### Best Practices
