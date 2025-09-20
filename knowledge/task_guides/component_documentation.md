@@ -40,11 +40,14 @@
 Use this template as the foundation for all component documentation unless specific requirements dictate otherwise.
 
 ### 1. Component Overview
-**Structure:**
+
+#### Component Overview Structure
 ```markdown
-## [Component Name]
+# [Component Name]
 
 Brief description (1-2 sentences) explaining what the component does and its primary purpose.
+
+## Overview
 
 ### When to use
 - Bullet point list of specific use cases
@@ -55,13 +58,13 @@ Brief description (1-2 sentences) explaining what the component does and its pri
 - Situations to avoid
 - Alternative components to consider instead
 - Common anti-patterns
+```
 
----
-
-## Anatomy
-
+### 2. Anatomy
 Visual breakdown of component structure with labeled parts.
 
+#### Anatomy Structure
+```markdown
 ## Variants
 
 ### [Variant Name]
@@ -78,11 +81,12 @@ Description of when and how to use this variant.
 - Disabled
 - Error
 - Loading (if applicable)
-
 ```
 
 ### 3. Usage Guidelines
-**Structure:**
+
+#### Usage Guidelines Structure
+
 ```markdown
 ## Usage Guidelines
 
@@ -100,7 +104,13 @@ Specific writing guidelines for text content within the component.
 - be [specific constraint]
 - [specific guideline]
 - [formatting requirement]
+```
 
+### Accessibility
+
+### Accessibility Structure
+
+```markdown
 ## Accessibility
 
 ### Keyboard Navigation
@@ -117,10 +127,11 @@ Specific writing guidelines for text content within the component.
 - Minimum contrast ratios met
 - Focus indicators visible
 - Supports user font size preferences
+```
 
-## Implementation
+### Implementation
 
-### Implementation Structure
+#### Implementation Structure
 
 ```markdown
 ## Implementation
@@ -143,9 +154,11 @@ Vue
 
 Angular  
 - [Specific implementation notes]  
+```
 
-### 6. Design Specifications
-**Structure:**
+## 6. Design Specifications
+
+#### Design Specifications Structure
 ```markdown
 ## Design Specifications
 
