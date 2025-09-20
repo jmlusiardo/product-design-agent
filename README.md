@@ -19,12 +19,14 @@ This intelligent mentorship system:
 - Claude account (Pro or Team recommended for optimal performance)
 - Access to Claude Projects feature
 
-### Using this repo in your Claude project
-1. In the project in Claude, in **Files**, click on the **+** button and select **Github**
+### How to install this agent in your Claude project
+Create a new project in Claude and: 
+1. In **Files**, click on the **+** button and select **Github**
 2. In the modal, click on the 🔗 button, and paste this repo URL.
-3. Select **config** folder (contains tasks.yaml and agents.yaml), **task_guides** and **materials** folders.
+3. Add **config** and **knowledge** folders, as well as **README.md** file.
+4. In **assets**, you can find **instructions.md** file, which are the instructions you need to paste in Claude project.
 
-_Note: Any files you drop within the project will be treated as project-specific context._
+_Note: Any files you drop within the Claude project which aren't from Github will be treated as project-specific context._
 
 ## For New Users
 
