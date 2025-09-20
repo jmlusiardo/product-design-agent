@@ -79,27 +79,7 @@ Description of when and how to use this variant.
 - Error
 - Loading (if applicable)
 
-```markdown
-
-### 3. Usage Guidelines
-**Structure:**
-
-## Usage Guidelines
-
-### Best Practices
-- [ ] Do: Specific actionable guideline
-- [ ] Do: Another best practice
-- [ ] Don't: What to avoid
-- [ ] Don't: Another anti-pattern
-
-### Content Guidelines
-Specific writing guidelines for text content within the component.
-
-#### [Content Element] (e.g., Label, Description, Button Text)
-[Content element] copy should:
-- be [specific constraint]
-- [specific guideline]
-- [formatting requirement]
+```
 
 ### 3. Usage Guidelines
 **Structure:**
@@ -222,7 +202,7 @@ Design System Documentation/
 │       └── Divider
 └── Patterns/
 
-```markdown
+```
 
 ---
 
