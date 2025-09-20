@@ -7,8 +7,32 @@
 # Task Guides: Markdown files providing detailed instructions for each task.
 # Materials: Supplementary resources to aid in task completion. 
 
-# ONBOARDING
+# PRODUCT DESIGN AGENT TRAINING AND ONBOARDING
+agent_onboarding_guide:
+  task_id: "agent_onboarding_guide"
+  description: >
+    Provide comprehensive onboarding for users new to the product design agent through:
+    1. Complete task catalog with explanations
+    2. Capability discovery and navigation
+    3. Use case examples and getting started guidance
+    4. Agent detection of onboarding needs
+    5. Progressive learning path recommendations
+  expected_output: >
+    A comprehensive onboarding package containing:
+    - Complete annotated task catalog (80+ tasks)
+    - Task categorization with use case examples
+    - Getting started workflow and examples
+    - Progressive learning recommendations
+    - Quick reference guides for common needs
+    Formatted as interactive markdown guide
+  task_guide:
+    - "agent_onboarding_guide.md"
+  materials:
+    - "agent_task_catalog.md"
+    - "onboarding_triggers.md"
+  agent: onboarding_specialist
 
+# ONBOARDING
 onboarding_design_leads:
   task_id: "onboarding_design_leads"
   description: >
@@ -166,7 +190,7 @@ requirements_gathering:
     - "requirements_gathering.md"
   agent: requirements_analyst
 
-  # DISCOVERY
+# DISCOVERY
 writing_statements:
   task_id: "writing_statements"
   description: >
@@ -297,7 +321,6 @@ usability_test_recruiting:
     - "cognitive_biases.md"
   materials:
     - "cognitive_biases_list.csv"
-    
   agent: research_analyst
 
 usability_test_planning:
@@ -427,7 +450,7 @@ ux_audit:
     - "data_information_knowledge.md"
   agent: research_analyst
 
-  # STRATEGY
+# STRATEGY
 mvp_definition:
   task_id: "mvp_definition"
   description: >
@@ -532,7 +555,6 @@ writing_tasks:
   task_guide:
       - "writing_tasks.md"
   agent: content_specialist
-
 
 prioritization:
   task_id: "prioritization"
@@ -900,7 +922,7 @@ executive_summary:
     - "executive_summary.md"
   agent: collaboration_facilitator
 
-  # PROMPTS AND VIBE CODING
+# PROMPTS AND VIBE CODING
 prompt_minification:
   task_id: "prompt_minification"
   description: >
