@@ -379,3 +379,11 @@ Content inventories integrate with these organizational processes:
 - **Information Architecture Design**: Content relationships guide navigation and structure decisions
 - **User Experience Research**: Content gaps and usage patterns support UX hypothesis formation
 - **SEO Strategy**: Content performance data drives optimization priorities
+
+---
+
+## References
+- How to Create a Comprehensive Content Inventory, by Alefor1: https://medium.com/@alefor1/how-to-create-a-comprehensive-content-inventory-639225db58c4
+- Content Inventory and Auditing 101, by Anna Kaley: https://www.nngroup.com/articles/content-audits/
+- Content inventories, by Emma Gould: https://theuxcookbook.com/content-inventories
+- A Designer’s Guide to Content Inventory, UXPin: https://www.uxpin.com/studio/blog/content-inventory/
