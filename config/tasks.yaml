@@ -1061,6 +1061,31 @@ content_audit:
     - "content_audit_checklist.csv"
   agent: content_specialist
 
+content_inventory:
+  task_id: "content_inventory"
+  description: >
+    Create comprehensive content inventories to catalog digital assets:
+    1. Content asset identification and collection
+    2. Structured data organization and categorization
+    3. Metadata capture and tagging systems
+    4. Gap analysis and redundancy identification
+    5. Foundation for content strategy and audits
+  expected_output: >
+    A complete content inventory containing:
+    - Systematic content catalog with metadata
+    - Asset categorization and tagging structure
+    - Content gaps and redundancy analysis
+    - Recommendations for content optimization
+    - Implementation roadmap
+    Formatted as structured spreadsheet with analysis report
+  task_guide:
+    - "content_inventory.md"
+  materials:
+    - "content_inventory_templates.csv"
+    - "content_audit_checklist_EN.csv"
+    - "content_audit_checklist_ES.csv"
+  agent: content_specialist
+
 # GENERAL PRODUCT DESIGN KNOWLEDGE
 cognitive_biases:
   task_id: "cognitive_biases"
