@@ -405,6 +405,30 @@ usability_test_reporting:
     - "cognitive_biases_list.csv"
   agent: research_analyst
 
+survey_design:
+  task_id: "survey_design"
+  description: >
+    Design and implement effective user feedback surveys through:
+    1. Survey planning and goal definition
+    2. Question design using validated question types
+    3. Response rate optimization strategies
+    4. Implementation and deployment methods
+    5. Analysis framework and follow-up planning
+  expected_output: >
+    A complete survey package containing:
+    - Survey planning document with clear objectives
+    - Structured questionnaire with appropriate question types
+    - Implementation strategy with platform recommendations
+    - Response rate optimization plan
+    - Analysis framework and success metrics
+    - Privacy and transparency guidelines
+    Formatted as markdown survey specification
+  task_guide:
+    - "ux_survey_design.md"
+  materials:
+    - "user_feedback_questions.md"
+  agent: research_analyst
+
 measure_ux:
   task_id: "measure_ux"
   description: >
