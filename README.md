@@ -7,6 +7,7 @@ By combining specialized sub-agents with structured tasks and comprehensive guid
 2. **Provides consultation/advice on diverse topics**: New project onboarding, project framing, product discovery, project planning, project management, user research, product strategy, user experience design, user interface design,  design leadership, design collaboration, prompts, vibe coding, and more.
 3. **Provides structured, actionable resources**: surveys, test plans, component or process guides, checklists, etc
 4. **Auto-detects project-specific data**: Have project-specific information? Add or connect it to the Claude project _Files_ folder, and it will be understood as context you can reference in future queries.
+5. **Add user preferences** Want to save personal preferences, or add additional settings? Create a file named `user_preferences`, add your stuff and upload it to _Files_ folder. The system will detect and consider it while executing tasks or attending your inquiries.
 
 ## Setup in Claude
 Note: You need [Claude Pro subscription](https://claude.com/pricing) to use _Projects_ feature.
