@@ -50,16 +50,11 @@ This intelligent mentorship system:
 2. **Click the "+" button** to add content
 3. **Select "Upload from GitHub"**:
    - Click the 🔗 **chain link button** in the upload modal
-   - **Paste this repository URL**: `https://github.com/yourusername/product-design-assistant`
+   - **Paste this repository URL**: `https://github.com/product-design-assistant`
    - **Select specific folders**: Add `config`, `knowledge`, and `README.md`
    - **Click "Add to Project"**
 
-**Alternative Method - Manual Upload:**
-If GitHub upload doesn't work:
-1. Download this repository as a ZIP file
-2. Extract the files locally  
-3. Upload the `config` and `knowledge` folders individually
-4. Upload the `README.md` file
+_Note: Any files you drop within the Claude project which aren't from Github will be treated as project-specific context._
 
 #### Step 4: Configure Project Instructions
 1. **Locate the instructions file**: In the uploaded files, find `assets/instructions.md`
@@ -76,41 +71,3 @@ Test your setup with these verification steps:
 2. **Try the onboarding trigger**: Type "What can you help me with?" or "I'm new to this agent"
 3. **Verify response**: You should receive a comprehensive capability overview with task categories
 4. **Test a specific task**: Try "Help me plan a kickoff meeting" or "I need UX research guidance"
-5. **Check bilingual support**: Try asking a question in Spanish if applicable
-
-### Usage Tips for Beginners
-
-**Getting Started:**
-- Always start new conversations within your project (not the main Claude interface)
-- Use natural language - ask questions as you would to a human mentor
-- Try "What can you help me with?" for a complete capability overview
-
-**Making the Most of Your Setup:**
-- **Usage limits**: Pro plan has generous limits; monitor usage in project settings
-- **Context retention**: Each chat within the project knows about your uploaded files
-- **Organization**: Star your project for quick access from the sidebar
-
-### Troubleshooting
-
-**Common Issues:**
-
-**"I don't see the Projects feature"**
-- Ensure you have a Claude Pro or Team subscription
-- Try refreshing your browser or logging out/in again
-
-**"GitHub upload failed"**
-- Try the manual upload method instead
-- Check your internet connection
-- Ensure the repository URL is correct and accessible
-
-**"Agent isn't responding with specialized guidance"**
-- Verify the instructions.md content was properly added to Custom Instructions
-- Make sure you're chatting within the project, not the main Claude interface
-- Try rephrasing your question or use the onboarding trigger phrase
-
-**"File upload is slow or failing"**
-- Try uploading smaller batches of files
-- Ensure stable internet connection
-- If persistent, contact Claude support through the help center
-
-_Note: Any files you drop within the Claude project which aren't from Github will be treated as project-specific context._
