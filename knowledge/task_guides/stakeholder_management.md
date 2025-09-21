@@ -124,7 +124,6 @@ Answer for the current initiative:
 
 ## References
 - Good Questions for Stakeholder Interviews (Interaction Design Foundation PDF): https://public-media.interaction-design.org/pdf/Good-Questions-for-Stakeholder-Interviews-Template.pdf
-- Managing stakeholders (Notion): https://www.notion.so/jmlusiardo/b0452ec1f1c14250b0caaf109c7bf6ed
-- The Need to Think and Talk like an Executive — Center Centre / Jared Spool: https://articles.centercentre.com/the-need-to-think-and-talk-like-an-executive/
-- UX Stakeholder Engagement 101 — Nielsen Norman Group (Sarah Gibbons): https://www.nngroup.com/articles/stakeholder-engagement/
+- UX Stakeholder Engagement 101, by Sarah Gibbons: https://www.nngroup.com/articles/stakeholder-engagement/
+- The Need to Think and Talk like an Executive, by Jared M. Spool: https://articles.centercentre.com/the-need-to-think-and-talk-like-an-executive/
 - The Dangerous Animals of Product Management — Productboard (eBook): https://www.productboard.com/ebook/dangerous-animals-product-management-2-0/

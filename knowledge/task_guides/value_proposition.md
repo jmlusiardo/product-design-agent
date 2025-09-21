@@ -210,6 +210,5 @@
   The VPC zooms into the **Value Proposition ↔ Customer Segment** relationship; for the full business model, see `business_model_canvas.md`.
 
 ## References
-- Strategyzer Template (PDF): https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9eec5643-6e50-4850-ba91-fd2fef913ab3%2Fthe-value-proposition-canvas-1.pdf?table=block&id=6ba30bc0-a7af-4eec-a983-0a872d76a90d&spaceId=d51ce452-ed87-4b3e-8033-99603ceaf55a&userId=5a3e7ad9-06fd-45bf-bfdb-0f509a31be04&cache=v2
-- What is The Value Proposition Canvas — updated 2025 | Interaction Design Foundation: https://www.interaction-design.org/literature/topics/value-proposition-canvas
-- Intro Video: https://youtu.be/ReM1uqmVfP0
+- What is The Value Proposition Canvas, by Frank Spillers: https://www.interaction-design.org/literature/topics/value-proposition-canvas
+- Strategyzer's Value Proposition Canvas Explained: https://youtu.be/ReM1uqmVfP0

@@ -108,8 +108,9 @@
   *No; heuristics are guidelines. Evaluate trade-offs and validate with user research.*  
 
 ## References
-- Nielsen Norman Group — How to Conduct a Heuristic Evaluation: https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
+- How to Conduct a Heuristic Evaluation, by Kate Moran and Kelley Gordon: https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
 - Heuristic Evaluation Template (Google Sheets): https://docs.google.com/spreadsheets/d/1xrMN-c_ZEeQLTTrB1EjDX5ZYum1Pow0Z0ZGUPm3bl5c/edit?usp=sharing
 - Heuristic Evaluation Workbook (NN/g, PDF): https://media.nngroup.com/media/articles/attachments/Heuristic_Evaluation_Workbook_1_Fillable.pdf
-- Nielsen Norman Group — 10 Usability Heuristics for User Interface Design: https://www.nngroup.com/articles/ten-usability-heuristics/
-- 16 reglas heurísticas de Tognazzini y cómo aplicarlas: https://www.uifrommars.com/16-reglas-heuristicas-de-tognazzini-y-como-aplicarlas/ 
+- Nielsen Norman Group — 10 Usability Heuristics for User Interface Design, by 
+Jakob Nielsen: https://www.nngroup.com/articles/ten-usability-heuristics/
+- 16 reglas heurísticas de Tognazzini y cómo aplicarlas, by Cris Busquets: https://www.uifrommars.com/16-reglas-heuristicas-de-tognazzini-y-como-aplicarlas/ 

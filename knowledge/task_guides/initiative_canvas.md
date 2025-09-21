@@ -224,6 +224,3 @@
 - **Stakeholder Management** (`stakeholder_management.md`): Reference during **Section 9 (Costs, Resources, Constraints)** for stakeholder mapping, influence analysis, and engagement planning throughout the initiative lifecycle.
 
 - **MVP Definition** (`mvp_definition.md`): Use during **Section 10 (Scope & Timeline)** for defining minimum viable deliverables, scoping decisions, and balancing initiative ambition with delivery constraints.
-
-## References
-*(No external URLs were provided in the source materials.)*

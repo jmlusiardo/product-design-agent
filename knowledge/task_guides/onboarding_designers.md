@@ -121,11 +121,14 @@
   **A:** Monthly check‑ins + visible status table + clear asks/risks. :contentReference[oaicite:52]{index=52} :contentReference[oaicite:53]{index=53}
 
 ## References
-- A 30–60–90 day plan for product designers — Arturo Ríos: https://uxdesign.cc/a-30-60-90-day-plan-for-product-designers-f475aad13815
-- 90-Day Plan — Niki Tisza (Google Doc checklist): https://docs.google.com/document/d/1LygELacjgAsdZMqVA1hxgVcmrnre3m0S_GiuyEau9Is/edit
-- First 90 Days Plan For Designers (curation, links & reminders): (internal PDF export)
-  - Miro template: https://miro.com/miroverse/30-60-90-day-plan/
-  - Trello template: https://trello.com/templates/operations-hr/30-60-90-day-plan-template-a597dVjV
-  - Shopify UX — Just enough context: https://ux.shopify.com/just-enough-context-93eb559ce4ae
-  - NN/g — Onboarding New Hires: https://www.nngroup.com/articles/onboarding-new-hires/
-  - “It’s OK to Say What’s OK”: https://gds.blog.gov.uk/2016/05/25/its-ok-to-say-whats-ok/
+- Successful Onboarding for New Hires in UX Roles, by Rachel Krause: https://www.nngroup.com/articles/onboarding-new-hires/
+- “It’s OK to Say What’s OK”, by Giles Turnbull: https://gds.blog.gov.uk/2016/05/25/its-ok-to-say-whats-ok/
+- Most Important Lessons in First 90 Days, by Paul Stairmand: https://medium.com/shopify-ux/starting-a-new-ux-job-you-need-to-learn-to-unlearn-ab23bf5d82db
+- Starting a new UX job? You need to learn to unlearn, by Paul Stairmand: https://medium.com/shopify-ux/starting-a-new-ux-job-you-need-to-learn-to-unlearn-ab23bf5d82db
+- First 90 Days Plan For Designers, by Vitaly Friedman: https://lnkd.in/p/ddG_p5j9
+- A 30–60–90 day plan for product designers, by Arturo Rios: https://uxdesign.cc/
+a-30-60-90-day-plan-for-product-designers-f475aad13815
+- 30–60–90 Day Plan Template, Miro: https://miro.com/miroverse/30-60-90-day-plan/
+- 30–60–90 Day Plan Template, Trello: https://trello.com/templates/operations-hr/30-60-90-day-plan-template-a597dVjV
+- 90-Day Plan, by Niki Tisza (Google Doc checklist): https://docs.google.com/document/d/1LygELacjgAsdZMqVA1hxgVcmrnre3m0S_GiuyEau9Is/edit
+

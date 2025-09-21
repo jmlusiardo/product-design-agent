@@ -124,7 +124,6 @@
 - See **executive_summary.md** for crafting a tight one-pager that pairs well with SCQA-led openings.
 
 ## References
-- How to present to executives — Irrational Exuberance: https://lethain.com/present-to-executives/
-- The Pyramid Principle (Barbara Minto) — book page: https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516/
-- Nemawashi (Toyota Production System) — explainer: https://blog.toyota.co.uk/nemawashi-toyota-production-system
-- Staying Aligned with Authority (contextual guide mentioned): https://staffeng.com/guides/staying-aligned-with-authority
+- How to present to executives, by Will Larson: https://lethain.com/present-to-executives/
+- The Pyramid Principle, by Barbara Minto (Book): https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516/
+- Staying Aligned with Authority, by Will Larson: https://staffeng.com/guides/staying-aligned-with-authority

@@ -193,9 +193,9 @@
 ---
 
 ## References
-- MVP, POC, or Prototype — Rohit Verma (Medium): https://rohitverma141.medium.com/mvp-poc-or-prototype-which-one-should-you-choose-for-your-next-product-0997b88e428b
-- El MVP ha muerto, larga vida al MAP — Productea (Medium): https://medium.com/productea/el-mvp-ha-muerto-larga-vida-al-map-596987f37de4
-- Unveiling the Power of MVE — Moatazsamy (Medium): https://medium.com/@moatazsamy122/unveiling-the-power-of-minimum-viable-experience-mve-657b8a153532
-- Minimum Viable Experience (MVE): What PMs Should Know — Userpilot: https://userpilot.com/blog/minimum-viable-experience-mve/
-- MVP or MVE: Decoding the Right Approach — Julio Pessan (Medium): https://medium.com/@julio.pessan.pessan/mvp-or-mve-decoding-the-right-approach-for-startups-a20b884d804d
-- Don’t Start With an MVP (Minimum Viable Product) — YouTube: https://www.youtube.com/watch?v=VBr0TI67qwk
+- MVP, POC, or Prototype, by Rohit Verma: https://rohitverma141.medium.com/mvp-poc-or-prototype-which-one-should-you-choose-for-your-next-product-0997b88e428b
+- "El MVP ha muerto, larga vida al MAP", by Carlos Beneyto: https://medium.com/productea/el-mvp-ha-muerto-larga-vida-al-map-596987f37de4
+- Unveiling the Power of MVE, by Moatazsamy: https://medium.com/@moatazsamy122/unveiling-the-power-of-minimum-viable-experience-mve-657b8a153532
+- Minimum Viable Experience (MVE): What PMs Should Know, by Sophie Grigoryan: https://userpilot.com/blog/minimum-viable-experience-mve/
+- MVP or MVE: Decoding the Right Approach, by Julio Pessan: https://medium.com/@julio.pessan.pessan/mvp-or-mve-decoding-the-right-approach-for-startups-a20b884d804d
+- Don’t Start With an MVP (Minimum Viable Product), by Ash Maurya: https://www.youtube.com/watch?v=VBr0TI67qwk

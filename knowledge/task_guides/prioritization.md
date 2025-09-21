@@ -312,11 +312,15 @@ The key is matching framework to decision context:
 Remember: No framework replaces good judgment, user research, and continuous validation. These tools guide discussion and decision-making but should not override evidence or expertise.
 
 ## References
-
-- Impact-Effort Matrix Guide: https://untools.co/impact-effort-matrix/
-- Effort vs. Value curves: https://www.notion.so/jmlusiardo/Effort-vs-Value-curves-18e2958ed78a808f8129e7956078bdbf
+- Impact-Effort Matrix Guidem, Untools: https://untools.co/impact-effort-matrix/
+- How To Estimate And Prioritize UX Work, by Vitaly Friedman: https://lnkd.in/p/dQ-Q4Q4D
+- TBM 220: Effort vs. Value Curves, by John Cutler: https://cutlefish.substack.com/p/tbm-220-effort-vs-value-curves
+- How I Ship Projects At Big Tech Companies, by Sean Goedecke: https://www.seangoedecke.com/how-to-ship/
 - Critical Assessment of the Kano Model, Part 1: https://quantuxblog.com/critical-assessment-of-the-kano-model-part-1
 - Critical Assessment of the Kano Model, Part 2: https://quantuxblog.com/critical-assessment-of-the-kano-model-part-2
 - The Complete Guide to the Kano Model (Zacarias): https://foldingburritos.com/blog/kano-model/
 - Understanding The Kano Model (Spool): Referenced in materials
 - Chapman & Callegaro (2022): Kano analysis: A critical survey science review
+- Influence Mapping (Part 1), by Charles Lambdin: https://thelaterallens.substack.com/p/influence-mapping-part-1
+- Influence Mapping (Part 2), by Charles Lambdin: https://thelaterallens.substack.com/p/influence-mapping-part-2
+- Influence Mapping (Part 3), by Charles Lambdin: https://thelaterallens.substack.com/p/influence-mapping-part-3

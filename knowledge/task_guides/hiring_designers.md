@@ -252,5 +252,5 @@ Access the Figma template: https://www.figma.com/community/file/7668838103518453
 
 ## References
 
-- How we built the Figma design team: https://www.figma.com/blog/how-we-built-the-figma-design-team/
-- Skills Evaluation Chart Template: https://www.figma.com/community/file/766883810351845384
+- How we built the Figma design tea, by Noah Levin: https://www.figma.com/blog/how-we-built-the-figma-design-team/
+- Skills Evaluation Chart Template, by Noah Levin: https://www.figma.com/community/file/766883810351845384

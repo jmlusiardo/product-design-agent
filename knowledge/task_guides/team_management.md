@@ -274,6 +274,6 @@ Design leaders must answer how UX initiatives contribute to:
 
 ## References
 
-- The need to think and talk like an executive: https://articles.centercentre.com/the-need-to-think-and-talk-like-an-executive/
-- UX Team Management Leadership: https://uxcel.com/guides/ux-team-management/leadership
-- The guiding principles of high-performing UX teams: https://uxdesign.cc/the-guiding-principles-of-high-performing-ux-teams-517a735280b0
+- The need to think and talk like an executive, by Jared M. Spool: https://articles.centercentre.com/the-need-to-think-and-talk-like-an-executive/
+- UX Team Management Leadership, Uxcel: https://uxcel.com/guides/ux-team-management/leadership
+- How to lead a team by principles rather than process, by Shane Close: https://uxdesign.cc/the-guiding-principles-of-high-performing-ux-teams-517a735280b0

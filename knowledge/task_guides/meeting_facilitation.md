@@ -131,6 +131,6 @@
 - **Isn’t fewer meetings always better?** Reducing meetings is a **means**, not the goal. Aim for a balance that preserves deep work **and** effective collaboration.
 
 ## References
-- The flipped meeting model: https://async.twist.com/flipped-meeting-model/
-- You can't just cancel 76,500 hours of meetings: https://async.twist.com/async-isnt-just-a-lack-of-meetings/
-- Jasper Polak: Meeting checklist thread: https://twitter.com/polak_jasper/status/1621864657228021761
+- The flipped meeting model: a framework for avoiding meeting burnout, by Becky Kane: https://async.twist.com/flipped-meeting-model/
+- You can't just cancel 76,500 hours of meetings, by Becky Kane: https://async.twist.com/async-isnt-just-a-lack-of-meetings/
+- Meeting checklist, Jasper Polak (Twitter thread): https://twitter.com/polak_jasper/status/1621864657228021761

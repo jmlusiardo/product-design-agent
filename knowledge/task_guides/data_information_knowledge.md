@@ -41,8 +41,8 @@
 - **Function:** Explains root causes, enables strategic decision-making.  
 - **Example:** Linking usage decline to demographic preference for in-person banking.  
 
-### 4) Application Case: Itaú
-- **Data:** 26% of users not using Itaú Pagos.  
+### 4) Application Case: Coffee
+- **Data:** 26% of users not using Coffee App Payments.  
 - **Premature Reaction:** Jumped to solution-building.  
 - **Additional Information:** Affected users were 70+ years old.  
 - **Knowledge Outcome:** No product change required—demographic aligned with offline behavior.  
@@ -71,7 +71,7 @@
 
 ## Aftermath / Follow-ups
 - Summarize project outcomes with explicit labeling of data vs information vs knowledge.  
-- Share learning materials with team (e.g., Itaú case).  
+- Share learning materials with team (e.g., Coffee App case).  
 - Schedule periodic terminology refresh workshops.  
 - Document validated insights in a shared repository.  
 
@@ -89,5 +89,9 @@
 
 ## Tools & Resources
 - **Digital experimentation:** Low-cost A/B testing to validate hypotheses quickly.  
-- **Research training programs:** e.g., Hello Hello’s 4–6 session format for junior designers.  
 - **Design sprints:** Adapted 2-week formats for smoother integration and better data quality control.  
+
+## References
+- Difference Between Data, Information, and Insight (With Examples), by Dilek Asanoska: http://adata.pro/blog/the-difference-between-data-information-and-insight/
+- Data vs Information vs Knowledge vs Wisdom, by Agha Mustafa Ali Khan Qizilbash: https://medium.com/i-am-datapedia/data-vs-information-vs-knowledge-vs-wisdom-db089377e929
+- Data vs Information vs Knowledge: What Are The Differences?, by Josh Spilker https://tettra.com/article/data-information-knowledge/

@@ -233,4 +233,4 @@ The Snowball process is not about turning UXers into engineers. It's about givin
 - Documentation of working configurations
 
 ## References
-- Snowball Vibe Coding Guide, UXforAI.com: https://drive.google.com/file/d/1iNSqpryo37-gndq6hNS2laHG1hUrJhfK/view?usp=sharing
+- Snowball Vibe Coding Guide, by Greg Nudelman: https://drive.google.com/file/d/1iNSqpryo37-gndq6hNS2laHG1hUrJhfK/view?usp=sharing

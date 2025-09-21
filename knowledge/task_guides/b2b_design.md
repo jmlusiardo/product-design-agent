@@ -333,10 +333,9 @@ The curve represents the optimal design balance:
 8. **Communication adaptation is essential** - speak their language, not design jargon
 
 ## References
-
-- https://uxdesign.cc/over-complicated-over-simplified-the-ux-efficient-frontier-561d7773bc6b
-- https://medium.com/enterprise-ux/b2b-product-ux-5da4b2fb297
+- Over-complicated? Over-simplified? The UX Efficient Frontier, by Morgane Peng: https://uxdesign.cc/over-complicated-over-simplified-the-ux-efficient-frontier-561d7773bc6b
+- B2B Product UX, by Peter Zalman: https://medium.com/enterprise-ux/b2b-product-ux-5da4b2fb297
 - https://www.linkedin.com/pulse/differences-ux-design-between-b2b-b2c-nina-suter/
-- https://medium.com/design-bootcamp/working-as-a-product-designer-for-a-b2b-software-and-the-challenges-that-come-with-it-acea2d88b4cf
-- https://www.youtube.com/watch?v=REPMONyh1-E (B2B Survival Guide for UX Designers - Aneta Kmiecik)
-- The Culture Map by Erin Meyer (cross-cultural collaboration)
+- Working as a Product Designer for a b2b software — and the challenges that come with it, by Eva Katharina Wolf: https://medium.com/design-bootcamp/working-as-a-product-designer-for-a-b2b-software-and-the-challenges-that-come-with-it-acea2d88b4cf
+- B2B Survival Guide for UX Designers, by Aneta Kmiecik: https://www.youtube.com/watch?v=REPMONyh1-E
+- The Culture Map by Erin Meyer: https://erinmeyer.com/books/the-culture-map/

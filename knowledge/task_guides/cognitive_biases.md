@@ -20,7 +20,6 @@ As humans:
 To access all cognitive biases, please check `/knowledge/materials/cognitive_biases_list.csv`
 
 ## References
-
 - [Behavioural Insights Cookbook](https://www.coglode.com/cookbook), by [**Jerome Ribot**](https://www.linkedin.com/feed/#)
 - [Behavioral Design System in Figma](https://www.coglode.com/figma), by Coglode
 - [Psychology UX Glossary](https://builtformars.com/ux-glossary), by [**Peter Ramsey**](https://www.linkedin.com/feed/#)

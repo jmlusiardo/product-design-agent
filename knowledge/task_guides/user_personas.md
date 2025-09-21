@@ -128,6 +128,6 @@ This guide provides a structured process for creating effective user personas th
 ---
 
 ## References
-- Smashing Magazine: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/  
-- Smashing Magazine: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/  
-- Marvel Blog: https://blog.marvelapp.com/replacing-personas-characters/  
+- A Closer Look At Personas: What They Are And How They Work | 1, by Shlomo Goltz: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/  
+- A Closer Look At Personas: What They Are And How They Work | 2, by Shlomo Goltz: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/  
+- Replacing Personas With Characters, by Alan Klement: https://blog.marvelapp.com/replacing-personas-characters/  

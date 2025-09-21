@@ -94,7 +94,6 @@
 ## Tools & Resources
 - **Remote Testing Tools:** UserTesting, Loop11, Silverback 2.0.
 - **Templates:**
-  - Usability Test Plan: [Google Sheets Example](https://docs.google.com/spreadsheets/d/1i5KRwu0DGUFuWxnwk654cOyMOjDeRkB6kfrgaVs3exw/edit?usp=drivesdk)
   - Pre-Test Questionnaire (SkyTeam PDF)
   - Post-Test Questionnaire (SkyTeam PDF)
 - Related guide: `reporting_test_results.md` (for reporting usability test results). 

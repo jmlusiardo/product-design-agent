@@ -142,7 +142,6 @@ Common project situations and their implications:
 ---
 
 ## References
-
-- https://www.uxmatters.com/mt/archives/2009/03/evangelizing-ux-across-an-entire-organization.php  
-- https://www.nngroup.com/articles/evangelizing-usability/  
-- http://boxesandarrows.com/pioneering-a-user-experience-ux-process/  
+- Evangelizing UX Across an Entire Organization, by Janet M. Six: https://www.uxmatters.com/mt/archives/2009/03/evangelizing-ux-across-an-entire-organization.php  
+- Evangelizing Usability: Change Your Strategy at the Halfway Point, by Jakob Nielsen: https://www.nngroup.com/articles/evangelizing-usability/  
+- Pioneering a User Experience (UX) Process, by B&A Staff: http://boxesandarrows.com/pioneering-a-user-experience-ux-process/  

@@ -311,6 +311,11 @@ See `materials/product_metrics_list.csv` for definitions, formulas, and category
 ---
 
 ## References
-
+- How to measure UX  & Design Impact, by Vitaly Freidman (Course): https://measure-ux.com/ 
+- How To Measure And Show UX Impact. With practical guidelines on how to track and articulate business impact of design work: https://lnkd.in/p/d2wxzZnV
+- KPI Tree example, by Vitaly Friedman: https://whimsical.com/finviz-kpis-CTzucrgZkLUefK6Mekd38c
+- Design KPI Graphs, by Ryan Rumsey: https://lnkd.in/p/djKwaGEB
+- Measuring UX: Your First Step Towards Objective Evaluation, by Roma Videnov: https://uxplanet.org/measuring-ux-your-first-step-towards-objective-evaluation-a408b312777b
+- Business Flywheels, by Timothy Timur Tiryaki: https://lnkd.in/p/dpW-rm8Z
+- A Guide to Flywheels, by Amplitude: https://amplitude.com/guides/flywheels-playbook
 - System Usability Scale: https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html
-- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/

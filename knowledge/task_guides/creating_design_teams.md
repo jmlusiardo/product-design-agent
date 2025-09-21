@@ -307,8 +307,14 @@ Add designers when:
 - Celebrate progress
 
 ## References
-
-- Designing a Design Team: https://medium.com/flexport-ux/designing-a-design-team-a9a066bc48a5
-- How I Build Effective Design Teams: https://www.designerfund.com/blog/build-effective-design-teams/
-- 7 Strategies to Build a Successful Design Team: https://uxdesign.cc/7-strategies-to-build-a-successful-design-team-db9e944fbb8
-- How to Build Your Perfect Design Team: https://www.eleken.co/blog-posts/how-to-build-your-perfect-design-team-strategy-for-product-owners
+- How To Build A UX Team From Scratch, by Vitaly Friedman: https://lnkd.in/p/d4PPBT38
+- Designing a Design Team, by Andrew Coyle: https://medium.com/flexport-ux/designing-a-design-team-a9a066bc48a5
+- How I Build Effective Design Teams, by Amanda Linden: https://www.designerfund.com/blog/build-effective-design-teams/
+- 7 Strategies to Build a Successful Design Team, by Harrison Wheeler: https://uxdesign.cc/7-strategies-to-build-a-successful-design-team-db9e944fbb8
+- How To Structure And Manage A UX Team, by Giada Gastaldello: https://maze.co/collections/ux-management/team-structure/
+- The State of Design Teams: Structure, Alignment, and Impact, by Kate Kaplan: https://www.nngroup.com/articles/design-team-statistics/
+- How to Build Your Perfect Design Team: Strategy for Product Owners, by Kateryna Mayka: https://www.eleken.co/blog-posts/how-to-build-your-perfect-design-team-strategy-for-product-owners
+- How to assemble a winning UX design team, by Dovetail Editorial Team: https://dovetail.com/ux/how-to-structure-a-ux-design-team/
+- The User Experience Team Of One, by Leah Buley, Joe Natoli (Book): https://books.google.es/books/about/The_User_Experience_Team_of_One.html
+- Org Design for Design Orgs: Building and Managing In-House Design Teams (Book): https://www.goodreads.com/book/show/27968897-org-design-for-design-orgs 
+- How Top Design Leaders Build and Grow Successful Organizations, by Richard Banfield: https://www.goodreads.com/book/show/26457171-design-leadership

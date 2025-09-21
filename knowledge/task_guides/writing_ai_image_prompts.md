@@ -193,4 +193,4 @@ Return 3 improved prompts with [wide-angle], high-resolution, and include aspect
 ---
 
 ## References
-- YouTube — “How to Write Great Prompts for AI Image Generators”: https://www.youtube.com/watch?v=6RAStep_3OI
+- How to Write Great Prompts for AI Image Generator, Learn With Shopify: https://www.youtube.com/watch?v=6RAStep_3OI

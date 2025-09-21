@@ -483,12 +483,10 @@ When analyzing usability issues, expect users to commonly experience:
 - **Iterative improvement evidence:** Subsequent testing shows measurable usability improvements
 
 ## References
-
 - Moderating Usability Tests: A Complete Facilitation Guide (Original Document): moderating_usability_test.md
-- Checklist for Moderating a Usability Test: https://www.nngroup.com/articles/usability-checklist/
-- Moderating Usability Tests: https://www.sciencedirect.com/book/9780123739339/moderating-usability-tests
-- Moderated Usability Testing: A Tactical Guide: https://www.looppanel.com/blog/moderated-usability-testing-a-tactical-guide
-- How to Lead and Moderate a Usability Test: https://www.emergobyul.com/news/how-lead-and-moderate-usability-test
-- Remote Moderated Usability Tests: How and Why to Do Them: https://www.nngroup.com/articles/moderated-remote-usability-test/
-- Usability Test Moderator's Toolbox: The Five Whys: https://www.emergobyul.com/news/usability-test-moderators-toolbox-five-whys
-- The Complete Guide to Moderated User Testing: https://www.looppanel.com/blog/the-complete-guide-to-moderated-user-testing
+- Checklist for Moderating a Usability Test, by Maria Rosala: https://www.nngroup.com/articles/usability-checklist/
+- Moderating Usability Tests: Principles and Practices for Interacting, by Joseph S. Dumas and Beth A. Loring: https://www.sciencedirect.com/book/9780123739339/moderating-usability-tests
+- Moderated Usability Testing: A Tactical Guide, by Kritika Oberoi: https://www.looppanel.com/blog/moderated-usability-testing-a-tactical-guide
+- How to Lead and Moderate a Usability Test, by Erin Davis and Alix Dorfman: https://www.emergobyul.com/news/how-lead-and-moderate-usability-test
+- Remote Moderated Usability Tests: How and Why to Do Them, by Kate Moran and Kara Pernice: https://www.nngroup.com/articles/moderated-remote-usability-test/
+- The Complete Guide to Moderated User Testing, by Aradhana Oberoi: https://www.looppanel.com/blog/the-complete-guide-to-moderated-user-testing

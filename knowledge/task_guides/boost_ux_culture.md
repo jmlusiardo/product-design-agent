@@ -188,3 +188,6 @@ Foster UX culture as "holy grail" where innovation thrives, outside-in thinking 
 ## Cross-Guide Linkage (Your Repo)
 
 - **Stakeholder Management** (`stakeholder_management.md`): Use for understanding stakeholder priorities, mapping influence networks, and building strategic relationships; reference during **Phase 1: Foundation Building** and ongoing culture transformation efforts.
+
+## References
+- UX Management: Strategy and Tactics course, dictated (primarily) by Frank Spillers: https://www.interaction-design.org/courses/ux-management-strategy-and-tactics

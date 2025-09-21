@@ -104,14 +104,13 @@ but [restriction/obstacle/friction]."
 ---
 
 ## References
-
-- How to build a problem statement — EightShapes: https://medium.com/eightshapes-llc/how-to-build-a-problem-statement-d1f21713720b  
-- Problem statement — Wikipedia: https://en.wikipedia.org/wiki/Problem_statement  
-- Stage 2 in the Design Thinking Process — Interaction Design Foundation: https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results  
-- Create Insight Statements — IDEO Design Kit: https://www.designkit.org/methods/62  
-- What is insight? — Thrive Thinking: https://thrivethinking.com/2016/03/28/what-is-insight-definition/  
-- Developing Key Insights — This is Service Design Doing: https://www.thisisservicedesigndoing.com/methods/developing-key-insights  
-- Designing features using Job Stories — Intercom: https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/  
-- Converting to job stories — ThoughtBot: https://robots.thoughtbot.com/converting-to-jobs-stories  
-- Writing User Stories — Atlassian Agile Coach: https://www.atlassian.com/agile/project-management/user-stories  
-- Writing user stories — This is Service Design Doing: https://www.thisisservicedesigndoing.com/methods/writing-user-stories  
+- How to build a problem statement, by Dan Brown: https://medium.com/eightshapes-llc/how-to-build-a-problem-statement-d1f21713720b  
+- Problem statement, Wikipedia: https://en.wikipedia.org/wiki/Problem_statement  
+- Stage 2 in the Design Thinking Process: Define the Problem and Interpret the Results, by Rikke Friis Dam and Teo Yu Siang: https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results  
+- Create Insight Statements, IDEO Design Kit: https://www.designkit.org/methods/62  
+- What is insight?, by Jonathan Dalton: https://thrivethinking.com/2016/03/28/what-is-insight-definition/  
+- Designing features using Job Stories, by Alan Klement: https://www.intercom.com/blog/using-job-stories-design-features-ui-ux/  
+- Converting to job stories, by Kyle Fiedler: https://robots.thoughtbot.com/converting-to-jobs-stories  
+- Writing User Stories, by Max Rehkopf: https://www.atlassian.com/agile/project-management/user-stories  
+- Developing Key Insights, This is Service Design Doing: https://www.thisisservicedesigndoing.com/methods/developing-key-insights  
+- Writing user stories, This is Service Design Doing: https://www.thisisservicedesigndoing.com/methods/writing-user-stories  

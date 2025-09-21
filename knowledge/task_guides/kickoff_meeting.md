@@ -265,3 +265,12 @@ A well-executed kickoff meeting sets the foundation for project success. It ensu
 3. Frame the design challenge properly to drive toward impact
 4. Document everything and follow up promptly
 5. Be willing to identify poor fits early and decline if necessary
+
+## References
+- Hold A Kickoff Meeting Before Diving Into The Design: https://www.smashingmagazine.com/2015/01/hold-a-kickoff-meeting-before-diving-into-the-design/
+- UX Management: Strategy and Tactics, by Frank Spillers (Course): https://www.interaction-design.org/courses/ux-management-strategy-and-tactics
+- Product Design Kickoff Checklist, by Matthew Voshell: https://uxdesign.cc/product-design-kickoff-checklist-16dac082dccf
+- 26 questions UX designers need to ask during a kick-off meeting, by Blayne Phillips: https://uxdesign.cc/26-questions-ux-designers-need-to-ask-during-a-kick-off-meeting-e4095e5febaa
+- Running an Effective Design Kickoff Meeting, by 
+Taylor Palmer: https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting
+- 10 steps to the perfect project kickoff meeting - Figma: https://www.figma.com/resource-library/project-kickoff-meeting/

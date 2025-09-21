@@ -271,7 +271,7 @@ This ensures consistency across sessions and provides clear traceability to **de
 ---
 
 ## References
-- Checklist for Planning Usability Studies, by NNg: https://www.nngroup.com/articles/usability-test-checklist/
-- A Beginner's Guide to Usability testing | Maze: https://maze.co/guides/usability-testing/
+- Checklist for Planning Usability Studies, by Hoa Loranger: https://www.nngroup.com/articles/usability-test-checklist/
+- A Beginner's Guide to Usability testing, Maze: https://maze.co/guides/usability-testing/
 - The 1-page usability testing plan, by David Travis: https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54
-- 11 steps for creating a usability testing plan that works | Dovetail: https://dovetail.com/ux/steps-to-create-a-usability-testing-plan/
+- 11 steps for creating a usability testing plan that works, Dovetail: https://dovetail.com/ux/steps-to-create-a-usability-testing-plan/

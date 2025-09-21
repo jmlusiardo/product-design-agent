@@ -321,4 +321,11 @@ For comprehensive user research planning, see:
 - **Research Without Users:** `ux_research_without_users.md` - Alternative research methods when direct user access is limited
 
 ## References
-- How to Find Great Participants for Your User Study: https://library.gv.com/how-to-find-great-participants-for-your-user-study-da20f98dad9e
+- UX Research recruting checklist, by Vitaly Friedman: https://lnkd.in/p/dH5Md7z2
+- How to Find Great Participants for Your User Study, by Michael Margolis: https://library.gv.com/how-to-find-great-participants-for-your-user-study-da20f98dad9e
+- How to Recruit Participants for User Research Studies, User Interviews: https://www.userinterviews.com/ux-research-field-guide-module/recruiting
+- A Guide to Finding User Needs, by Jan Dittrich (eBook): https://jdittrich.github.io/userNeedResearchBook/
+- UX Research Sample Size Calculators, by Vitaly Friedman: https://lnkd.in/p/dr6ZpkEr
+- 6 great examples of UX research emails, by Rosie Hoggmascall: https://uxdesign.cc/6-great-examples-of-ux-research-emails-9dd7bd8ff8d5
+- The User Research Incentive Calculator, by Katryna Balboni: https://www.userinterviews.com/blog/the-user-research-incentive-calculator
+- Just Enough Research, by Erika Hall (Book): https://abookapart.com/products/just-enough-research.html

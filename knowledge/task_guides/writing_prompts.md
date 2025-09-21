@@ -340,8 +340,3 @@ Effective prompt engineering is both an art and a science. The 6-step formula pr
 Remember that prompt engineering is iterative—your first attempt may be too generic or too long. Experiment with different phrasing, adjust your approach based on results, and build a library of successful templates for reuse.
 
 The investment in learning these techniques pays dividends through more efficient AI interactions, higher-quality outputs, and reduced time spent on revisions. As AI capabilities continue to evolve, strong prompting skills become increasingly valuable for maximizing the potential of these powerful tools.
-
-## References
-
-- Prompt Templates Registry (materials/prompt_templates_registry.md)
-- "47. Ingeniería de prompts y ChatGPT" - Big Data e Inteligencia Artificial Podcast

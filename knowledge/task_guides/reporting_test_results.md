@@ -112,3 +112,8 @@ Full report to follow; readout scheduled on .
 - Charts: simple bar/line charts for success, errors/confusions, time; per-task Likert visuals for satisfaction.  
 - Assets: annotated screenshots; session clips for pivotal moments.  
 - Cross-reference: task list, questionnaires, and plan in `usability_testing.md` rather than duplicating content here.
+
+## References
+- User Research – Methods and Best Practices, Interaction Design Foundation (Course): https://www.interaction-design.org/courses/user-research-methods-and-best-practices
+- How to analyze and report usability test results, Maze: https://maze.co/guides/usability-testing/results/
+- Analyze Usability Test Data in 4 Steps, by Maria Rosala: https://www.nngroup.com/articles/analyze-usability-data/

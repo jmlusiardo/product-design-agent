@@ -230,6 +230,5 @@ Compare insights against four success keystones:
 - **Stakeholder Management** (`stakeholder_management.md`): For managing client expectations and securing buy-in for recommendations during audit process
 
 ## References
-- https://usabilitygeek.com/ux-audit-beginners-guide/
-- https://www.nngroup.com/consulting/expert-review/
-- https://www.nngroup.com/articles/ux-expert-reviews/
+- The UX Audit: A Beginner’s Guide, by Cassandra Naji: https://usabilitygeek.com/ux-audit-beginners-guide/
+- UX Expert Reviews, by Aurora Harley: https://www.nngroup.com/articles/ux-expert-reviews/

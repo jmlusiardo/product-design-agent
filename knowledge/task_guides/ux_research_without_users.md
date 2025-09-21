@@ -185,5 +185,10 @@
 - Address relationship concerns proactively
 
 ## References
-
+- How To Run UX Research Without Access To Users, by Vitaly Friedman: https://www.smashingmagazine.com/2024/05/how-run-ux-research-without-access-users/
 - 5 ideas for user research when you can't talk to users by Chris Myhill: https://www.pixelfridge.com/latest/5-ideas-for-user-research-when-you-cant-talk-to-users/
+- Overcoming Limited Access To Users in UX Research, by Debbie Levitt: https://www.youtube.com/watch?v=fiFSoqIcZJ8
+- How to do user research without access to users (or how to develop our empathy), by María Donaire Varo: https://uxdesign.cc/how-to-do-user-research-without-access-to-users-or-how-to-develop-our-empathy-f75714c77724
+- 5 ideas for user research when you can’t talk to users, by Chris Myhill: https://www.pixelfridge.com/latest/5-ideas-for-user-research-when-you-cant-talk-to-users/
+- How to Conduct UX Research Without Users?, by Mariia Kasym: https://www.eleken.co/blog-posts/master-the-secrets-of-ux-research-without-users-tips-from-designers
+- User Research When You Can’t Talk to Your Users, by Jon Peterson: https://alistapart.com/article/user-research-when-you-cant-talk-to-your-users/

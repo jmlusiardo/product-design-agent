@@ -293,8 +293,7 @@ Match energy to audience and objectives. Anticipate resistance points.
 - [ ] Iterate approach
 
 ## References
-
-- How to craft your UX elevator pitch: https://medium.com/design-bootcamp/how-to-craft-your-ux-elevator-pitch-f3dc9439de89
-- Mastering the Art of Elevator Pitches: https://medium.com/@madhuragprabhu/mastering-the-art-of-elevator-pitches-a-ux-designers-guide-ea89c8cd7584
-- 6 Practical Ways to Perfect Your Elevator Pitch: https://designlab.com/blog/perfect-your-elevator-pitch-with-UX-writing-examples
-- Anatomy of a design pitch: https://uxdesign.cc/anatomy-of-a-design-pitch-17435f3e7e0f
+- How to craft your UX elevator pitch, by Gina Raduski: https://medium.com/design-bootcamp/how-to-craft-your-ux-elevator-pitch-f3dc9439de89
+- Mastering the Art of Elevator Pitches, by Madhura Prabhu: https://medium.com/@madhuragprabhu/mastering-the-art-of-elevator-pitches-a-ux-designers-guide-ea89c8cd7584
+- 6 Practical Ways to Perfect Your Elevator Pitch (With UX Writing Examples), by Maria Myre: https://designlab.com/blog/perfect-your-elevator-pitch-with-UX-writing-examples
+- Anatomy of a design pitch, by Kike Peña: https://uxdesign.cc/anatomy-of-a-design-pitch-17435f3e7e0f

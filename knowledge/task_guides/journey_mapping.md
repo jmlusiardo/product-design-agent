@@ -129,5 +129,6 @@
 ---
 
 ## References
-- https://www.eventstorming.com/  
-- https://selleo.com/blog/how-to-run-your-first-event-storming-session  
+- Event storming: The smartest approach to collaboration
+beyond silo boundaries: https://www.eventstorming.com/  
+- How To Run Your First Event Storming Session, by Agnieszka Pawlicka: https://selleo.com/blog/how-to-run-your-first-event-storming-session  

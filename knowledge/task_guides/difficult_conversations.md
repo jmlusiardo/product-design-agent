@@ -291,9 +291,9 @@ Start → Need to break bad news?
 - Team psychological safety scores
 
 ## References
-- Beginner's Guide to Arguing Constructively: https://www.liamrosen.com/arguments.html
-- Breaking Bad News - How Managers Can Prevent Catastrophe: https://uxdesign.cc/breaking-bad-news-how-managers-can-prevent-catastrophe-1a8759ac6efd
-- A Product Manager's Guide for Difficult Conversations: https://uxdesign.cc/a-product-managers-guide-for-difficult-conversations-c65051c847dc
-- Inclusive Design Advocacy: https://medium.com/@workdaydesign/inclusive-design-advocacy
-- Logical Fallacies: https://en.wikipedia.org/wiki/List_of_fallacies
-- How To Disagree Better (Paul Graham): http://www.paulgraham.com/disagree.html
+- Beginner's Guide to Arguing Constructively, by Liam Rosen (Ebook): https://www.liamrosen.com/arguments.html
+- Breaking Bad News - How Managers Can Prevent Catastrophe, by Adrian H. Raudaschl: https://uxdesign.cc/breaking-bad-news-how-managers-can-prevent-catastrophe-1a8759ac6efd
+- A Product Manager's Guide for Difficult Conversations, by Adrian H. Raudaschl: https://uxdesign.cc/a-product-managers-guide-for-difficult-conversations-c65051c847dc
+- Inclusive Design Advocacy: A Guide to Navigating Tough Conversations with Your Teams, by Emma Siegel: https://medium.com/@workdaydesign/inclusive-design-advocacy-a-guide-to-navigating-tough-conversations-with-your-teams-9c1789531bfe
+- List of Fallacies, Wikipedia: https://en.wikipedia.org/wiki/List_of_fallacies
+- How To Disagree Better, by Paul Graham: http://www.paulgraham.com/disagree.html

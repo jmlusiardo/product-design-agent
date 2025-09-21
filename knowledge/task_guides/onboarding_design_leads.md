@@ -176,3 +176,7 @@
   **A:** PMs, Eng Leads, CS/Sales partners, adjacent Design Leads/Senior Designers.
 - **Q:** How often should usability testing occur?
   **A:** Regularly and consistently—make it as reliable as clockwork and integrate with sprint/backlog planning.
+
+## References
+- Making the most of your first three months as a remote manager, by Rosie Fan: https://miro.com/blog/first-three-months-remote-manager/
+- First 90 Days Plan For Designers, by Vitaly Friedman: https://lnkd.in/p/ddG_p5j9
