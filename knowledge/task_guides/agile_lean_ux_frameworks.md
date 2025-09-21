@@ -140,7 +140,6 @@ Agile UX teams differ from standard Agile teams in several key ways:
 ---
 
 ## References
- 
 - Lean UX & Agile: Study Guide - NN/G: https://www.nngroup.com/articles/lean-ux-agile-study-guide/  
 - What is Agile UX? The Complete 2025 Guide - CareerFoundry: https://careerfoundry.com/en/blog/ux-design/what-is-agile-ux/  
 - Agile UX Blog - DOOR3: https://www.door3.com/es/blog/agile-ux  
