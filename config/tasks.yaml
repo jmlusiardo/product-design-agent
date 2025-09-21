@@ -496,6 +496,27 @@ survey_design:
   agent: research_analyst
 
 # STRATEGY
+define_assumptions:
+  task_id: "define_assumptions"
+  description: >
+    Create and organize testable assumptions about product viability through:
+    1. Assumption collection and documentation
+    2. Test method definition for each assumption
+    3. Success criteria establishment
+    4. Risk-based prioritization
+    5. Validation planning and execution
+  expected_output: >
+    An assumptions validation package containing:
+    - Completed assumptions test board
+    - Test method specifications
+    - Success criteria definitions
+    - Prioritized validation roadmap
+    - Follow-up action plan
+    Formatted as markdown assumptions framework
+  task_guide:
+    - "define-assumptions.md"
+  agent: strategy_analyst
+
 mvp_definition:
   task_id: "mvp_definition"
   description: >
