@@ -255,25 +255,25 @@ journey_mapping:
   agent: discovery_analyst
 
 # USER RESEARCH
-ux_research_without_users:
-  task_id: "ux_research_without_users"
+empathy_mapping:
+  task_id: "empathy_mapping"  
   description: >
-    Conduct UX research without direct user access using:
-    1. Analytics and behavioral data
-    2. Customer support insights
-    3. Sales team feedback
-    4. Forum and review analysis
-    5. Competitive research
+    Create empathy maps to understand user attitudes and behaviors:
+    1. Define user scope and goals
+    2. Map observable phenomena (says, does, sees, hears)
+    3. Infer internal states (thinks, feels, pains, gains)
+    4. Synthesize insights and identify gaps
+    5. Integrate with personas and journey mapping
   expected_output: >
-    A proxy research report containing:
-    - Data source inventory
-    - Key findings by source
-    - Synthesized insights
-    - Confidence levels
-    - Validation recommendations
-    Formatted as markdown research report
+    An empathy mapping package containing:
+    - Individual or aggregated empathy map
+    - Insight synthesis and patterns
+    - Gap analysis and research recommendations
+    - Integration plan with personas/journey maps
+    - Team alignment documentation
+    Formatted as visual canvas with supporting analysis
   task_guide:
-    - "ux_research_without_users.md"
+    - "empathy_mapping.md"
   agent: research_analyst
 
 evaluation_type:
@@ -295,6 +295,28 @@ evaluation_type:
     Formatted as markdown with tables
   task_guide:
     - "evaluation_type.md"
+  agent: research_analyst
+
+measure_ux:
+  task_id: "measure_ux"
+  description: >
+    Implement UX measurement framework using:
+    1. HEART framework setup
+    2. Metric definition and tracking
+    3. Baseline establishment
+    4. Goal setting
+    5. Dashboard creation
+  expected_output: >
+    A measurement framework containing:
+    - HEART metrics matrix
+    - KPI definitions
+    - Tracking plan
+    - Dashboard mockup
+    - Reporting cadence
+    Formatted as markdown with tables
+  notion_pages:
+    - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
+      title: "HEART Framework"
   agent: research_analyst
 
 usability_test_recruiting:
@@ -405,6 +427,50 @@ usability_test_reporting:
     - "cognitive_biases_list.csv"
   agent: research_analyst
 
+ux_audit:
+  task_id: "ux_audit"
+  description: >
+    Conduct expert UX review using:
+    1. Nielsen's 10 heuristics
+    2. Interface evaluation
+    3. Issue identification
+    4. Severity assessment
+    5. Improvement recommendations
+  expected_output: >
+    An audit report containing:
+    - Heuristic evaluation matrix
+    - Issue inventory with severity
+    - Screenshots and annotations
+    - Prioritized fix list
+    - Quick wins vs long-term improvements
+    Formatted as markdown audit report
+  task_guide:
+    - "ux-audit-expert-review.md"
+    - "heuristic_evaluation.md"
+    - "data_information_knowledge.md"
+  agent: research_analyst
+
+ux_research_without_users:
+  task_id: "ux_research_without_users"
+  description: >
+    Conduct UX research without direct user access using:
+    1. Analytics and behavioral data
+    2. Customer support insights
+    3. Sales team feedback
+    4. Forum and review analysis
+    5. Competitive research
+  expected_output: >
+    A proxy research report containing:
+    - Data source inventory
+    - Key findings by source
+    - Synthesized insights
+    - Confidence levels
+    - Validation recommendations
+    Formatted as markdown research report
+  task_guide:
+    - "ux_research_without_users.md"
+  agent: research_analyst
+
 survey_design:
   task_id: "survey_design"
   description: >
@@ -427,51 +493,6 @@ survey_design:
     - "ux_survey_design.md"
   materials:
     - "user_feedback_questions.md"
-  agent: research_analyst
-
-measure_ux:
-  task_id: "measure_ux"
-  description: >
-    Implement UX measurement framework using:
-    1. HEART framework setup
-    2. Metric definition and tracking
-    3. Baseline establishment
-    4. Goal setting
-    5. Dashboard creation
-  expected_output: >
-    A measurement framework containing:
-    - HEART metrics matrix
-    - KPI definitions
-    - Tracking plan
-    - Dashboard mockup
-    - Reporting cadence
-    Formatted as markdown with tables
-  notion_pages:
-    - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
-      title: "HEART Framework"
-  agent: research_analyst
-
-ux_audit:
-  task_id: "ux_audit"
-  description: >
-    Conduct expert UX review using:
-    1. Nielsen's 10 heuristics
-    2. Interface evaluation
-    3. Issue identification
-    4. Severity assessment
-    5. Improvement recommendations
-  expected_output: >
-    An audit report containing:
-    - Heuristic evaluation matrix
-    - Issue inventory with severity
-    - Screenshots and annotations
-    - Prioritized fix list
-    - Quick wins vs long-term improvements
-    Formatted as markdown audit report
-  task_guide:
-    - "ux-audit-expert-review.md"
-    - "heuristic_evaluation.md"
-    - "data_information_knowledge.md"
   agent: research_analyst
 
 # STRATEGY
