@@ -319,6 +319,30 @@ measure_ux:
       title: "HEART Framework"
   agent: research_analyst
 
+mental_modeling:
+  task_id: "mental_modeling"
+  description: >
+    Understand user mental models through structured discovery workshop:
+    1. User assumption mapping and task analysis
+    2. Day-to-day temporal framework exploration
+    3. Gap identification and opportunity discovery
+    4. Stakeholder interview integration
+    5. Affinity mapping for relationship patterns
+  expected_output: >
+    A mental model analysis package containing:
+    - Task-gap-opportunity matrix by time periods
+    - User assumption inventory with validation needs
+    - UX principle assessment (affordances, simplicity, familiarity)
+    - Stakeholder interview summaries
+    - Affinity-mapped opportunity clusters
+    - Feature ideation foundation document
+    Formatted as structured workshop output with visual mapping
+  task_guide:
+    - "mental_modeling.md"
+  materials:
+    - "mental_model_workshop_template.md"
+  agent: discovery_analyst
+
 usability_test_recruiting:
   task_id: "usability_test_recruiting"
   description: >
