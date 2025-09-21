@@ -796,6 +796,27 @@ component_documentation:
     - "component_documentation.md"
   agent: design_system_specialist
 
+design_token_naming:
+  task_id: "design_token_naming"
+  description: >
+    Create comprehensive design token naming system with:
+    1. Token taxonomy and structure
+    2. Naming conventions across categories
+    3. Semantic vs primitive token strategy
+    4. Component-specific token patterns
+    5. Implementation and migration guidance
+  expected_output: >
+    A design token naming system containing:
+    - Complete naming taxonomy framework
+    - Token examples for all categories (color, typography, spacing, radius, elevation)
+    - Implementation guidelines for CSS/JSON formats
+    - Component token patterns and examples
+    - Migration strategy and validation checklist
+    Formatted as comprehensive markdown guide
+  task_guide:
+    - "design_token_naming.md"
+  agent: design_systems_specialist
+
   # VISUAL
 writing_ai_image_prompts:
   task_id: "writing_ai_image_prompts"
