@@ -35,6 +35,8 @@ This guide provides a structured process for creating effective user personas th
 - Avoid over-relying on surveys.  
 - Capture demographics only as context—focus on **behaviors, motivations, and goals**.
 
+*For comprehensive interview question templates organized by category (discovery, demographics, behavioral patterns), reference `user_feedback_questions.md` in the materials directory.*
+
 ### Step 2: Identify Behavioral Variables
 - Determine axes such as **price sensitivity vs. feature-driven decisions**, or **early adopter vs. late adopter**.  
 - Focus on behavior over demographics.

@@ -386,12 +386,12 @@ I don't shop online → Must Not Select
 
 ### Supporting Materials
 
-**Research Enhancement:**
-- `cognitive_biases.md` — Understanding biases that affect user testing and screening. Critical for designing unbiased Userbrain tasks and interpreting results objectively.
-
-- `prompt_templates_registry.md` — AI prompt templates for research tasks including learning facilitation and problem-solving. Useful for generating task scenarios or analyzing Userbrain results with AI assistance.
-
-- `product_metrics_list.csv` — Comprehensive metrics catalog for defining measurable success criteria. Reference when establishing quantitative benchmarks for Userbrain task success rates and user satisfaction scores. d
+- **Question Templates:** `user_feedback_questions.md` - Comprehensive repository of tested survey questions organized by category and use case
+- **Pre/Post-Test Questions:** Reference for rating scale questions, satisfaction measures, and follow-up probes to enhance Userbrain task scenarios
+- **Research Enhancement:**
+   - `cognitive_biases.md` — Understanding biases that affect user testing and screening. Critical for designing unbiased Userbrain tasks and interpreting results objectively.
+   - `prompt_templates_registry.md` — AI prompt templates for research tasks including learning facilitation and problem-solving. Useful for generating task scenarios or analyzing Userbrain results with AI assistance.
+   - `product_metrics_list.csv` — Comprehensive metrics catalog for defining measurable success criteria. Reference when establishing quantitative benchmarks for Userbrain task success rates and user satisfaction scores. d
 
 ## References
 - Userbrain Help Documentation: https://help.userbrain.com/help  

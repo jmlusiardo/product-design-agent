@@ -184,6 +184,9 @@
 - Position research as competitive advantage
 - Address relationship concerns proactively
 
+## Cross-references
+- For structured questions to interview internal stakeholders and proxy users, reference `user_feedback_questions.md` in the materials directory.
+
 ## References
 - How To Run UX Research Without Access To Users, by Vitaly Friedman: https://www.smashingmagazine.com/2024/05/how-run-ux-research-without-access-users/
 - 5 ideas for user research when you can't talk to users by Chris Myhill: https://www.pixelfridge.com/latest/5-ideas-for-user-research-when-you-cant-talk-to-users/

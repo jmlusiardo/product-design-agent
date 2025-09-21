@@ -24,6 +24,8 @@
 - Clarify scope of the journey (end-to-end vs. partial flow).
 - Collect data: user research, customer interviews, analytics, and system logs.
 
+*For structured customer interview questions to gather journey insights, pain points, and emotional responses, reference `user_feedback_questions.md` in the materials directory.*
+
 ### Checklist
 - [ ] Define persona and user goal.
 - [ ] Gather input from multiple stakeholders (support, sales, dev, etc.).

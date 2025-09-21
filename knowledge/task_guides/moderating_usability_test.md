@@ -328,6 +328,8 @@ When analyzing usability issues, expect users to commonly experience:
 - **Context of user actions** including environmental factors
 - **User strategies and workarounds** they develop during tasks
 
+*For structured probing questions and follow-up templates, reference `user_feedback_questions.md` in the materials directory for tested question frameworks.*
+
 ### Multi-Observer Data Coordination
 
 **Assign specific observation roles:**
