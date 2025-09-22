@@ -1199,6 +1199,28 @@ cognitive_biases:
     - "cognitive_biases_list.csv"
   agent: design_educator
 
+designing_ai_assistants:
+  task_id: "designing_ai_assistants"
+  description: >
+    Create human-centered AI assistant experiences through:
+    1. Strategic value alignment and AI suitability assessment
+    2. UX architecture with agent design principles integration
+    3. Technical feasibility evaluation and prototyping approaches
+    4. Ethical implementation with success metrics framework
+    5. Trust-building through transparency and user control mechanisms
+  expected_output: >
+    An AI assistant design system containing:
+    - AI suitability assessment framework
+    - Agent UX pattern library with Microsoft principles
+    - Technical feasibility evaluation templates
+    - Ethical design implementation checklist
+    - Success metrics and continuous evaluation framework
+    - Complete reference collection with industry resources
+    Formatted as comprehensive markdown RAG guide
+  task_guide:
+    - "designing_ai_assistants.md"
+  agent: ai_specialist
+
 b2b_design:
   task_id: "b2b_design"
   description: >
