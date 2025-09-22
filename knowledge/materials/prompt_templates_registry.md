@@ -163,6 +163,11 @@
  usefulness: Structured case study analysis with decision frameworks.
  tags: ["analyzing"]
 
+ - prompt_id: competitive_market_research
+ prompt: "Research the [industry] market landscape, analyze top 5 competitors, investigate pricing strategies, partnerships, and identify 3 key opportunities."
+ usefulness: Comprehensive competitive intelligence and market opportunity identification.
+ tags: ["analysis", "competitive research", "market research", "business strategy"]
+
 - prompt_id: visual_simplify_complex
   prompt: "Explain this [chart/diagram/visual] in simple terms. Break down what it shows and what the key insights are. Focus on making complex information accessible to [target audience]."
   usefulness: Simplifies complex visuals and data for better understanding across different audience levels.
@@ -215,6 +220,11 @@
  usefulness: Creates well-structured, persuasive essays on various topics with proper research.
  tags: ["essay writing", "academic writing", "research", "persuasive writing", "content creation"]
 
+ - prompt_id: natural_human_writing
+  prompt: "You are a writing assistant trained to write in a clear, natural, and honest tone. Rewrite or generate text using these principles: Use simple language with short, plain sentences. Avoid AI phrases like 'dive into,' 'unleash,' or 'game-changing.' Be direct and concise. Write like people actually talk - it's fine to start with 'and' or 'but.' Skip marketing hype. Don't use dashes (-) in writing. Avoid lists with 'X and also Y' structure. No rhetorical questions like 'Have you ever wondered?' Don't start sentences with 'Basically,' 'Clearly,' or 'Interestingly.' No fake engagement phrases. Match the tone to feel human and authentic, not robotic or promotional."
+  usefulness: Transforms AI-generated text to sound more natural and human-like.
+  tags: ["writing style", "natural tone", "human-like", "authenticity", "communication"]
+
 - prompt_id: prompt_enhancer
  prompt: "Act as a Prompt Enhancer AI that takes user-input prompts and transforms them into more engaging, detailed, and thought-provoking questions. Describe the process you follow to enhance a prompt, the types of improvements you make, and share an example of how you'd turn a simple, one-sentence prompt into an enriched, multi-layered question that encourages deeper thinking and more insightful responses. Here's the prompt to enhance: '[original prompt]'."
  usefulness: Improves and enriches prompts for better AI interactions and deeper responses.
@@ -225,10 +235,10 @@
  usefulness: Writing improvement with before/after examples and engagement tactics.
  tags: ["writing"]
 
- - prompt_id: natural_human_writing
-  prompt: "You are a writing assistant trained to write in a clear, natural, and honest tone. Rewrite or generate text using these principles: Use simple language with short, plain sentences. Avoid AI phrases like 'dive into,' 'unleash,' or 'game-changing.' Be direct and concise. Write like people actually talk - it's fine to start with 'and' or 'but.' Skip marketing hype. Don't use dashes (-) in writing. Avoid lists with 'X and also Y' structure. No rhetorical questions like 'Have you ever wondered?' Don't start sentences with 'Basically,' 'Clearly,' or 'Interestingly.' No fake engagement phrases. Match the tone to feel human and authentic, not robotic or promotional."
-  usefulness: Transforms AI-generated text to sound more natural and human-like.
-  tags: ["writing style", "natural tone", "human-like", "authenticity", "communication"]
+ - prompt_id: writing_transformation_engine
+ prompt: "Transform my writing for [purpose]. Show structure improvements, impact words, and tricks to hook the reader. Create before and after examples with explanations. Generate a quality score. Show: [Paste your text]."
+ usefulness: Enhanced writing transformation with quality scoring and engagement tactics.
+ tags: ["writing", "content improvement", "communication", "editing"]
 
 - prompt_id: writing_style_analyzer
   prompt: "Analyze the following writing sample for tone, sentence structure, humor, and emotional depth. Then write ONE paragraph about what you found: [Insert Writing Sample]. Next, write [content length] about [topic] based on the analyzed style. Don't copy verbatim, just use the same style, tone, sentence structure, and emotional depth."
