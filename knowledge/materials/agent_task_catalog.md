@@ -1,4 +1,4 @@
-# Complete Task Catalog with Explanations
+# Agent Task Catalog
 
 ## Purpose
 Comprehensive reference of all 80+ product design agent tasks with clear explanations of what each task does and how it helps users.
@@ -19,11 +19,11 @@ Help people get started in new roles or with new tools
 - *When to use*: Any new designer joining your team or organization
 
 **Agent Onboarding Guide**
-- *What it is*: Complete guide to understanding and using this product design agent
+- *What it is*: Comprehensive onboarding for users new to the product design agent with complete task catalog and capability discovery
 - *How it helps*: Eliminates confusion, accelerates task discovery, provides learning paths
 - *When to use*: First time using this agent or need overview of capabilities
 
-### PROJECT FRAMING (6 tasks)
+### PROJECT FRAMING (9 tasks)
 Set up projects for success from the beginning
 
 **Kickoff Meeting**
@@ -32,14 +32,14 @@ Set up projects for success from the beginning
 - *When to use*: Starting any new project, feature, or initiative
 
 **Initiative Canvas**
-- *What it is*: One-page strategic overview of product initiatives
-- *How it helps*: Aligns teams on problem, users, success metrics, and solution approach
-- *When to use*: Early project planning, pitch preparation, strategic alignment
+- *What it is*: One-page strategic overview capturing problem, solution, users, and success metrics
+- *How it helps*: Aligns teams on project fundamentals, enables quick strategic communication
+- *When to use*: Project initiation, strategic alignment, pitch preparation
 
-**Project Type Strategy**
-- *What it is*: Framework for choosing UX approach based on project characteristics  
-- *How it helps*: Optimizes design process, research methods, and resource allocation
-- *When to use*: Beginning any design project to determine optimal approach
+**Project Type Strategy**  
+- *What it is*: Framework for choosing optimal UX approach based on project characteristics
+- *How it helps*: Optimizes design process, research methods, and resource allocation for specific contexts
+- *When to use*: Beginning any design project to determine optimal methodology and approach
 
 **Product Requirements Document**
 - *What it is*: Comprehensive PRD creation with business, user, and technical requirements
@@ -49,12 +49,22 @@ Set up projects for success from the beginning
 **Requirements Gathering**
 - *What it is*: Systematic approach to collecting and synthesizing project requirements
 - *How it helps*: Ensures complete understanding of needs, constraints, and success criteria
-- *When to use*: Project discovery phase, unclear requirements, stakeholder alignment
+- *When to use*: Project discovery phase, unclear requirements, stakeholder alignment needs
+
+**Event Storming Workshop**
+- *What it is*: Collaborative workshop for domain event discovery and process flow mapping  
+- *How it helps*: Uncovers complex business processes, identifies system boundaries, builds shared understanding
+- *When to use*: Complex domain modeling, system architecture planning, cross-team alignment
 
 **Project Planning**
-- *What it is*: Comprehensive project planning with timelines, resources, and risk management
-- *How it helps*: Prevents project delays, resource conflicts, and scope issues
+- *What it is*: Comprehensive project planning with scope, timeline, resources, and risk management
+- *How it helps*: Prevents project delays, resource conflicts, and scope creep
 - *When to use*: Complex projects, resource-constrained environments, timeline pressure
+
+**Writing Statements**
+- *What it is*: Craft effective statements for product discovery including user stories, job stories, and hypotheses
+- *How it helps*: Creates testable assumptions, guides research direction, enables clear communication
+- *When to use*: Discovery phase, hypothesis formation, user story creation
 
 ### DISCOVERY & RESEARCH (8 tasks)  
 Understand users, validate ideas, gather insights
@@ -66,12 +76,12 @@ Understand users, validate ideas, gather insights
 
 **Journey Mapping**
 - *What it is*: Visual representation of user experience across all touchpoints
-- *How it helps*: Identifies pain points, opportunities, and gaps in user experience  
+- *How it helps*: Identifies pain points, opportunities, and gaps in user experience
 - *When to use*: Understanding current experience, identifying improvement opportunities
 
 **UX Research Without User Access**
 - *What it is*: Research methodologies when direct user contact isn't possible
-- *How it helps*: Generates user insights using analytics, stakeholder interviews, competitive analysis
+- *How it helps*: Generates user insights using analytics, stakeholder interviews, competitive analysis  
 - *When to use*: B2B contexts, privacy constraints, budget limitations, tight timelines
 
 **Usability Testing with Userbrain**
@@ -89,7 +99,7 @@ Understand users, validate ideas, gather insights
 - *How it helps*: Maximizes insights, maintains participant comfort, ensures valuable feedback
 - *When to use*: Moderated testing sessions, complex research questions
 
-**User Statements**
+**User Statements** 
 - *What it is*: Clear problem statements and user needs documentation
 - *How it helps*: Focuses design efforts, communicates user needs, guides solution development
 - *When to use*: Converting research insights into actionable design direction
@@ -99,7 +109,7 @@ Understand users, validate ideas, gather insights
 - *How it helps*: Turns feedback into actionable improvements, identifies patterns, prioritizes fixes
 - *When to use*: After collecting user feedback, planning improvement iterations
 
-### STRATEGY & PRIORITIZATION (6 tasks)
+### STRATEGY & PRIORITIZATION (8 tasks)
 Make strategic decisions and prioritize effectively
 
 **MVP Definition**
@@ -132,59 +142,69 @@ Make strategic decisions and prioritize effectively
 - *How it helps*: Generates innovative solutions, engages teams, explores possibilities
 - *When to use*: Creative challenges, solution exploration, team engagement
 
+**Design Pitch**
+- *What it is*: Compelling presentation including problem framing, solution narrative, and impact demonstration
+- *How it helps*: Builds stakeholder buy-in, secures resources, communicates design value
+- *When to use*: Seeking approval, resource allocation, design evangelization
+
+**Agile/Lean UX Frameworks**
+- *What it is*: Integration of UX practices within agile and lean development processes
+- *How it helps*: Aligns UX work with development cycles, maintains user focus in rapid iteration
+- *When to use*: Agile development environments, rapid prototyping, lean startup contexts
+
 ### AI INTEGRATION (5 tasks)
 Leverage AI tools and optimize AI workflows
 
+**Writing AI Image Prompts**
+- *What it is*: Craft effective prompts for AI image generation tools
+- *How it helps*: Creates high-quality visual assets, accelerates design exploration, enables rapid prototyping
+- *When to use*: Visual asset creation, design exploration, rapid concept visualization
+
+**Style Spec JSON Builder**  
+- *What it is*: Conversational system for building structured style specifications in JSON format
+- *How it helps*: Standardizes design requirements, enables programmatic design token generation
+- *When to use*: Design system creation, automated asset generation, design-to-code workflows
+
 **Writing Prompts**
-- *What it is*: AI prompt engineering using structure frameworks and optimization
-- *How it helps*: Improves AI output quality, saves time, enhances AI collaboration
-- *When to use*: AI workflow optimization, content generation, automated tasks
+- *What it is*: AI prompt engineering for design and content creation
+- *How it helps*: Improves AI output quality, accelerates content creation, enables consistent results
+- *When to use*: AI-assisted design work, content generation, prompt optimization
 
 **Prompt Minification**
-- *What it is*: Prompt optimization for efficiency while maintaining quality
-- *How it helps*: Reduces costs, improves speed, maintains output quality
+- *What it is*: Optimize AI prompts for efficiency while maintaining output quality
+- *How it helps*: Reduces token costs, improves response speed, maintains quality standards
 - *When to use*: High-volume AI usage, cost optimization, performance improvement
 
 **Snowball Vibe Coding**
-- *What it is*: Rapid AI-assisted prototyping and code generation
-- *How it helps*: Accelerates prototyping, enables non-coders, validates concepts quickly
-- *When to use*: Rapid prototyping, concept validation, technical exploration
+- *What it is*: Rapid prototyping methodology using AI-assisted coding for design exploration
+- *How it helps*: Accelerates concept validation, enables rapid iteration, bridges design-development gap
+- *When to use*: Rapid prototyping, concept validation, technical feasibility exploration
 
-**Style Spec JSON Builder**
-- *What it is*: Automated style specification system for AI image generation
-- *How it helps*: Standardizes visual style, improves consistency, streamlines workflows
-- *When to use*: Visual content creation, brand consistency, automated design
-
-**Writing AI Image Prompts**
-- *What it is*: Crafting effective prompts for AI image generation
-- *How it helps*: Improves image quality, achieves desired aesthetics, saves iteration time
-- *When to use*: Visual content creation, concept exploration, design ideation
-
-### VISUAL DESIGN & SYSTEMS (3 tasks)
-Create and maintain design systems and visual assets
+### DESIGN SYSTEMS (3 tasks)
+Build and maintain scalable design systems
 
 **Component Documentation**
-- *What it is*: Comprehensive design system component documentation
-- *How it helps*: Ensures consistent usage, reduces design debt, scales design efficiently
-- *When to use*: Design system development, team scaling, consistency improvement
+- *What it is*: Comprehensive documentation for design system components including usage guidelines and accessibility
+- *How it helps*: Ensures consistent implementation, reduces design debt, improves developer handoff
+- *When to use*: Building design systems, component library maintenance, developer onboarding
 
-**Prototype Creation**
-- *What it is*: Interactive prototype development for testing and communication
-- *How it helps*: Validates interactions, communicates design intent, tests usability
-- *When to use*: Design validation, stakeholder communication, usability testing
+**Design Token Naming**
+- *What it is*: Systematic approach to creating comprehensive design token naming conventions
+- *How it helps*: Ensures scalable, maintainable design systems with clear hierarchies
+- *When to use*: Design system creation, token standardization, system scaling
 
-**Visual Storytelling**
-- *What it is*: Creating compelling visual narratives and presentations
-- *How it helps*: Improves communication, engages stakeholders, builds support
-- *When to use*: Design presentations, stakeholder buy-in, vision communication
-
-### CONTENT & WRITING (3 tasks)
-Optimize content strategy and writing quality
+### CONTENT (4 tasks)
+Create, audit, and optimize content
 
 **Content Audit**
-- *What it is*: Systematic review of content for quality and accessibility
+- *What it is*: Systematic review of existing content for quality and accessibility
 - *How it helps*: Improves content quality, ensures compliance, enhances user experience
 - *When to use*: Content optimization, accessibility compliance, quality improvement
+
+**Content Inventory** 
+- *What it is*: Comprehensive cataloging of digital assets with metadata and categorization
+- *How it helps*: Provides foundation for content strategy, identifies gaps and redundancies
+- *When to use*: Content strategy planning, audit preparation, asset management
 
 **Writing Tasks**
 - *What it is*: Framework for developing and refining writing projects
@@ -196,7 +216,7 @@ Optimize content strategy and writing quality
 - *How it helps*: Improves user experience, reduces confusion, guides user actions
 - *When to use*: Interface design, user onboarding, error handling
 
-### LEADERSHIP & COLLABORATION (7 tasks)
+### LEADERSHIP & COLLABORATION (10 tasks) 
 Lead teams and manage stakeholder relationships
 
 **Team Management**
@@ -224,53 +244,40 @@ Lead teams and manage stakeholder relationships
 - *How it helps*: Maintains team harmony, resolves blockers, improves collaboration
 - *When to use*: Team conflicts, project disagreements, relationship issues
 
+**Meeting Facilitation**
+- *What it is*: Effective meeting design and facilitation techniques
+- *How it helps*: Improves meeting outcomes, engages participants, drives decisions
+- *When to use*: Leading meetings, workshop facilitation, decision-making sessions
+
+**Design Critique**
+- *What it is*: Structured approach to conducting productive design feedback sessions
+- *How it helps*: Improves design quality, builds team skills, creates learning culture
+- *When to use*: Regular design reviews, feedback sessions, design education
+
+**Executive Presentation**
+- *What it is*: Strategic presentation creation for executive-level stakeholders
+- *How it helps*: Builds leadership support, secures resources, communicates design value
+- *When to use*: Executive reviews, budget requests, strategic alignment
+
 **Executive Summary**
 - *What it is*: Creating executive-level summaries and presentations
 - *How it helps*: Communicates effectively to leadership, builds support, drives decisions
-- *When to use*: Leadership communication, project approval, strategic updates
+- *When to use*: Leadership reporting, status updates, decision requests
 
-**Meeting Facilitation**
-- *What it is*: Planning and facilitating productive design meetings and workshops
-- *How it helps*: Improves meeting effectiveness, engages participants, drives outcomes
-- *When to use*: Team meetings, design workshops, stakeholder sessions
-
-### EDUCATION & DEVELOPMENT (4 tasks)
-Build skills and knowledge in design and business
+### GENERAL PRODUCT DESIGN KNOWLEDGE (3 tasks)
+Build foundational design knowledge and expertise
 
 **Cognitive Biases**
-- *What it is*: Understanding and mitigating biases in design and research
-- *How it helps*: Improves decision quality, reduces bias, enhances objectivity
-- *When to use*: Research planning, decision making, team training
+- *What it is*: Understanding and application of cognitive bias knowledge in design
+- *How it helps*: Improves design decisions, reduces user friction, creates ethical designs
+- *When to use*: Design strategy, user research analysis, ethical design considerations
 
 **B2B Design**
-- *What it is*: Specialized principles for B2B product design
-- *How it helps*: Addresses B2B complexity, stakeholder diversity, enterprise workflows
-- *When to use*: B2B product development, enterprise software, complex workflows
+- *What it is*: Specialized design approach for enterprise and B2B contexts
+- *How it helps*: Addresses complex user hierarchies, procurement processes, integration needs
+- *When to use*: Enterprise product design, B2B platform development, complex organizational contexts
 
 **Economics for Designers**
-- *What it is*: Business economics education for design professionals
-- *How it helps*: Improves business communication, guides decisions, demonstrates value
-- *When to use*: Business alignment, value communication, strategic thinking
-
-**Design Critique**
-- *What it is*: Framework for effective design critique and feedback
-- *How it helps*: Improves design quality, builds team skills, creates learning culture
-- *When to use*: Design reviews, team development, quality improvement
-
-### PROCESS & METHODOLOGY (3 tasks)
-Optimize workflows and choose appropriate methods
-
-**Agile and Lean UX Frameworks**
-- *What it is*: Integration of UX practices with agile development
-- *How it helps*: Aligns UX with development cycles, improves collaboration, reduces waste
-- *When to use*: Agile environments, cross-functional teams, iterative development
-
-**Evaluation Type**
-- *What it is*: Framework for choosing appropriate research and evaluation methods
-- *How it helps*: Optimizes research approach, maximizes insights, saves resources
-- *When to use*: Research planning, method selection, evaluation strategy
-
-**Design Ops**
-- *What it is*: Design operations including workflow optimization and scalability
-- *How it helps*: Scales design effectively, improves efficiency, reduces bottlenecks
-- *When to use*: Team scaling, process optimization, operational improvement
+- *What it is*: Application of economic principles to design including value creation and behavioral economics
+- *How it helps*: Improves business impact, guides pricing strategy, optimizes user incentives
+- *When to use*: Business model design, monetization strategy, behavioral intervention design
