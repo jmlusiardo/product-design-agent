@@ -1126,6 +1126,30 @@ snowball_vibe_coding:
     - "prompt_templates_registry.md"
   agent: technical_specialist
 
+prototype_prompt_creation:
+  task_id: "prototype_prompt_creation"
+  description: >
+    Guide users through creating structured design specifications for prototyping tools using:
+    1. Sequential information gathering methodology
+    2. User flow identification and selection
+    3. Component and interaction mapping
+    4. Design specification preview and validation
+    5. Final markdown spec generation for prototyping tools
+  expected_output: >
+    A complete prototype design specification containing:
+    - Product overview with platform and target users
+    - Core objective statement
+    - Selected key user flow (max 5 flows identified)
+    - Detailed page-by-page component breakdown
+    - Interaction specifications for each component
+    - Final markdown format ready for prototyping tools
+    Formatted as structured markdown design specification
+  task_guide:
+    - "prototype_prompt_creation.md"
+  materials:
+    - "prototype_prompt_templates.md"
+  agent: product_designer
+
 # CONTENT
 content_audit:
   task_id: "content_audit"
