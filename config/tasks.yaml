@@ -252,6 +252,8 @@ journey_mapping:
     Formatted as markdown with diagrams
   task_guide:
     - "journey_mapping.md"
+  materials:
+    - "journey_map_template.md"
   agent: discovery_analyst
 
 # USER RESEARCH
