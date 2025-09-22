@@ -1,5 +1,62 @@
 # Journey Map Template
 
+## Template Customization Rules
+
+### REQUIRED Elements (Never Remove)
+1. **Entry Points Table**: Must include minimum 2 entry points to prevent single-channel bias
+2. **Journey Steps**: Minimum 3 steps required (Discovery/Awareness → Core Action → Follow-up)
+3. **Scenario Coverage**: Each step MUST include Positive, Negative, and at least one edge case scenario
+4. **Follow-up Actions**: All three timeframes (0-24 hours, 1-7 days, 1+ weeks) must be addressed
+5. **Success Metrics**: Primary and secondary metrics required for measurable outcomes
+
+### FLEXIBLE Elements (Can Modify)
+- Step names and descriptions (adapt to specific journey context)
+- Number of journey steps (3-7 recommended, can extend for complex flows)
+- Scenario types within steps (add domain-specific edge cases)
+- Touchpoint categories (customize based on available channels)
+- Opportunity descriptions (tailor to business priorities)
+
+### VALIDATION Checklist
+Before using this template, ensure:
+- [ ] User persona clearly defined with specific goals and context
+- [ ] Journey scope boundaries set (what triggers start, what defines completion)
+- [ ] Multiple entry points identified to avoid tunnel vision
+- [ ] Each step includes user emotions and system responses
+- [ ] Pain points documented with specific improvement opportunities
+- [ ] Success criteria tied to measurable business/user outcomes
+
+### INTEGRATION Requirements
+- **User Stories**: When job or user story needed, follow `writing_statements.md` format
+- **Persona Validation**: Cross-reference journey insights with `user_personas.md` profiles
+- **Emotion Mapping**: Use `empathy_mapping.md` for deeper emotional state analysis
+- **Process Discovery**: For complex system interactions, consider `journey_mapping.md` event storming approach
+
+---
+
+## Related Task Guides
+
+**Before Journey Mapping:**
+- `user_personas.md` - Validate persona accuracy and completeness
+- `empathy_mapping.md` - Understand emotional drivers and pain points
+- `writing_statements.md` - Craft supporting user stories and hypotheses
+
+**During Journey Mapping:**
+- `journey_mapping.md` - Advanced techniques for complex multi-system journeys
+- `requirements_gathering.md` - Stakeholder input and validation methods
+- `mental_modeling.md` - Understanding user assumptions and workflows
+
+**After Journey Mapping:**
+- `usability_testing.md` - Validate journey assumptions with real users
+- `ux_audit.md` - Expert review of touchpoints and interactions
+- `product_requirements_document.md` - Translate insights into feature specifications
+
+**For Research Integration:**
+- `user_feedback_questions.md` (materials) - Journey-specific interview questions
+- `initiative_canvas.md` - Strategic alignment with business outcomes
+- `prioritization.md` - Rank journey improvements by impact and effort
+
+---
+
 ## Template Structure
 
 ### Journey Map Framework
@@ -122,5 +179,5 @@ All possible scenarios after job completion.
 ## Key Insights & Recommendations
 - [Major findings from this journey mapping exercise]  
 - [Priority recommendations for improvement]  
-- [Cross-functional coordination needs]  
+- [Cross-functional coordination needs]
 ```
