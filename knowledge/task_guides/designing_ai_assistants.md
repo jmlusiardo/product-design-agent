@@ -105,6 +105,57 @@
 - Watermarks on generated content
 - Confidence scoring and uncertainty communication
 
+### 2.3 Common AI Assistant Design Challenges & Solutions
+
+**Challenge 1: Users don't know what the AI can do**
+- **Proactive Discovery**: AI suggests actions at contextual moments (e.g., "Need help drafting a contract?" when legal document uploaded)
+- **Visible Entry Points**: Dedicated buttons, sidebars, or embedded components where users expect AI
+- **Progressive Onboarding**: Quick tutorials, empty states, and contextual hints showing capabilities
+- **Contextual Suggestions**: Surface relevant actions based on current user activity and content
+
+**Challenge 2: Users don't know how to interact with AI**
+- **Guided Inputs**: Structured quick actions and suggested prompts instead of open-ended chat
+- **Interactive Forms**: Structured fields that build prompts behind the scenes
+- **Template Library**: Sample prompts showing effective interaction patterns
+- **Progressive Complexity**: Start simple, reveal advanced options as users gain confidence
+
+**Challenge 3: AI outputs can be unpredictable or inaccurate**
+- **Clear Expectation Setting**: Disclaimers like "AI-generated content — review for accuracy"
+- **Edit and Refine Options**: Allow users to modify outputs or request revisions
+- **Structured Feedback Loops**: Thumbs-up/down ratings with specific improvement suggestions
+- **Multiple Variations**: Provide alternative responses for user selection
+- **Confidence Indicators**: Display certainty levels and suggest review when uncertain
+
+**Challenge 4: AI can feel like a black box**
+- **Process Transparency**: Step-by-step progress indicators showing AI reasoning
+- **Source Attribution**: Highlight which information sources influenced decisions
+- **Confidence Communication**: Display certainty levels with clear uncertainty indicators
+- **Reasoning Explanation**: Show logic chains and decision factors when possible
+
+**Challenge 5: AI responses can be slow**
+- **Real-time Progress**: Animations, loaders, and status updates showing active processing
+- **Asynchronous Processing**: Allow continued work while AI processes in background
+- **Partial Results**: Show rough drafts or progress while final version processes
+- **Time Estimates**: Communicate expected completion times for complex tasks
+
+**Challenge 6: Users need control over AI outputs**
+- **Direct Editing**: Allow modification of AI-generated content within interface
+- **Clear Undo/Regenerate**: Simple options to retry or revert changes
+- **Structured Refinements**: Specific adjustment options like "Make more detailed" or "Simplify language"
+- **Override Mechanisms**: Easy ways to reject or completely replace AI suggestions
+
+**Challenge 7: Integrating AI seamlessly into the product**
+- **Contextual Integration**: Embed AI within existing workflows rather than separate tools
+- **Consistent Design Language**: Match AI elements to product UI style with distinct AI indicators
+- **Persistent Access**: Store AI outputs in logical locations, not just chat history
+- **Native Feel**: Make AI feel like core functionality, not an external add-on
+
+**Challenge 8: Finding the right tone for AI communication**
+- **Context-Appropriate Voice**: Formal for legal/financial apps, conversational for support
+- **Warm Microcopy**: Friendly but clear system messages that build trust
+- **Brand Consistency**: Align AI messaging with overall brand voice across interactions
+- **Error Communication**: Replace technical errors with helpful, human-friendly language
+
 ## Phase 3: Technical Feasibility & Prototyping
 
 ### 3.1 Feasibility Assessment Framework
@@ -240,6 +291,7 @@
 - "The Shape of AI | UX Patterns for Artificial Intelligence Design," by Emily Campbell
 - "UX design for agents: Microsoft principles and guidelines for building agentic experiences," by Microsoft Design
 - "People + AI Guidebook: User Needs + Defining Success," from People + AI Research team (Google): https://pair.withgoogle.com
+- "Designing for AI Assistants: Solving Key Challenges Through UI/UX", by Eleana Gkogka: https://medium.com/@eleana_gkogka/designing-for-ai-assistants-solving-key-challenges-through-ui-ux-e869358d048c
 
 ### External Tools and Resources
 - "Human-centered machine learning," by Google Design (via Medium): https://medium.com/google-design/human-centered-machine-learning-a770d10562cd
