@@ -37,6 +37,9 @@
 
 ## Customer Journey Mapping
 
+### Purpose
+- It's very useful for mapping a user journey a persona does to complete a job.
+
 ### Structure
 1. **Persona + Scenario**: Define a single persona and situation.  
 2. **Expectations/Goals**: Note what the user hopes to achieve.  
@@ -47,16 +50,24 @@
 7. **Internal Ownership**: Assign departments or teams responsible.
 
 ### Key Principles
-- Chronological flow from start to goal.
-- One journey map per persona (1:1 mapping).
+- Chronological flow from start to goal, and follow-up steps.
+- One journey map per job.
 - Must include **pain points**—otherwise, it’s incomplete.
 - Outputs: clear touchpoints for improvement, shared organizational understanding.
+
+### Journey Map Template & Usage
+For structured journey mapping with consistent formatting, use the standardized framework provided in `materials/journey_map_template.md`. This template includes:
+- Pre-defined entry points table with required fields
+- Journey steps with scenario coverage (Positive, Negative, Edge cases)
+- Follow-up actions across all timeframes (0-24 hours, 1-7 days, 1+ weeks)
+- Success metrics framework and validation checklist
 
 ---
 
 ## Event Storming
 
 ### Purpose
+- It's better used when there's many steps, or a lot of areas of improvement in the journey still and you want to get ideas.
 - Messier but more comprehensive than journey maps.
 - Maps **domain events** across systems and stakeholders.
 - Useful for uncovering bottlenecks, hotspots, and system interactions.
@@ -97,7 +108,6 @@
 ---
 
 ## Aftermath / Follow-ups
-
 - Share consolidated journey map or event storming output with all stakeholders.  
 - Assign ownership of key touchpoints or pain points.  
 - Define measurable actions (e.g., reduce support call time, simplify onboarding).  
@@ -122,11 +132,8 @@
 ---
 
 ## Tools & Resources
-
-- **Tools**: FigJam, sticky notes, whiteboards.  
-- **References**:
-  - [EventStorming.com](https://www.eventstorming.com/)  
-  - [Selleo Blog – How to Run Your First Event Storming Session](https://selleo.com/blog/how-to-run-your-first-event-storming-session)  
+1. Journey Map Tempalate and examples: `materials/journey_map_template.md`
+2. A digital board (Like Figjam, or Miro), or (if you're doing an in-person activity) use a whiteboard, thick markers and sticky notes.  
 
 ---
 
