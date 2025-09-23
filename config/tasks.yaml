@@ -776,7 +776,7 @@ agile_lean_ux_frameworks:
     - "agile_lean_ux_frameworks.md"
   agent: strategy_analyst
 
-# DESIGN SYSTEMS
+# VISUAL DESIGN AND DESIGN SYSTEMS
 component_documentation:
   task_id: "component_documentation"
   description: >
@@ -819,7 +819,31 @@ design_token_naming:
     - "design_token_naming.md"
   agent: design_systems_specialist
 
-  # VISUAL
+matching_icons_typefaces:
+  task_id: "matching_icons_typefaces"
+  description: >
+    Create harmonious visual language by matching icon families to typeface classifications:
+    1. Typeface classification analysis (Sans serif, Serif, Monospaced, Script, Display)
+    2. Visual characteristic alignment between typography and iconography
+    3. Style consistency framework across text and symbols
+    4. Context-appropriate pairing strategies
+    5. Brand coherence through unified design language
+  expected_output: >
+    A comprehensive icon-typeface matching guide containing:
+    - Typeface classification system for icon pairing
+    - Visual characteristic analysis framework
+    - Specific pairing recommendations by typeface category
+    - Construction principle alignment strategies
+    - Implementation examples and case studies
+    - Quality assurance checklist for visual harmony
+    Formatted as structured markdown guide with visual examples
+  task_guide:
+    - "matching_icons_typefaces.md"
+  related_tasks:
+    - "creating_icons.md"
+    - "design_token_naming.md"
+  agent: design_system_specialist
+
 creating_icons:
   task_id: "creating_icons"
   description: >
