@@ -4,6 +4,8 @@
 
 Icon design is a critical visual communication discipline that transforms complex concepts into universally understandable symbols. This guide provides the complete framework for creating effective icons based on five fundamental rules: universal, simple, legible, nonverbal, and consistent. Icons serve as essential interface elements that reduce cognitive load, transcend language barriers, and create cohesive user experiences across digital and physical applications.
 
+---
+
 ## Prerequisites
 
 - Basic understanding of visual design principles
@@ -15,11 +17,121 @@ Icon design is a critical visual communication discipline that transforms comple
 ## Quickstart
 
 ### The Five Rules of Good Icon Design
-1. **Universal** - Use widely understood symbols that transcend cultural barriers
-2. **Simple** - Reduce to essential elements without falling into abstraction
-3. **Legible** - Maintain clarity at all sizes and contexts
-4. **Nonverbal** - Avoid alphabetic characters except established conventions
-5. **Consistent** - Follow uniform construction guidelines across icon sets
+
+#### Rule 1: Good Icons Are Universal
+
+Icons must communicate precise and relevant messages using objects or actions that best represent the intended concept. Universal icons transcend language barriers and cultural nuances.
+
+**Core Principles:**
+- Choose widely understood visual metaphors
+- Leverage established digital conventions
+- Avoid culturally specific symbols
+- Test across diverse user groups
+
+**Examples of Universal Symbols:**
+- Wi-Fi: Radio waves emanating from a point (not router hardware)
+- Download: Downward arrow with horizontal line
+- Heart: Like or favorite action
+- Lock/Unlock: Security and access states
+- Search: Magnifying glass
+
+**Implementation Guidelines:**
+- Research existing industry standards for your concept
+- Use metaphors rooted in physical world objects
+- Consider international symbol conventions (ISO standards)
+- Validate universality through cross-cultural testing
+
+#### Rule 2: Good Icons Are Simple
+
+Each icon must be simplified to avoid irrelevant information while retaining enough recognizable elements to convey meaning clearly.
+
+**Simplification Strategy:**
+- Start with realistic reference
+- Remove unnecessary details progressively
+- Retain essential identifying features
+- Balance abstraction with recognition
+
+**The Simplification Process:**
+1. **Reference Phase**: Collect realistic representations
+2. **Reduction Phase**: Remove non-essential details
+3. **Refinement Phase**: Optimize remaining elements
+4. **Validation Phase**: Test recognition across contexts
+
+**Avoiding Common Pitfalls:**
+- Over-simplification that destroys meaning
+- Inconsistent detail levels within sets
+- Cultural assumptions about "simple" forms
+- Loss of distinctive characteristics
+
+#### Rule 3: Good Icons Are Legible
+
+Icons must maintain effectiveness across size reductions and work in extreme contexts without compromising legibility.
+
+**Legibility Requirements:**
+- Clear at minimum 16x16 pixels
+- Readable on various backgrounds
+- Distinguishable at peripheral vision
+- Effective in monochrome versions
+
+**Size Testing Protocol:**
+- 80px: Full detail visibility
+- 40px: Good detail retention
+- 24px: Essential elements clear
+- 16px: Still recognizable
+- 12px: Minimum functional size
+
+**Optimization Techniques:**
+- Use consistent stroke weights
+- Maintain adequate contrast ratios
+- Simplify complex intersections
+- Remove fine details at small sizes
+- Test on actual devices and screens
+
+#### Rule 4: Good Icons Are Nonverbal
+
+Icons should avoid alphabetic characters as they depend on specific languages and cultural contexts, maintaining symbolic value instead.
+
+**Nonverbal Guidelines:**
+- Rely on visual metaphors over text
+- Use shapes and forms to communicate
+- Leverage universal symbols and gestures
+- Maintain consistency with established conventions
+
+**Acceptable Text Exceptions:**
+- Single letters with global recognition (P for Parking, I for Information)
+- Established international standards (STOP sign)
+- Mathematical or scientific notation
+- Always validate cultural appropriateness
+
+**Visual Communication Strategies:**
+- Use directional arrows for actions
+- Employ shape metaphors (circle for record, square for stop)
+- Leverage natural forms (cloud for storage, envelope for message)
+- Apply consistent symbolic language
+
+#### Rule 5: Good Icons Are Consistent
+
+Icon sets must follow well-defined construction guidelines with uniform structure and visual constants throughout.
+
+**Consistency Framework:**
+- **Construction Grid**: Standardized sizing system
+- **Visual Style**: Uniform stroke weights, corner rounding, angles
+- **Semantic Logic**: Related concepts use related visual patterns
+- **Technical Specifications**: Standardized export settings and formats
+
+**Construction Guidelines:**
+- Base grid system (typically 14px or 24px)
+- Consistent stroke weights (1px, 2px, or 3px)
+- Standardized corner radius values
+- 45° and 90° angle restrictions
+- Unified color palette application
+
+**Set Cohesion Elements:**
+- Matching visual weight across icons
+- Consistent level of detail
+- Uniform perspective (flat vs. isometric)
+- Shared geometric foundation
+- Aligned stylistic choices
 
 ### Essential Icon Creation Process
 1. Define purpose and context
@@ -30,6 +142,61 @@ Icon design is a critical visual communication discipline that transforms comple
 6. Test at multiple sizes
 7. Evaluate using the three-criteria framework
 8. Validate with target users
+
+---
+
+## Choosing Meaningful Icons
+
+### Start with Purpose and Context
+Before designing or selecting icons, establish clear criteria for evaluation that will guide all creative decisions throughout the design process.
+
+**Purpose-Driven Selection:**
+- Define what word(s) could describe this concept most accurately
+- Use dictionary resources and synonym exploration to expand conceptual vocabulary
+- Research existing solutions on platforms like The Noun Project for established conventions
+- Consider abstract approaches with consistent thematic elements when literal representations prove ineffective
+- Always prioritize function over decoration in interface contexts
+
+**Context and Audience Analysis:**
+- Identify primary user demographics and cultural backgrounds
+- Research cultural symbol meanings and potential negative associations
+- Plan for international markets with culturally appropriate alternatives
+- Consider generational differences in symbol interpretation
+- Document contextual usage requirements and constraints
+
+### Cultural Considerations and Universal Understanding
+Icons are not universally understandable across all cultures, requiring careful consideration of audience and context.
+
+**Cultural Validation Framework:**
+- Test icon meaning with representative users from target demographics
+- Research cultural symbol meanings and religious associations
+- Consider economic and technological contexts that may affect interpretation
+- Plan for regional variations and localization requirements
+- Document cultural testing results and alternative symbol recommendations
+
+**Universal Design Strategies:**
+- Pair icons with text labels whenever possible for accessibility
+- Use established international conventions when they exist
+- Avoid culturally specific metaphors that may not translate globally
+- Consider abstract geometric approaches for universal concepts
+- Test with diverse user groups during development phases
+
+### Icon Recognition and Testing
+**Recognition Testing Methods:**
+- Conduct 5-second recognition tests for immediate comprehension assessment
+- Use first-click testing for interface icon effectiveness evaluation
+- Implement comparative testing between different icon alternatives
+- Test across different age groups and cultural backgrounds
+- Use the "squint test" to verify icons maintain meaning when blurred
+
+**Success Criteria:**
+- Greater than 85% recognition rate for primary functional icons
+- Less than 2 seconds interpretation time for common action icons
+- Consistent interpretation across diverse user demographics
+- Zero negative cultural associations or misunderstandings
+- Full accessibility compliance with screen readers and assistive technologies
+
+---
 
 ## Strategic Planning for Icon Projects
 
@@ -64,6 +231,24 @@ Before creating any icons, establish clear objectives that will guide all design
 - Review scientific literature for sensitive topics (mental health, medical)
 - Document existing conventions and user expectations
 - Create comprehensive reference libraries
+
+### Creating Unique Icon Styles
+
+**Style Development Through Combination:**
+Icons gain personality through the strategic combination of fundamental stylistic elements that work together to create distinctive visual languages.
+
+**Base Style Decisions:**
+- **Stroke vs. Fill**: Choose primary rendering approach
+- **Geometric vs. Organic**: Establish shape treatment philosophy
+- **Detailed vs. Minimal**: Determine appropriate complexity level
+- **Modern vs. Classic**: Align with brand aesthetic and time context
+
+**Advanced Style Combinations:**
+1. **Outlined + Filled Elements**: Combine line art with selective solid fills
+2. **Mixed Weights**: Vary stroke thickness for emphasis and hierarchy
+3. **Geometric + Organic Curves**: Blend structured and natural forms
+4. **Layered Transparency**: Use overlapping elements with opacity variations
+5. **Textural Elements**: Add subtle patterns or surface treatments
 
 ### Conceptualization Framework
 
@@ -107,128 +292,10 @@ For abstract concepts or complex metaphors, use systematic concept mapping:
 - Technical system relationships
 - Cultural or sensitive topics requiring careful representation
 
-## The Five Fundamental Rules
+## Technical Design Principles with Optical Grids
 
-### Rule 1: Good Icons Are Universal
-
-Icons must communicate precise and relevant messages using objects or actions that best represent the intended concept. Universal icons transcend language barriers and cultural nuances.
-
-**Core Principles:**
-- Choose widely understood visual metaphors
-- Leverage established digital conventions
-- Avoid culturally specific symbols
-- Test across diverse user groups
-
-**Examples of Universal Symbols:**
-- Wi-Fi: Radio waves emanating from a point (not router hardware)
-- Download: Downward arrow with horizontal line
-- Heart: Like or favorite action
-- Lock/Unlock: Security and access states
-- Search: Magnifying glass
-
-**Implementation Guidelines:**
-- Research existing industry standards for your concept
-- Use metaphors rooted in physical world objects
-- Consider international symbol conventions (ISO standards)
-- Validate universality through cross-cultural testing
-
-### Rule 2: Good Icons Are Simple
-
-Each icon must be simplified to avoid irrelevant information while retaining enough recognizable elements to convey meaning clearly.
-
-**Simplification Strategy:**
-- Start with realistic reference
-- Remove unnecessary details progressively
-- Retain essential identifying features
-- Balance abstraction with recognition
-
-**The Simplification Process:**
-1. **Reference Phase**: Collect realistic representations
-2. **Reduction Phase**: Remove non-essential details
-3. **Refinement Phase**: Optimize remaining elements
-4. **Validation Phase**: Test recognition across contexts
-
-**Avoiding Common Pitfalls:**
-- Over-simplification that destroys meaning
-- Inconsistent detail levels within sets
-- Cultural assumptions about "simple" forms
-- Loss of distinctive characteristics
-
-### Rule 3: Good Icons Are Legible
-
-Icons must maintain effectiveness across size reductions and work in extreme contexts without compromising legibility.
-
-**Legibility Requirements:**
-- Clear at minimum 16x16 pixels
-- Readable on various backgrounds
-- Distinguishable at peripheral vision
-- Effective in monochrome versions
-
-**Size Testing Protocol:**
-- 80px: Full detail visibility
-- 40px: Good detail retention
-- 24px: Essential elements clear
-- 16px: Still recognizable
-- 12px: Minimum functional size
-
-**Optimization Techniques:**
-- Use consistent stroke weights
-- Maintain adequate contrast ratios
-- Simplify complex intersections
-- Remove fine details at small sizes
-- Test on actual devices and screens
-
-### Rule 4: Good Icons Are Nonverbal
-
-Icons should avoid alphabetic characters as they depend on specific languages and cultural contexts, maintaining symbolic value instead.
-
-**Nonverbal Guidelines:**
-- Rely on visual metaphors over text
-- Use shapes and forms to communicate
-- Leverage universal symbols and gestures
-- Maintain consistency with established conventions
-
-**Acceptable Text Exceptions:**
-- Single letters with global recognition (P for Parking, I for Information)
-- Established international standards (STOP sign)
-- Mathematical or scientific notation
-- Always validate cultural appropriateness
-
-**Visual Communication Strategies:**
-- Use directional arrows for actions
-- Employ shape metaphors (circle for record, square for stop)
-- Leverage natural forms (cloud for storage, envelope for message)
-- Apply consistent symbolic language
-
-### Rule 5: Good Icons Are Consistent
-
-Icon sets must follow well-defined construction guidelines with uniform structure and visual constants throughout.
-
-**Consistency Framework:**
-- **Construction Grid**: Standardized sizing system
-- **Visual Style**: Uniform stroke weights, corner rounding, angles
-- **Semantic Logic**: Related concepts use related visual patterns
-- **Technical Specifications**: Standardized export settings and formats
-
-**Construction Guidelines:**
-- Base grid system (typically 14px or 24px)
-- Consistent stroke weights (1px, 2px, or 3px)
-- Standardized corner radius values
-- 45° and 90° angle restrictions
-- Unified color palette application
-
-**Set Cohesion Elements:**
-- Matching visual weight across icons
-- Consistent level of detail
-- Uniform perspective (flat vs. isometric)
-- Shared geometric foundation
-- Aligned stylistic choices
-
-## Technical Implementation: Grids and Key Shapes
-
-### Understanding Construction Grids
-
-Grids are structured frameworks consisting of intersecting horizontal, vertical, and sometimes diagonal lines that guide element placement to create organized compositions. Most professional icons are built using grid systems to ensure formal continuity and visual rhythm.
+### Professional Grid Systems
+Most professional icons are built using grid systems to ensure formal continuity and visual rhythm across entire icon sets.
 
 **Grid Components:**
 1. **Frame**: Defines the boundaries and format of the icon
@@ -236,7 +303,7 @@ Grids are structured frameworks consisting of intersecting horizontal, vertical,
 3. **Primary Grid (Units)**: Basic structure determining overall layout and proportions
 4. **Secondary Grid (Subunits)**: Detailed guidelines for precision and visual balance
 
-**Grid System Examples:**
+**Professional Grid System Examples:**
 
 **24px Professional Grid System (Recommended):**
 - Icon boundary: 24x24px
@@ -281,7 +348,7 @@ Key shapes are fundamental forms that establish the foundation for visual balanc
 1. Design base shapes for your grid system
 2. Test icons against key shapes for proportion consistency
 3. Make optical adjustments when strict adherence compromises legibility
-4. Use blur test to verify visual weight balance across icon set
+4. Document key shape specifications for team consistency
 
 ### When to Break the Rules
 
@@ -322,6 +389,8 @@ Key shapes are fundamental forms that establish the foundation for visual balanc
 - Emphasis on depth and hierarchy
 - Excellent for brand color integration
 - Balances complexity with simplicity
+
+---
 
 ## Creating Unique Icon Styles Through Combination
 
@@ -389,11 +458,9 @@ Rather than viewing icons as single vector objects, approach them as assembled c
 - Better suited for larger scale implementations
 - Perfect for content covers and marketing materials
 
-## Color Strategies for Icon Enhancement
+### Strategic Color Usage for Icon Differentiation
 
-### Moving Beyond Default Colors
-
-Color increases brand recognition by up to 80%, making it essential for creating distinctive and memorable icon systems. Most icons default to black or gray, creating opportunities for unique brand differentiation through strategic color application.
+Most icons default to black or gray, creating opportunities for unique brand differentiation through strategic color application.
 
 ### Six Color Application Techniques
 
@@ -480,6 +547,8 @@ Color increases brand recognition by up to 80%, making it essential for creating
 - Product design highlights
 - Advertising and attention-grabbing elements
 
+---
+
 ## Icon Evaluation Framework
 
 ### The Three-Criteria Evaluation System
@@ -525,7 +594,35 @@ Every icon must be evaluated against three fundamental criteria to ensure optima
 - Angle restrictions (45°, 90° geometric constraints)
 - Color palette adherence and accessibility compliance
 
-### 3. Legibility Evaluation
+### 2. Appropriateness Evaluation
+
+**Core Questions:**
+- Is the icon suitable for its intended context and audience?
+- Does it align with brand values and communication goals?
+- Is the visual complexity appropriate for the use case?
+- Does it match the overall design system aesthetic?
+
+**Context Considerations:**
+- Professional vs. casual applications
+- Age-appropriate visual language
+- Cultural sensitivity and inclusiveness
+- Technical context and platform constraints
+
+### 3. Distinctiveness Evaluation
+
+**Core Questions:**
+- Is the icon visually distinct from others in the set?
+- Does it avoid confusion with similar concepts?
+- Is it memorable and easily recognizable?
+- Does it contribute to unique brand identity?
+
+**Testing Methods:**
+- Side-by-side comparison with icon set
+- Memory retention testing after brief exposure
+- Competitive analysis for uniqueness
+- Brand alignment assessment
+
+### 4. Legibility Evaluation
 
 **Core Questions:**
 - Does the meaning remain clear in actual usage contexts?
@@ -566,41 +663,82 @@ Every icon must be evaluated against three fundamental criteria to ensure optima
 - Technical validation across multiple devices and contexts
 - Accessibility compliance verification (WCAG standards)
 
-## Advanced Implementation
+---
 
-### Technical Specifications
+## Advanced Consistency Guidelines
 
-**Vector Requirements:**
-- SVG format for scalability and editability
-- Outlined strokes (no stroke weights in final files)
-- Unified coordinate system alignment
-- Optimized path complexity for performance
-- Consistent naming conventions for component organization
+### Systematic Style Parameters
 
-**Export Standards:**
-- Multiple format support (SVG, PNG, PDF)
-- Various size exports (16px, 24px, 32px, 48px, 64px, 80px)
-- Proper naming taxonomy for asset management
-- Asset organization system for design system integration
-- Version control integration for collaborative development
+**Maintaining Visual Consistency:**
+- **Stroke Weight**: Uniform thickness throughout entire icon set
+- **Corner Radius**: Consistent rounding approach (sharp, subtle, or pronounced)
+- **Angle Constraints**: Limited to specific degrees (45°, 90°, multiples of 15°)
+- **Detail Level**: Uniform complexity across all icons in the family
+- **Color Palette**: Restricted color scheme applied systematically
 
-#### Implementation Examples
+### The Squint Test for Consistency
+**Method**: Blur your eyes or reduce icon opacity to assess visual weight consistency
+**Purpose**: Ensure icons have similar visual presence and density
+**Application**: Icons should appear equally bold/light when squinted at
+**Correction**: Adjust stroke weights or filled areas to achieve balance
 
-**In navigation Systems:**
-- Consistent icon sizing throughout interface hierarchy
-- Clear visual hierarchy supporting information architecture
-- Proper spacing relationships with text and other elements
-- State indication clarity for interactive feedback
-- Mobile optimization for touch-friendly interactions
+### Creating Icon Variants
+**Size Adaptations:**
+- **16px**: Minimal detail, maximum simplification
+- **24px**: Standard detail level for interface use
+- **32px**: Full detail possible, decorative elements allowed
+- **48px+**: Maximum detail, suitable for illustrations
 
-**In dashboard interfaces:**
-- Status communication icons for system feedback
-- Action trigger clarity for functional operations
-- Data visualization support through meaningful symbols
-- Quick recognition patterns for efficiency
-- Scalable implementation across screen sizes
+**Style Variants:**
+- **Line**: Outline only with consistent stroke weight
+- **Solid**: Filled shapes with unified treatment
+- **Duotone**: Two-color system with primary/secondary relationship
 
-### Design System Integration
+---
+
+## Implementation and Testing
+
+### Testing Methods
+
+**Recognition Testing:**
+- 5-second tests for immediate comprehension
+- First-click testing for interface effectiveness
+- Comparative testing between icon alternatives
+- Cross-cultural validation with diverse user groups
+- Accessibility testing with screen readers
+
+**Technical Validation:**
+- Cross-browser rendering consistency
+- Multiple device testing across platforms
+- Various screen density optimization
+- Color contrast validation (WCAG AA/AAA compliance)
+- Performance impact assessment for loading times
+
+---
+
+### Quality Assurance Workflow
+
+**Individual Icon Review Process:**
+1. **Designer Submission**: Share work via collaborative platforms
+2. **Peer Review**: Art Director and team members provide feedback
+3. **Revision Integration**: Designer incorporates suggestions
+4. **Approval Assessment**: Continue iteration until quality standards met
+
+**Comprehensive Set Review:**
+- Systematic evaluation of entire icon families
+- Direct annotation within design files
+- Coordinated correction implementation
+- Final approval and export preparation
+
+**Quality Assurance Techniques:**
+- Blur test for visual weight consistency
+- Cross-cultural user testing for universal comprehension
+- Technical validation across multiple devices and contexts
+- Accessibility compliance verification (WCAG standards)
+
+---
+
+## Design System Integration
 
 **Icon Categories and Taxonomy:**
 
@@ -628,6 +766,8 @@ Every icon must be evaluated against three fundamental criteria to ensure optima
 - Process flows and workflow representations
 - Hierarchical relationships and structural organization
 
+---
+
 ### Component Integration
 
 **Icon Component Properties:**
@@ -642,28 +782,7 @@ Every icon must be evaluated against three fundamental criteria to ensure optima
 - Appropriate size relationships within information hierarchy
 - Accessibility considerations (alt text, ARIA labels, screen reader compatibility)
 
-### Quality Assurance and Testing
-
-**Recognition Testing Methods:**
-- First-click testing for interface icon effectiveness
-- 5-second recognition tests for immediate comprehension
-- Comparative icon testing against alternatives
-- Cross-cultural validation with international user groups
-- Accessibility testing with assistive technologies
-
-**Success Criteria Benchmarks:**
-- >85% recognition rate for primary functional icons
-- <2 second interpretation time for common actions
-- Consistent interpretation across diverse user demographics
-- Zero negative cultural associations or misunderstandings
-- Full screen reader compatibility and navigation support
-
-**Technical Validation:**
-- Cross-browser rendering consistency
-- Multiple device testing across platforms
-- Various screen density optimization
-- Color contrast validation (WCAG AA/AAA compliance)
-- Performance impact assessment for loading times
+---
 
 ## Troubleshooting Common Issues
 
@@ -703,6 +822,8 @@ Every icon must be evaluated against three fundamental criteria to ensure optima
 - Document cultural variations and regional alternatives
 - Plan comprehensive localization strategy for global deployment
 
+---
+
 ## FAQ
 
 **Q: How many icons should be in a basic icon set?**
@@ -713,6 +834,9 @@ A: Yes, especially for primary actions and complex functions. Labels improve acc
 
 **Q: How do I handle icon localization for different markets?**
 A: Research cultural meanings and associations thoroughly, test with local user groups in target markets, consider alternative metaphors for symbols that may be problematic, maintain documentation for regional variations, and plan comprehensive localization strategy for global deployment.
+
+**Q: When should I use color vs. monochrome icons?**
+A: Use monochrome for functional interface elements where consistency matters most. Apply color strategically for categorization, branding, status indication, or when icons need to stand out. Always ensure sufficient contrast and test accessibility compliance.
 
 **Q: What's the difference between icons and illustrations?**
 A: Icons are functional symbols designed for quick recognition and user interaction within interface contexts. Illustrations are decorative or explanatory visuals that enhance understanding or emotional connection without necessarily triggering functional behavior.
@@ -729,6 +853,8 @@ A: Use concept mapping to break down complex ideas into visual components, resea
 **Q: What tools are best for professional icon design?**
 A: Figma offers excellent collaborative features and component systems, Adobe Illustrator provides advanced vector editing capabilities, Sketch remains popular for UI design workflows, and specialized tools like Streamline App can speed up color customization and export processes.
 
+---
+
 ## Resources
 
 ### Open-source Icon Families
@@ -736,6 +862,8 @@ A: Figma offers excellent collaborative features and component systems, Adobe Il
 - Feather Icons: https://github.com/feathericons/feather
 - Lucide Icons (Used by shadCN design system): https://github.com/lucide-icons/lucide
 - Fontawesome: https://github.com/FortAwesome/Font-Awesome
+
+---
 
 ## References
 - "The five rules of good icon design" by Streamline HQ: https://blog.streamlinehq.com/principles-of-icon-design/
@@ -745,5 +873,7 @@ A: Figma offers excellent collaborative features and component systems, Adobe Il
 - "How to create unique icons styles through combination" by Streamline HQ: https://blog.streamlinehq.com/stylish-combo/
 - "Create consistent, harmonious icons with Grids and Key Shapes" by Streamline HQ: https://blog.streamlinehq.com/grids-and-keyshapes/
 - "A complete guide to iconography" by Bonnie Kate Wolf: https://www.designsystems.com/iconography-guide/
-- "Dieter Rams: Ten Principles for Good Design" - Prestel Publishing
 - "Pictograms, Icons & Signs: A Guide to Information Graphics" by Abdullah & Hübner - Thames & Hudson
+- Walter, S. (2021). "Tips on How to Pick the Right Icons for Your Website." https://stephaniewalter.design/blog/tips-on-how-to-pick-the-right-icons-for-your-website-with-icons8/
+- Shestopalov, S. (2018). "Designing a well-balanced set of interface icons." Design Bridges. https://medium.com/design-bridges/icon-set-3b4fc87dc6b5  
+- Zhang, H. (2020). "7 Principles of Icon Design." UX Collective. https://uxdesign.cc/7-principles-of-icon-design-e7187539e4a2
