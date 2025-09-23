@@ -1,0 +1,329 @@
+# Icon Family JSON Template
+# This JSON template defines the structure and standards for an icon family in a design system.
+# It includes metadata, specifications, style variants, size breakpoints, semantic categories,
+# naming conventions, export formats, implementation guidelines, accessibility standards,
+# quality assurance processes, and version control.
+
+{
+  "iconFamily": {
+    "metadata": {
+      "name": "Core Interface Icons",
+      "version": "2.1.0",
+      "description": "Essential interface icons following universal design principles",
+      "category": "interface",
+      "license": "MIT",
+      "author": "Design System Team",
+      "created": "2024-01-15",
+      "lastModified": "2024-09-23",
+      "tags": ["interface", "universal", "minimal", "consistent"]
+    },
+    "specifications": {
+      "grid": {
+        "baseSize": 24,
+        "safeArea": 20,
+        "centralArea": 16,
+        "units": "px",
+        "alignment": "center"
+      },
+      "construction": {
+        "strokeWidth": {
+          "thin": 1,
+          "medium": 2,
+          "thick": 3
+        },
+        "cornerRadius": {
+          "none": 0,
+          "small": 2,
+          "medium": 4,
+          "large": 8
+        },
+        "angles": [0, 45, 90, 135, 180, 225, 270, 315],
+        "endCaps": "rounded"
+      },
+      "colorSystem": {
+        "modes": ["light", "dark", "auto"],
+        "properties": {
+          "primary": "var(--icon-primary)",
+          "secondary": "var(--icon-secondary)",
+          "tertiary": "var(--icon-tertiary)",
+          "inverse": "var(--icon-inverse)",
+          "disabled": "var(--icon-disabled)"
+        }
+      }
+    },
+    "styleVariants": {
+      "line": {
+        "description": "Minimal line-based icons with consistent stroke weight",
+        "strokeWeight": 2,
+        "fill": "none",
+        "stroke": "currentColor",
+        "characteristics": ["minimal", "universal", "scalable"],
+        "useCases": ["primary navigation", "toolbar actions", "mobile interfaces"]
+      },
+      "solid": {
+        "description": "Filled icons with solid shapes for improved legibility",
+        "strokeWeight": 0,
+        "fill": "currentColor",
+        "stroke": "none",
+        "characteristics": ["high-contrast", "legible", "bold"],
+        "useCases": ["buttons", "status indicators", "small sizes"]
+      },
+      "duotone": {
+        "description": "Two-color system for hierarchy and depth",
+        "primaryColor": "var(--icon-primary)",
+        "secondaryColor": "var(--icon-secondary)",
+        "opacity": {
+          "primary": 1.0,
+          "secondary": 0.4
+        },
+        "characteristics": ["hierarchical", "modern", "dimensional"],
+        "useCases": ["feature highlights", "category indicators", "dashboard elements"]
+      }
+    },
+    "sizeBreakpoints": {
+      "micro": {
+        "size": 12,
+        "optimizations": ["simplified details", "increased stroke weight", "removed fine elements"],
+        "useCases": ["inline text", "dense tables", "status badges"]
+      },
+      "small": {
+        "size": 16,
+        "optimizations": ["pixel-aligned", "optimized curves", "enhanced contrast"],
+        "useCases": ["form fields", "navigation", "list items"]
+      },
+      "medium": {
+        "size": 24,
+        "optimizations": ["base design", "standard construction"],
+        "useCases": ["primary actions", "toolbar", "cards"]
+      },
+      "large": {
+        "size": 32,
+        "optimizations": ["enhanced details", "refined curves"],
+        "useCases": ["headers", "empty states", "feature callouts"]
+      },
+      "xlarge": {
+        "size": 48,
+        "optimizations": ["full detail", "decorative elements"],
+        "useCases": ["hero sections", "illustrations", "marketing"]
+      }
+    },
+    "semanticCategories": {
+      "actions": {
+        "description": "User-initiated interactions and system operations",
+        "namingPattern": "action-[verb]-[object]",
+        "examples": ["action-add-item", "action-delete-user", "action-share-content"],
+        "icons": [
+          {
+            "id": "add",
+            "name": "Add",
+            "description": "Create or add new item",
+            "keywords": ["plus", "create", "new", "insert"],
+            "variants": ["line", "solid"],
+            "sizes": ["small", "medium", "large"]
+          },
+          {
+            "id": "delete",
+            "name": "Delete",
+            "description": "Remove or delete item",
+            "keywords": ["remove", "trash", "delete", "destroy"],
+            "variants": ["line", "solid"],
+            "sizes": ["small", "medium", "large"],
+            "accessibility": {
+              "ariaLabel": "Delete item",
+              "role": "button",
+              "confirmationRequired": true
+            }
+          }
+        ]
+      },
+      "navigation": {
+        "description": "Movement and directional indicators",
+        "namingPattern": "nav-[direction]-[context]",
+        "examples": ["nav-arrow-left", "nav-chevron-down", "nav-home-base"],
+        "icons": [
+          {
+            "id": "arrow-left",
+            "name": "Arrow Left",
+            "description": "Navigate backward or left direction",
+            "keywords": ["back", "previous", "left", "return"],
+            "variants": ["line", "solid"],
+            "sizes": ["small", "medium", "large"]
+          }
+        ]
+      },
+      "status": {
+        "description": "System and user feedback indicators",
+        "namingPattern": "status-[state]-[context]",
+        "examples": ["status-success-check", "status-error-alert", "status-loading-spinner"],
+        "colorMapping": {
+          "success": "var(--color-success)",
+          "warning": "var(--color-warning)",
+          "error": "var(--color-error)",
+          "info": "var(--color-info)"
+        },
+        "icons": [
+          {
+            "id": "check",
+            "name": "Success Check",
+            "description": "Indicates successful completion",
+            "keywords": ["success", "done", "complete", "valid"],
+            "variants": ["line", "solid"],
+            "sizes": ["small", "medium", "large"],
+            "defaultColor": "success"
+          }
+        ]
+      },
+      "content": {
+        "description": "Content types and media representations",
+        "namingPattern": "content-[type]-[format]",
+        "examples": ["content-document-pdf", "content-image-photo", "content-video-play"],
+        "icons": []
+      }
+    },
+    "namingConventions": {
+      "taxonomy": {
+        "pattern": "[category]-[concept]-[variant]-[state]",
+        "separator": "-",
+        "casing": "kebab-case",
+        "examples": [
+          "action-add-solid-default",
+          "nav-arrow-line-hover",
+          "status-success-solid-active"
+        ]
+      },
+      "fileNaming": {
+        "pattern": "{iconName}_{variant}_{size}.{format}",
+        "examples": [
+          "add_line_24.svg",
+          "arrow-left_solid_16.svg",
+          "check_duotone_32.svg"
+        ]
+      },
+      "cssClasses": {
+        "pattern": "icon-{category}-{name}",
+        "examples": [
+          "icon-action-add",
+          "icon-nav-arrow-left",
+          "icon-status-check"
+        ]
+      }
+    },
+    "exportFormats": {
+      "svg": {
+        "primary": true,
+        "settings": {
+          "viewBox": "0 0 24 24",
+          "xmlns": "http://www.w3.org/2000/svg",
+          "optimized": true,
+          "removeMetadata": true,
+          "precision": 2
+        }
+      },
+      "png": {
+        "sizes": [16, 24, 32, 48, 64],
+        "density": ["1x", "2x", "3x"],
+        "background": "transparent",
+        "antialiasing": true
+      },
+      "webp": {
+        "sizes": [16, 24, 32, 48],
+        "quality": 90,
+        "lossless": true
+      },
+      "iconFont": {
+        "format": "woff2",
+        "baseSize": 24,
+        "ligatures": true,
+        "unicodeRange": "U+E000-U+F8FF"
+      }
+    },
+    "implementation": {
+      "css": {
+        "customProperties": {
+          "--icon-size": "1.5rem",
+          "--icon-color": "currentColor",
+          "--icon-hover-color": "var(--color-primary)",
+          "--icon-disabled-opacity": "0.4"
+        },
+        "baseClass": ".icon",
+        "modifiers": [".icon--small", ".icon--large", ".icon--disabled"]
+      },
+      "react": {
+        "componentName": "Icon",
+        "props": {
+          "name": "string",
+          "size": "small | medium | large | number",
+          "variant": "line | solid | duotone",
+          "color": "string",
+          "className": "string",
+          "ariaLabel": "string"
+        },
+        "example": "<Icon name=\"add\" size=\"medium\" variant=\"solid\" ariaLabel=\"Add new item\" />"
+      },
+      "webComponents": {
+        "tagName": "ui-icon",
+        "attributes": ["name", "size", "variant", "color"],
+        "example": "<ui-icon name=\"add\" size=\"24\" variant=\"solid\"></ui-icon>"
+      }
+    },
+    "accessibility": {
+      "requirements": {
+        "colorContrast": "4.5:1 minimum against background",
+        "focusIndicator": "2px outline with 2px offset",
+        "touchTarget": "44x44px minimum for interactive icons",
+        "semanticMarkup": "Proper ARIA labels and roles"
+      },
+      "testing": {
+        "screenReader": ["NVDA", "JAWS", "VoiceOver"],
+        "colorBlindness": ["Protanopia", "Deuteranopia", "Tritanopia"],
+        "zoomLevels": ["200%", "300%", "400%"],
+        "highContrast": ["Windows High Contrast", "Increased Contrast (macOS)"]
+      },
+      "guidelines": {
+        "interactiveIcons": "Must include aria-label or aria-labelledby",
+        "decorativeIcons": "Use aria-hidden=\"true\" or role=\"presentation\"",
+        "statusIcons": "Include aria-live regions for dynamic changes",
+        "complexIcons": "Provide alternative text descriptions"
+      }
+    },
+    "qualityAssurance": {
+      "visualTesting": {
+        "sizes": ["12px", "16px", "24px", "32px", "48px"],
+        "backgrounds": ["white", "black", "gray", "color"],
+        "browsers": ["Chrome", "Firefox", "Safari", "Edge"],
+        "devices": ["Desktop", "Tablet", "Mobile"]
+      },
+      "usabilityTesting": {
+        "recognitionRate": ">85% for primary functions",
+        "interpretationTime": "<3 seconds average",
+        "culturalValidation": "Test across target demographics",
+        "contextualTesting": "Test within actual interface contexts"
+      },
+      "technicalValidation": {
+        "svgOptimization": "File size <5KB per icon",
+        "renderingPerformance": "No visual artifacts at target sizes",
+        "crossBrowserCompatibility": "Consistent appearance across browsers",
+        "accessibilityCompliance": "WCAG 2.1 AA standard"
+      }
+    },
+    "versionControl": {
+      "changelog": [
+        {
+          "version": "2.1.0",
+          "date": "2024-09-23",
+          "changes": ["Added duotone variants", "Improved accessibility guidelines", "Updated naming conventions"]
+        },
+        {
+          "version": "2.0.0",
+          "date": "2024-06-15",
+          "changes": ["Complete redesign", "New construction grid", "Breaking: Updated naming scheme"]
+        }
+      ],
+      "deprecation": {
+        "policy": "6 months notice for breaking changes",
+        "migration": "Provide automated migration tools",
+        "support": "Legacy versions supported for 1 year"
+      }
+    }
+  }
+}

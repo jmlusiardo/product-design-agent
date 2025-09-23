@@ -820,6 +820,53 @@ design_token_naming:
   agent: design_systems_specialist
 
   # VISUAL
+creating_icons:
+  task_id: "creating_icons"
+  description: >
+    Design effective icons following universal design principles:
+    1. Universal recognition across cultures
+    2. Simplified visual communication
+    3. Legible at all sizes and contexts
+    4. Nonverbal symbolic representation
+    5. Consistent construction guidelines
+  expected_output: >
+    A comprehensive icon design guide containing:
+    - Five fundamental icon rules
+    - Technical construction guidelines
+    - Quality assurance framework
+    - Implementation best practices
+    - Testing and validation methods
+    Formatted as structured markdown guide with examples and case studies
+  task_guide:
+    - "creating_icons.md"
+  agent: design_educator
+
+icon_family_specification:
+  task_id: "icon_family_specification"
+  description: >
+    Create structured JSON specification for icon families following design system standards:
+    1. Icon family metadata and classification
+    2. Construction guidelines and grid specifications
+    3. Style variants and size requirements
+    4. Semantic categorization and naming conventions
+    5. Implementation guidelines and accessibility requirements
+  expected_output: >
+    A comprehensive JSON specification containing:
+    - Icon family metadata (name, version, description, category)
+    - Technical specifications (grid system, stroke weights, corner radius)
+    - Style variants (line, solid, duotone) with properties
+    - Size breakpoints and optimization rules
+    - Semantic categories and naming taxonomy
+    - Export formats and implementation guidelines
+    - Accessibility requirements and testing criteria
+    Formatted as structured JSON schema with implementation examples
+  task_guide:
+    - "creating_icons.md"
+    - "design_token_naming.md"
+  materials:
+    - "icon_family_json_template.json"
+  agent: design_system_specialist
+
 writing_ai_image_prompts:
   task_id: "writing_ai_image_prompts"
   description: >

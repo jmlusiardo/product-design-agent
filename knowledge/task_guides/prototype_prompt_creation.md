@@ -244,6 +244,7 @@ Flow Step: Browse Recipes
 ## 5. Additional Notes
 [Optional: Design preferences, accessibility requirements, style guidance]
 ```
+
 ---
 
 ## Quality Assurance Checklist
