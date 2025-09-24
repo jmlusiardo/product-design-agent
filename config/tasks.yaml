@@ -257,6 +257,27 @@ journey_mapping:
   agent: discovery_analyst
 
 # USER RESEARCH
+affinity_diagramming:
+  task_id: "affinity_diagramming"
+  description: >
+    Organize and synthesize large amounts of information through collaborative clustering:
+    1. Information preparation and sticky note creation
+    2. Collaborative team clustering session facilitation
+    3. Pattern emergence and cluster naming
+    4. Priority ranking and importance assessment
+    5. Synthesis documentation and stakeholder presentation
+  expected_output: >
+    An affinity diagram analysis containing:
+    - Clustered information groups with named themes
+    - Priority-ranked cluster importance matrix
+    - Pattern analysis and key insights summary
+    - Synthesis documentation with interpretive notes
+    - Stakeholder presentation of findings
+    Formatted as visual clustering output with summary analysis
+  task_guide:
+    - "affinity_diagramming.md"
+  agent: research_analyst
+
 contextual_inquiry:
   task_id: "contextual_inquiry"
   description: >

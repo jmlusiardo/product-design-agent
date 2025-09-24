@@ -324,6 +324,7 @@ research_analyst:
     - usability_test_reporting
     - measure_ux
     - user_personas
+    - affinity_diagramming
 
 strategy_analyst:
   role:
