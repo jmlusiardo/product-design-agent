@@ -257,6 +257,27 @@ journey_mapping:
   agent: discovery_analyst
 
 # USER RESEARCH
+contextual_inquiry:
+  task_id: "contextual_inquiry"
+  description: >
+    Conduct contextual inquiries combining interviews with observations:
+    1. Natural setting fieldwork with users
+    2. Master-apprentice relationship establishment
+    3. Collaborative interpretation of user work
+    4. Focus on relevant domain activities
+    5. Systematic analysis through coding and affinity diagramming
+  expected_output: >
+    A contextual inquiry package containing:
+    - Interview notes and observations
+    - User workflow documentation
+    - Coded findings and themes
+    - Affinity diagram preparation materials
+    - Research insights and design implications
+    Formatted as comprehensive research report
+  task_guide:
+    - "contextual_inquiry.md"
+  agent: user_researcher
+
 empathy_mapping:
   task_id: "empathy_mapping"  
   description: >
