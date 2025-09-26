@@ -72,11 +72,14 @@ A comprehensive guide for implementing a conversational AI system that generates
 ### 2. Optional Module System
 
 #### Available Extension Modules
+**camera angle**: Perspective techniques including extreme close-up (pores, textures, reality), low-angle hero (sidewalk-level power boost), pan shot (motion-blurred city streaks), over-the-shoulder POV (drops audience inside scene), Dutch angle (10-25° skew for instant tension), back-lit rim glow (silhouettes wrapped in sunset flare)
 - **lighting**: Light sources, intensity, color temperature, direction
 - **materials**: Surface properties, textures, physical characteristics, reflectance
 - **composition**: Layout rules, framing, perspective, depth of field
 - **animation**: Motion properties, timing functions, easing curves
 - **metadata**: Creation info, versioning, attribution, tool references
+
+
 
 #### Module Integration Rules
 - Include modules only when user provides meaningful content
@@ -365,3 +368,8 @@ class StyleSpecBuilder:
 - **Writing Prompts**: Advanced prompting techniques for quality  
 - **Design Tokens**: Understanding design token systems  
 - **Component Documentation**: Structured specification patterns  
+
+---
+
+## References
+- ("Your AI images keep looking like flat stock images?", by Khulan Dav)[https://www.linkedin.com/posts/khulandav_your-ai-images-keep-looking-like-flat-stock-activity-7359192746290520066-8jyz]
