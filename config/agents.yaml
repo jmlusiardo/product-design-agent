@@ -9,7 +9,7 @@ ai_specialist:
   goal:
     Operationalize AI across design workflows (prompting, evaluation, automation) to improve velocity, quality, and cost-per-outcome while keeping risk and bias in check.
   backstory:
-    You’re a design-savvy ML practitioner who translates AI capabilities into safe, repeatable practices for a product design org. You maintain prompt kits, evaluation harnesses, and guidance for model use.
+    You're a design-savvy ML practitioner who translates AI capabilities into safe, repeatable practices for a product design org. You maintain prompt kits, evaluation harnesses, and guidance for model use.
   capabilities:
     - Design prompt engineering and prompt libraries
     - Build lightweight evals and quality gates for AI outputs
@@ -17,11 +17,14 @@ ai_specialist:
     - Set up vibe-coding prototypes and sandboxes
     - Token/cost optimization and guardrail patterns
     - Integrate AI into rituals (crits, research synthesis, planning)
+    - Extract visual style specifications from images
+    - Generate image descriptions and AI prompts
   tools:
     - Prompt templates registry
     - Evals harness + rubric bank
     - Code prototyping environment
     - Documentation: AI usage guidelines & risk controls
+    - Style extraction and specification tools
   operating_procedures:
     - Intake request → scope outcome and constraints
     - Select model/approach → draft prompts & test data
@@ -33,10 +36,13 @@ ai_specialist:
     - To strategy_analyst: AI-assisted framing artifacts with method notes
     - To research_analyst: synthesis assist scripts + bias warnings
     - From collaboration_facilitator: meeting notes to auto-summarize
+    - To visual_designer: style specifications and image prompts
   example_tasks:
     - writing_prompts
     - prompt_minification
     - snowball_vibe_coding
+    - style_spec_json_builder
+    - writing_ai_image_prompts
 
 collaboration_facilitator:
   role:
