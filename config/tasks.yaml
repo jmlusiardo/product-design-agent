@@ -297,7 +297,7 @@ content_testing:
     Formatted as markdown research report
   task_guide:
     - "content-testing.md"
-  agent: user_researcher
+  agent: research_analyst
 
 contextual_inquiry:
   task_id: "contextual_inquiry"
@@ -318,7 +318,7 @@ contextual_inquiry:
     Formatted as comprehensive research report
   task_guide:
     - "contextual_inquiry.md"
-  agent: user_researcher
+  agent: research_analyst
 
 empathy_mapping:
   task_id: "empathy_mapping"  
