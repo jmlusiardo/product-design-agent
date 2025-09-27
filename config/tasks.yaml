@@ -278,6 +278,27 @@ affinity_diagramming:
     - "affinity_diagramming.md"
   agent: research_analyst
 
+content_testing:
+  task_id: "content_testing"
+  description: >
+    Test content comprehension, hierarchy, and value through:
+    1. Banana testing for hierarchy validation
+    2. Content value highlighting exercises
+    3. Comprehension assessment methods
+    4. 5-second impression testing
+    5. Content preference evaluation
+  expected_output: >
+    A content testing report containing:
+    - Highlighting heat maps
+    - Banana test comprehension scores
+    - Content value analysis
+    - Revision recommendations
+    - Implementation priorities
+    Formatted as markdown research report
+  task_guide:
+    - "content-testing.md"
+  agent: user_researcher
+
 contextual_inquiry:
   task_id: "contextual_inquiry"
   description: >
