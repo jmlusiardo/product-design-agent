@@ -103,6 +103,15 @@ but [restriction/obstacle/friction]."
 
 ---
 
+## Cross-Guide Linkage (Your Repo)
+
+- **Critical Path Mapping** (`critical_path.md`): Essential for **User Story prioritization** - use critical path to identify which user stories represent the most important user experience flow; helps determine which statements to write first and which user journeys need the most detailed story development.
+- **Journey Mapping** (`journey_mapping.md`): Reference for **Key Insight development** - provides user research context and touchpoint analysis that inform insight statement creation and problem identification.
+- **User Personas** (`user_personas.md`): Apply during **User Story and Job Story creation** for accurate user type definition, motivation understanding, and context-appropriate statement framing.
+- **MVP Definition** (`mvp_definition.md`): Use **Hypothesis Statements** from this guide during MVP scope definition to create testable assumptions about core features and validate solution approaches.
+
+---
+
 ## References
 - How to build a problem statement, by Dan Brown: https://medium.com/eightshapes-llc/how-to-build-a-problem-statement-d1f21713720b  
 - Problem statement, Wikipedia: https://en.wikipedia.org/wiki/Problem_statement  

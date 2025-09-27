@@ -564,46 +564,25 @@ survey_design:
   agent: research_analyst
 
 # STRATEGY
-define_assumptions:
-  task_id: "define_assumptions"
+agile_lean_ux_frameworks:
+  task_id: "agile_lean_ux_frameworks"
   description: >
-    Create and organize testable assumptions about product viability through:
-    1. Assumption collection and documentation
-    2. Test method definition for each assumption
-    3. Success criteria establishment
-    4. Risk-based prioritization
-    5. Validation planning and execution
+    Integrate UX in agile/lean processes:
+    1. Sprint planning integration
+    2. Discovery sprint setup
+    3. Lean UX canvas
+    4. Build-measure-learn cycles
+    5. UX debt management
   expected_output: >
-    An assumptions validation package containing:
-    - Completed assumptions test board
-    - Test method specifications
-    - Success criteria definitions
-    - Prioritized validation roadmap
-    - Follow-up action plan
-    Formatted as markdown assumptions framework
+    An integration framework containing:
+    - Process integration map
+    - Sprint ceremony guides
+    - UX backlog template
+    - Measurement framework
+    - Best practices guide
+    Formatted as markdown playbook
   task_guide:
-    - "define-assumptions.md"
-  agent: strategy_analyst
-
-mvp_definition:
-  task_id: "mvp_definition"
-  description: >
-    Define MVP scope and features including:
-    1. Core value proposition
-    2. Essential feature set
-    3. Success criteria
-    4. Build vs defer decisions
-    5. Launch strategy
-  expected_output: >
-    An MVP definition document containing:
-    - Value proposition statement
-    - Feature prioritization matrix
-    - MVP scope boundaries
-    - Success metrics
-    - Go-to-market timeline
-    Formatted as markdown product spec
-  task_guide:
-    - "mvp_definition.md"
+    - "agile_lean_ux_frameworks.md"
   agent: strategy_analyst
 
 brainstorming:
@@ -627,6 +606,90 @@ brainstorming:
     - "brainstorming.md"
   agent: strategy_analyst
 
+business_model:
+  task_id: "business_model"
+  description: >
+    Develop business model canvas covering:
+    1. Customer segments
+    2. Value propositions
+    3. Revenue streams
+    4. Cost structure
+    5. Key partnerships
+  expected_output: >
+    A business model canvas containing:
+    - Completed BMC
+    - Assumption inventory
+    - Validation plan
+    - Financial projections
+    - Risk assessment
+    Formatted as visual canvas
+  task_guide:
+    - "business_model.md"
+  agent: strategy_analyst
+
+critical_path:
+  task_id: "critical_path"
+  description: >
+    Create step-by-step map of user's most critical experience from problem identification to solution through:
+    1. Problem statement foundation and user starting point identification
+    2. Sequential step mapping from problem to solution
+    3. Critical experience focus and touchpoint prioritization
+    4. Context-specific application (onboarding, conversion, new products)
+    5. Visual flow validation and team alignment
+  expected_output: >
+    A critical path mapping package containing:
+    - Linear user journey flow diagram (subway-style map)
+    - Critical touchpoint identification and prioritization
+    - Step-by-step user progression documentation
+    - Context-specific variations and applications
+    - Team validation checklist and next steps
+    Formatted as visual flow diagram with markdown documentation
+  task_guide:
+    - "critical_path.md"
+  agent: strategy_analyst
+
+define_assumptions:
+  task_id: "define_assumptions"
+  description: >
+    Create and organize testable assumptions about product viability through:
+    1. Assumption collection and documentation
+    2. Test method definition for each assumption
+    3. Success criteria establishment
+    4. Risk-based prioritization
+    5. Validation planning and execution
+  expected_output: >
+    An assumptions validation package containing:
+    - Completed assumptions test board
+    - Test method specifications
+    - Success criteria definitions
+    - Prioritized validation roadmap
+    - Follow-up action plan
+    Formatted as markdown assumptions framework
+  task_guide:
+    - "define-assumptions.md"
+  agent: strategy_analyst
+
+design_pitch:
+  task_id: "design_pitch"
+  description: >
+    Create compelling design pitch including:
+    1. Problem framing
+    2. Solution narrative
+    3. Visual storytelling
+    4. Impact demonstration
+    5. Call to action
+  expected_output: >
+    A pitch deck containing:
+    - Presentation slides
+    - Speaker notes
+    - Supporting visuals
+    - Data appendix
+    - Q&A preparation
+    Formatted as presentation package
+  task_guide:
+    - "design_pitch.md"
+  agent: strategy_analyst
+
 event_storming_workshop:
   task_id: "event_storming_workshop"
   description: >
@@ -646,69 +709,6 @@ event_storming_workshop:
     Formatted as markdown with diagrams
   task_guide:
     - "journey_mapping.md"
-  agent: strategy_analyst
-
-project_planning:
-  task_id: "project_planning"
-  description: >
-    Create comprehensive project plan with:
-    1. Scope definition
-    2. Work breakdown structure
-    3. Timeline and milestones
-    4. Resource allocation
-    5. Risk management
-  expected_output: >
-    A project plan containing:
-    - Project charter
-    - WBS diagram
-    - Gantt chart
-    - Resource plan
-    - Risk register
-    Formatted as markdown project doc
-  task_guide:
-    - "project_planning.md"
-  agent: project_manager
-
-writing_tasks:
-  task_id: "writing_tasks"
-  description: >
-      Develop and refine writing tasks for:
-      1. Content structure and organization
-      2. Tone and voice alignment
-      3. Grammar and style consistency
-      4. Audience targeting
-      5. Iterative editing and feedback
-  expected_output: >
-      A writing task package containing:
-      - Content outline
-      - Style guide adherence checklist
-      - Draft versions with feedback
-      - Finalized content
-      - Review and approval log
-      Formatted as markdown writing guide
-  task_guide:
-      - "writing_tasks.md"
-  agent: content_specialist
-
-prioritization:
-  task_id: "prioritization"
-  description: >
-    Apply prioritization frameworks including:
-    1. Effort-impact analysis
-    2. Value-effort scoring
-    3. Kano model application
-    4. RICE scoring
-    5. Stakeholder alignment
-  expected_output: >
-    A prioritization report containing:
-    - Scoring matrix
-    - Prioritized backlog
-    - Trade-off analysis
-    - Recommendation rationale
-    - Roadmap impact
-    Formatted as markdown with tables
-  task_guide:
-    - "prioritization.md"
   agent: strategy_analyst
 
 kpi_metrics:
@@ -734,26 +734,68 @@ kpi_metrics:
     - "product_metrics_list.csv"
   agent: strategy_analyst
 
-business_model:
-  task_id: "business_model"
+mvp_definition:
+  task_id: "mvp_definition"
   description: >
-    Develop business model canvas covering:
-    1. Customer segments
-    2. Value propositions
-    3. Revenue streams
-    4. Cost structure
-    5. Key partnerships
+    Define MVP scope and features including:
+    1. Core value proposition
+    2. Essential feature set
+    3. Success criteria
+    4. Build vs defer decisions
+    5. Launch strategy
   expected_output: >
-    A business model canvas containing:
-    - Completed BMC
-    - Assumption inventory
-    - Validation plan
-    - Financial projections
-    - Risk assessment
-    Formatted as visual canvas
+    An MVP definition document containing:
+    - Value proposition statement
+    - Feature prioritization matrix
+    - MVP scope boundaries
+    - Success metrics
+    - Go-to-market timeline
+    Formatted as markdown product spec
   task_guide:
-    - "business_model.md"
+    - "mvp_definition.md"
   agent: strategy_analyst
+
+prioritization:
+  task_id: "prioritization"
+  description: >
+    Apply prioritization frameworks including:
+    1. Effort-impact analysis
+    2. Value-effort scoring
+    3. Kano model application
+    4. RICE scoring
+    5. Stakeholder alignment
+  expected_output: >
+    A prioritization report containing:
+    - Scoring matrix
+    - Prioritized backlog
+    - Trade-off analysis
+    - Recommendation rationale
+    - Roadmap impact
+    Formatted as markdown with tables
+  task_guide:
+    - "prioritization.md"
+  agent: strategy_analyst
+
+project_planning:
+  task_id: "project_planning"
+  description: >
+    Create comprehensive project plan with:
+    1. Scope definition
+    2. Work breakdown structure
+    3. Timeline and milestones
+    4. Resource allocation
+    5. Risk management
+  expected_output: >
+    A project plan containing:
+    - Project charter
+    - WBS diagram
+    - Gantt chart
+    - Resource plan
+    - Risk register
+    Formatted as markdown project doc
+  task_guide:
+    - "project_planning.md"
+  agent: project_manager
 
 value_proposition:
   task_id: "value_proposition"
@@ -776,47 +818,26 @@ value_proposition:
     - "value_proposition.md"
   agent: strategy_analyst
 
-design_pitch:
-  task_id: "design_pitch"
+writing_tasks:
+  task_id: "writing_tasks"
   description: >
-    Create compelling design pitch including:
-    1. Problem framing
-    2. Solution narrative
-    3. Visual storytelling
-    4. Impact demonstration
-    5. Call to action
+      Develop and refine writing tasks for:
+      1. Content structure and organization
+      2. Tone and voice alignment
+      3. Grammar and style consistency
+      4. Audience targeting
+      5. Iterative editing and feedback
   expected_output: >
-    A pitch deck containing:
-    - Presentation slides
-    - Speaker notes
-    - Supporting visuals
-    - Data appendix
-    - Q&A preparation
-    Formatted as presentation package
+      A writing task package containing:
+      - Content outline
+      - Style guide adherence checklist
+      - Draft versions with feedback
+      - Finalized content
+      - Review and approval log
+      Formatted as markdown writing guide
   task_guide:
-    - "design_pitch.md"
-  agent: strategy_analyst
-
-agile_lean_ux_frameworks:
-  task_id: "agile_lean_ux_frameworks"
-  description: >
-    Integrate UX in agile/lean processes:
-    1. Sprint planning integration
-    2. Discovery sprint setup
-    3. Lean UX canvas
-    4. Build-measure-learn cycles
-    5. UX debt management
-  expected_output: >
-    An integration framework containing:
-    - Process integration map
-    - Sprint ceremony guides
-    - UX backlog template
-    - Measurement framework
-    - Best practices guide
-    Formatted as markdown playbook
-  task_guide:
-    - "agile_lean_ux_frameworks.md"
-  agent: strategy_analyst
+      - "writing_tasks.md"
+  agent: content_specialist
 
 # VISUAL DESIGN AND DESIGN SYSTEMS
 component_documentation:
