@@ -1,3 +1,5 @@
+# README.md
+
 # Product Design Agent
 An open-source AI-powered mentorship system with specialized agents providing expert guidance across product design, user research, UX/UI, strategy, AI integration, and leadership. Built to accelerate learning through personalized, hands-on mentorship with multilingual support.
 
@@ -9,43 +11,75 @@ By combining specialized sub-agents with structured tasks and comprehensive guid
 4. **Auto-detects project-specific data**: Have project-specific information? Add or connect it to the Claude project _Files_ folder, and it will be understood as context you can reference in future queries.
 5. **Add user preferences** Want to save personal preferences, or add additional settings? Create a file named `user_preferences`, add your stuff and upload it to _Files_ folder. The system will detect and consider it while executing tasks or attending your inquiries.
 
-## Setup in Claude
-Note: You need [Claude Pro subscription](https://claude.com/pricing) to use _Projects_ feature.
+## Installation
+Choose your preferred AI assistant platform:
+- **For Claude Pro subscribers**: [Claude installation guide:](./CLAUDE_INSTALLATION.md)
+- **For Google One AI Premium subscribers**: [Gemini installation guide:](./GEMINI_INSTALLATION.md)
 
-### Step 1: Access Claude Projects
-1. **Log into Claude** at [claude.ai](https://claude.ai)
-2. **Navigate to Projects**: 
-   - Look for "Projects" in the left sidebar, or
-   - Click your profile area and select "Projects", or  
-   - Go directly to [claude.ai/projects](https://claude.ai/projects)
-3. **Pin the sidebar** by clicking the pin icon for easier navigation
+## Getting Started
+Don't know how to start? Just type "What can you help me with?" or "I'm new to this agent" and the onboarding guide will be triggered.
 
-### Step 2: Create Your Project
-1. **Click the orange "New Project" button** in the upper right corner
-2. **Name your project**: Something like "Product Design Agent" or "Design Mentorship Assistant"
-3. **Add a description** (optional): "AI-powered design mentorship with specialized agents"
-4. **Set visibility** (Team plans only):
-   - **Keep it private** if you want personal access only
-   - **Share with organization** if your team should access it
-5. **Click "Create Project"**
+## 📁 Project Structure
+```markdown
+├── assets/instructions.md    # Core agent instructions
+├── config/
+│   ├── tasks.yaml            # Task registry with 80+ specialized tasks
+│   └── agents.yaml           # Specialized agent definitions
+├── knowledge/
+│   ├── task_guides/          # Detailed methodology guides
+│   └── materials/            # Templates, checklists, and resources
+├── CLAUDE_INSTALLATION.md    # Claude-specific setup guide
+├── GEMINI_INSTALLATION.md    # Gemini-specific setup guide
+├── README.md                 # This overview
+└── CONTRIBUTING.md           # Contribution guidelines
+```
 
-### Step 3: Upload Project Files
-1. **In your new project**, look for the "Project Knowledge" section on the right side
-2. **Click the "+" button** to add content
-3. **Select "Upload from GitHub"**
-4. Click the 🔗 **chain link button** in the upload modal
-5. **Paste this repository URL**: `https://github.com/jmlusiardo/product-design-agent/`
-6. **Select specific folders**: Add `config`, `knowledge`, and `README.md`
-7. **Click "Add to Project"**
+## Key Features
 
-_Note: Any files you drop within the Claude project which aren't from Github will be treated as project-specific context._
+### Specialized Agents
+- **Research Agent**: User research, testing, validation methodologies
+- **Strategy Agent**: Product strategy, market analysis, competitive research
+- **UX Agent**: Information architecture, wireframing, prototyping
+- **UI Agent**: Visual design, design systems, interaction design
+- **Leadership Agent**: Team management, design operations, stakeholder communication
+- **AI Integration Agent**: AI-assisted design, automation, emerging technologies
 
-### Step 4: Configure Project Instructions
-1. **Locate the instructions file**: In the uploaded files, find `assets/instructions.md`
-2. **Copy the contents** of that file
-3. **Set up Custom Instructions** Look for "Instructions" or "Custom Instructions" in your project instructions.
-4. **Paste the instructions** from the instructions.md file
-5. **Save the configuration**
+### Multilingual Support
+- **Primary Languages**: English and Spanish
+- **Adaptive Response**: Responds in user's query language
+- **Cultural Context**: Adapts examples and references to regional practices
+- **Technical Terms**: Provides translations when helpful
 
-### Step 5: Try it out
-Don't know how to start? Just type "What can you help me with?" or "I'm new to this agent" and the onboarding guide will be triggered. 
+### Smart Task Matching
+- **80+ Specialized Tasks**: From user interviews to design system audits
+- **Confidence Scoring**: Matches queries to best methodology
+- **Context Integration**: Adapts to your specific project needs
+- **Cross-References**: Links related methodologies and tools
+
+## Usage Examples
+
+### Quick Consultations
+- "How should I approach user research for a fintech app?"
+- "What's the best way to present design concepts to stakeholders?"
+- "Help me create a design system for a mobile application"
+
+### Structured Deliverables
+- "Create a usability testing plan for our checkout flow"
+- "Generate a comprehensive design audit checklist"
+- "Build a stakeholder interview guide for our discovery phase"
+
+### Project-Specific Guidance
+Upload your project files and ask:
+- "Review our current user journey and suggest improvements"
+- "What design methodology fits our timeline and constraints?"
+- "Help prioritize these feature requests based on user research"
+
+## Contributing
+We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for:
+- How to suggest new tasks or improvements
+- Guidelines for adding content
+- Code of conduct and community standards
+
+---
+
+**Ready to accelerate your design process with AI mentorship?** Choose your platform above and get started in minutes.
