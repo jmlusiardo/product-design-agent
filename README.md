@@ -19,21 +19,6 @@ Choose your preferred AI assistant platform:
 ## Getting Started
 Don't know how to start? Just type "What can you help me with?" or "I'm new to this agent" and the onboarding guide will be triggered.
 
-## 📁 Project Structure
-```markdown
-├── assets/instructions.md    # Core agent instructions
-├── config/
-│   ├── tasks.yaml            # Task registry with 80+ specialized tasks
-│   └── agents.yaml           # Specialized agent definitions
-├── knowledge/
-│   ├── task_guides/          # Detailed methodology guides
-│   └── materials/            # Templates, checklists, and resources
-├── CLAUDE_INSTALLATION.md    # Claude-specific setup guide
-├── GEMINI_INSTALLATION.md    # Gemini-specific setup guide
-├── README.md                 # This overview
-└── CONTRIBUTING.md           # Contribution guidelines
-```
-
 ## Key Features
 
 ### Specialized Agents
@@ -78,7 +63,7 @@ Upload your project files and ask:
 We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for:
 - How to suggest new tasks or improvements
 - Guidelines for adding content
-- Code of conduct and community standards
+- Bug/issue report
 
 ---
 

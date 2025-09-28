@@ -51,15 +51,19 @@ For simple feedback or suggestions, just [create an issue](https://github.com/jm
 💡 Tip: Check for issues with `help-wanted` to kickstart contributing were the project needs it
 
 ## 📁 Project Structure
-├── assets/instructions.md    # Agent instructions
+```markdown
+├── assets/instructions.md    # Core agent instructions
 ├── config/
-│   ├── tasks.yaml            # Tasks directory
-│   └── agents.yaml           # Agents directory
+│   ├── tasks.yaml            # Task registry with 80+ specialized tasks
+│   └── agents.yaml           # Specialized agent definitions
 ├── knowledge/
-│   ├── task_guides/          # Task guide directory
-│   └── materials/            # Support materials directory (Templates, checklists, resources, etc)
-└── README.md                 # Project overview
-└── CONTRIBUTING.md           # This file
+│   ├── task_guides/          # Detailed methodology guides
+│   └── materials/            # Templates, checklists, and resources
+├── CLAUDE_INSTALLATION.md    # Claude-specific setup guide
+├── GEMINI_INSTALLATION.md    # Gemini-specific setup guide
+├── README.md                 # This overview
+└── CONTRIBUTING.md           # Contribution guidelines
+```
 
 ## Issue Labels & Usage
 

@@ -1,7 +1,4 @@
-# GEMINI_INSTALLATION.md
-
-# Product Design Agent - Google Gemini Gems Setup
-
+# Product Design Agent: Setup in Google Gemini
 Complete installation guide for setting up the Product Design Agent in Google Gemini using Gems.
 
 ## Prerequisites

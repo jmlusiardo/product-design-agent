@@ -1,4 +1,4 @@
-# Product Design Agent - Claude Projects Setup
+# Product Design Agent: Setup in Claude
 Complete installation guide for setting up the Product Design Agent in Claude Projects.
 
 ## Prerequisites
