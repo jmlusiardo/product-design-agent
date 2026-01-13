@@ -818,6 +818,30 @@ project_planning:
     - "project_planning.md"
   agent: project_manager
 
+# FULL UPDATED FILE: Task entry for config/tasks.yaml
+# Add under STRATEGY & PLANNING section or after stakeholder_management
+
+strategic_meeting:
+  task_id: "strategic_meeting"
+  description: >
+    Prepare for strategic meetings with project leaders (PMs, Design Directors, Heads of Product) using:
+    1. UX Influence Ladder assessment (Compliance → Bet levels)
+    2. Strategic bet framing (willing to be wrong, what fails if succeeds, explicit non-goals)
+    3. Trade-off preparation (long-term vs short-term, speed vs learning, conversion vs retention)
+    4. Stakeholder landscape mapping and pre-alignment (nemawashi)
+    5. In-meeting tactics and post-meeting follow-up
+  expected_output: >
+    A strategic meeting prep package containing:
+    - Meeting purpose classification and altitude check
+    - Completed strategic prep canvas (bets, trade-offs, recommendation)
+    - Stakeholder analysis with stances and concerns
+    - Pre-alignment plan and talking points
+    - Post-meeting action checklist
+    Formatted as markdown strategic brief
+  task_guide:
+    - "strategic_meeting.md"
+  agent: collaboration_facilitator
+
 value_proposition:
   task_id: "value_proposition"
   description: >
