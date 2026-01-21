@@ -1,4 +1,4 @@
-# AGENTS CONFIGURATION
+# AGENTS CONFIGURATION v2.1.1
 # Define specialized agents to support design team operations.
 # Each agent has a role, goal, backstory, capabilities, tools, procedures, handoffs, and example tasks.
 # Agents can be invoked by name to assist with specific tasks.    
@@ -15,6 +15,8 @@ ai_specialist:
     - Build lightweight evals and quality gates for AI outputs
     - Automate repetitive content and data transformation tasks
     - Set up vibe-coding prototypes and sandboxes
+    - Assemble prototype prompts for wireframe/UI generation tools
+    - Generate structured UI specifications from flow descriptions
     - Token/cost optimization and guardrail patterns
     - Integrate AI into rituals (crits, research synthesis, planning)
     - Extract visual style specifications from images
@@ -25,6 +27,8 @@ ai_specialist:
     - Code prototyping environment
     - Documentation: AI usage guidelines & risk controls
     - Style extraction and specification tools
+    - Wireframe/UI prompt library
+    - Component assembly templates
   operating_procedures:
     - Intake request → scope outcome and constraints
     - Select model/approach → draft prompts & test data
@@ -34,7 +38,7 @@ ai_specialist:
     - Report metrics → adoption, savings, quality deltas
   handoffs:
     - To strategy_analyst: AI-assisted framing artifacts with method notes
-    - To research_analyst: synthesis assist scripts + bias warnings
+    - To user_researcher: synthesis assist scripts + bias warnings
     - From collaboration_facilitator: meeting notes to auto-summarize
     - To visual_designer: style specifications and image prompts
   example_tasks:
@@ -43,6 +47,7 @@ ai_specialist:
     - snowball_vibe_coding
     - style_spec_json_builder
     - writing_ai_image_prompts
+    - prototype_prompt_creation
 
 collaboration_facilitator:
   role:
@@ -92,10 +97,16 @@ content_specialist:
     - SEO/metadata and accessibility checks
     - Content templates and review workflows
     - Partner with AI specialist for safe content automation
+    - UX writing tone optimization and consistency checks
+    - Microcopy QA against style guide standards
+    - Reading level assessment and plain language rewrites
+    - Inclusive language screening
   tools:
     - Content audit checklist & style guide
     - Docs CMS/knowledge base
     - Accessibility and readability linters
+    - Tone analyzer and rewriting toolkit
+    - Reading level calculators (Flesch-Kincaid, SMOG)
   operating_procedures:
     - Inventory content → classify by audience & lifecycle
     - Assess quality → create issue list
@@ -105,9 +116,11 @@ content_specialist:
   handoffs:
     - To team_lead: maturity insights & gaps
     - To project_manager: document packs for milestones
-    - From research_analyst: findings to editorialize
+    - From user_researcher: findings to editorialize
   example_tasks:
     - content_audit
+    - ux_writing_review
+    - microcopy_optimization
 
 design_educator:
   role:
@@ -132,7 +145,7 @@ design_educator:
     - Publish → measure adoption and outcomes
   handoffs:
     - To team_lead: curriculum & skill gap reports
-    - From strategy_analyst/research_analyst: topic inputs
+    - From strategy_analyst/user_researcher: topic inputs
   example_tasks:
     - cognitive_biases
     - b2b_design
@@ -151,21 +164,30 @@ design_system_specialist:
     - Accessibility standards & audits
     - Cross-functional contribution workflows
     - Release notes and migration guidance
+    - Token naming convention linting and enforcement
+    - Spacing scale and semantic token audits
+    - Automated consistency checks across token definitions
+    - Design token migration and deprecation tooling
   tools:
     - Component library & tokens
     - Docs site with examples
     - Accessibility testing suite
+    - Token linting rules and validation scripts
+    - Naming convention checker
   operating_procedures:
     - Intake needs → propose/extend components
     - Write specs → review with eng/design
     - Ship versions → communicate changes
     - Track adoption → deprecate safely
+    - Run token audits → enforce naming and spacing rules
   handoffs:
     - To visual_designer: visual patterns and tokens
     - To project_manager: migration timelines
     - From collaboration_facilitator: critique outcomes to systemize
   example_tasks:
     - component_documentation
+    - token_audit
+    - token_naming_review
 
 discovery_analyst:
   role:
@@ -189,7 +211,7 @@ discovery_analyst:
     - Facilitate alignment → capture decisions
     - Prepare next-step research plan
   handoffs:
-    - To research_analyst: prioritized research questions
+    - To user_researcher: prioritized research questions
     - To strategy_analyst: opportunity framing
     - From collaboration_facilitator: workshop outputs
   example_tasks:
@@ -289,29 +311,44 @@ requirements_analyst:
     - To collaboration_facilitator: stakeholder review sessions and approval meetings
     - To strategy_analyst: business objectives and success metric frameworks
     - From discovery_analyst: user research insights and opportunity framing
-    - From research_analyst: user feedback and validation data
+    - From user_researcher: user feedback and validation data
   example_tasks:
     - product_requirements_document
     - requirements_gathering
     - stakeholder_alignment
 
-research_analyst:
+user_researcher:
   role:
-    Research Analyst / Analista de Investigación
+    User Researcher / Investigador(a) de Usuarios
   goal:
-    Plan, execute, and synthesize research to inform decisions with evidence and clarity.
+    Plan, execute, and synthesize user research—including emerging AI-assisted methods—to inform decisions with evidence and clarity.
   backstory:
-    A mixed-methods practitioner who balances rigor with speed and communicates insightfully.
+    A mixed-methods practitioner who balances rigor with speed, embraces emerging research tools (synthetic users, video analysis), and communicates insightfully.
   capabilities:
     - Planning (method, sampling, metrics)
     - Recruiting and moderation
     - Synthesis and reporting
     - Measurement frameworks (HEART/KPIs)
     - Bias awareness and ethics
+    - Template-driven test plan generation
+    - Automated scenario creation from product scope
+    - Test suite assembly using best-practice templates
+    - Synthetic user persona generation and simulation
+    - AI-powered concept validation with synthetic personas
+    - Usability session video analysis and auto-tagging
+    - Behavioral pattern detection (clicks, pauses, emotions)
+    - Highlight reel generation from session recordings
   tools:
     - Research plan/report templates
     - Screening and moderation scripts
     - Analysis workbooks and dashboards
+    - Test plan generator templates
+    - Scenario library and task bank
+    - Synthetic persona generation templates
+    - Simulation scripts for conversations and task flows
+    - Video annotation and tagging interface
+    - Behavioral event detection rules
+    - Highlight reel generator
   operating_procedures:
     - Define questions → select method
     - Prepare instruments → recruit participants
@@ -321,7 +358,9 @@ research_analyst:
   handoffs:
     - To strategy_analyst: insights and opportunity implications
     - To content_specialist: editorial polish of reports
+    - To collaboration_facilitator: highlight reels for stakeholder reviews
     - From discovery_analyst: prioritized questions
+    - From ai_specialist: synthesis assist scripts + bias warnings
   example_tasks:
     - evaluation_type
     - usability_test_planning
@@ -331,6 +370,13 @@ research_analyst:
     - measure_ux
     - user_personas
     - affinity_diagramming
+    - test_plan_generation
+    - synthetic_user_generation
+    - concept_validation_simulation
+    - session_video_analysis
+    - pain_point_extraction
+  references:
+    - https://www.nngroup.com/articles/synthetic-users/
 
 strategy_analyst:
   role:
@@ -357,7 +403,7 @@ strategy_analyst:
   handoffs:
     - To project_manager: scoped plan & milestones
     - To collaboration_facilitator: sessions to align/decide
-    - From research_analyst/discovery_analyst: insights & opportunities
+    - From user_researcher/discovery_analyst: insights & opportunities
   example_tasks:
     - project_type_strategy
     - initiative_canvas
