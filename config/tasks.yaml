@@ -1,4 +1,4 @@
-# TASK CONFIGURATION
+# TASK CONFIGURATION v2.1.1
 # Each task is defined with a unique task_id, description, expected_output, and other relevant metadata.
 # Agents are assigned to handle specific tasks based on their expertise.
 # The configuration is structured in YAML format for easy parsing and management.
@@ -7,7 +7,10 @@
 # Task Guides: Markdown files providing detailed instructions for each task.
 # Materials: Supplementary resources to aid in task completion. 
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # PRODUCT DESIGN AGENT TRAINING AND ONBOARDING
+# ═══════════════════════════════════════════════════════════════════════════════
+
 agent_onboarding_guide:
   task_id: "agent_onboarding_guide"
   description: >
@@ -32,7 +35,10 @@ agent_onboarding_guide:
     - "onboarding_triggers.md"
   agent: onboarding_specialist
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # ONBOARDING
+# ═══════════════════════════════════════════════════════════════════════════════
+
 onboarding_design_leads:
   task_id: "onboarding_design_leads"
   description: >
@@ -75,7 +81,10 @@ onboarding_designers:
     - "onboarding_designers.md"
   agent: onboarding_specialist
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # PROJECT FRAMING
+# ═══════════════════════════════════════════════════════════════════════════════
+
 kickoff_meeting:
   task_id: "kickoff_meeting"
   description: >
@@ -150,88 +159,48 @@ product_requirements_document:
     5. UX and non-functional requirements
     6. Success metrics and analytics implementation
     7. Implementation planning and risk assessment
-    8. Stakeholder review and approval process
+    8. Stakeholder sign-off and version control
   expected_output: >
     A complete PRD package containing:
-    - Executive summary with vision and resource needs
-    - Detailed problem statement with quantified impact
-    - User personas, journeys, and story backlog
-    - Prioritized feature specifications with acceptance criteria
-    - Technical architecture and API requirements
-    - UX guidelines and accessibility specifications
-    - KPI framework and measurement plan
-    - Implementation timeline with risk mitigation
-    - Quality checklist and stakeholder sign-off
-    Formatted as structured markdown document
+    - Executive summary with strategic context
+    - Detailed problem and market analysis
+    - User stories with acceptance criteria
+    - Functional requirements with priority tiers
+    - Technical specifications and constraints
+    - UX requirements and accessibility standards
+    - Success metrics framework
+    - Implementation timeline and risk register
+    Formatted as comprehensive markdown document
   task_guide:
     - "product_requirements_document.md"
   materials:
-    - "prompt_templates_registry.md"
+    - "prd_template.md"
   agent: requirements_analyst
 
-requirements_gathering:
-  task_id: "requirements_gathering"
+project_planning:
+  task_id: "project_planning"
   description: >
-    Systematically gather and synthesize requirements through:
-    1. Stakeholder interview planning and execution
-    2. Business objective and constraint analysis
-    3. User research data synthesis
-    4. Technical requirement validation
-    5. Cross-functional alignment sessions
+    Create comprehensive project plan with:
+    1. Scope definition
+    2. Work breakdown structure
+    3. Timeline and milestones
+    4. Resource allocation
+    5. Risk management
   expected_output: >
-    A requirements package containing:
-    - Stakeholder interview summaries
-    - Business requirements matrix
-    - User need prioritization
-    - Technical constraint documentation
-    - Requirements traceability matrix
-    Formatted as markdown requirements report
+    A project plan containing:
+    - Project charter
+    - WBS diagram
+    - Gantt chart
+    - Resource plan
+    - Risk register
+    Formatted as markdown project doc
   task_guide:
-    - "requirements_gathering.md"
-  agent: requirements_analyst
+    - "project_planning.md"
+  agent: project_manager
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # DISCOVERY
-writing_statements:
-  task_id: "writing_statements"
-  description: >
-    Craft effective statements for product discovery:
-    1. User stories following standard format
-    2. Job stories focusing on situations
-    3. Hypotheses for testing
-    4. How Might We questions
-    5. Key insights from research
-  expected_output: >
-    A collection of well-formed statements:
-    - 5-10 user stories
-    - 3-5 job stories
-    - Testable hypotheses with success criteria
-    - HMW questions for ideation
-    - Prioritized insight statements
-    Formatted as markdown with examples
-  task_guide:
-    - "writing_statements.md"
-  agent: discovery_analyst
-
-user_personas:
-  task_id: "user_personas"
-  description: >
-    Develop data-driven user personas including:
-    1. Demographic and psychographic profiles
-    2. Goals and motivations
-    3. Pain points and frustrations
-    4. Technology usage patterns
-    5. Journey touchpoints
-  expected_output: >
-    A persona documentation set containing:
-    - 2-4 detailed persona profiles
-    - Persona comparison matrix
-    - Usage scenarios per persona
-    - Design implications
-    - Validation criteria
-    Formatted as markdown with visuals
-  task_guide:
-    - "user_personas.md"
-  agent: research_analyst
+# ═══════════════════════════════════════════════════════════════════════════════
 
 journey_mapping:
   task_id: "journey_mapping"
@@ -256,133 +225,26 @@ journey_mapping:
     - "journey_map_template.md"
   agent: discovery_analyst
 
-# USER RESEARCH
-affinity_diagramming:
-  task_id: "affinity_diagramming"
+writing_statements:
+  task_id: "writing_statements"
   description: >
-    Organize and synthesize large amounts of information through collaborative clustering:
-    1. Information preparation and sticky note creation
-    2. Collaborative team clustering session facilitation
-    3. Pattern emergence and cluster naming
-    4. Priority ranking and importance assessment
-    5. Synthesis documentation and stakeholder presentation
+    Craft problem statements, user stories, and hypotheses:
+    1. Problem statement formulation
+    2. User story development
+    3. Jobs-to-be-done articulation
+    4. How-might-we questions
+    5. Hypothesis creation
   expected_output: >
-    An affinity diagram analysis containing:
-    - Clustered information groups with named themes
-    - Priority-ranked cluster importance matrix
-    - Pattern analysis and key insights summary
-    - Synthesis documentation with interpretive notes
-    - Stakeholder presentation of findings
-    Formatted as visual clustering output with summary analysis
+    A statements package containing:
+    - Problem statements
+    - User stories
+    - JTBD statements
+    - HMW questions
+    - Testable hypotheses
+    Formatted as markdown templates
   task_guide:
-    - "affinity_diagramming.md"
-  agent: research_analyst
-
-content_testing:
-  task_id: "content_testing"
-  description: >
-    Test content comprehension, hierarchy, and value through:
-    1. Banana testing for hierarchy validation
-    2. Content value highlighting exercises
-    3. Comprehension assessment methods
-    4. 5-second impression testing
-    5. Content preference evaluation
-  expected_output: >
-    A content testing report containing:
-    - Highlighting heat maps
-    - Banana test comprehension scores
-    - Content value analysis
-    - Revision recommendations
-    - Implementation priorities
-    Formatted as markdown research report
-  task_guide:
-    - "content-testing.md"
-  agent: research_analyst
-
-contextual_inquiry:
-  task_id: "contextual_inquiry"
-  description: >
-    Conduct contextual inquiries combining interviews with observations:
-    1. Natural setting fieldwork with users
-    2. Master-apprentice relationship establishment
-    3. Collaborative interpretation of user work
-    4. Focus on relevant domain activities
-    5. Systematic analysis through coding and affinity diagramming
-  expected_output: >
-    A contextual inquiry package containing:
-    - Interview notes and observations
-    - User workflow documentation
-    - Coded findings and themes
-    - Affinity diagram preparation materials
-    - Research insights and design implications
-    Formatted as comprehensive research report
-  task_guide:
-    - "contextual_inquiry.md"
-  agent: research_analyst
-
-empathy_mapping:
-  task_id: "empathy_mapping"  
-  description: >
-    Create empathy maps to understand user attitudes and behaviors:
-    1. Define user scope and goals
-    2. Map observable phenomena (says, does, sees, hears)
-    3. Infer internal states (thinks, feels, pains, gains)
-    4. Synthesize insights and identify gaps
-    5. Integrate with personas and journey mapping
-  expected_output: >
-    An empathy mapping package containing:
-    - Individual or aggregated empathy map
-    - Insight synthesis and patterns
-    - Gap analysis and research recommendations
-    - Integration plan with personas/journey maps
-    - Team alignment documentation
-    Formatted as visual canvas with supporting analysis
-  task_guide:
-    - "empathy_mapping.md"
-  agent: research_analyst
-
-evaluation_type:
-  task_id: "evaluation_type"
-  description: >
-    Define evaluation methodology including:
-    1. Evaluation type selection (formative/summative)
-    2. Method selection (lab/field)
-    3. Comparator definition
-    4. Sampling strategy
-    5. Analysis plan
-  expected_output: >
-    An evaluation plan containing:
-    - Evaluation framework
-    - Method justification
-    - Participant criteria
-    - Data collection plan
-    - Analysis approach
-    Formatted as markdown with tables
-  task_guide:
-    - "evaluation_type.md"
-  agent: research_analyst
-
-measure_ux:
-  task_id: "measure_ux"
-  description: >
-    Implement UX measurement framework using:
-    1. HEART framework setup
-    2. Metric definition and tracking
-    3. Baseline establishment
-    4. Goal setting
-    5. Dashboard creation
-  expected_output: >
-    A measurement framework containing:
-    - HEART metrics matrix
-    - KPI definitions
-    - Tracking plan
-    - Dashboard mockup
-    - Reporting cadence
-    Formatted as markdown with tables
-  notion_pages:
-    - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
-      title: "HEART Framework"
-  agent: research_analyst
+    - "writing_statements.md"
+  agent: discovery_analyst
 
 mental_modeling:
   task_id: "mental_modeling"
@@ -408,6 +270,179 @@ mental_modeling:
     - "mental_model_workshop_template.md"
   agent: discovery_analyst
 
+critical_path:
+  task_id: "critical_path"
+  description: >
+    Create step-by-step map of user's most critical experience from problem identification to solution through:
+    1. Problem statement foundation and user starting point identification
+    2. Sequential step mapping from problem to solution
+    3. Critical experience focus and touchpoint prioritization
+    4. Context-specific application (onboarding, conversion, new products)
+    5. Team alignment and visual communication
+  expected_output: >
+    A critical path document containing:
+    - Clear problem-to-solution flow visualization
+    - Sequential step breakdown with user goals
+    - Priority touchpoint identification
+    - Context-specific applications
+    - Team-ready visual output
+    Formatted as visual flow diagram with annotations
+  task_guide:
+    - "critical_path.md"
+  agent: discovery_analyst
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# USER RESEARCH
+# ═══════════════════════════════════════════════════════════════════════════════
+
+user_personas:
+  task_id: "user_personas"
+  description: >
+    Develop research-based user personas covering:
+    1. Demographic and psychographic profiles
+    2. Goals and motivations
+    3. Pain points and frustrations
+    4. Technology usage patterns
+    5. Journey touchpoints
+  expected_output: >
+    A persona documentation set containing:
+    - 2-4 detailed persona profiles
+    - Persona comparison matrix
+    - Usage scenarios per persona
+    - Design implications
+    - Validation criteria
+    Formatted as markdown with visuals
+  task_guide:
+    - "user_personas.md"
+  agent: user_researcher
+
+affinity_diagramming:
+  task_id: "affinity_diagramming"
+  description: >
+    Organize and synthesize large amounts of information through collaborative clustering:
+    1. Information preparation and sticky note creation
+    2. Collaborative team clustering session facilitation
+    3. Pattern emergence and cluster naming
+    4. Priority ranking and importance assessment
+    5. Synthesis documentation and stakeholder presentation
+  expected_output: >
+    An affinity diagram analysis containing:
+    - Clustered information groups with named themes
+    - Priority-ranked cluster importance matrix
+    - Pattern analysis and key insights summary
+    - Synthesis documentation with interpretive notes
+    - Stakeholder presentation of findings
+    Formatted as visual clustering output with summary analysis
+  task_guide:
+    - "affinity_diagramming.md"
+  agent: user_researcher
+
+content_testing:
+  task_id: "content_testing"
+  description: >
+    Test content comprehension, hierarchy, and value through:
+    1. Banana testing for hierarchy validation
+    2. Content value highlighting exercises
+    3. Comprehension assessment methods
+    4. 5-second impression testing
+    5. Content preference evaluation
+  expected_output: >
+    A content testing report containing:
+    - Highlighting heat maps
+    - Banana test comprehension scores
+    - Content value analysis
+    - Revision recommendations
+    - Implementation priorities
+    Formatted as markdown research report
+  task_guide:
+    - "content_testing.md"
+  agent: user_researcher
+
+contextual_inquiry:
+  task_id: "contextual_inquiry"
+  description: >
+    Conduct contextual inquiries combining interviews with observations:
+    1. Natural setting fieldwork with users
+    2. Master-apprentice relationship establishment
+    3. Collaborative interpretation of user work
+    4. Focus on relevant domain activities
+    5. Systematic analysis through coding and affinity diagramming
+  expected_output: >
+    A contextual inquiry package containing:
+    - Interview notes and observations
+    - User workflow documentation
+    - Coded findings and themes
+    - Affinity diagram preparation materials
+    - Research insights and design implications
+    Formatted as comprehensive research report
+  task_guide:
+    - "contextual_inquiry.md"
+  agent: user_researcher
+
+empathy_mapping:
+  task_id: "empathy_mapping"  
+  description: >
+    Create empathy maps to understand user attitudes and behaviors:
+    1. Define user scope and goals
+    2. Map observable phenomena (says, does, sees, hears)
+    3. Infer internal states (thinks, feels, pains, gains)
+    4. Synthesize insights and identify gaps
+    5. Integrate with personas and journey mapping
+  expected_output: >
+    An empathy mapping package containing:
+    - Individual or aggregated empathy map
+    - Insight synthesis and patterns
+    - Gap analysis and research recommendations
+    - Integration plan with personas/journey maps
+    - Team alignment documentation
+    Formatted as visual canvas with supporting analysis
+  task_guide:
+    - "empathy_mapping.md"
+  agent: user_researcher
+
+evaluation_type:
+  task_id: "evaluation_type"
+  description: >
+    Define evaluation methodology including:
+    1. Evaluation type selection (formative/summative)
+    2. Method selection (lab/field)
+    3. Comparator definition
+    4. Sampling strategy
+    5. Analysis plan
+  expected_output: >
+    An evaluation plan containing:
+    - Evaluation framework
+    - Method justification
+    - Participant criteria
+    - Data collection plan
+    - Analysis approach
+    Formatted as markdown with tables
+  task_guide:
+    - "evaluation_type.md"
+  agent: user_researcher
+
+measure_ux:
+  task_id: "measure_ux"
+  description: >
+    Implement UX measurement framework using:
+    1. HEART framework setup
+    2. Metric definition and tracking
+    3. Baseline establishment
+    4. Goal setting
+    5. Dashboard creation
+  expected_output: >
+    A measurement framework containing:
+    - HEART metrics matrix
+    - KPI definitions
+    - Tracking plan
+    - Dashboard mockup
+    - Reporting cadence
+    Formatted as markdown with tables
+  notion_pages:
+    - page_id: "0c88c4f1-9cdf-405e-a9ae-fe1bad8c97d2"
+      title: "HEART Framework"
+  agent: user_researcher
+
 usability_test_recruiting:
   task_id: "usability_test_recruiting"
   description: >
@@ -432,7 +467,7 @@ usability_test_recruiting:
     - "cognitive_biases.md"
   materials:
     - "cognitive_biases_list.csv"
-  agent: research_analyst
+  agent: user_researcher
 
 usability_test_planning:
   task_id: "usability_test_planning"
@@ -461,7 +496,7 @@ usability_test_planning:
   materials:
     - "product_metrics_list.csv"
     - "cognitive_biases_list.csv"
-  agent: research_analyst
+  agent: user_researcher
 
 usability_test_moderation:
   task_id: "usability_test_moderation"
@@ -487,7 +522,7 @@ usability_test_moderation:
     - "cognitive_biases.md"
   materials:
     - "cognitive_biases_list.csv"
-  agent: research_analyst
+  agent: user_researcher
 
 usability_test_reporting:
   task_id: "usability_test_reporting"
@@ -514,7 +549,7 @@ usability_test_reporting:
   materials:
     - "product_metrics_list.csv"
     - "cognitive_biases_list.csv"
-  agent: research_analyst
+  agent: user_researcher
 
 ux_audit:
   task_id: "ux_audit"
@@ -537,7 +572,7 @@ ux_audit:
     - "ux-audit-expert-review.md"
     - "heuristic_evaluation.md"
     - "data_information_knowledge.md"
-  agent: research_analyst
+  agent: user_researcher
 
 ux_research_without_users:
   task_id: "ux_research_without_users"
@@ -558,7 +593,7 @@ ux_research_without_users:
     Formatted as markdown research report
   task_guide:
     - "ux_research_without_users.md"
-  agent: research_analyst
+  agent: user_researcher
 
 survey_design:
   task_id: "survey_design"
@@ -582,9 +617,89 @@ survey_design:
     - "ux_survey_design.md"
   materials:
     - "user_feedback_questions.md"
-  agent: research_analyst
+  agent: user_researcher
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# NEW: AI-ASSISTED RESEARCH TASKS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+synthetic_user_generation:
+  task_id: "synthetic_user_generation"
+  description: >
+    Generate AI-powered synthetic user personas for early concept validation:
+    1. Define target user segments and persona parameters
+    2. Generate synthetic user profiles with realistic attributes
+    3. Run simulated conversations and interview sessions
+    4. Execute task flow simulations to predict friction points
+    5. Compare synthetic insights with real research for calibration
+  expected_output: >
+    A synthetic user research package containing:
+    - Synthetic persona profiles with behavioral attributes
+    - Simulated interview transcripts and key quotes
+    - Predicted pain points and friction areas
+    - Confidence levels and validation recommendations
+    - Comparison framework (synthetic vs. real findings)
+    Formatted as research report with personas
+  task_guide:
+    - "synthetic_user_generation.md"
+  materials:
+    - "synthetic_persona_templates.md"
+  references:
+    - https://www.nngroup.com/articles/synthetic-users/
+  agent: user_researcher
+
+session_video_analysis:
+  task_id: "session_video_analysis"
+  description: >
+    Extract insights from usability session recordings using AI-assisted analysis:
+    1. Auto-tag pain points, confusion moments, and success signals
+    2. Detect interaction patterns (clicks, pauses, navigation errors)
+    3. Identify emotional cues through behavioral markers
+    4. Generate timestamped highlight reels
+    5. Export structured metrics across sessions
+  expected_output: >
+    A video analysis package containing:
+    - Timestamped event log with severity tags
+    - Behavioral pattern summary across sessions
+    - Highlight reel with annotated clips
+    - Quantified metrics (time-on-task, error counts, completion rates)
+    - Cross-session pattern analysis
+    Formatted as analysis report with video references
+  task_guide:
+    - "session_video_analysis.md"
+  materials:
+    - "video_tagging_taxonomy.md"
+  agent: user_researcher
+
+test_plan_generation:
+  task_id: "test_plan_generation"
+  description: >
+    Generate comprehensive test plans from product scope using templates:
+    1. Select best-practice template based on research goals
+    2. Define test scenarios from product requirements
+    3. Generate task scripts with success criteria
+    4. Create moderator guides and participant screeners
+    5. Assemble complete test suite ready for execution
+  expected_output: >
+    A complete test plan package containing:
+    - Test plan document with objectives and methodology
+    - Task scenarios with success/failure criteria
+    - Moderator guide with probing questions
+    - Participant screener questionnaire
+    - Data collection templates and metrics framework
+    Formatted as ready-to-use test protocol
+  task_guide:
+    - "test_plan.md"
+    - "usability_testing.md"
+  materials:
+    - "test_plan_templates.md"
+    - "scenario_library.md"
+  agent: user_researcher
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # STRATEGY
+# ═══════════════════════════════════════════════════════════════════════════════
+
 agile_lean_ux_frameworks:
   task_id: "agile_lean_ux_frameworks"
   description: >
@@ -648,65 +763,23 @@ business_model:
     - "business_model.md"
   agent: strategy_analyst
 
-critical_path:
-  task_id: "critical_path"
-  description: >
-    Create step-by-step map of user's most critical experience from problem identification to solution through:
-    1. Problem statement foundation and user starting point identification
-    2. Sequential step mapping from problem to solution
-    3. Critical experience focus and touchpoint prioritization
-    4. Context-specific application (onboarding, conversion, new products)
-    5. Visual flow validation and team alignment
-  expected_output: >
-    A critical path mapping package containing:
-    - Linear user journey flow diagram (subway-style map)
-    - Critical touchpoint identification and prioritization
-    - Step-by-step user progression documentation
-    - Context-specific variations and applications
-    - Team validation checklist and next steps
-    Formatted as visual flow diagram with markdown documentation
-  task_guide:
-    - "critical_path.md"
-  agent: strategy_analyst
-
-define_assumptions:
-  task_id: "define_assumptions"
-  description: >
-    Create and organize testable assumptions about product viability through:
-    1. Assumption collection and documentation
-    2. Test method definition for each assumption
-    3. Success criteria establishment
-    4. Risk-based prioritization
-    5. Validation planning and execution
-  expected_output: >
-    An assumptions validation package containing:
-    - Completed assumptions test board
-    - Test method specifications
-    - Success criteria definitions
-    - Prioritized validation roadmap
-    - Follow-up action plan
-    Formatted as markdown assumptions framework
-  task_guide:
-    - "define-assumptions.md"
-  agent: strategy_analyst
-
 design_pitch:
   task_id: "design_pitch"
   description: >
-    Create compelling design pitch including:
+    Create compelling design proposals:
     1. Problem framing
-    2. Solution narrative
-    3. Visual storytelling
-    4. Impact demonstration
+    2. Solution presentation
+    3. Business case development
+    4. Risk mitigation
     5. Call to action
   expected_output: >
-    A pitch deck containing:
-    - Presentation slides
-    - Speaker notes
-    - Supporting visuals
-    - Data appendix
-    - Q&A preparation
-    Formatted as presentation package
+    A design pitch package containing:
+    - Pitch deck
+    - Business case document
+    - ROI projection
+    - Risk assessment
+    - Implementation proposal
+    Formatted as presentation suite
   task_guide:
     - "design_pitch.md"
   agent: strategy_analyst
@@ -714,10 +787,10 @@ design_pitch:
 event_storming_workshop:
   task_id: "event_storming_workshop"
   description: >
-    Run event storming workshop for:
-    1. Domain event discovery
-    2. Process flow mapping
-    3. Command identification
+    Facilitate event storming sessions for:
+    1. Domain event identification
+    2. Command discovery
+    3. User flow mapping
     4. Aggregate definition
     5. Bounded context establishment
   expected_output: >
@@ -797,51 +870,6 @@ prioritization:
     - "prioritization.md"
   agent: strategy_analyst
 
-project_planning:
-  task_id: "project_planning"
-  description: >
-    Create comprehensive project plan with:
-    1. Scope definition
-    2. Work breakdown structure
-    3. Timeline and milestones
-    4. Resource allocation
-    5. Risk management
-  expected_output: >
-    A project plan containing:
-    - Project charter
-    - WBS diagram
-    - Gantt chart
-    - Resource plan
-    - Risk register
-    Formatted as markdown project doc
-  task_guide:
-    - "project_planning.md"
-  agent: project_manager
-
-# FULL UPDATED FILE: Task entry for config/tasks.yaml
-# Add under STRATEGY & PLANNING section or after stakeholder_management
-
-strategic_meeting:
-  task_id: "strategic_meeting"
-  description: >
-    Prepare for strategic meetings with project leaders (PMs, Design Directors, Heads of Product) using:
-    1. UX Influence Ladder assessment (Compliance → Bet levels)
-    2. Strategic bet framing (willing to be wrong, what fails if succeeds, explicit non-goals)
-    3. Trade-off preparation (long-term vs short-term, speed vs learning, conversion vs retention)
-    4. Stakeholder landscape mapping and pre-alignment (nemawashi)
-    5. In-meeting tactics and post-meeting follow-up
-  expected_output: >
-    A strategic meeting prep package containing:
-    - Meeting purpose classification and altitude check
-    - Completed strategic prep canvas (bets, trade-offs, recommendation)
-    - Stakeholder analysis with stances and concerns
-    - Pre-alignment plan and talking points
-    - Post-meeting action checklist
-    Formatted as markdown strategic brief
-  task_guide:
-    - "strategic_meeting.md"
-  agent: collaboration_facilitator
-
 value_proposition:
   task_id: "value_proposition"
   description: >
@@ -863,232 +891,10 @@ value_proposition:
     - "value_proposition.md"
   agent: strategy_analyst
 
-writing_tasks:
-  task_id: "writing_tasks"
-  description: >
-      Develop and refine writing tasks for:
-      1. Content structure and organization
-      2. Tone and voice alignment
-      3. Grammar and style consistency
-      4. Audience targeting
-      5. Iterative editing and feedback
-  expected_output: >
-      A writing task package containing:
-      - Content outline
-      - Style guide adherence checklist
-      - Draft versions with feedback
-      - Finalized content
-      - Review and approval log
-      Formatted as markdown writing guide
-  task_guide:
-      - "writing_tasks.md"
-  agent: content_specialist
-
-# VISUAL DESIGN AND DESIGN SYSTEMS
-component_documentation:
-  task_id: "component_documentation"
-  description: >
-    Document design system components with:
-    1. Component anatomy
-    2. Usage guidelines
-    3. Variant specifications
-    4. Accessibility requirements
-    5. Implementation notes
-  expected_output: >
-    Component documentation containing:
-    - Component spec sheets
-    - Usage examples
-    - Do's and don'ts
-    - Accessibility checklist
-    - Code snippets
-    Formatted as markdown component guide
-  task_guide:
-    - "component_documentation.md"
-  agent: design_system_specialist
-
-design_token_naming:
-  task_id: "design_token_naming"
-  description: >
-    Create comprehensive design token naming system with:
-    1. Token taxonomy and structure
-    2. Naming conventions across categories
-    3. Semantic vs primitive token strategy
-    4. Component-specific token patterns
-    5. Implementation and migration guidance
-  expected_output: >
-    A design token naming system containing:
-    - Complete naming taxonomy framework
-    - Token examples for all categories (color, typography, spacing, radius, elevation)
-    - Implementation guidelines for CSS/JSON formats
-    - Component token patterns and examples
-    - Migration strategy and validation checklist
-    Formatted as comprehensive markdown guide
-  task_guide:
-    - "design_token_naming.md"
-  agent: design_systems_specialist
-
-matching_icons_typefaces:
-  task_id: "matching_icons_typefaces"
-  description: >
-    Create harmonious visual language by matching icon families to typeface classifications:
-    1. Typeface classification analysis (Sans serif, Serif, Monospaced, Script, Display)
-    2. Visual characteristic alignment between typography and iconography
-    3. Style consistency framework across text and symbols
-    4. Context-appropriate pairing strategies
-    5. Brand coherence through unified design language
-  expected_output: >
-    A comprehensive icon-typeface matching guide containing:
-    - Typeface classification system for icon pairing
-    - Visual characteristic analysis framework
-    - Specific pairing recommendations by typeface category
-    - Construction principle alignment strategies
-    - Implementation examples and case studies
-    - Quality assurance checklist for visual harmony
-    Formatted as structured markdown guide with visual examples
-  task_guide:
-    - "matching_icons_typefaces.md"
-  related_tasks:
-    - "creating_icons.md"
-    - "design_token_naming.md"
-  agent: design_system_specialist
-
-creating_icons:
-  task_id: "creating_icons"
-  description: >
-    Design effective icons following universal design principles:
-    1. Universal recognition across cultures
-    2. Simplified visual communication
-    3. Legible at all sizes and contexts
-    4. Nonverbal symbolic representation
-    5. Consistent construction guidelines
-  expected_output: >
-    A comprehensive icon design guide containing:
-    - Five fundamental icon rules
-    - Technical construction guidelines
-    - Quality assurance framework
-    - Implementation best practices
-    - Testing and validation methods
-    Formatted as structured markdown guide with examples and case studies
-  task_guide:
-    - "creating_icons.md"
-  agent: design_educator
-
-icon_family_specification:
-  task_id: "icon_family_specification"
-  description: >
-    Create structured JSON specification for icon families following design system standards:
-    1. Icon family metadata and classification
-    2. Construction guidelines and grid specifications
-    3. Style variants and size requirements
-    4. Semantic categorization and naming conventions
-    5. Implementation guidelines and accessibility requirements
-  expected_output: >
-    A comprehensive JSON specification containing:
-    - Icon family metadata (name, version, description, category)
-    - Technical specifications (grid system, stroke weights, corner radius)
-    - Style variants (line, solid, duotone) with properties
-    - Size breakpoints and optimization rules
-    - Semantic categories and naming taxonomy
-    - Export formats and implementation guidelines
-    - Accessibility requirements and testing criteria
-    Formatted as structured JSON schema with implementation examples
-  task_guide:
-    - "creating_icons.md"
-    - "design_token_naming.md"
-  materials:
-    - "icon_family_json_template.json"
-  agent: design_system_specialist
-
-writing_ai_image_prompts:
-  task_id: "writing_ai_image_prompts"
-  description: >
-    Generate detailed image descriptions and craft AI generation prompts for image creation workflows:
-    1. Style and aesthetic definition
-    2. Composition specifications
-    3. Technical parameters
-    4. Negative prompts
-    5. Iteration strategies
-    TRIGGERS: generate image description, create image prompt, describe image, image generation, write image prompt
-  expected_output: >
-    An AI prompt guide containing:
-    - Prompt templates
-    - Style reference library
-    - Parameter guidelines
-    - Example outputs
-    - Troubleshooting tips
-    Formatted as markdown prompt guide
-  task_guide:
-    - "writing_ai_image_prompts.md"
-  materials:
-    - "prompt_templates_registry.md"
-  agent: ai_specialist
-
-# LEADERSHIP
-team_management:
-  task_id: "team_management"
-  description: >
-    Manage UX/design teams effectively:
-    1. Team structure optimization
-    2. Performance management
-    3. Growth planning
-    4. Process improvement
-    5. Culture building
-  expected_output: >
-    A management framework containing:
-    - Team charter
-    - RACI matrix
-    - Performance rubrics
-    - Growth paths
-    - Team rituals guide
-    Formatted as markdown management playbook
-  task_guide:
-    - "team_management.md"
-  agent: team_lead
-
-boost_ux_culture:
-  task_id: "boost_ux_culture"
-  description: >
-    Elevate UX maturity and culture:
-    1. Maturity assessment
-    2. Evangelization strategy
-    3. Education programs
-    4. Success stories
-    5. Change management
-  expected_output: >
-    A culture transformation plan containing:
-    - Maturity assessment results
-    - Roadmap to higher maturity
-    - Education curriculum
-    - Communication plan
-    - Success metrics
-    Formatted as markdown strategy doc
-  task_guide:
-    - "boost_ux_culture.md"
-  agent: team_lead
-
-hiring_designers:
-  task_id: "hiring_designers"
-  description: >
-    Build and scale design teams through:
-    1. Role definition
-    2. Sourcing strategy
-    3. Interview process design
-    4. Evaluation criteria
-    5. Onboarding planning
-  expected_output: >
-    A hiring package containing:
-    - Job descriptions
-    - Interview guides
-    - Evaluation rubrics
-    - Portfolio review criteria
-    - Offer templates
-    Formatted as markdown hiring kit
-  task_guide:
-    - "hiring_designers.md"
-    - "creating_design_teams.md"
-  agent: team_lead
-
+# ═══════════════════════════════════════════════════════════════════════════════
 # COLLABORATION
+# ═══════════════════════════════════════════════════════════════════════════════
+
 conflict_resolution:
   task_id: "conflict_resolution"
   description: >
@@ -1215,7 +1021,10 @@ executive_summary:
     - "executive_summary.md"
   agent: collaboration_facilitator
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # PROMPTS AND VIBE CODING
+# ═══════════════════════════════════════════════════════════════════════════════
+
 prompt_minification:
   task_id: "prompt_minification"
   description: >
@@ -1281,7 +1090,7 @@ snowball_vibe_coding:
     - "snowball_vibe_coding.md"
   agent: ai_specialist
 
-  style_spec_json_builder:
+style_spec_json_builder:
   task_id: "style_spec_json_builder"
   description: >
     Extract and codify visual style from attached images into structured JSON specifications through:
@@ -1329,9 +1138,12 @@ prototype_prompt_creation:
     - "prototype_prompt_creation.md"
   materials:
     - "prototype_prompt_templates.md"
-  agent: product_designer
+  agent: ai_specialist
 
+# ═══════════════════════════════════════════════════════════════════════════════
 # CONTENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
 content_audit:
   task_id: "content_audit"
   description: >
@@ -1380,7 +1192,319 @@ content_inventory:
     - "content_audit_checklist_ES.csv"
   agent: content_specialist
 
+writing_tasks:
+  task_id: "writing_tasks"
+  description: >
+    Develop and refine writing tasks for:
+    1. Content structure and organization
+    2. Tone and voice alignment
+    3. Grammar and style consistency
+    4. Audience targeting
+    5. Iterative editing and feedback
+  expected_output: >
+    A writing task package containing:
+    - Content outline
+    - Style guide adherence checklist
+    - Draft versions with feedback
+    - Finalized content
+    - Review and approval log
+    Formatted as markdown writing guide
+  task_guide:
+    - "writing_tasks.md"
+  agent: content_specialist
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# NEW: UX WRITING AND MICROCOPY TASKS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+ux_writing_review:
+  task_id: "ux_writing_review"
+  description: >
+    Review and optimize UX writing for consistency and clarity:
+    1. Tone and voice alignment with style guide
+    2. Terminology consistency across product
+    3. Reading level assessment
+    4. Inclusive language screening
+    5. Microcopy effectiveness evaluation
+  expected_output: >
+    A UX writing review report containing:
+    - Tone consistency assessment
+    - Terminology audit with recommendations
+    - Reading level scores (Flesch-Kincaid, SMOG)
+    - Inclusive language findings
+    - Prioritized revision recommendations
+    Formatted as markdown review report
+  task_guide:
+    - "ux_writing_review.md"
+  materials:
+    - "ux_writing_style_guide.md"
+  agent: content_specialist
+
+microcopy_optimization:
+  task_id: "microcopy_optimization"
+  description: >
+    Optimize interface microcopy for usability and brand consistency:
+    1. Button and CTA copy optimization
+    2. Error message clarity improvement
+    3. Form label and helper text refinement
+    4. Empty state messaging enhancement
+    5. Notification and toast message review
+  expected_output: >
+    A microcopy optimization package containing:
+    - Current vs. recommended copy comparison
+    - CTA effectiveness analysis
+    - Error message rewrite library
+    - Form copy improvements
+    - Implementation priority matrix
+    Formatted as before/after comparison document
+  task_guide:
+    - "microcopy_optimization.md"
+  materials:
+    - "microcopy_patterns.md"
+  agent: content_specialist
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# VISUAL DESIGN AND DESIGN SYSTEMS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+component_documentation:
+  task_id: "component_documentation"
+  description: >
+    Document design system components with:
+    1. Component anatomy
+    2. Usage guidelines
+    3. Variant specifications
+    4. Accessibility requirements
+    5. Implementation notes
+  expected_output: >
+    Component documentation containing:
+    - Component spec sheets
+    - Usage examples
+    - Do's and don'ts
+    - Accessibility checklist
+    - Code snippets
+    Formatted as markdown component guide
+  task_guide:
+    - "component_documentation.md"
+  agent: design_system_specialist
+
+design_token_naming:
+  task_id: "design_token_naming"
+  description: >
+    Create comprehensive design token naming system with:
+    1. Token taxonomy and structure
+    2. Naming conventions across categories
+    3. Semantic vs primitive token strategy
+    4. Component-specific token patterns
+    5. Implementation and migration guidance
+  expected_output: >
+    A design token naming system containing:
+    - Complete naming taxonomy framework
+    - Token examples for all categories (color, typography, spacing, radius, elevation)
+    - Implementation guidelines for CSS/JSON formats
+    - Component token patterns and examples
+    - Migration strategy and validation checklist
+    Formatted as comprehensive markdown guide
+  task_guide:
+    - "design_token_naming.md"
+  agent: design_system_specialist
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# NEW: DESIGN TOKEN AUDIT TASKS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+token_audit:
+  task_id: "token_audit"
+  description: >
+    Audit design tokens for consistency, naming compliance, and system health:
+    1. Token naming convention validation
+    2. Spacing scale consistency check
+    3. Semantic token coverage analysis
+    4. Unused and duplicate token detection
+    5. Cross-platform parity verification
+  expected_output: >
+    A token audit report containing:
+    - Naming convention compliance matrix
+    - Spacing scale consistency findings
+    - Semantic coverage gaps
+    - Unused/duplicate token inventory
+    - Remediation recommendations with priority
+    Formatted as audit report with actionable fixes
+  task_guide:
+    - "token_audit.md"
+    - "design_token_naming.md"
+  materials:
+    - "token_linting_rules.md"
+  agent: design_system_specialist
+
+matching_icons_typefaces:
+  task_id: "matching_icons_typefaces"
+  description: >
+    Create harmonious visual language by matching icon families to typeface classifications:
+    1. Typeface classification analysis (Sans serif, Serif, Monospaced, Script, Display)
+    2. Visual characteristic alignment between typography and iconography
+    3. Style consistency framework across text and symbols
+    4. Context-appropriate pairing strategies
+    5. Brand coherence through unified design language
+  expected_output: >
+    A comprehensive icon-typeface matching guide containing:
+    - Typeface classification system for icon pairing
+    - Visual characteristic analysis framework
+    - Specific pairing recommendations by typeface category
+    - Construction principle alignment strategies
+    - Implementation examples and case studies
+    - Quality assurance checklist for visual harmony
+    Formatted as structured markdown guide with visual examples
+  task_guide:
+    - "matching_icons_typefaces.md"
+  related_tasks:
+    - "creating_icons.md"
+    - "design_token_naming.md"
+  agent: design_system_specialist
+
+creating_icons:
+  task_id: "creating_icons"
+  description: >
+    Design effective icons following universal design principles:
+    1. Universal recognition across cultures
+    2. Simplified visual communication
+    3. Legible at all sizes and contexts
+    4. Nonverbal symbolic representation
+    5. Consistent construction guidelines
+  expected_output: >
+    A comprehensive icon design guide containing:
+    - Five fundamental icon rules
+    - Technical construction guidelines
+    - Quality assurance framework
+    - Implementation best practices
+    - Testing and validation methods
+    Formatted as structured markdown guide with examples and case studies
+  task_guide:
+    - "creating_icons.md"
+  agent: design_educator
+
+icon_family_specification:
+  task_id: "icon_family_specification"
+  description: >
+    Create structured JSON specification for icon families following design system standards:
+    1. Icon family metadata and classification
+    2. Construction guidelines and grid specifications
+    3. Style variants and size requirements
+    4. Semantic categorization and naming conventions
+    5. Implementation guidelines and accessibility requirements
+  expected_output: >
+    A comprehensive JSON specification containing:
+    - Icon family metadata (name, version, description, category)
+    - Technical specifications (grid system, stroke weights, corner radius)
+    - Style variants (line, solid, duotone) with properties
+    - Size breakpoints and optimization rules
+    - Semantic categories and naming taxonomy
+    - Export formats and implementation guidelines
+    - Accessibility requirements and testing criteria
+    Formatted as structured JSON schema with implementation examples
+  task_guide:
+    - "creating_icons.md"
+    - "design_token_naming.md"
+  materials:
+    - "icon_family_json_template.json"
+  agent: design_system_specialist
+
+writing_ai_image_prompts:
+  task_id: "writing_ai_image_prompts"
+  description: >
+    Generate detailed image descriptions and craft AI generation prompts for image creation workflows:
+    1. Style and aesthetic definition
+    2. Composition specifications
+    3. Technical parameters
+    4. Negative prompts
+    5. Iteration strategies
+    TRIGGERS: generate image description, create image prompt, describe image, image generation, write image prompt
+  expected_output: >
+    An AI prompt guide containing:
+    - Prompt templates
+    - Style reference library
+    - Parameter guidelines
+    - Example outputs
+    - Troubleshooting tips
+    Formatted as markdown prompt guide
+  task_guide:
+    - "writing_ai_image_prompts.md"
+  materials:
+    - "prompt_templates_registry.md"
+  agent: ai_specialist
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# LEADERSHIP
+# ═══════════════════════════════════════════════════════════════════════════════
+
+team_management:
+  task_id: "team_management"
+  description: >
+    Manage UX/design teams effectively:
+    1. Team structure optimization
+    2. Performance management
+    3. Growth planning
+    4. Process improvement
+    5. Culture building
+  expected_output: >
+    A management framework containing:
+    - Team charter
+    - RACI matrix
+    - Performance rubrics
+    - Growth paths
+    - Team rituals guide
+    Formatted as markdown management playbook
+  task_guide:
+    - "team_management.md"
+  agent: team_lead
+
+boost_ux_culture:
+  task_id: "boost_ux_culture"
+  description: >
+    Elevate UX maturity and culture:
+    1. Maturity assessment
+    2. Evangelization strategy
+    3. Education programs
+    4. Success stories
+    5. Change management
+  expected_output: >
+    A culture transformation plan containing:
+    - Maturity assessment results
+    - Roadmap to higher maturity
+    - Education curriculum
+    - Communication plan
+    - Success metrics
+    Formatted as markdown strategy doc
+  task_guide:
+    - "boost_ux_culture.md"
+  agent: team_lead
+
+hiring_designers:
+  task_id: "hiring_designers"
+  description: >
+    Build and scale design teams through:
+    1. Role definition
+    2. Sourcing strategy
+    3. Interview process design
+    4. Evaluation criteria
+    5. Onboarding planning
+  expected_output: >
+    A hiring package containing:
+    - Job descriptions
+    - Interview guides
+    - Evaluation rubrics
+    - Portfolio review criteria
+    - Offer templates
+    Formatted as markdown hiring kit
+  task_guide:
+    - "hiring_designers.md"
+    - "creating_design_teams.md"
+  agent: team_lead
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # GENERAL PRODUCT DESIGN KNOWLEDGE
+# ═══════════════════════════════════════════════════════════════════════════════
+
 cognitive_biases:
   task_id: "cognitive_biases"
   description: >
@@ -1392,11 +1516,11 @@ cognitive_biases:
     5. Ethical considerations
   expected_output: >
     A cognitive bias guide containing:
-    - Bias catalog relevant to design
-    - Detection methods
-    - Design implications
-    - Mitigation techniques
-    - Case studies
+    - Relevant bias inventory
+    - Design implications matrix
+    - Testing recommendations
+    - Mitigation strategies
+    - Ethical guidelines
     Formatted as markdown reference guide
   task_guide:
     - "cognitive_biases.md"
@@ -1404,45 +1528,23 @@ cognitive_biases:
     - "cognitive_biases_list.csv"
   agent: design_educator
 
-designing_ai_assistants:
-  task_id: "designing_ai_assistants"
-  description: >
-    Create human-centered AI assistant experiences through:
-    1. Strategic value alignment and AI suitability assessment
-    2. UX architecture with agent design principles integration
-    3. Technical feasibility evaluation and prototyping approaches
-    4. Ethical implementation with success metrics framework
-    5. Trust-building through transparency and user control mechanisms
-  expected_output: >
-    An AI assistant design system containing:
-    - AI suitability assessment framework
-    - Agent UX pattern library with Microsoft principles
-    - Technical feasibility evaluation templates
-    - Ethical design implementation checklist
-    - Success metrics and continuous evaluation framework
-    - Complete reference collection with industry resources
-    Formatted as comprehensive markdown RAG guide
-  task_guide:
-    - "designing_ai_assistants.md"
-  agent: ai_specialist
-
 b2b_design:
   task_id: "b2b_design"
   description: >
-    Design for B2B/enterprise contexts considering:
-    1. Complex user hierarchies
-    2. Procurement processes
+    Apply B2B design principles:
+    1. Enterprise UX considerations
+    2. Stakeholder complexity
     3. Integration requirements
-    4. Security and compliance
-    5. Change management
+    4. Approval workflows
+    5. Training needs
   expected_output: >
     A B2B design guide containing:
-    - Stakeholder mapping
-    - User role matrix
-    - Feature prioritization
-    - Implementation roadmap
-    - Success metrics
-    Formatted as markdown enterprise guide
+    - Enterprise UX checklist
+    - Stakeholder mapping template
+    - Integration considerations
+    - Workflow patterns
+    - Training recommendations
+    Formatted as markdown playbook
   task_guide:
     - "b2b_design.md"
   agent: design_educator
@@ -1451,19 +1553,19 @@ economics_for_designers:
   task_id: "economics_for_designers"
   description: >
     Apply economic principles to design:
-    1. Value creation mechanisms
-    2. Incentive design
-    3. Behavioral economics
-    4. Network effects
-    5. Pricing psychology
+    1. Value creation analysis
+    2. Cost-benefit evaluation
+    3. Market dynamics understanding
+    4. Pricing strategy support
+    5. ROI calculation
   expected_output: >
-    An economics primer containing:
-    - Core concepts explained
-    - Design applications
-    - Case studies
-    - Framework templates
-    - Reading list
-    Formatted as markdown educational guide
+    An economics guide containing:
+    - Value creation framework
+    - Cost-benefit templates
+    - Market analysis tools
+    - Pricing considerations
+    - ROI calculator
+    Formatted as markdown reference
   task_guide:
     - "economics_for_designers.md"
   agent: design_educator

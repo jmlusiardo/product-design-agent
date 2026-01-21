@@ -1,7 +1,7 @@
 # AGENTS CONFIGURATION v2.1.1
 # Define specialized agents to support design team operations.
 # Each agent has a role, goal, backstory, capabilities, tools, procedures, handoffs, and example tasks.
-# Agents can be invoked by name to assist with specific tasks.    
+# Agents can be invoked by name to assist with specific tasks.  
 
 ai_specialist:
   role:
@@ -375,8 +375,6 @@ user_researcher:
     - concept_validation_simulation
     - session_video_analysis
     - pain_point_extraction
-  references:
-    - https://www.nngroup.com/articles/synthetic-users/
 
 strategy_analyst:
   role:
