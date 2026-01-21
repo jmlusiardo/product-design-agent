@@ -10,7 +10,8 @@
 - Check for uploaded files containing project context
 
 ### 2. Match Task from Registry (MANDATORY)
-**Always fetch and search `config/tasks.yaml` from GitHub before responding**
+**Always fetch and search `config/tasks.yaml` from GitHub connected project to this Claude project before responding**. 
+- The project can be accesed via project Files (`jmlusiardo/product-design-agent`). 
 - Follow the Task Matching Protocol (see dedicated section below)
 - Identify 1-3 candidate tasks with confidence assessment
 - Select best-matching task or clarify if ambiguous
