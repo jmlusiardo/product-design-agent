@@ -3,7 +3,6 @@
 > **Usage**: Extract lowercase nouns/verbs from the normalized query. Match against signals below (AND logic for multi-word clusters). Stem matching supported (e.g., "prioritize" matches `prioritiz`).
 
 ## Signal Map
-
 ```
 # ── ONBOARDING ──────────────────────────────────────────
 how + does + this + work          → agent_onboarding_guide
@@ -27,7 +26,9 @@ hypothesis                        → writing_statements
 assumption + defin                → define_assumptions
 assumption + valid                → define_assumptions
 design + pitch                    → design_pitch
-event + storm                     → event_storming
+event + storm                     → event_storming_workshop
+event + storming + workshop       → event_storming_workshop
+domain + event                    → event_storming_workshop
 initiative + canvas               → initiative_canvas
 
 # ── USER RESEARCH ───────────────────────────────────────
@@ -55,7 +56,7 @@ heuristic + evaluat               → heuristic_evaluation
 affinity + diagram                → affinity_diagramming
 contextual + inquiry              → contextual_inquiry
 field + study                     → contextual_inquiry
-content + test                    → content_testing
+# NOTE: content_testing signal removed — no backing task in tasks.yaml (TODO: add task or restore signal)
 research + no + user              → ux_research_without_users
 research + without + user         → ux_research_without_users
 first + click                     → first_click_testing
@@ -86,6 +87,20 @@ ideat                             → brainstorming
 product + requirement             → product_requirements_document
 prd                               → product_requirements_document
 project + plan                    → project_planning
+agile + ux                        → agile_lean_ux_frameworks
+lean + ux                         → agile_lean_ux_frameworks
+sprint + ux                       → agile_lean_ux_frameworks
+ux + agile                        → agile_lean_ux_frameworks
+lean + canvas                     → agile_lean_ux_frameworks
+
+# ── PROJECT FRAMING ─────────────────────────────────────
+kickoff + meeting                 → kickoff_meeting
+project + kickoff                 → kickoff_meeting
+kickoff + facilitat               → kickoff_meeting
+project + type                    → project_type_strategy
+project + strateg                 → project_type_strategy
+ux + strateg + project            → project_type_strategy
+design + approach + select        → project_type_strategy
 
 # ── DESIGN & PROTOTYPING ───────────────────────────────
 wireframe                         → wireframing
@@ -95,11 +110,21 @@ prototype + creat                 → prototype_prompt_creation
 design + system + audit           → design_system_audit
 design + token                    → design_token_naming
 color + palette                   → color_palette_generation
-icon + design                     → icon_design
-icon + creat                      → icon_design
+icon + design                     → creating_icons
+icon + creat                      → creating_icons
+icon + rule                       → creating_icons
+icon + principl                   → creating_icons
 icon + family                     → icon_family_specification
 icon + json                       → icon_family_specification
 icon + spec                       → icon_family_specification
+icon + typeface                   → matching_icons_typefaces
+icon + font + match               → matching_icons_typefaces
+icon + typograph                  → matching_icons_typefaces
+typeface + icon + pair            → matching_icons_typefaces
+token + audit                     → token_audit
+token + lint                      → token_audit
+token + consist                   → token_audit
+token + health                    → token_audit
 responsive + design               → responsive_design
 interaction + design              → interaction_design
 micro + interaction               → micro_interactions
@@ -145,6 +170,14 @@ workshop + design                 → workshop_design
 workshop + facilitat              → workshop_design
 design + critique                 → design_critique
 design + review                   → design_critique
+executive + present               → executive_presentation
+present + leadership              → executive_presentation
+exec + deck                       → executive_presentation
+present + c-suite                 → executive_presentation
+executive + summary               → executive_summary
+exec + update                     → executive_summary
+status + update + exec            → executive_summary
+one + page + summary              → executive_summary
 
 # ── LEADERSHIP ──────────────────────────────────────────
 team + manage                     → team_management
@@ -170,15 +203,20 @@ When signal clusters match 2+ tasks, apply these tiebreakers:
 | | | design + system | `design_system_audit` |
 | | | accessibility, wcag | `accessibility_audit` |
 | | | content | `content_audit` |
+| | | token, naming | `token_audit` |
 | `onboarding` | `agent_onboarding_guide` | designer, new + hire | `onboarding_designers` |
 | | | lead, manager | `onboarding_design_leads` |
 | `research + user` | `user_interviews` | no + access, without | `ux_research_without_users` |
 | | | survey, questionnaire | `survey_design` |
 | | | observe, field, context | `contextual_inquiry` |
-| `icon` | `icon_design` | json, spec, family, system | `icon_family_specification` |
+| `icon` | `creating_icons` | json, spec, family, system | `icon_family_specification` |
+| | | typeface, font, typograph | `matching_icons_typefaces` |
 | `prototype` | `prototype_prompt_creation` | test, usability | `usability_test_planning` |
 | `writing` | `writing_tasks` | prompt, ai | `writing_prompts` |
 | | | statement, problem, hypothesis | `writing_statements` |
 | | | ux, microcopy, interface | `ux_writing_review` |
 | `content` | `content_audit` | inventory, catalog | `content_inventory` |
-| | | test, comprehension | `content_testing` |
+| `executive` | `executive_presentation` | summary, update, status | `executive_summary` |
+| `agile` | `agile_lean_ux_frameworks` | kickoff, charter | `kickoff_meeting` |
+| `project` | `project_planning` | type, classify, approach | `project_type_strategy` |
+| | | kickoff, start, launch | `kickoff_meeting` |
