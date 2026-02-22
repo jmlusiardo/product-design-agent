@@ -55,7 +55,8 @@ For simple feedback or suggestions, just [create an issue](https://github.com/jm
 ├── assets/instructions.md    # Core agent instructions
 ├── config/
 │   ├── tasks.yaml            # Task registry with 80+ specialized tasks
-│   └── agents.yaml           # Specialized agent definitions
+│   ├── agents.yaml           # Specialized agent definitions
+│   └── router_index.md       # Signal map for task routing (140+ clusters)
 ├── knowledge/
 │   ├── task_guides/          # Detailed methodology guides
 │   └── materials/            # Templates, checklists, and resources
@@ -78,6 +79,13 @@ When creating issues, please use the following labels:
 - `bug` - Something broken or incorrect
 - `enhancement` - Feature improvements
 - `config-issue` - YAML or agent configuration
+
+### Adding New Signal Clusters (Router)
+- Open `config/router_index.md` and locate the appropriate category section
+- Add signal clusters following the pattern: `keyword + keyword → task_id`
+- Ensure the `task_id` exists in `config/tasks.yaml` before adding the signal
+- Test with 2–3 real user queries to validate routing accuracy
+- Update the cluster count in `assets/instructions.md` if the total changes
 
 ### Priority Labels
 - `priority-high` - Critical fixes or popular requests
