@@ -1309,6 +1309,27 @@ design_token_naming:
     - "design_token_naming.md"
   agent: design_system_specialist
 
+  ui_component_decision_trees:
+  task_id: "ui_component_decision_trees"
+  description: >
+    Build decision trees that standardize UI component selection:
+    1. Define root node (user intent / interaction type)
+    2. Map binary branching logic (Yes/No questions)
+    3. Apply context rules (path priority, commit type, scale thresholds)
+    4. Reference logic patterns (layout, loading, forms, feedback, CTA, overflow)
+    5. Validate coverage and document exceptions
+  expected_output: >
+    A decision tree package containing:
+    - Annotated decision tree (flowchart or Markdown representation)
+    - Branching logic rationale per node
+    - Component selection rules per category
+    - Edge cases and exception notes
+    - Team usage guide
+    Formatted as markdown with inline diagrams or pseudocode trees
+  task_guide:
+    - "ui_component_decision_tree.md"
+  agent: design_system_specialist
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # NEW: DESIGN TOKEN AUDIT TASKS
 # ═══════════════════════════════════════════════════════════════════════════════
