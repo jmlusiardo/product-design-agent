@@ -133,18 +133,18 @@ component + spec                  → component_documentation
 accessibility + audit             → accessibility_audit
 accessibility + review            → accessibility_audit
 wcag                              → accessibility_audit
-decision + tree                   → ui_component_decision_trees
-component + select                → ui_component_decision_trees
-which + component                 → ui_component_decision_trees
-ui + component + when             → ui_component_decision_trees
-radio + checkbox + dropdown       → ui_component_decision_trees
-modal + drawer + dialog           → ui_component_decision_trees
-toast + banner + alert            → ui_component_decision_trees
-loading + pattern                 → ui_component_decision_trees
-button + hierarch                 → ui_component_decision_trees
-árbol + decision                  → ui_component_decision_trees
-selección + componente            → ui_component_decision_trees
-cuándo + usar + componente        → ui_component_decision_trees
+decision + tree                   → ui_component_decision_tree
+component + select                → ui_component_decision_tree
+which + component                 → ui_component_decision_tree
+ui + component + when             → ui_component_decision_tree
+radio + checkbox + dropdown       → ui_component_decision_tree
+modal + drawer + dialog           → ui_component_decision_tree
+toast + banner + alert            → ui_component_decision_tree
+loading + pattern                 → ui_component_decision_tree
+button + hierarch                 → ui_component_decision_tree
+árbol + decision                  → ui_component_decision_tree
+selección + componente            → ui_component_decision_tree
+cuándo + usar + componente        → ui_component_decision_tree
 
 # ── CONTENT & UX WRITING ───────────────────────────────
 content + audit                   → content_audit

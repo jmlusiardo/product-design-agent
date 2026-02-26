@@ -1309,7 +1309,7 @@ design_token_naming:
     - "design_token_naming.md"
   agent: design_system_specialist
 
-  ui_component_decision_trees:
+  ui_component_decision_tree:
   task_id: "ui_component_decision_trees"
   description: >
     Build decision trees that standardize UI component selection:
