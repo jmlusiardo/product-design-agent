@@ -626,3 +626,17 @@ Search the following references to complement the component documentation or to 
 - **Documentation feedback widgets:** Embedded feedback forms
 - **User interviews:** Periodic documentation usability sessions
 - **Analytics:** Track documentation usage patterns
+
+---
+
+## Cross-Guide References
+
+### Related Task Guides
+- **Component Documentation:** `component_documentation.md` — Use when documenting reusable system components; the handoff spec references component docs rather than duplicating them
+- **UX Audit:** `ux_audit.md` — Run before handoff to catch usability issues that would become dev debt
+- **Style Guide / Design System:** `style_guide.md` — All visual specs should reference the style guide; the handoff spec applies it to a specific feature
+- **Design Token Naming:** `design_token_naming.md` — Ensure all color, spacing, and typography values reference token names (not hard-coded values) before writing the handoff spec
+- **Design QA Checklist:** `design_qa_checklist.md` — The handoff spec defines what was designed; QA verifies the build matches it
+
+### Support Materials
+- **Handoff Spec Template:** `handoff_spec_template.md` — Copy-paste canvas for starting a new spec document

@@ -1288,6 +1288,30 @@ component_documentation:
     - "component_documentation.md"
   agent: design_system_specialist
 
+design_handoff_spec:
+  task_id: "design_handoff_spec"
+  description: >
+    Generate a developer-ready design handoff specification document covering:
+    1. Component inventory with visual specs (spacing, color tokens, typography, elevation)
+    2. Interaction states documentation (default, hover, focus, active, disabled, loading, error, empty, success, first-use, offline, overflow)
+    3. Responsive specification with breakpoint-by-breakpoint layout behavior
+    4. Accessibility annotations (ARIA roles, keyboard navigation, focus management, screen reader notes)
+    5. Assets inventory and export guide, plus open questions log
+  expected_output: >
+    A structured handoff spec document containing:
+    - Component map with all states documented
+    - Interaction and animation specification
+    - Responsive breakpoint behavior tables
+    - Accessibility annotation guide (ARIA, keyboard, contrast)
+    - Asset export list with formats and naming
+    - Open questions / design decisions log
+    Formatted as markdown spec ready for developer use
+  task_guide:
+    - "design_handoff_spec.md"
+  materials:
+    - "handoff_spec_template.md"
+  agent: design_system_specialist
+
 design_token_naming:
   task_id: "design_token_naming"
   description: >

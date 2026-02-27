@@ -142,9 +142,6 @@ modal + drawer + dialog           → ui_component_decision_tree
 toast + banner + alert            → ui_component_decision_tree
 loading + pattern                 → ui_component_decision_tree
 button + hierarch                 → ui_component_decision_tree
-árbol + decision                  → ui_component_decision_tree
-selección + componente            → ui_component_decision_tree
-cuándo + usar + componente        → ui_component_decision_tree
 
 # ── CONTENT & UX WRITING ───────────────────────────────
 content + audit                   → content_audit
@@ -201,6 +198,16 @@ recruit + designer                → hiring_designers
 interview + design + candidat     → hiring_designers
 b2b + design                      → b2b_design
 enterprise + ux                   → b2b_design
+
+# ── DESIGN SYSTEM ───────────────────────────────────────
+handoff + spec                    → design_handoff_spec
+handoff + document                → design_handoff_spec
+dev + spec                        → design_handoff_spec
+developer + documentation         → design_handoff_spec
+design + spec + engineer          → design_handoff_spec
+prepare + implement               → design_handoff_spec
+ready + development               → design_handoff_spec
+what + give + developer           → design_handoff_spec
 ```
 
 ## Disambiguation Rules
