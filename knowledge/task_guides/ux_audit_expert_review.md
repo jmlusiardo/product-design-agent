@@ -225,6 +225,7 @@ Compare insights against four success keystones:
 ## Cross-Guide References
 
 ### Related Processes
+- - **Accessibility Audit:** `accessibility_audit` — For WCAG-focused compliance review, use the dedicated accessibility_audit task
 - **Heuristic Evaluation** (`heuristic_evaluation.md`): For structured evaluation using Nielsen's heuristics and detailed workbook templates; use when needing systematic, criteria-based assessment with multiple evaluators
 - **Usability Testing** (`usability_testing.md`): For user-based validation of expert review findings; essential for confirming assumptions with real user behavior
 - **Stakeholder Management** (`stakeholder_management.md`): For managing client expectations and securing buy-in for recommendations during audit process

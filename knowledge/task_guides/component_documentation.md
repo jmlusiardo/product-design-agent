@@ -632,7 +632,7 @@ Search the following references to complement the component documentation or to 
 ## Cross-Guide References
 
 ### Related Task Guides
-- **Component Documentation:** `component_documentation.md` — Use when documenting reusable system components; the handoff spec references component docs rather than duplicating them
+- **Accessibility Audit:** `accessibility_audit` — Validate component accessibility compliance against WCAG 2.2 AA
 - **UX Audit:** `ux_audit.md` — Run before handoff to catch usability issues that would become dev debt
 - **Style Guide / Design System:** `style_guide.md` — All visual specs should reference the style guide; the handoff spec applies it to a specific feature
 - **Design Token Naming:** `design_token_naming.md` — Ensure all color, spacing, and typography values reference token names (not hard-coded values) before writing the handoff spec
