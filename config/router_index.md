@@ -235,6 +235,31 @@ design + system + health          → design_debt_registry
 token + misuse                    → design_debt_registry
 accessibility + debt              → design_debt_registry
 design + remediat                 → design_debt_registry
+
+# ── DESIGN QA ───────────────────────────────────────────
+design + qa                       → design_qa_checklist
+visual + qa                       → design_qa_checklist
+design + quality + assurance      → design_qa_checklist
+check + implementation            → design_qa_checklist
+review + implementation           → design_qa_checklist
+review + what + dev + built       → design_qa_checklist
+does + it + match + design        → design_qa_checklist
+pixel + perfect                   → design_qa_checklist
+design + sign + off               → design_qa_checklist
+qa + sign + off                   → design_qa_checklist
+design + review + post + dev      → design_qa_checklist
+after + dev + done                → design_qa_checklist
+verify + spacing                  → design_qa_checklist
+verify + alignment                → design_qa_checklist
+check + token + production        → design_qa_checklist
+visual + regression               → design_qa_checklist
+check + hover + state             → design_qa_checklist
+interaction + qa                  → design_qa_checklist
+responsive + qa                   → design_qa_checklist
+cross + browser + qa              → design_qa_checklist
+accessibility + qa                → design_qa_checklist
+file + qa + issue                 → design_qa_checklist
+severity + design + issue         → design_qa_checklist
 ```
 
 ## Disambiguation Rules
