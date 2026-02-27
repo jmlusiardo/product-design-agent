@@ -569,7 +569,7 @@ ux_audit:
     - Quick wins vs long-term improvements
     Formatted as markdown audit report
   task_guide:
-    - "ux-audit-expert-review.md"
+    - "ux_audit_expert_review.md"
     - "heuristic_evaluation.md"
     - "data_information_knowledge.md"
   agent: user_researcher
