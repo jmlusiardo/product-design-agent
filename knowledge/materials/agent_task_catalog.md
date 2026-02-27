@@ -303,7 +303,7 @@ Create and optimize content for users
 - *How it helps*: Improves output quality, reduces ambiguity, accelerates content creation
 - *When to use*: AI tool usage, content brief creation, task definition
 
-### VISUAL DESIGN & DESIGN SYSTEMS (6 tasks)
+### VISUAL DESIGN & DESIGN SYSTEMS (7 tasks)
 Build and maintain visual design systems
 
 **Component Documentation**
@@ -320,6 +320,11 @@ Build and maintain visual design systems
 - *What it is*: Create systematic naming conventions for design tokens across categories
 - *How it helps*: Improves design-development collaboration, enables scalable design systems
 - *When to use*: Design system creation, token implementation, team standardization
+
+**UI Component Decision Trees**
+- *What it is*: Build systematic decision trees that standardize which UI component to use across categories (layout, forms, feedback, loading, CTA, overflow)
+- *How it helps*: Eliminates subjective component debates, encodes team logic once, and provides a reusable reference across sprints
+- *When to use*: Design system buildout, component library reviews, onboarding new designers to component conventions
 
 **Creating Icons**
 - *What it is*: Systematic approach to designing cohesive icon families
