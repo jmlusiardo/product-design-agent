@@ -1382,6 +1382,29 @@ token_audit:
     - "token_linting_rules.md"
   agent: design_system_specialist
 
+design_qa_checklist:
+  task_id: "design_qa_checklist"
+  description: >
+      Conduct systematic design QA review of implemented features against design specs:
+      1. Visual pass — verify spacing, alignment, color/token compliance, typography, elevation, icons
+      2. Interaction pass — validate hover/focus states, transitions, keyboard navigation, loading sequences
+      3. Responsive pass — test breakpoints, reflow behavior, touch targets, overflow handling
+      4. Accessibility pass — check focus order, contrast in context, screen reader flow, reduced motion
+      5. Content pass — confirm copy accuracy, casing, truncation, error messages, edge-case strings
+      6. Issue triage — classify severity (P0–P3), file issues with spec links and reproduction steps
+  expected_output: >
+    A design QA report containing:
+      - Completed checklist by dimension (Visual, Interaction, Responsive, A11y, Content)
+      - Issue log with severity, screenshots, spec references, and assigned developer
+      - Pass/fail summary per screen or component
+      - Sign-off status and outstanding blockers
+    Formatted as structured markdown QA report
+  task_guide:
+    - "design_qa_checklist.md"
+  materials:
+    - "design_qa_checklist_template.md"
+  agent: design_system_specialist
+
 matching_icons_typefaces:
   task_id: "matching_icons_typefaces"
   description: >
