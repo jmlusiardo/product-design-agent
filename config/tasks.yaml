@@ -291,6 +291,27 @@ critical_path:
     - "critical_path.md"
   agent: discovery_analyst
 
+ user_story_mapping:
+  task_id: "user_story_mapping"
+  description: >
+    Translate discovery insights into a prioritized development plan through:
+    1. Backbone creation — map user activities and tasks as narrative flow
+    2. User story population beneath each task, vertically prioritized
+    3. Walking skeleton definition for minimal end-to-end coverage
+    4. Release slicing anchored to measurable user outcomes
+    5. Workshop facilitation, anti-pattern prevention, and team alignment
+  expected_output: >
+    A user story map package containing:
+    - Backbone structure with activities and user tasks (narrative left-to-right flow)
+    - Prioritized user stories beneath each backbone task
+    - Walking skeleton definition with per-release outcome statements
+    - Release slice plan with outcome anchors (not feature counts)
+    - Facilitation guide with session agenda, timing, and anti-pattern checklist
+    Formatted as markdown with visual map structure and workshop kit
+  task_guide:
+    - "user_story_mapping.md"
+  agent: strategy_analyst
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # USER RESEARCH
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -1380,6 +1401,30 @@ token_audit:
     - "design_token_naming.md"
   materials:
     - "token_linting_rules.md"
+  agent: design_system_specialist
+
+design_debt_registry:
+  task_id: "design_debt_registry"
+  description: >
+    Identify, catalog, and manage accumulated design debt across the product:
+    1. Debt discovery audit (visual, interaction, system, accessibility, content, documentation)
+    2. Registry setup — capture debt items with type, severity, effort, and owner
+    3. Prioritization using ICE scoring and business case framing
+    4. Debt reduction planning integrated with sprint/agile workflow
+    5. Health metric tracking and prevention strategy
+  expected_output: >
+    A design debt registry package containing:
+    - Taxonomy of debt types with severity classification
+    - Populated debt registry (item cards with metadata)
+    - ICE-scored prioritization list
+    - Business case template for debt reduction
+    - Health metrics dashboard baseline
+    - Prevention recommendations
+    Formatted as markdown registry with actionable remediation plan
+  task_guide:
+    - "design_debt_registry.md"
+  materials:
+    - "design_debt_registry_template.md"
   agent: design_system_specialist
 
 design_qa_checklist:

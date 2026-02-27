@@ -61,7 +61,7 @@
 
 ### 5) Retrospectives & Continuous Improvement
 - UX-specific retrospectives (sailboat method, standard retros).  
-- Address UX debt proactively.  
+- Address UX debt proactively. For structured debt tracking and prioritization, use the `design_debt_registry.md` task guide — it provides an ICE scoring framework, registry template, and sprint integration patterns.
 - Track UX team capacity to prevent overload.  
 
 ---
