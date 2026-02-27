@@ -213,6 +213,18 @@ design + spec + engineer          → design_handoff_spec
 prepare + implement               → design_handoff_spec
 ready + development               → design_handoff_spec
 what + give + developer           → design_handoff_spec
+design + debt                     → design_debt_registry
+ux + debt                         → design_debt_registry
+debt + registr                    → design_debt_registry
+debt + backlog                    → design_debt_registry
+design + inconsistenc             → design_debt_registry
+design + cleanup                  → design_debt_registry
+legacy + design                   → design_debt_registry
+design + system + drift           → design_debt_registry
+design + system + health          → design_debt_registry
+token + misuse                    → design_debt_registry
+accessibility + debt              → design_debt_registry
+design + remediat                 → design_debt_registry
 ```
 
 ## Disambiguation Rules
@@ -245,3 +257,5 @@ When signal clusters match 2+ tasks, apply these tiebreakers:
 | `project` | `project_planning` | type, classify, approach | `project_type_strategy` |
 | | | kickoff, start, launch | `kickoff_meeting` |
 | `user + stor` | `writing_statements` | map, mapping, backlog | `user_story_mapping` |
+| `debt` | `design_debt_registry` | token, naming | `token_audit` |
+| | | ux, heuristic | `ux_audit` |
