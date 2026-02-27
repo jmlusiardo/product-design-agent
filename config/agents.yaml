@@ -121,6 +121,8 @@ content_specialist:
     - content_audit
     - ux_writing_review
     - microcopy_optimization
+    - content_inventory          
+    - writing_tasks              
 
 design_educator:
   role:
@@ -188,6 +190,13 @@ design_system_specialist:
     - component_documentation
     - token_audit
     - token_naming_review
+    - component_documentation
+    - token_audit
+    - design_token_naming
+    - design_handoff_spec
+    - ui_component_decision_trees
+    - accessibility_audit
+    - design_debt_registry
 
 discovery_analyst:
   role:
@@ -245,6 +254,7 @@ onboarding_specialist:
   example_tasks:
     - onboarding_designers
     - onboarding_design_leads
+    - agent_onboarding_guide
 
 project_manager:
   role:

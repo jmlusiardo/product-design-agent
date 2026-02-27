@@ -303,7 +303,7 @@ Create and optimize content for users
 - *How it helps*: Improves output quality, reduces ambiguity, accelerates content creation
 - *When to use*: AI tool usage, content brief creation, task definition
 
-### VISUAL DESIGN & DESIGN SYSTEMS (7 tasks)
+### VISUAL DESIGN & DESIGN SYSTEMS (11 tasks)
 Build and maintain visual design systems
 
 **Component Documentation**
@@ -326,8 +326,33 @@ Build and maintain visual design systems
 - *How it helps*: Eliminates subjective component debates, encodes team logic once, and provides a reusable reference across sprints
 - *When to use*: Design system buildout, component library reviews, onboarding new designers to component conventions
 
-**Creating Icons**
-- *What it is*: Systematic approach to designing cohesive icon families
+**Design Handoff Spec**
+- *What it is*: Developer-ready specification document covering component states, responsive behavior, accessibility annotations, and asset exports
+- *How it helps*: Reduces back-and-forth with engineering, prevents implementation drift, accelerates delivery
+- *When to use*: Before any feature handoff to engineering, design QA prep, new component shipment
+
+**Accessibility Audit**
+- *What it is*: WCAG 2.2 AA audit combining design-phase checks, automated scanning (axe, WAVE, Lighthouse), and manual keyboard/screen reader testing
+- *How it helps*: Surfaces compliance gaps early, assigns remediation ownership, produces a prioritized fix matrix
+- *When to use*: Pre-launch reviews, design system audits, compliance initiatives
+
+**Token Audit**
+- *What it is*: Systematic review of design tokens for naming compliance, spacing scale consistency, semantic coverage, and unused/duplicate detection
+- *How it helps*: Keeps the token layer clean, prevents token sprawl, surfaces cross-platform parity gaps
+- *When to use*: Design system health checks, before major version releases, post-migration validation
+
+**Design Debt Registry**
+- *What it is*: Discovery, cataloging, and ICE-scored prioritization of accumulated design debt across visual, interaction, system, accessibility, content, and documentation dimensions
+- *How it helps*: Makes debt visible, enables business-case framing, integrates debt reduction into sprint workflow
+- *When to use*: Design system maturity planning, quarterly reviews, before platform redesigns
+
+**Design QA Checklist**
+- *What it is*: Systematic design QA review of implemented features covering visual, interaction, responsive, accessibility, and content passes
+- *How it helps*: Catches implementation drift before release, produces structured issue logs with severity and spec references
+- *When to use*: Feature QA cycles, post-sprint reviews, before production releases
+
+**Matching Icons & Typefaces**
+- *What it is*: Framework for creating visual harmony between icon families and typeface classifications
 - *How it helps*: Creates consistent visual language, improves user recognition, builds brand identity
 - *When to use*: Icon design, visual identity, design system development
 
@@ -335,11 +360,6 @@ Build and maintain visual design systems
 - *What it is*: Writing user interface text that guides and informs users
 - *How it helps*: Improves usability, reduces user confusion, enhances experience
 - *When to use*: UI design, error messaging, user guidance
-
-**Style Guide Creation**
-- *What it is*: Comprehensive visual and interaction guidelines for consistent design
-- *How it helps*: Ensures design consistency, speeds up design process, improves quality
-- *When to use*: Brand development, design system creation, team standardization
 
 ### LEADERSHIP & COLLABORATION (10 tasks) 
 Lead teams and manage stakeholder relationships
