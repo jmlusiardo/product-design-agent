@@ -224,3 +224,5 @@
 - **Stakeholder Management** (`stakeholder_management.md`): Reference during **Section 9 (Costs, Resources, Constraints)** for stakeholder mapping, influence analysis, and engagement planning throughout the initiative lifecycle.
 
 - **MVP Definition** (`mvp_definition.md`): Use during **Section 10 (Scope & Timeline)** for defining minimum viable deliverables, scoping decisions, and balancing initiative ambition with delivery constraints.
+
+- **User Story Mapping** (`user_story_mapping.md`): The initiative canvas defines the strategic frame that story mapping operationalizes. Use sections 2 (Benefits/Business Outcomes) and 10 (Scope & Timeline) to define the outcome statement for each release slice, and section 3 (Customer & User Segments) to confirm which persona anchors the map.

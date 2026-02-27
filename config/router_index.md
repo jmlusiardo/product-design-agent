@@ -30,6 +30,11 @@ event + storm                     → event_storming_workshop
 event + storming + workshop       → event_storming_workshop
 domain + event                    → event_storming_workshop
 initiative + canvas               → initiative_canvas
+story + map                       → user_story_mapping
+story + mapping                   → user_story_mapping
+map + user + stor                 → user_story_mapping
+backlog + map                     → user_story_mapping
+visualize + backlog               → user_story_mapping
 
 # ── USER RESEARCH ───────────────────────────────────────
 persona + create                  → user_personas
@@ -239,3 +244,4 @@ When signal clusters match 2+ tasks, apply these tiebreakers:
 | `agile` | `agile_lean_ux_frameworks` | kickoff, charter | `kickoff_meeting` |
 | `project` | `project_planning` | type, classify, approach | `project_type_strategy` |
 | | | kickoff, start, launch | `kickoff_meeting` |
+| `user + stor` | `writing_statements` | map, mapping, backlog | `user_story_mapping` |

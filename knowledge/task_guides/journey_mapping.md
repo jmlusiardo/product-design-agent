@@ -137,6 +137,12 @@ For structured journey mapping with consistent formatting, use the standardized 
 
 ---
 
+## Cross-Guide Linkage
+
+- **User Story Mapping** (`user_story_mapping.md`): The natural next step after journey mapping. Once you've mapped emotional pain points and touchpoints, use story mapping to translate those insights into a prioritized development plan. NNGroup frames this directly: journey maps reveal the problem; story maps plan the solution.
+
+---
+
 ## References
 - Event storming: The smartest approach to collaboration
 beyond silo boundaries: https://www.eventstorming.com/  

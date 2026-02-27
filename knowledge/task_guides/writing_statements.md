@@ -109,6 +109,7 @@ but [restriction/obstacle/friction]."
 - **Journey Mapping** (`journey_mapping.md`): Reference for **Key Insight development** - provides user research context and touchpoint analysis that inform insight statement creation and problem identification.
 - **User Personas** (`user_personas.md`): Apply during **User Story and Job Story creation** for accurate user type definition, motivation understanding, and context-appropriate statement framing.
 - **MVP Definition** (`mvp_definition.md`): Use **Hypothesis Statements** from this guide during MVP scope definition to create testable assumptions about core features and validate solution approaches.
+- **User Story Mapping** (`user_story_mapping.md`): Problem statements and How-Might-We questions from this guide define the scope and north star for story mapping sessions. Bring the problem statement into Phase 1 (Kickoff) and post it visibly for the duration of the workshop. HMW questions can also seed the initial Activity brainstorm during Phase 3.
 
 ---
 

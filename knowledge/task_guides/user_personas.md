@@ -129,6 +129,12 @@ This guide provides a structured process for creating effective user personas th
 
 ---
 
+## Cross-Guide Linkage
+
+- **User Story Mapping** (`user_story_mapping.md`): Validated personas are a non-negotiable prerequisite for story mapping. The session's Phase 2 requires selecting one primary persona before any backbone work begins — without it, the map becomes generic and release slicing loses its "who." Complete and validate personas before running a story mapping workshop.
+
+---
+
 ## References
 - A Closer Look At Personas: What They Are And How They Work | 1, by Shlomo Goltz: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/  
 - A Closer Look At Personas: What They Are And How They Work | 2, by Shlomo Goltz: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/  
