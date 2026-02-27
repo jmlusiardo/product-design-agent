@@ -138,6 +138,16 @@ component + spec                  → component_documentation
 accessibility + audit             → accessibility_audit
 accessibility + review            → accessibility_audit
 wcag                              → accessibility_audit
+a11y + audit                      → accessibility_audit
+a11y + check                      → accessibility_audit
+wcag + complian                   → accessibility_audit
+screen + reader + test            → accessibility_audit
+keyboard + navig + check          → accessibility_audit
+contrast + check                  → accessibility_audit
+is + this + accessibl             → accessibility_audit
+inclus + design + audit           → accessibility_audit
+disabilit + review                → accessibility_audit
+accesib + audit                   → accessibility_audit
 decision + tree                   → ui_component_decision_tree
 component + select                → ui_component_decision_tree
 which + component                 → ui_component_decision_tree
@@ -204,7 +214,7 @@ interview + design + candidat     → hiring_designers
 b2b + design                      → b2b_design
 enterprise + ux                   → b2b_design
 
-# ── DESIGN SYSTEM ───────────────────────────────────────
+# ── DESIGN SYSTEMS & VISUAL  ────────────────────────────
 handoff + spec                    → design_handoff_spec
 handoff + document                → design_handoff_spec
 dev + spec                        → design_handoff_spec

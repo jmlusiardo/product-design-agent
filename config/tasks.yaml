@@ -1375,6 +1375,31 @@ design_token_naming:
     - "ui_component_decision_tree.md"
   agent: design_system_specialist
 
+  accessibility_audit:
+  task_id: "accessibility_audit"
+  description: >
+    Conduct a WCAG 2.2 AA accessibility audit across design and implementation:
+    1. Define audit scope and target conformance level (A / AA / AAA)
+    2. Run design-phase checks (contrast, focus states, touch targets, color independence)
+    3. Execute automated scanning (axe, WAVE, Lighthouse)
+    4. Perform manual keyboard and screen reader testing
+    5. Classify issues by severity, assign ownership, and generate remediation report
+  expected_output: >
+    An accessibility audit package containing:
+    - Audit scope and conformance target declaration
+    - Issue inventory with WCAG criterion, severity (Critical/Serious/Moderate/Minor), and fix
+    - Design-phase checklist results
+    - Automated tool findings summary
+    - Manual testing notes (keyboard + screen reader)
+    - Remediation priority matrix
+    - Compliance level summary (Fails A / Passes A / Passes AA / Passes AAA)
+    Formatted as markdown audit report
+  task_guide:
+    - "accessibility_audit.md"
+  materials:
+    - "accessibility_checklist.md"
+  agent: design_system_specialist
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # NEW: DESIGN TOKEN AUDIT TASKS
 # ═══════════════════════════════════════════════════════════════════════════════
