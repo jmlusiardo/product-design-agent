@@ -209,6 +209,16 @@ For remote teams using tools like Miro or Mural:
 
 **Next Steps:** Validate high-priority clusters through `user_personas.md` analysis and `usability_testing.md` to confirm user needs alignment.
 
+## AI-Assisted Analysis
+
+When using LLMs to accelerate affinity diagramming, three failure modes surface most often. Use `ai_research_analysis.md` to address them directly.
+
+- **Quote integrity during synthesis:** Before naming clusters, run the Quote Verification prompt to confirm that participant evidence cited in LLM-generated groupings is verbatim—not paraphrased or fabricated composites.
+- **Generic theme names:** LLMs default to broad consensus labels ("Users want clarity"). Apply the 4-component Context Loading template (project context, business goal, product context, participant overview) to force the model toward decision-relevant cluster names.
+- **Contradiction flattening:** Multi-participant datasets often contain contradictory signals the model silently resolves. Use the Contradiction Detection prompts to surface tensions before finalizing cluster priorities.
+
+> See `ai_research_analysis.md` → Failure Mode #1 (Quote rules + verification), #2 (Context loading), #4 (Contradiction detection).
+
 ## FAQ
 
 **Q: How many sticky notes can we realistically handle in one session?**

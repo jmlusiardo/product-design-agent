@@ -356,6 +356,8 @@ affinity_diagramming:
     Formatted as visual clustering output with summary analysis
   task_guide:
     - "affinity_diagramming.md"
+  materials:
+    - "ai_research_analysis.md"
   agent: user_researcher
 
 content_testing:
@@ -568,8 +570,9 @@ usability_test_reporting:
     - "usability_testing.md"
     - "cognitive_biases.md"
   materials:
-    - "product_metrics_list.csv"
+    - "ai_research_analysis.md"
     - "cognitive_biases_list.csv"
+    - "product_metrics_list.csv"
   agent: user_researcher
 
 ux_audit:
@@ -665,8 +668,7 @@ synthetic_user_generation:
     - "synthetic_user_generation.md"
   materials:
     - "synthetic_persona_templates.md"
-  references:
-    - https://www.nngroup.com/articles/synthetic-users/
+    - "product_metrics_list.csv"
   agent: user_researcher
 
 session_video_analysis:
@@ -690,6 +692,7 @@ session_video_analysis:
     - "session_video_analysis.md"
   materials:
     - "video_tagging_taxonomy.md"
+    - "ai_research_analysis.md"
   agent: user_researcher
 
 test_plan_generation:

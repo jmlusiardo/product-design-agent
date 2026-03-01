@@ -108,6 +108,16 @@ Full report to follow; readout scheduled on .
 - **Do:** keep it short (10–15 pages); use screenshots; include positive findings; report promptly; add competitive/analyst notes when relevant; keep descriptions relevant and neutral.  
 - **Avoid:** harsh wording; conflating user opinions with observer interpretations; “micro-usability” nitpicks overshadowing critical blockers; delaying delivery.
 
+## AI-Assisted Analysis
+
+LLM assistance in report generation introduces three failure modes that directly affect finding credibility. Use `ai_research_analysis.md` to prevent them.
+
+- **Participant evidence integrity:** Run the Quote Verification pass (VERIFIED / PARAPHRASE / NOT FOUND) on every participant quote before it enters the report. ChatGPT-generated "verbatim" quotes are paraphrased composites more often than not.
+- **Generic finding structure:** Severity-rated findings ("Users struggle with navigation") often lack the specificity stakeholders need to act. Load the 4-component context block—decision you're supporting, product constraints, participant segments—so AI surfaces differentiating patterns rather than category-level themes.
+- **Non-actionable recommendations:** When AI-generated recommendations read as truisms ("Improve error messages"), use the Specificity prompts to force concrete, testable next steps tied to specific participant evidence.
+
+> See `ai_research_analysis.md` → Failure Mode #1 (Verification pass), #2 (Context loading), #3 (Specificity prompting).
+
 ## Tools & Resources
 - Charts: simple bar/line charts for success, errors/confusions, time; per-task Likert visuals for satisfaction.  
 - Assets: annotated screenshots; session clips for pivotal moments.  
