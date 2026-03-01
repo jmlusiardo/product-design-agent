@@ -695,6 +695,34 @@ session_video_analysis:
     - "ai_research_analysis.md"
   agent: user_researcher
 
+research_analysis_qa:
+  task_id: "research_analysis_qa"
+  description: >
+    Run a structured QA and verification pass on AI-generated qualitative
+    research analysis before stakeholder delivery:
+    1. Quote verification — confirm every quote exists verbatim in source data
+    2. Theme specificity audit — flag generic or non-actionable themes
+    3. Contradiction scan — surface conflicting signals across participants
+    4. Evidence confidence scoring — rate each theme by support strength
+    5. Pre-stakeholder readiness check — final gate before sharing findings
+  expected_output: >
+    A QA review report containing:
+    - Quote verification log (VERIFIED / PARAPHRASE / NOT FOUND per quote)
+    - Theme audit with specificity ratings and actionability flags
+    - Contradiction register with participant references
+    - Evidence confidence scorecard per theme (High / Medium / Low)
+    - Stakeholder readiness checklist with pass/fail status
+    Formatted as a structured markdown QA report
+  task_guide:
+    - "research_analysis_qa.md"
+  materials:
+    - "ai_research_analysis.md"
+  cross_references:
+    - affinity_diagramming
+    - usability_test_reporting
+    - pain_point_extraction
+  agent: user_researcher
+
 test_plan_generation:
   task_id: "test_plan_generation"
   description: >
