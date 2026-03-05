@@ -1100,28 +1100,57 @@ prompt_minification:
     - "prompt_minification.md"
   agent: ai_specialist
 
-writing_prompts:
-  task_id: "writing_prompts"
+prototype_prompt_creation:
+  task_id: "prototype_prompt_creation"
   description: >
-    Engineer effective AI prompts using:
-    1. Prompt structure frameworks
-    2. Context optimization
-    3. Instruction clarity
-    4. Output formatting
-    5. Iterative refinement
+    Guide users through creating structured design specifications for prototyping tools using:
+    1. Sequential information gathering methodology
+    2. User flow identification and selection
+    3. Component and interaction mapping
+    4. Design specification preview and validation
+    5. Final markdown spec generation for prototyping tools
   expected_output: >
-    A prompt engineering kit containing:
-    - Prompt templates
-    - Structure guidelines
-    - Testing methodology
-    - Example library
-    - Optimization tips
-    Formatted as markdown prompt guide
+    A complete prototype design specification containing:
+    - Product overview with platform and target users
+    - Core objective statement
+    - Selected key user flow (max 5 flows identified)
+    - Detailed page-by-page component breakdown
+    - Interaction specifications for each component
+    - Final markdown format ready for prototyping tools
+    Formatted as structured markdown design specification
   task_guide:
-    - "writing_prompts.md"
+    - "prototype_prompt_creation.md"
   materials:
-    - "prompt_templates_registry.md"
+    - "prototype_prompt_templates.md"
   agent: ai_specialist
+
+session_handoff_doc:
+  task_id: "session_handoff_doc"
+  description: >
+    Generate a session continuity document to prevent context degradation across AI sessions. Two modes:
+    1. Session Handoff: Capture session history, decisions, artifacts, and open questions — then produce
+       a compressed context primer ready to paste at the start of the next session.
+    2. Multi-Phase Planning: Decompose a complex request into self-contained phase prompts, each
+       designed to run in an independent thread at peak context quality, with all necessary context
+       embedded per phase so no prior session is needed.
+  expected_output: >
+    Mode 1 — Session Handoff Document (.md):
+    - Session summary: what was accomplished, key decisions made, rationale
+    - Artifacts inventory: files created, outputs delivered, links or filenames
+    - Open questions and blockers to carry forward
+    - Compressed context primer (ready-to-paste block for next session)
+    - Suggested first prompt to open the next session
+    Mode 2 — Phase Plan:
+    - Phase breakdown with rationale for each split point
+    - Self-contained prompt per phase (each embeds all necessary context)
+    - Phase dependency map and suggested execution order
+    - Notes on what to carry forward between phases
+    Both modes formatted as markdown, ready for project knowledge upload or direct copy-paste.
+  task_guide:
+    - "session_handoff.md"
+  materials:
+    - "session_handoff_template.md"
+  agent: strategy_analyst
 
 snowball_vibe_coding:
   task_id: "snowball_vibe_coding"
@@ -1170,28 +1199,27 @@ style_spec_json_builder:
     - "prompt_templates_registry.md"
   agent: ai_specialist
 
-prototype_prompt_creation:
-  task_id: "prototype_prompt_creation"
+writing_prompts:
+  task_id: "writing_prompts"
   description: >
-    Guide users through creating structured design specifications for prototyping tools using:
-    1. Sequential information gathering methodology
-    2. User flow identification and selection
-    3. Component and interaction mapping
-    4. Design specification preview and validation
-    5. Final markdown spec generation for prototyping tools
+    Engineer effective AI prompts using:
+    1. Prompt structure frameworks
+    2. Context optimization
+    3. Instruction clarity
+    4. Output formatting
+    5. Iterative refinement
   expected_output: >
-    A complete prototype design specification containing:
-    - Product overview with platform and target users
-    - Core objective statement
-    - Selected key user flow (max 5 flows identified)
-    - Detailed page-by-page component breakdown
-    - Interaction specifications for each component
-    - Final markdown format ready for prototyping tools
-    Formatted as structured markdown design specification
+    A prompt engineering kit containing:
+    - Prompt templates
+    - Structure guidelines
+    - Testing methodology
+    - Example library
+    - Optimization tips
+    Formatted as markdown prompt guide
   task_guide:
-    - "prototype_prompt_creation.md"
+    - "writing_prompts.md"
   materials:
-    - "prototype_prompt_templates.md"
+    - "prompt_templates_registry.md"
   agent: ai_specialist
 
 # ═══════════════════════════════════════════════════════════════════════════════

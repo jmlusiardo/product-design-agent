@@ -266,6 +266,13 @@ cross + browser + qa              → design_qa_checklist
 accessibility + qa                → design_qa_checklist
 file + qa + issue                 → design_qa_checklist
 severity + design + issue         → design_qa_checklist
+
+# ── AI WORKFLOW ─────────────────────────────────────────
+handoff + thread                  → session_handoff_doc
+handoff + session                 → session_handoff_doc
+next + thread + context           → session_handoff_doc
+multi + phase + plan              → session_handoff_doc
+split + multiple + threads        → session_handoff_doc
 ```
 
 ## Disambiguation Rules
