@@ -375,3 +375,9 @@ Technically yes, but quality degrades significantly. Without a dedicated facilit
 - The Complete Guide to User Story Mapping, StoriesOnBoard: https://storiesonboard.com/user-story-mapping-guide
 - User Story Mapping: A Practical Guide, Easy Agile: https://www.easyagile.com/blog/user-story-mapping/
 - Job Map vs. Story Map: What's the Difference?, UX Collective: https://uxdesign.cc/job-map-vs-story-map-whats-the-difference-6ddddd63f663
+
+---
+
+## Session Continuity
+
+Story maps that span a full user journey are best built phase by phase, each in its own thread. If you've completed one or more journey phases and want to continue in a new session, say **"generate session handoff"** and I'll capture the completed backbone, locked stories, open slices, and the context your next thread needs to pick up exactly where this one left off.

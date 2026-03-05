@@ -640,3 +640,9 @@ Search the following references to complement the component documentation or to 
 
 ### Support Materials
 - **Handoff Spec Template:** `handoff_spec_template.md` — Copy-paste canvas for starting a new spec document
+
+---
+
+## Session Continuity
+
+This session likely produced several artifacts — component inventory, interaction states, responsive specs, and accessibility annotations. Would you like me to generate a session handoff document to capture decisions and prime your next session? Just say **"generate session handoff"** and I'll prepare a continuity doc.

@@ -331,3 +331,9 @@ A: Agile CI sends notes directly to affinity diagramming with minimal coding. Fo
 
 ## References
 - User Research Methods and Best Practices Course, Interaction Design Foundation: https://www.interaction-design.org/courses/user-research-methods-and-best-practices?srsltid=AfmBOorib9SB0vuYPs7e2s0Q0JzwzKV8O2cVOet5-zIuauToiQ-qgnay
+
+---
+
+## Session Continuity
+
+Contextual inquiry sessions produce extensive materials across multiple phases. Would you like me to generate a session handoff document to capture decisions, carry-forwards, and open questions? Just say **"generate session handoff"** and I'll prepare a continuity doc.

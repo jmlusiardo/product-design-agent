@@ -284,3 +284,9 @@ Implication: Screen request may reflect a data access need, not a form-factor pr
 - Sullivan, Caitlin. "How to do AI analysis you can actually trust." Lenny's Newsletter, February 17, 2026. https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually
 - Sullivan, Caitlin. "Pressure-test your AI workflows across models." AI Customer Research Newsletter, February 28, 2026. https://aicustomerresearch.substack.com
 - Nielsen Norman Group — Research methods and analysis validity: https://www.nngroup.com/articles/
+
+---
+
+## Session Continuity
+
+The five QA stages don't have to run in a single session — quote verification and theme audit often complete before contradiction scanning and confidence scoring begin. If you're pausing mid-QA pass, say **"generate session handoff"** and I'll document which stages are done, what was flagged, and exactly what the next session needs to resolve before this analysis is stakeholder-ready.

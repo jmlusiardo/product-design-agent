@@ -321,3 +321,9 @@ You're responsible for conformance of your entire page, including third-party co
 - → `ux_audit` — Heuristic review; complements but does not replace WCAG audit
 - → `design_qa_checklist` — Include accessibility checks in post-implementation QA
 - → `design_handoff_spec` — Handoff specs must include ARIA roles, focus behavior, and state documentation
+
+---
+
+## Session Continuity
+
+Accessibility audits produce several distinct outputs — scope declaration, design-phase checklist, automated scan results, manual testing notes, and a remediation matrix. Would you like me to generate a session handoff document to capture findings and prime your next session? Just say **"generate session handoff"** and I'll prepare a continuity doc.

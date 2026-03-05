@@ -403,3 +403,9 @@ A: Use abbreviations sparingly and only when they're widely understood. Prioriti
 - Ardena - "Naming conventions for design systems" (Backlight): https://backlight.dev/blog/naming-conventions-for-design-systems/
 - Design tokens, from Adobe Spectrum: https://spectrum.adobe.com/page/design-tokens/
 - Naming conventions, from goodpractices.design: https://goodpractices.design/guidelines/naming
+
+---
+
+## Session Continuity
+
+Token naming work produces layered artifacts — taxonomy framework, naming conventions, migration plan, and validation checklist. Would you like me to generate a session handoff document to consolidate decisions and set up the next session? Just say **"generate session handoff"** and I'll prepare a continuity doc.

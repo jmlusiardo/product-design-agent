@@ -274,3 +274,9 @@ This ensures consistency across sessions and provides clear traceability to **de
 - A Beginner's Guide to Usability testing, Maze: https://maze.co/guides/usability-testing/
 - The 1-page usability testing plan, by David Travis: https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54
 - 11 steps for creating a usability testing plan that works, Dovetail: https://dovetail.com/ux/steps-to-create-a-usability-testing-plan/
+
+---
+
+## Session Continuity
+
+Test plan sessions span multiple artifacts — plan doc, task scenarios, moderator guide, screener, and scheduling tables. Would you like me to generate a session handoff document to lock in decisions and prep the next session? Just say **"generate session handoff"** and I'll prepare a continuity doc.

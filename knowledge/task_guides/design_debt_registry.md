@@ -277,3 +277,9 @@ When the product area is scheduled for deprecation, when the fix cost exceeds re
 - Design System Health Metrics, Atlassian Design: https://atlassian.design/
 - ICE Scoring Model for Prioritization: https://www.productplan.com/glossary/ice-scoring-model/
 - Measuring Design System Adoption, Sparkbox: https://sparkbox.com/foundry/design_system_adoption_tracking
+
+---
+
+## Session Continuity
+
+This session likely produced multiple artifacts — debt item cards, a registry table, ICE scores, and possibly a business case. Would you like me to generate a session handoff document to capture what was registered and prime the next working session? Just say **"generate session handoff"** and I'll prepare a continuity doc.
