@@ -37,6 +37,7 @@
   - - [ ] Agenda prepared with flexible timing and key decisions/questions.
   - - [ ] Risks/issues explicitly surfaced (no surprises).
   - - [ ] Proposed recommendation included (never bring only a problem).
+  - [ ] **If seeking approval/budget:** Use Impact-First Briefing (Layers 1–4) as opening anchor instead of SCQA.
 
 ## Main Flow / Process
 ### 1) Opening
@@ -81,6 +82,61 @@
 2. Identify an attending executive; send an **early** version asking “What should I change?”
 3. Incorporate feedback; capture deltas and unresolved questions in an appendix.
 4. Enter the meeting ready to **listen and adapt**, not to defend slides.
+
+### Impact-First Briefing (Approval & Budget Asks)
+> Use this variant when your goal is to secure **budget, headcount, or roadmap approval** from a CEO,
+> CPO, CFO, or similar decider. SCQA opens with situational context; Impact-First opens with what's
+> at risk financially or competitively if nothing changes.
+
+**When to use:** Redesign proposals, feature investment asks, resource requests, roadmap prioritization
+pitches, any ask requiring a funding decision.
+
+**Core principle:** Leadership doesn't act on insights — they act on consequences. Stop narrating your
+process; show them what they stand to lose.
+
+#### Layer 1 — What's at stake (open with this)
+```
+"We're currently [losing / risking / falling behind on] [specific metric] because [root cause].
+That represents [business consequence in $, users, or competitive position]."
+```
+- No research methodology in the opening. Research credibility is implied — not narrated.
+- Consequence must be in business terms: dollars, users, competitive gap, or churn trajectory.
+
+#### Layer 2 — What changes if you act
+```
+"We have a [validated / tested / proven] approach that [specific improvement] in [timeframe].
+Based on [evidence], we project [metric change]."
+```
+- Frame your recommendation as an **outcome**, not a deliverable ("reduces churn 40%" not "redesigns the dashboard").
+- Name the evidence base — testing data, benchmarks, prior results.
+
+#### Layer 3 — What it costs and why it's worth it
+```
+"This requires [specific resource commitment]. It means [what gets deprioritized or delayed].
+It's worth it because [Layer 1 consequence > cost]."
+```
+- If you don't name the tradeoff, leadership fills the blank with their worst assumption.
+- Explicitly connecting cost to Layer 1 consequence shows you've weighed the same variables they have.
+
+#### Layer 4 — The ask and the fallback
+```
+"I'm asking for [specific resource/approval] by [date].
+If the full scope isn't possible, my fallback is [smaller version / pilot / phased approach]."
+```
+- The fallback is non-optional: it removes "no" from the table.
+- The only available answers become "yes" or "yes, but smaller" — both are progress.
+
+**Recommended slide structure (5 slides max):**
+
+| Slide | Content |
+|-------|---------|
+| 1 | The 4-layer statement — the only slide that fully matters |
+| 2 | Competitive landscape + market evidence |
+| 3 | The tradeoff — what gets deprioritized and why it's worth it |
+| 4 | Risk of inaction — projected cost of doing nothing |
+| 5 | The ask + fallback |
+
+> **Fill-in template:** See `knowledge/materials/executive_briefing_template.md`
 
 ## Aftermath / Follow-Ups
 - Send a concise **post-read**: what changed, what you heard, decision/direction, and next steps.

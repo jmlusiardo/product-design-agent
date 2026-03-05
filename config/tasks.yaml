@@ -1050,6 +1050,8 @@ executive_presentation:
     Formatted as presentation suite
   task_guide:
     - "executive_presentation.md"
+  materials:
+    - "executive_briefing_template.md"
   agent: collaboration_facilitator
 
 executive_summary:

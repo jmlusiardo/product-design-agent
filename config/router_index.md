@@ -213,6 +213,12 @@ recruit + designer                → hiring_designers
 interview + design + candidat     → hiring_designers
 b2b + design                      → b2b_design
 enterprise + ux                   → b2b_design
+budget + approval                 → executive_presentation
+funding + design                  → executive_presentation
+get + approved                    → executive_presentation
+business + case                   → executive_presentation
+sign-off + project                → executive_presentation
+investment + ask                  → executive_presentation
 
 # ── DESIGN SYSTEMS & VISUAL  ────────────────────────────
 handoff + spec                    → design_handoff_spec
