@@ -52,7 +52,11 @@ For simple feedback or suggestions, just [create an issue](https://github.com/jm
 
 ## 📁 Project Structure
 ```markdown
-├── assets/instructions.md    # Core agent instructions
+├── assets/
+│   ├── claude/
+│   │   └── skills/           # Skills for Claude
+│   └── gemini/
+│       └── instructions.md
 ├── config/
 │   ├── tasks.yaml            # Task registry with 80+ specialized tasks
 │   ├── agents.yaml           # Specialized agent definitions

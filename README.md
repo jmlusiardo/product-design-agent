@@ -4,10 +4,29 @@ An open-source AI-powered mentorship system with specialized agents providing ex
 ## Capabilities
 By combining specialized sub-agents with structured tasks and comprehensive guides, this design agent ensures clarity, consistency, and high-quality outcomes.
 1. **Matches queries to specialized agents** using a sophisticated task registry with 80+ specific expert tasks
-2. **Provides consultation/advice on diverse topics**: New project onboarding, project framing, product discovery, project planning, project management, user research, product strategy, user experience design, user interface design,  design leadership, design collaboration, prompts, vibe coding, and more.
+2. **Provides consultation/advice on diverse topics**: New project onboarding, project framing, product discovery, project planning, project management, user research, product strategy, user experience design, user interface design, design leadership, design collaboration, prompts, vibe coding, and more.
 3. **Provides structured, actionable resources**: surveys, test plans, component or process guides, checklists, etc
-4. **Auto-detects project-specific data**: Have project-specific information? Add or connect it to the Claude project _Files_ folder, and it will be understood as context you can reference in future queries.
-5. **Add user preferences** Want to save personal preferences, or add additional settings? Create a file named `user_preferences`, add your stuff and upload it to _Files_ folder. The system will detect and consider it while executing tasks or attending your inquiries.
+
+## Platform Deployments
+
+### Claude (Skills)
+For Claude, the system runs as a set of installable Skills — there is no central runtime prompt. Each Skill is a self-contained orchestrator agent scoped to a design domain.
+
+| Skill | Path | Best for |
+|---|---|---|
+| Researcher | `assets/claude/skills/researcher.md` | UX research planning, testing, analysis and measurement |
+| Strategist | `assets/claude/skills/strategist.md` | Problem framing, opportunity mapping, strategy and prioritization |
+| Team Lead | `assets/claude/skills/team_lead.md` | Team management, facilitation, onboarding and design leadership |
+| Designer | `assets/claude/skills/designer.md` | UI design, design systems, visual identity and content |
+
+### Gemini (Gems)
+For Gemini, the system uses a single runtime prompt that activates the full multi-agent ecosystem. Configure your Gem using the file below.
+
+**Path:** `assets/gemini/instructions.md`
+
+**Project-specific context:** Upload your project files directly into the Gem conversation or attach them via Google Drive to add business context to any query.
+
+**User preferences:** Create a `user_preferences.md` file with your personal settings (language, output format, focus areas)
 
 ## Installation
 Choose your preferred AI assistant platform:
